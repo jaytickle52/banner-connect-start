@@ -1,0 +1,21 @@
+{
+  "title": "Connect Facebook, Instagram and Google",
+  "summary": "When your pages are connected, messages families send on Facebook, Instagram and Google show up in one inbox with your email and texts. Someone at your school does this step, because it signs in to your school's own accounts.",
+  "minutes": 10,
+  "steps": [
+    {
+      "title": "Open Integrations",
+      "body": "Go to Settings, then Integrations."
+    },
+    {
+      "title": "Connect Facebook and Instagram",
+      "body": "Click Connect next to Facebook and Instagram. Sign in with the Facebook account that's an admin on your school's page, then choose your school's page. If your Instagram is a business account linked to that page, choose it too."
+    },
+    {
+      "title": "Connect Google",
+      "body": "Click Connect next to Google Business Profile. Sign in with the Google account that manages your school's listing, then choose your school's location."
+    }
+  ],
+  "check": "Send your school's Facebook page a message from your personal account. It should appear in CRM, Conversations within a minute.",
+  "next": "connect-calendar"
+}

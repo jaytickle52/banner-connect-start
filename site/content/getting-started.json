@@ -1,0 +1,303 @@
+{
+  "_about": "Content for the Getting Started page. Edit here, then run: python3 tools/build_site.py. 'demo' is a demo id from the demo library; 'guide' is a file name in content/guides (without .json). 'plan' shows a plan label on paid features; leave null when it's in every plan.",
+  "demosUrl": "demos/",
+  "title": "Getting started",
+  "intro": "Welcome to Banner Connect. Start with the four steps below, then use this page whenever you want to know what a tab in your menu is for.",
+  "support": {
+    "label": "Contact Banner 61 support",
+    "href": "https://banner61.com"
+  },
+  "start": [
+    {
+      "id": "form",
+      "title": "Put your inquiry form on your website",
+      "body": "This is how families reach you. Most schools are done in ten minutes.",
+      "guide": "add-inquiry-form"
+    },
+    {
+      "id": "social",
+      "title": "Connect Facebook, Instagram and Google",
+      "body": "Messages from your pages land in one inbox with your email and texts.",
+      "guide": "connect-social"
+    },
+    {
+      "id": "calendar",
+      "title": "Connect your calendar",
+      "body": "Visits booked online show up on the calendar you already use.",
+      "guide": "connect-calendar"
+    },
+    {
+      "id": "app",
+      "title": "Install the mobile app",
+      "body": "Answer families from your phone, even when you're away from your desk.",
+      "guide": "mobile-app"
+    }
+  ],
+  "tabs": [
+    {
+      "name": "Dashboard",
+      "icon": "gauge",
+      "summary": "How enrollment is going, at a glance.",
+      "items": [
+        [
+          "Enrollment funnel",
+          "How many families reach each stage, and how many move on"
+        ],
+        [
+          "Tuition in pipeline",
+          "The total tuition of every family still deciding"
+        ],
+        [
+          "Tasks",
+          "Your follow-ups, with overdue ones in red"
+        ]
+      ],
+      "first": "Open it each morning and work your task list from the top.",
+      "demo": "reporting",
+      "guide": null,
+      "plan": null
+    },
+    {
+      "name": "Ask AI",
+      "icon": "sparkles",
+      "summary": "Ask a question about your account in plain English.",
+      "items": [
+        [
+          "Questions",
+          "\"How many families inquired this month?\" or \"Who hasn't heard from us in two weeks?\""
+        ],
+        [
+          "Help",
+          "\"How do I add a staff member?\" and other how-to questions"
+        ]
+      ],
+      "first": "Ask it which families are waiting on a reply.",
+      "demo": null,
+      "guide": null,
+      "plan": null
+    },
+    {
+      "name": "CRM",
+      "icon": "contacts",
+      "summary": "Every family, every conversation and every follow-up.",
+      "items": [
+        [
+          "Contacts",
+          "A record for each parent, with every email, text and form they've sent"
+        ],
+        [
+          "Conversations",
+          "One inbox for email, texts, Facebook, Instagram and Google messages"
+        ],
+        [
+          "Snippets",
+          "Saved replies for questions you answer often, like tuition or uniforms"
+        ],
+        [
+          "Opportunities",
+          "Your enrollment pipeline: one card per family, from inquiry to enrolled"
+        ],
+        [
+          "Tasks",
+          "Follow-ups assigned to a person with a due date"
+        ],
+        [
+          "Students",
+          "The children in each family, with grade and status"
+        ]
+      ],
+      "first": "Open Opportunities and find the newest family in New Inquiry.",
+      "demo": "admissions-pipeline",
+      "guide": null,
+      "plan": null
+    },
+    {
+      "name": "Calendars",
+      "icon": "calendar",
+      "summary": "Visits, tours and assessments, booked online by families.",
+      "items": [
+        [
+          "Calendar View",
+          "Everyone coming in this week"
+        ],
+        [
+          "Appointment List",
+          "Every booking in a list you can search and filter"
+        ],
+        [
+          "Meeting Calendars",
+          "Your booking pages: campus visits, tours, assessments"
+        ],
+        [
+          "Connections",
+          "Sync with Google or Outlook so nothing gets double-booked"
+        ]
+      ],
+      "first": "Connect your Google or Outlook calendar.",
+      "demo": "tour-scheduling",
+      "guide": "connect-calendar",
+      "plan": null
+    },
+    {
+      "name": "Forms & Docs",
+      "icon": "clipboard",
+      "summary": "What families fill out, sign and send you.",
+      "items": [
+        [
+          "Forms",
+          "Inquiry, info packet, visit request and other forms for your website"
+        ],
+        [
+          "Surveys",
+          "Short questionnaires, like visit feedback"
+        ],
+        [
+          "Documents & Contracts",
+          "Enrollment contracts and agreements families sign online"
+        ]
+      ],
+      "first": "Copy your inquiry form onto your website.",
+      "demo": "capture-inquiry",
+      "guide": "add-inquiry-form",
+      "plan": null
+    },
+    {
+      "name": "Marketing",
+      "icon": "megaphone",
+      "summary": "Emails and pages that bring families in and keep them close.",
+      "items": [
+        [
+          "Emails",
+          "Ready-made templates and email campaigns to families"
+        ],
+        [
+          "Trigger Links",
+          "Links that tag a family or start a follow-up when clicked"
+        ],
+        [
+          "Funnels",
+          "Landing pages for an open house, an ad or a scholarship"
+        ],
+        [
+          "QR Codes",
+          "Codes for flyers, banners and event tables"
+        ],
+        [
+          "Video Testimonials",
+          "Short videos from happy parents for your website"
+        ]
+      ],
+      "first": "Read the three emails new families already receive.",
+      "demo": "nurture-sequence",
+      "guide": null,
+      "plan": null
+    },
+    {
+      "name": "Automations",
+      "icon": "workflow",
+      "summary": "The follow-up that happens on its own.",
+      "items": [
+        [
+          "Workflows",
+          "Already built for you: info requests, visits, events and families who go quiet"
+        ]
+      ],
+      "first": "Look through what's already running before you build anything new.",
+      "demo": "cold-revival",
+      "guide": null,
+      "plan": null
+    },
+    {
+      "name": "Reporting",
+      "icon": "chart",
+      "summary": "Where your families come from and what's working.",
+      "items": [
+        [
+          "Reports",
+          "Lead sources, appointments and email results"
+        ],
+        [
+          "SEO",
+          "How your website shows up in search"
+        ],
+        [
+          "Site Analytics",
+          "Visits to your Banner Connect forms and pages"
+        ]
+      ],
+      "first": "Check which lead source sent you the most families this year.",
+      "demo": "reporting",
+      "guide": null,
+      "plan": null
+    },
+    {
+      "name": "Payments",
+      "icon": "dollar",
+      "summary": "Application fees, deposits and invoices.",
+      "items": [
+        [
+          "Invoices",
+          "Send a bill and get paid online"
+        ],
+        [
+          "Payment Links",
+          "A link for an application fee or enrollment deposit"
+        ],
+        [
+          "Transactions",
+          "Every payment in one place"
+        ]
+      ],
+      "first": "Ask Banner 61 to connect your payment account before you send anything.",
+      "demo": null,
+      "guide": null,
+      "plan": null
+    },
+    {
+      "name": "Advanced",
+      "icon": "folder",
+      "summary": "Set once, rarely touched. Banner 61 handles most of it.",
+      "items": [
+        [
+          "Custom Values",
+          "Your school's name, address and phone, used in every email"
+        ],
+        [
+          "Custom Fields",
+          "Extra details you track, like grade of entry"
+        ],
+        [
+          "Media Storage",
+          "Logos and photos used in emails and forms"
+        ],
+        [
+          "Domains and Brand Boards",
+          "Your web addresses and brand colors"
+        ]
+      ],
+      "first": "Check that your school name and phone number are right in Custom Values.",
+      "demo": null,
+      "guide": null,
+      "plan": null
+    },
+    {
+      "name": "Settings",
+      "icon": "settings",
+      "summary": "Your staff, your phone number and your email sending.",
+      "items": [
+        [
+          "My Staff",
+          "Add the people on your admissions team"
+        ],
+        [
+          "Integrations",
+          "Facebook, Instagram, Google and your calendar"
+        ]
+      ],
+      "first": "Add everyone who answers family questions.",
+      "demo": null,
+      "guide": "connect-social",
+      "plan": null
+    }
+  ]
+}

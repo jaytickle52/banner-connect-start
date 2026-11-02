@@ -1,0 +1,25 @@
+{
+  "title": "Connect your calendar",
+  "summary": "Connecting your Google or Outlook calendar keeps online bookings from landing on top of things you already have scheduled, and puts new visits on the calendar you already check.",
+  "minutes": 5,
+  "steps": [
+    {
+      "title": "Open Connections",
+      "body": "In the menu, go to Calendars, then Connections."
+    },
+    {
+      "title": "Connect Google or Outlook",
+      "body": "Click Connect for the calendar you use and sign in with the email address you use for appointments."
+    },
+    {
+      "title": "Choose which calendars count",
+      "body": "Pick the calendars Banner Connect should check for conflicts, so personal and school events block those times. Then pick the calendar new visits should be added to."
+    },
+    {
+      "title": "Check your available times",
+      "body": "Go to Calendars, then Meeting Calendars, and open Schedule a Visit. Make sure the days and hours match when you actually give visits."
+    }
+  ],
+  "check": "Open your booking page and look at tomorrow. Any time you're already busy on your own calendar should be missing from the list.",
+  "next": "mobile-app"
+}

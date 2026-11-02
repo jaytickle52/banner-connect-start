@@ -1,0 +1,25 @@
+{
+  "title": "Put your inquiry form on your website",
+  "summary": "Your inquiry form is how families reach you. Once it's on your site, every submission lands in your pipeline and gets an automatic reply.",
+  "minutes": 10,
+  "steps": [
+    {
+      "title": "Open your form",
+      "body": "In the menu, go to Forms & Docs, then Forms. Open the folder called Prebuilt Forms and click Request Info Packet. You can use General Inquiry instead if you'd like a simpler contact form."
+    },
+    {
+      "title": "Copy the embed code",
+      "body": "Click Integrate in the top right corner. Choose the embed option and click Copy. That's the code your website needs."
+    },
+    {
+      "title": "Paste it on your website",
+      "body": "On WordPress, add a Custom HTML block where you want the form and paste the code. On Squarespace, use a Code block. On Wix, use Embed, then Embed HTML. If someone else manages your site, send them the code with a note about which page it goes on."
+    },
+    {
+      "title": "Or let us do it",
+      "body": "If you don't have access to your website, give Banner 61 access and we'll add the form for you."
+    }
+  ],
+  "check": "Fill out the form on your website with your own name and email. Within a minute you should see yourself in CRM, Opportunities, under New Inquiry, and the first email should be in your inbox. Delete the test contact when you're done.",
+  "next": "connect-social"
+}

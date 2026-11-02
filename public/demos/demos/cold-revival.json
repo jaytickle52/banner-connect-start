@@ -1,0 +1,59 @@
+{
+  "id": "cold-revival",
+  "title": "Win back quiet families",
+  "school": "Banner Christian School",
+  "aspect": "1512 / 796",
+  "start": {
+    "headline": "Some families go quiet. That doesn't mean they've said no.",
+    "body": "Here's how Banner Connect checks back in with families who stopped responding."
+  },
+  "steps": [
+    {
+      "image": "screens/cold-revival/01.jpg",
+      "alt": "A pipeline card for the Johnson Family with a Cold tag",
+      "illustration": false,
+      "hotspot": {
+        "x": 22.42,
+        "y": 50.31,
+        "w": 16.92,
+        "h": 20.86
+      },
+      "title": "A family goes cold",
+      "body": "The Johnson Family asked about your school, then nothing. After a stretch with no contact, their card gets a Cold tag.",
+      "hint": "Click the Johnson Family card"
+    },
+    {
+      "image": "screens/cold-revival/02.jpg",
+      "alt": "The Cold Inquiry Revival workflow with four emails and waits between them",
+      "illustration": false,
+      "hotspot": {
+        "x": 44.44,
+        "y": 16.71,
+        "w": 14.29,
+        "h": 72.49
+      },
+      "title": "Four check-ins over two weeks",
+      "body": "The Cold tag starts a short series: four emails spaced 3, 4 and 7 days apart. If the family replies, your team takes it from there.",
+      "hint": "Click the sequence"
+    },
+    {
+      "image": "screens/cold-revival/03.jpg",
+      "alt": "Cold Inquiry Revival email #1 with the subject Still thinking about the school",
+      "illustration": false,
+      "hotspot": {
+        "x": 68.78,
+        "y": 14.45,
+        "w": 29.1,
+        "h": 63.19
+      },
+      "title": "Short, personal and easy to answer",
+      "body": "\"Still thinking about our school?\" It's signed by your admissions director and asks one simple question. Parents just hit reply.",
+      "hint": "Click the email to finish"
+    }
+  ],
+  "finish": {
+    "headline": "Families who went quiet get a second chance.",
+    "body": "And your team doesn't have to remember who to chase.",
+    "next": "reporting"
+  }
+}

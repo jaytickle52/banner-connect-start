@@ -1,0 +1,87 @@
+{
+  "id": "nurture-sequence",
+  "title": "The nurture sequence",
+  "school": "Banner Christian School",
+  "aspect": "1512 / 796",
+  "start": {
+    "headline": "Most families need more than one email before they visit.",
+    "body": "Here's how Banner Connect keeps the conversation going for ten days, so your staff doesn't have to remember to."
+  },
+  "steps": [
+    {
+      "image": "screens/nurture-sequence/01.jpg",
+      "alt": "The nurture workflow with three emails separated by 3-day and 7-day waits",
+      "illustration": false,
+      "hotspot": {
+        "x": 46.26,
+        "y": 36.81,
+        "w": 10.34,
+        "h": 49.08
+      },
+      "title": "Three emails, spaced out on purpose",
+      "body": "Day 1 sends the info packet. Day 3 explains what makes your school different. Day 10 invites the family to take the next step.",
+      "hint": "Click the email sequence"
+    },
+    {
+      "image": "screens/nurture-sequence/02.jpg",
+      "alt": "Nurture email #2 explaining holistic learning, character development and faith-integrated curriculum",
+      "illustration": false,
+      "hotspot": {
+        "x": 67.7,
+        "y": 14.11,
+        "w": 27.26,
+        "h": 58.77
+      },
+      "title": "Day 3: why your school",
+      "body": "This one speaks to what parents are really asking: will my child be ready for life, not just tests? It covers faith-integrated learning, character and academics.",
+      "hint": "Click the email"
+    },
+    {
+      "image": "screens/nurture-sequence/03.jpg",
+      "alt": "Nurture email #3 with links to schedule a visit, learn about financial aid and apply",
+      "illustration": false,
+      "hotspot": {
+        "x": 67.7,
+        "y": 14.11,
+        "w": 27.26,
+        "h": 58.77
+      },
+      "title": "Day 10: an easy next step",
+      "body": "The last email offers three clear paths: schedule a visit, explore financial aid, or start an application. Each one is a single click.",
+      "hint": "Click the email"
+    },
+    {
+      "image": "screens/nurture-sequence/04.jpg",
+      "alt": "The email template library in grid view",
+      "illustration": false,
+      "hotspot": {
+        "x": 36.71,
+        "y": 27.26,
+        "w": 61.64,
+        "h": 46.48
+      },
+      "title": "Every email is a template you can edit",
+      "body": "Change the wording once and every family gets the new version. Your school's name, address and phone fill in automatically.",
+      "hint": "Click the templates"
+    },
+    {
+      "image": "screens/nurture-sequence/05.jpg",
+      "alt": "The Prebuilt Workflows folder listing seven admissions automations",
+      "illustration": false,
+      "hotspot": {
+        "x": 21.16,
+        "y": 34.17,
+        "w": 76.92,
+        "h": 55.03
+      },
+      "title": "A sequence for every kind of inquiry",
+      "body": "Tuition questions, financial aid, visits, events and families who went quiet each get their own follow-up, already built and ready to turn on.",
+      "hint": "Click the list to finish"
+    }
+  ],
+  "finish": {
+    "headline": "Ten days of thoughtful follow-up, and nobody had to hit send.",
+    "body": "Your team steps in when a family is ready to talk. The emails handle the rest.",
+    "next": "tour-scheduling"
+  }
+}

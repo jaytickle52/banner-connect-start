@@ -1,0 +1,59 @@
+{
+  "id": "reporting",
+  "title": "Reporting",
+  "school": "Banner Christian School",
+  "aspect": "1512 / 796",
+  "start": {
+    "headline": "How is enrollment really going?",
+    "body": "Your dashboard answers that before your board asks."
+  },
+  "steps": [
+    {
+      "image": "screens/reporting/01.jpg",
+      "alt": "The enrollment funnel from New Inquiry through Enrolled with conversion percentages",
+      "illustration": false,
+      "hotspot": {
+        "x": 20.24,
+        "y": 16.83,
+        "w": 38.82,
+        "h": 58.92
+      },
+      "title": "See where families drop off",
+      "body": "The funnel shows how many families reach each stage, and what share move on to the next. You can spot the stage that needs work.",
+      "hint": "Click the funnel"
+    },
+    {
+      "image": "screens/reporting/02.jpg",
+      "alt": "Dashboard tiles showing $416.5K tuition in pipeline and 46 families",
+      "illustration": false,
+      "hotspot": {
+        "x": 60.12,
+        "y": 16.83,
+        "w": 38.89,
+        "h": 22.49
+      },
+      "title": "Tuition and families in the pipeline",
+      "body": "Two numbers every head of school wants: how much tuition is in play, and how many families are in it.",
+      "hint": "Click the totals"
+    },
+    {
+      "image": "screens/reporting/03.jpg",
+      "alt": "Chart of all families by status: open, won and lost",
+      "illustration": false,
+      "hotspot": {
+        "x": 60.12,
+        "y": 41.46,
+        "w": 38.89,
+        "h": 57.79
+      },
+      "title": "Open, won and lost at a glance",
+      "body": "See how many families are still deciding, how many enrolled and how many chose elsewhere.",
+      "hint": "Click the chart to finish"
+    }
+  ],
+  "finish": {
+    "headline": "Real numbers, always up to date.",
+    "body": "No more pulling reports together the night before a board meeting.",
+    "next": "capture-inquiry"
+  }
+}

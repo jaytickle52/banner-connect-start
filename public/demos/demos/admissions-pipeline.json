@@ -1,0 +1,59 @@
+{
+  "id": "admissions-pipeline",
+  "title": "The admissions pipeline",
+  "school": "Banner Christian School",
+  "aspect": "1512 / 796",
+  "start": {
+    "headline": "Where is every family in your admissions process?",
+    "body": "With Banner Connect, the answer is one screen away."
+  },
+  "steps": [
+    {
+      "image": "screens/admissions-pipeline/01.jpg",
+      "alt": "The pipeline columns with family counts and tuition totals",
+      "illustration": false,
+      "hotspot": {
+        "x": 22.42,
+        "y": 22.7,
+        "w": 74.22,
+        "h": 6.38
+      },
+      "title": "Every stage, from inquiry to enrolled",
+      "body": "Families move left to right: New Inquiry, Visit Scheduled, Visit Attended, Application Sent and on to enrolled. Each column shows how many families and how much tuition.",
+      "hint": "Click the stages"
+    },
+    {
+      "image": "screens/admissions-pipeline/02.jpg",
+      "alt": "A family card showing lead source, tuition value and days since last contact",
+      "illustration": false,
+      "hotspot": {
+        "x": 39.99,
+        "y": 30.67,
+        "w": 16.92,
+        "h": 20.61
+      },
+      "title": "Every family has a card",
+      "body": "See where they came from, what they're worth in tuition and how many days since your last contact. Cards tagged Cold need attention.",
+      "hint": "Click the Lynch Family card"
+    },
+    {
+      "image": "screens/admissions-pipeline/03.jpg",
+      "alt": "The task list with overdue follow-ups assigned to the admissions director",
+      "illustration": false,
+      "hotspot": {
+        "x": 20.24,
+        "y": 39.95,
+        "w": 78.77,
+        "h": 28.52
+      },
+      "title": "And a to-do list that keeps up",
+      "body": "Follow-ups are assigned to a person with a due date. Overdue calls turn red so they get handled first.",
+      "hint": "Click the tasks to finish"
+    }
+  ],
+  "finish": {
+    "headline": "No more spreadsheets or sticky notes.",
+    "body": "Everyone on your team sees the same picture of every family.",
+    "next": "cold-revival"
+  }
+}

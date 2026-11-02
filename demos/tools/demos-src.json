@@ -1,0 +1,646 @@
+{
+  "_about": "Source for every demo. Edit this file, then run: python3 tools/build.py. Hotspots are boxes in the raw capture's own pixels [left, top, right, bottom]. 'edits' cover things on a capture that shouldn't show (browser extension icons, test records, wrong logos).",
+  "canvas": [
+    1512,
+    796
+  ],
+  "school": "Banner Christian School",
+  "demos": [
+    {
+      "id": "capture-inquiry",
+      "title": "Capture an inquiry",
+      "start": {
+        "headline": "A parent asks about your school at 9:47 PM.",
+        "body": "Your office closed hours ago. Here's what Banner Connect does next, without anyone on your staff lifting a finger."
+      },
+      "steps": [
+        {
+          "raw": "ci-form.jpg",
+          "edits": [
+            {
+              "type": "fill",
+              "box": [
+                926,
+                460,
+                960,
+                494
+              ],
+              "color": "#ffffff"
+            }
+          ],
+          "hotspot": [
+            483,
+            599,
+            972,
+            638
+          ],
+          "title": "A parent reaches out after hours",
+          "body": "Sarah is on your website after her kids are in bed. She asks about 2nd grade for her son, Mateo, and how admissions works.",
+          "hint": "Click Request Info Packet",
+          "alt": "Banner Christian School's Request Info Packet form, filled in by Sarah Ramirez for 2nd grade"
+        },
+        {
+          "raw": "nurture-email1.jpg",
+          "hotspot": [
+            1002,
+            115,
+            1424,
+            594
+          ],
+          "title": "Her info packet arrives right away",
+          "body": "The first email goes out the moment she submits. Your school's name and her first name fill in on their own, so it reads like it came from your office.",
+          "hint": "Click the email",
+          "alt": "The first nurture email: subject line with the school's name and a thank-you note with a link to the info packet"
+        },
+        {
+          "raw": "pipeline.jpg",
+          "edits": [
+            {
+              "type": "fill",
+              "box": [
+                306,
+                258,
+                530,
+                283
+              ],
+              "color": "#ffffff"
+            },
+            {
+              "type": "text",
+              "at": [
+                309,
+                261
+              ],
+              "text": "Ramirez Family",
+              "size": 13,
+              "weight": "SemiBold",
+              "color": "#1d2433"
+            },
+            {
+              "type": "fill",
+              "box": [
+                406,
+                320,
+                530,
+                340
+              ],
+              "color": "#ffffff"
+            },
+            {
+              "type": "text",
+              "at": [
+                409,
+                322
+              ],
+              "text": "$8,500.00",
+              "size": 11,
+              "weight": "Regular",
+              "color": "#5b6170"
+            }
+          ],
+          "hotspot": [
+            301,
+            250,
+            563,
+            400
+          ],
+          "title": "She lands in your enrollment pipeline",
+          "body": "Every family who reaches out shows up in New Inquiry, with where they found you and how long since anyone talked to them.",
+          "hint": "Click the Ramirez Family card",
+          "alt": "The Inquiry to Enrollment pipeline with the Ramirez Family in the New Inquiry column"
+        },
+        {
+          "raw": "tasks.jpg",
+          "hotspot": [
+            306,
+            318,
+            1497,
+            545
+          ],
+          "title": "Your team knows who to call",
+          "body": "Follow-ups land on your admissions director's task list. Anything past due turns red, so no family slips through the cracks.",
+          "hint": "Click the task list",
+          "alt": "The dashboard task list with follow-up calls assigned to the admissions director"
+        },
+        {
+          "raw": "nurture-workflow.jpg",
+          "hotspot": [
+            670,
+            140,
+            830,
+            700
+          ],
+          "title": "One workflow does all of it",
+          "body": "Behind the scenes, one automation creates the pipeline card, tags the family, and sends three emails over ten days. Banner 61 sets it up for you.",
+          "hint": "Click the workflow to finish",
+          "alt": "The Request Info Packet workflow: form trigger, create opportunity, add tag, then three emails with waits between them"
+        }
+      ],
+      "finish": {
+        "headline": "One inquiry, handled while your office was closed.",
+        "body": "Every family hears back right away, and your team always knows the next step.",
+        "next": "nurture-sequence"
+      }
+    },
+    {
+      "id": "nurture-sequence",
+      "title": "The nurture sequence",
+      "start": {
+        "headline": "Most families need more than one email before they visit.",
+        "body": "Here's how Banner Connect keeps the conversation going for ten days, so your staff doesn't have to remember to."
+      },
+      "steps": [
+        {
+          "raw": "nurture-workflow.jpg",
+          "hotspot": [
+            670,
+            300,
+            830,
+            700
+          ],
+          "title": "Three emails, spaced out on purpose",
+          "body": "Day 1 sends the info packet. Day 3 explains what makes your school different. Day 10 invites the family to take the next step.",
+          "hint": "Click the email sequence",
+          "alt": "The nurture workflow with three emails separated by 3-day and 7-day waits"
+        },
+        {
+          "raw": "nurture-email2.jpg",
+          "hotspot": [
+            1002,
+            115,
+            1424,
+            594
+          ],
+          "title": "Day 3: why your school",
+          "body": "This one speaks to what parents are really asking: will my child be ready for life, not just tests? It covers faith-integrated learning, character and academics.",
+          "hint": "Click the email",
+          "alt": "Nurture email #2 explaining holistic learning, character development and faith-integrated curriculum"
+        },
+        {
+          "raw": "nurture-email3.jpg",
+          "hotspot": [
+            1002,
+            115,
+            1424,
+            594
+          ],
+          "title": "Day 10: an easy next step",
+          "body": "The last email offers three clear paths: schedule a visit, explore financial aid, or start an application. Each one is a single click.",
+          "hint": "Click the email",
+          "alt": "Nurture email #3 with links to schedule a visit, learn about financial aid and apply"
+        },
+        {
+          "raw": "email-templates.jpg",
+          "hotspot": [
+            555,
+            217,
+            1487,
+            587
+          ],
+          "title": "Every email is a template you can edit",
+          "body": "Change the wording once and every family gets the new version. Your school's name, address and phone fill in automatically.",
+          "hint": "Click the templates",
+          "alt": "The email template library in grid view"
+        },
+        {
+          "raw": "workflows-list.jpg",
+          "hotspot": [
+            320,
+            272,
+            1483,
+            710
+          ],
+          "title": "A sequence for every kind of inquiry",
+          "body": "Tuition questions, financial aid, visits, events and families who went quiet each get their own follow-up, already built and ready to turn on.",
+          "hint": "Click the list to finish",
+          "alt": "The Prebuilt Workflows folder listing seven admissions automations"
+        }
+      ],
+      "finish": {
+        "headline": "Ten days of thoughtful follow-up, and nobody had to hit send.",
+        "body": "Your team steps in when a family is ready to talk. The emails handle the rest.",
+        "next": "tour-scheduling"
+      }
+    },
+    {
+      "id": "tour-scheduling",
+      "title": "Tour scheduling",
+      "start": {
+        "headline": "The visit is where families decide.",
+        "body": "Here's how a parent books a campus visit on their own, and how Banner Connect makes sure they actually show up."
+      },
+      "steps": [
+        {
+          "raw": "tour-dates.jpg",
+          "edits": [
+            {
+              "type": "badge",
+              "box": [
+                298,
+                93,
+                390,
+                185
+              ],
+              "text": "BCS"
+            }
+          ],
+          "hotspot": [
+            620,
+            260,
+            955,
+            505
+          ],
+          "title": "Parents pick a day that works",
+          "body": "Your booking page shows only the times you're available. No back-and-forth emails to find a slot.",
+          "hint": "Click the calendar",
+          "alt": "The Schedule a Visit booking page with November dates available"
+        },
+        {
+          "raw": "tour-time.jpg",
+          "edits": [
+            {
+              "type": "badge",
+              "box": [
+                298,
+                93,
+                390,
+                185
+              ],
+              "text": "BCS"
+            }
+          ],
+          "hotspot": [
+            1103,
+            296,
+            1197,
+            341
+          ],
+          "title": "Then a time",
+          "body": "Sarah picks 10:00 AM on Thursday. The visit is blocked on your calendar the moment she confirms.",
+          "hint": "Click Select",
+          "alt": "The booking page with 10:00 AM on Thursday, November 5 selected"
+        },
+        {
+          "raw": "tour-details.jpg",
+          "edits": [
+            {
+              "type": "fill",
+              "box": [
+                1138,
+                380,
+                1172,
+                412
+              ],
+              "color": "#ffffff"
+            },
+            {
+              "type": "fill",
+              "box": [
+                1134,
+                246,
+                1166,
+                274
+              ],
+              "color": "#ffffff"
+            }
+          ],
+          "hotspot": [
+            1078,
+            629,
+            1212,
+            666
+          ],
+          "title": "A few details and she's booked",
+          "body": "She adds a note for your team. It goes straight onto her record, so whoever gives the tour knows what to expect.",
+          "hint": "Click Schedule meeting",
+          "alt": "The booking details form filled in by Sarah Ramirez with a note about her son starting 2nd grade"
+        },
+        {
+          "raw": "tour-reminders.jpg",
+          "hotspot": [
+            712,
+            105,
+            845,
+            530
+          ],
+          "title": "Reminders go out on their own",
+          "body": "A confirmation right away, a reminder the day before, and another an hour before. Fewer families forget.",
+          "hint": "Click the reminders",
+          "alt": "The Request a Visit workflow: confirmation email, then reminders 24 hours and 1 hour before the visit"
+        },
+        {
+          "raw": "tour-branches.jpg",
+          "hotspot": [
+            528,
+            526,
+            1030,
+            568
+          ],
+          "title": "After the visit, one click from your team",
+          "body": "Your staff marks how it went. Attended moves the family forward. A no-show gets a friendly reschedule email automatically.",
+          "hint": "Click the outcomes to finish",
+          "alt": "The workflow branches for visit attended, no-show with reschedule email, and not a fit"
+        }
+      ],
+      "finish": {
+        "headline": "Booked, reminded and followed up, all without a phone call.",
+        "body": "Your team spends its time on the visit itself, not on scheduling it.",
+        "next": "admissions-pipeline"
+      }
+    },
+    {
+      "id": "admissions-pipeline",
+      "title": "The admissions pipeline",
+      "start": {
+        "headline": "Where is every family in your admissions process?",
+        "body": "With Banner Connect, the answer is one screen away."
+      },
+      "steps": [
+        {
+          "raw": "pipeline.jpg",
+          "edits": [
+            {
+              "type": "fill",
+              "box": [
+                306,
+                258,
+                530,
+                283
+              ],
+              "color": "#ffffff"
+            },
+            {
+              "type": "text",
+              "at": [
+                309,
+                261
+              ],
+              "text": "Ramirez Family",
+              "size": 13,
+              "weight": "SemiBold",
+              "color": "#1d2433"
+            },
+            {
+              "type": "fill",
+              "box": [
+                406,
+                320,
+                530,
+                340
+              ],
+              "color": "#ffffff"
+            },
+            {
+              "type": "text",
+              "at": [
+                409,
+                322
+              ],
+              "text": "$8,500.00",
+              "size": 11,
+              "weight": "Regular",
+              "color": "#5b6170"
+            }
+          ],
+          "hotspot": [
+            301,
+            185,
+            1450,
+            237
+          ],
+          "title": "Every stage, from inquiry to enrolled",
+          "body": "Families move left to right: New Inquiry, Visit Scheduled, Visit Attended, Application Sent and on to enrolled. Each column shows how many families and how much tuition.",
+          "hint": "Click the stages",
+          "alt": "The pipeline columns with family counts and tuition totals"
+        },
+        {
+          "raw": "pipeline.jpg",
+          "edits": [
+            {
+              "type": "fill",
+              "box": [
+                306,
+                258,
+                530,
+                283
+              ],
+              "color": "#ffffff"
+            },
+            {
+              "type": "text",
+              "at": [
+                309,
+                261
+              ],
+              "text": "Ramirez Family",
+              "size": 13,
+              "weight": "SemiBold",
+              "color": "#1d2433"
+            },
+            {
+              "type": "fill",
+              "box": [
+                406,
+                320,
+                530,
+                340
+              ],
+              "color": "#ffffff"
+            },
+            {
+              "type": "text",
+              "at": [
+                409,
+                322
+              ],
+              "text": "$8,500.00",
+              "size": 11,
+              "weight": "Regular",
+              "color": "#5b6170"
+            }
+          ],
+          "hotspot": [
+            573,
+            250,
+            835,
+            418
+          ],
+          "title": "Every family has a card",
+          "body": "See where they came from, what they're worth in tuition and how many days since your last contact. Cards tagged Cold need attention.",
+          "hint": "Click the Lynch Family card",
+          "alt": "A family card showing lead source, tuition value and days since last contact"
+        },
+        {
+          "raw": "tasks.jpg",
+          "hotspot": [
+            306,
+            318,
+            1497,
+            545
+          ],
+          "title": "And a to-do list that keeps up",
+          "body": "Follow-ups are assigned to a person with a due date. Overdue calls turn red so they get handled first.",
+          "hint": "Click the tasks to finish",
+          "alt": "The task list with overdue follow-ups assigned to the admissions director"
+        }
+      ],
+      "finish": {
+        "headline": "No more spreadsheets or sticky notes.",
+        "body": "Everyone on your team sees the same picture of every family.",
+        "next": "cold-revival"
+      }
+    },
+    {
+      "id": "cold-revival",
+      "title": "Win back quiet families",
+      "start": {
+        "headline": "Some families go quiet. That doesn't mean they've said no.",
+        "body": "Here's how Banner Connect checks back in with families who stopped responding."
+      },
+      "steps": [
+        {
+          "raw": "pipeline.jpg",
+          "edits": [
+            {
+              "type": "fill",
+              "box": [
+                306,
+                258,
+                530,
+                283
+              ],
+              "color": "#ffffff"
+            },
+            {
+              "type": "text",
+              "at": [
+                309,
+                261
+              ],
+              "text": "Ramirez Family",
+              "size": 13,
+              "weight": "SemiBold",
+              "color": "#1d2433"
+            },
+            {
+              "type": "fill",
+              "box": [
+                406,
+                320,
+                530,
+                340
+              ],
+              "color": "#ffffff"
+            },
+            {
+              "type": "text",
+              "at": [
+                409,
+                322
+              ],
+              "text": "$8,500.00",
+              "size": 11,
+              "weight": "Regular",
+              "color": "#5b6170"
+            }
+          ],
+          "hotspot": [
+            301,
+            410,
+            563,
+            580
+          ],
+          "title": "A family goes cold",
+          "body": "The Johnson Family asked about your school, then nothing. After a stretch with no contact, their card gets a Cold tag.",
+          "hint": "Click the Johnson Family card",
+          "alt": "A pipeline card for the Johnson Family with a Cold tag"
+        },
+        {
+          "raw": "revival-workflow.jpg",
+          "hotspot": [
+            672,
+            133,
+            888,
+            710
+          ],
+          "title": "Four check-ins over two weeks",
+          "body": "The Cold tag starts a short series: four emails spaced 3, 4 and 7 days apart. If the family replies, your team takes it from there.",
+          "hint": "Click the sequence",
+          "alt": "The Cold Inquiry Revival workflow with four emails and waits between them"
+        },
+        {
+          "raw": "revival-email1.jpg",
+          "hotspot": [
+            1040,
+            115,
+            1480,
+            618
+          ],
+          "title": "Short, personal and easy to answer",
+          "body": "\"Still thinking about our school?\" It's signed by your admissions director and asks one simple question. Parents just hit reply.",
+          "hint": "Click the email to finish",
+          "alt": "Cold Inquiry Revival email #1 with the subject Still thinking about the school"
+        }
+      ],
+      "finish": {
+        "headline": "Families who went quiet get a second chance.",
+        "body": "And your team doesn't have to remember who to chase.",
+        "next": "reporting"
+      }
+    },
+    {
+      "id": "reporting",
+      "title": "Reporting",
+      "start": {
+        "headline": "How is enrollment really going?",
+        "body": "Your dashboard answers that before your board asks."
+      },
+      "steps": [
+        {
+          "raw": "dashboard.jpg",
+          "hotspot": [
+            306,
+            134,
+            893,
+            603
+          ],
+          "title": "See where families drop off",
+          "body": "The funnel shows how many families reach each stage, and what share move on to the next. You can spot the stage that needs work.",
+          "hint": "Click the funnel",
+          "alt": "The enrollment funnel from New Inquiry through Enrolled with conversion percentages"
+        },
+        {
+          "raw": "dashboard.jpg",
+          "hotspot": [
+            909,
+            134,
+            1497,
+            313
+          ],
+          "title": "Tuition and families in the pipeline",
+          "body": "Two numbers every head of school wants: how much tuition is in play, and how many families are in it.",
+          "hint": "Click the totals",
+          "alt": "Dashboard tiles showing $416.5K tuition in pipeline and 46 families"
+        },
+        {
+          "raw": "dashboard.jpg",
+          "hotspot": [
+            909,
+            330,
+            1497,
+            790
+          ],
+          "title": "Open, won and lost at a glance",
+          "body": "See how many families are still deciding, how many enrolled and how many chose elsewhere.",
+          "hint": "Click the chart to finish",
+          "alt": "Chart of all families by status: open, won and lost"
+        }
+      ],
+      "finish": {
+        "headline": "Real numbers, always up to date.",
+        "body": "No more pulling reports together the night before a board meeting.",
+        "next": "capture-inquiry"
+      }
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>[hidden]{display:none!important}img{max-width:100%}body{margin:0}</style></head><body>
+<title>Banner Connect Demos</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<style>
+/* Layout: a quiet library of job cards; each demo opens into a framed "screen" with a spotlight and a callout card. */
+:root {
+  --bg: #F0F1EE;
+  --surface: #ffffff;
+  --ink: #101827;
+  --muted: #545a68;
+  --line: #d9dbd6;
+  --plum: #3F3B4C;
+  --coral: #EE5758;
+  --coral-ink: #b8383a;
+  --scrim: rgba(16, 24, 39, 0.45);
+  --cover: rgba(63, 59, 76, 0.9);
+  --font-display: "Outfit", "Trebuchet MS", system-ui, sans-serif;
+  --font-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1d1b24; --surface: #2a2733; --ink: #f0f1ee; --muted: #b7b4c2; --line: #3d3948;
+    --plum: #c9c3da; --coral: #f06b6c; --coral-ink: #ff8e8e; --scrim: rgba(0, 0, 0, 0.55);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #1d1b24; --surface: #2a2733; --ink: #f0f1ee; --muted: #b7b4c2; --line: #3d3948;
+  --plum: #c9c3da; --coral: #f06b6c; --coral-ink: #ff8e8e; --scrim: rgba(0, 0, 0, 0.55);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.55;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.wrap { max-width: 1120px; margin: 0 auto; padding-block: 28px 56px; display: grid; gap: 28px; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; letter-spacing: -0.01em; }
+p { margin: 0; }
+button { font: inherit; }
+a { color: var(--coral-ink); }
+:focus-visible { outline: 3px solid var(--coral); outline-offset: 2px; border-radius: 6px; }
+
+.brand { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.wordmark { display: flex; align-items: center; gap: 10px; font-family: var(--font-display); font-weight: 700; font-size: 18px; color: var(--ink); }
+.wordmark i { width: 12px; height: 12px; border-radius: 3px; background: var(--coral); display: block; transform: rotate(45deg); }
+.wordmark span { color: var(--muted); font-weight: 500; }
+
+/* Library */
+.lib-head { display: grid; gap: 10px; max-width: 64ch; }
+.lib-head h1 { font-size: clamp(30px, 5vw, 44px); line-height: 1.1; }
+.lib-head p { color: var(--muted); font-size: 18px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
+.card {
+  display: grid; gap: 8px; align-content: start; text-align: left; padding: 18px; min-height: 172px;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 12px; color: var(--ink);
+}
+.card .job { font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.card h3 { font-size: 20px; }
+.card p { color: var(--muted); font-size: 15px; }
+.card .meta { margin-top: auto; display: flex; gap: 8px; flex-wrap: wrap; font-size: 13px; color: var(--muted); }
+.card.ready { cursor: pointer; border-color: var(--plum); }
+.card.ready:hover { box-shadow: 0 6px 22px rgba(16, 24, 39, 0.12); }
+.card.ready .go { color: var(--coral-ink); font-weight: 700; }
+.card.soon { opacity: 0.72; }
+.pill { display: inline-block; padding: 1px 9px; border-radius: 999px; border: 1px solid var(--line); font-size: 12px; }
+
+/* Player */
+.player { display: grid; gap: 16px; }
+.bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.back { background: none; border: 0; padding: 6px 0; color: var(--muted); cursor: pointer; font-weight: 700; }
+.back:hover { color: var(--ink); }
+.title-row { display: grid; gap: 4px; }
+.title-row h2 { font-size: clamp(24px, 3.6vw, 32px); }
+.title-row p { color: var(--muted); }
+.stage-wrap { position: relative; }
+.stage {
+  position: relative; width: 100%; max-width: 100%; aspect-ratio: 16 / 10; border-radius: 14px; overflow: hidden;
+  background: var(--surface); border: 1px solid var(--line); box-shadow: 0 10px 40px rgba(16, 24, 39, 0.14);
+}
+.stage img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+.spot {
+  position: absolute; border-radius: 10px; cursor: pointer; border: 0; padding: 0; background: transparent;
+  box-shadow: 0 0 0 9999px var(--scrim), 0 0 0 3px var(--coral);
+  transition: left .35s ease, top .35s ease, width .35s ease, height .35s ease;
+}
+.spot::after {
+  content: ""; position: absolute; inset: -3px; border-radius: 12px; border: 3px solid var(--coral);
+  animation: pulse 1.8s ease-out infinite;
+}
+@keyframes pulse { from { opacity: .9; transform: scale(1); } to { opacity: 0; transform: scale(1.12); } }
+.tag {
+  position: absolute; left: 12px; bottom: 12px; font-size: 12px; padding: 3px 10px; border-radius: 999px;
+  background: rgba(16, 24, 39, 0.72); color: #fff;
+}
+.callout {
+  position: absolute; width: min(330px, 46%); padding: 18px; display: grid; gap: 8px;
+  background: var(--surface); color: var(--ink); border-radius: 12px; border: 1px solid var(--line);
+  box-shadow: 0 14px 40px rgba(16, 24, 39, 0.25);
+}
+.callout .count { font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--coral-ink); }
+.callout h3 { font-size: 21px; line-height: 1.2; }
+.callout p { color: var(--muted); font-size: 15.5px; }
+.callout .hint { font-size: 14px; font-weight: 700; color: var(--ink); display: flex; align-items: center; gap: 8px; }
+.callout .hint::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--coral); }
+
+.cover {
+  position: absolute; inset: 0; display: grid; place-content: center; gap: 16px; padding: 24px; text-align: center;
+  background: var(--cover); color: #fff; justify-items: center;
+}
+.cover h3 { font-size: clamp(24px, 4vw, 38px); max-width: 22ch; line-height: 1.15; color: #fff; }
+.cover p { max-width: 52ch; color: #e8e6ef; font-size: 17px; }
+.cover .actions { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 0 18px;
+  border-radius: 10px; border: 0; cursor: pointer; font-weight: 700; text-decoration: none;
+}
+.btn.primary { background: var(--coral-ink); color: #fff; }
+.btn.primary:hover { filter: brightness(1.08); }
+.btn.ghost { background: transparent; color: inherit; border: 1.5px solid currentColor; }
+.cover .btn.ghost { color: #fff; }
+
+.controls { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.dots { display: flex; gap: 6px; flex-wrap: wrap; }
+.dot { width: 28px; height: 6px; border-radius: 3px; background: var(--line); border: 0; padding: 0; cursor: pointer; }
+.dot.on { background: var(--coral); }
+.dot.done { background: var(--plum); }
+.nav { display: flex; gap: 8px; }
+.nav .btn { background: var(--surface); color: var(--ink); border: 1px solid var(--line); }
+.nav .btn.next { background: var(--plum); color: var(--bg); border-color: var(--plum); }
+.nav .btn[disabled] { opacity: .45; cursor: default; }
+.foot { color: var(--muted); font-size: 14px; }
+.error { padding: 18px; border-radius: 12px; background: var(--surface); border: 1px solid var(--line); }
+
+/* Narrow screens: the callout moves below the screen. */
+.player.narrow .callout { position: static; width: auto; margin-top: 12px; box-shadow: none; }
+.player.narrow .cover h3 { font-size: 22px; }
+.player.narrow .cover p { font-size: 15px; }
+@media (prefers-reduced-motion: reduce) { .spot::after { animation: none; } .spot { transition: none; } }
+</style>
+
+<div class="wrap">
+  <header class="brand">
+    <div class="wordmark"><i></i>Banner Connect <span>Demos</span></div>
+    <a id="talk" class="btn ghost" href="https://banner61.com" target="_blank" rel="noopener">Talk to Banner 61</a>
+  </header>
+  <main id="app"><p class="foot">Loading demos…</p></main>
+</div>
+
+<script>
+(() => {
+  const app = document.getElementById("app");
+  const talk = document.getElementById("talk");
+  let library = null;
+  const cache = {};
+
+  const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const getJSON = url => fetch(url, { cache: "no-cache" }).then(r => { if (!r.ok) throw new Error(url); return r.json(); });
+
+  function showLibrary() {
+    const cards = library.demos.map(d => {
+      const ready = d.status === "ready";
+      return `<${ready ? "button" : "div"} class="card ${ready ? "ready" : "soon"}" ${ready ? `data-id="${esc(d.id)}" type="button"` : ""}>
+        <span class="job">${esc(d.job)}</span>
+        <h3>${esc(d.title)}</h3>
+        <p>${esc(d.summary)}</p>
+        <span class="meta">
+          ${ready ? `<span class="go">Watch · about ${d.minutes} min</span>` : `<span class="pill">Coming soon</span>`}
+          ${d.plan ? `<span class="pill">${esc(d.plan)}</span>` : ""}
+        </span>
+      </${ready ? "button" : "div"}>`;
+    }).join("");
+    app.innerHTML = `<section class="wrap" style="padding:0">
+      <div class="lib-head"><h1>${esc(library.title)}</h1><p>${esc(library.intro)}</p></div>
+      <div class="grid">${cards}</div>
+    </section>`;
+    app.querySelectorAll(".card.ready").forEach(c => c.addEventListener("click", () => openDemo(c.dataset.id)));
+  }
+
+  async function openDemo(id) {
+    let demo;
+    try { demo = cache[id] || (cache[id] = await getJSON(`demos/${id}.json`)); }
+    catch { app.innerHTML = `<div class="error">This demo couldn't load. Go back to the library and try again.</div>`; return; }
+    try { history.replaceState(null, "", "#" + id); } catch {}
+    demo.steps.forEach(s => { const im = new Image(); im.src = s.image; });
+    let i = -1; // -1 = start cover, steps.length = finish cover
+    const n = demo.steps.length;
+
+    app.innerHTML = `<section class="player">
+      <div class="bar"><button class="back" type="button">← All demos</button><span class="foot">${esc(demo.school)}</span></div>
+      <div class="title-row"><h2>${esc(demo.title)}</h2></div>
+      <div class="stage-wrap">
+        <div class="stage" role="region" aria-label="Demo screen" style="aspect-ratio:${esc(demo.aspect || "16 / 10")}"></div>
+      </div>
+      <div class="controls">
+        <div class="dots">${demo.steps.map((_, k) => `<button class="dot" type="button" aria-label="Step ${k + 1}" data-k="${k}"></button>`).join("")}</div>
+        <div class="nav"><button class="btn prev" type="button">Back</button><button class="btn next" type="button">Next</button></div>
+      </div>
+    </section>`;
+    const player = app.querySelector(".player");
+    const stage = app.querySelector(".stage");
+    const wrap = app.querySelector(".stage-wrap");
+    const prev = app.querySelector(".prev"), next = app.querySelector(".next");
+    app.querySelector(".back").addEventListener("click", () => { try { history.replaceState(null, "", location.pathname); } catch {} showLibrary(); });
+    app.querySelectorAll(".dot").forEach(d => d.addEventListener("click", () => go(+d.dataset.k)));
+    prev.addEventListener("click", () => go(i - 1));
+    next.addEventListener("click", () => go(i + 1));
+
+    function nextDemoMeta() { return library.demos.find(d => d.id === demo.finish.next); }
+
+    function render() {
+      player.classList.toggle("narrow", wrap.clientWidth < 760);
+      wrap.querySelectorAll(".callout").forEach(c => c.remove());
+      app.querySelectorAll(".dot").forEach((d, k) => { d.className = "dot" + (k === i ? " on" : k < i ? " done" : ""); });
+      prev.disabled = i < 0; next.disabled = i >= n;
+      next.textContent = i < 0 ? "Start" : i === n - 1 ? "Finish" : "Next";
+
+      if (i < 0) {
+        stage.innerHTML = `<img src="${esc(demo.steps[0].image)}" alt="">
+          <div class="cover"><h3>${esc(demo.start.headline)}</h3><p>${esc(demo.start.body)}</p>
+          <div class="actions"><button class="btn primary start" type="button">Start the demo</button></div></div>`;
+        stage.querySelector(".start").addEventListener("click", () => go(0));
+        return;
+      }
+      if (i >= n) {
+        const nd = nextDemoMeta();
+        const nextBtn = nd ? (nd.status === "ready"
+          ? `<button class="btn primary nextdemo" type="button">Next: ${esc(nd.title)}</button>`
+          : `<span class="btn ghost" aria-disabled="true">Next: ${esc(nd.title)} (coming soon)</span>`) : "";
+        stage.innerHTML = `<img src="${esc(demo.steps[n - 1].image)}" alt="">
+          <div class="cover"><h3>${esc(demo.finish.headline)}</h3><p>${esc(demo.finish.body)}</p>
+          <div class="actions">${nextBtn}
+            <a class="btn ${nd && nd.status === "ready" ? "ghost" : "primary"}" href="${esc(library.contact.href)}" target="_blank" rel="noopener">${esc(library.contact.label)}</a>
+            <button class="btn ghost again" type="button">Watch again</button></div></div>`;
+        stage.querySelector(".again").addEventListener("click", () => go(0));
+        const nb = stage.querySelector(".nextdemo"); if (nb) nb.addEventListener("click", () => openDemo(nd.id));
+        return;
+      }
+      const s = demo.steps[i], h = s.hotspot;
+      stage.innerHTML = `<img src="${esc(s.image)}" alt="${esc(s.alt)}">
+        <button class="spot" type="button" aria-label="${esc(s.hint)}" style="left:${h.x}%;top:${h.y}%;width:${h.w}%;height:${h.h}%"></button>
+        ${s.illustration ? `<span class="tag">Illustration</span>` : ""}`;
+      stage.querySelector(".spot").addEventListener("click", () => go(i + 1));
+
+      const c = document.createElement("div");
+      c.className = "callout";
+      c.innerHTML = `<span class="count">Step ${i + 1} of ${n}</span><h3>${esc(s.title)}</h3><p>${esc(s.body)}</p><span class="hint">${esc(s.hint)}</span>`;
+      wrap.appendChild(c);
+      if (!player.classList.contains("narrow")) place(c, h);
+    }
+
+    function place(c, h) {
+      const W = stage.clientWidth, H = stage.clientHeight, cw = c.offsetWidth, ch = c.offsetHeight, gap = 18;
+      const sx = h.x / 100 * W, sy = h.y / 100 * H, sw = h.w / 100 * W, sh = h.h / 100 * H;
+      let left, top;
+      if (sx + sw + gap + cw <= W - 12) left = sx + sw + gap;          // right of the spotlight
+      else if (sx - gap - cw >= 12) left = sx - gap - cw;              // left of it
+      else { left = Math.min(Math.max(12, sx), W - cw - 12); top = sy + sh + gap <= H - ch - 12 ? sy + sh + gap : Math.max(12, sy - gap - ch); }
+      if (top === undefined) top = Math.min(Math.max(12, sy + sh / 2 - ch / 2), H - ch - 12);
+      c.style.left = left + "px"; c.style.top = top + "px";
+    }
+
+    function go(k) { i = Math.max(-1, Math.min(n, k)); render(); }
+    window.onresize = () => render();
+    window.onkeydown = e => {
+      if (!document.body.contains(stage)) return;
+      if (e.key === "ArrowRight") go(i + 1);
+      if (e.key === "ArrowLeft") go(i - 1);
+    };
+    render();
+  }
+
+  getJSON("demos/library.json").then(lib => {
+    library = lib;
+    talk.href = lib.contact.href; talk.textContent = lib.contact.label;
+    const want = (location.hash || "").slice(1);
+    const hit = lib.demos.find(d => d.id === want && d.status === "ready");
+    hit ? openDemo(hit.id) : showLibrary();
+  }).catch(() => {
+    app.innerHTML = `<div class="error">The demo library couldn't load. Refresh the page to try again.</div>`;
+  });
+})();
+</script>
+
+</body></html>

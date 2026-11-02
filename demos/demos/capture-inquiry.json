@@ -1,0 +1,87 @@
+{
+  "id": "capture-inquiry",
+  "title": "Capture an inquiry",
+  "school": "Banner Christian School",
+  "aspect": "1512 / 796",
+  "start": {
+    "headline": "A parent asks about your school at 9:47 PM.",
+    "body": "Your office closed hours ago. Here's what Banner Connect does next, without anyone on your staff lifting a finger."
+  },
+  "steps": [
+    {
+      "image": "screens/capture-inquiry/01.jpg",
+      "alt": "Banner Christian School's Request Info Packet form, filled in by Sarah Ramirez for 2nd grade",
+      "illustration": false,
+      "hotspot": {
+        "x": 34.18,
+        "y": 73.5,
+        "w": 31.59,
+        "h": 4.79
+      },
+      "title": "A parent reaches out after hours",
+      "body": "Sarah is on your website after her kids are in bed. She asks about 2nd grade for her son, Mateo, and how admissions works.",
+      "hint": "Click Request Info Packet"
+    },
+    {
+      "image": "screens/capture-inquiry/02.jpg",
+      "alt": "The first nurture email: subject line with the school's name and a thank-you note with a link to the info packet",
+      "illustration": false,
+      "hotspot": {
+        "x": 67.7,
+        "y": 14.11,
+        "w": 27.26,
+        "h": 58.77
+      },
+      "title": "Her info packet arrives right away",
+      "body": "The first email goes out the moment she submits. Your school's name and her first name fill in on their own, so it reads like it came from your office.",
+      "hint": "Click the email"
+    },
+    {
+      "image": "screens/capture-inquiry/03.jpg",
+      "alt": "The Inquiry to Enrollment pipeline with the Ramirez Family in the New Inquiry column",
+      "illustration": false,
+      "hotspot": {
+        "x": 22.42,
+        "y": 30.67,
+        "w": 16.92,
+        "h": 18.4
+      },
+      "title": "She lands in your enrollment pipeline",
+      "body": "Every family who reaches out shows up in New Inquiry, with where they found you and how long since anyone talked to them.",
+      "hint": "Click the Ramirez Family card"
+    },
+    {
+      "image": "screens/capture-inquiry/04.jpg",
+      "alt": "The dashboard task list with follow-up calls assigned to the admissions director",
+      "illustration": false,
+      "hotspot": {
+        "x": 20.24,
+        "y": 39.95,
+        "w": 78.77,
+        "h": 28.52
+      },
+      "title": "Your team knows who to call",
+      "body": "Follow-ups land on your admissions director's task list. Anything past due turns red, so no family slips through the cracks.",
+      "hint": "Click the task list"
+    },
+    {
+      "image": "screens/capture-inquiry/05.jpg",
+      "alt": "The Request Info Packet workflow: form trigger, create opportunity, add tag, then three emails with waits between them",
+      "illustration": false,
+      "hotspot": {
+        "x": 46.26,
+        "y": 17.18,
+        "w": 10.34,
+        "h": 68.71
+      },
+      "title": "One workflow does all of it",
+      "body": "Behind the scenes, one automation creates the pipeline card, tags the family, and sends three emails over ten days. Banner 61 sets it up for you.",
+      "hint": "Click the workflow to finish"
+    }
+  ],
+  "finish": {
+    "headline": "One inquiry, handled while your office was closed.",
+    "body": "Every family hears back right away, and your team always knows the next step.",
+    "next": "nurture-sequence"
+  }
+}

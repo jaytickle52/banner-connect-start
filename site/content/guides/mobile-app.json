@@ -1,0 +1,21 @@
+{
+  "title": "Install the mobile app",
+  "summary": "The mobile app lets you answer families and see new inquiries from your phone.",
+  "minutes": 5,
+  "steps": [
+    {
+      "title": "Download the app",
+      "body": "Search for LeadConnector in the App Store or Google Play and install it."
+    },
+    {
+      "title": "Sign in",
+      "body": "Use the same email and password you use for Banner Connect. If you have more than one account, choose your school."
+    },
+    {
+      "title": "Turn on notifications",
+      "body": "Allow notifications when the app asks, so you hear about new messages and inquiries right away."
+    }
+  ],
+  "check": "Open Conversations in the app and reply to a message. The reply should show up on your computer too.",
+  "next": null
+}

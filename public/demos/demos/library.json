@@ -1,0 +1,109 @@
+{
+  "title": "See Banner Connect in action",
+  "intro": "Short, clickable walkthroughs of a real school account. Each one follows a family through Banner Christian School and takes about a minute.",
+  "contact": {
+    "label": "Talk to Banner 61",
+    "href": "https://banner61.com"
+  },
+  "demos": [
+    {
+      "id": "capture-inquiry",
+      "job": "Get more inquiries",
+      "title": "Capture an inquiry",
+      "summary": "A parent fills out your website form. Watch what happens next.",
+      "minutes": 1,
+      "status": "ready",
+      "plan": null
+    },
+    {
+      "id": "nurture-sequence",
+      "job": "Follow up automatically",
+      "title": "The nurture sequence",
+      "summary": "Ten days of thoughtful emails to every new family, without anyone hitting send.",
+      "minutes": 1,
+      "status": "ready",
+      "plan": null
+    },
+    {
+      "id": "tour-scheduling",
+      "job": "Book visits",
+      "title": "Tour scheduling",
+      "summary": "A parent books a visit online, gets reminders, and a no-show gets a reschedule email.",
+      "minutes": 1,
+      "status": "ready",
+      "plan": null
+    },
+    {
+      "id": "admissions-pipeline",
+      "job": "Track every family",
+      "title": "The admissions pipeline",
+      "summary": "Every family from first inquiry to enrolled, on one screen.",
+      "minutes": 1,
+      "status": "ready",
+      "plan": null
+    },
+    {
+      "id": "cold-revival",
+      "job": "Re-engage quiet families",
+      "title": "Win back quiet families",
+      "summary": "Families who stopped responding get a short, personal check-in series.",
+      "minutes": 1,
+      "status": "ready",
+      "plan": null
+    },
+    {
+      "id": "reporting",
+      "job": "Know what's working",
+      "title": "Reporting",
+      "summary": "Your enrollment funnel and tuition in the pipeline, always up to date.",
+      "minutes": 1,
+      "status": "ready",
+      "plan": null
+    },
+    {
+      "id": "one-inbox",
+      "job": "Answer faster",
+      "title": "One inbox",
+      "summary": "Reply to Facebook messages, texts and emails from one screen or the mobile app.",
+      "minutes": 1,
+      "status": "coming-soon",
+      "plan": null
+    },
+    {
+      "id": "open-house",
+      "job": "Fill events",
+      "title": "Open house registration",
+      "summary": "Registration page, confirmations, reminders and an attendee list.",
+      "minutes": 1,
+      "status": "coming-soon",
+      "plan": null
+    },
+    {
+      "id": "family-newsletter",
+      "job": "Keep families close",
+      "title": "Family newsletter",
+      "summary": "Send a broadcast email to current families.",
+      "minutes": 1,
+      "status": "coming-soon",
+      "plan": null
+    },
+    {
+      "id": "video-testimonials",
+      "job": "Share family stories",
+      "title": "Video testimonials",
+      "summary": "Collect short videos from happy parents and show them on your website.",
+      "minutes": 1,
+      "status": "coming-soon",
+      "plan": null
+    },
+    {
+      "id": "social-planner",
+      "job": "Stay visible",
+      "title": "Social media planner",
+      "summary": "Schedule a week of posts across your channels in one sitting.",
+      "minutes": 1,
+      "status": "coming-soon",
+      "plan": null
+    }
+  ]
+}

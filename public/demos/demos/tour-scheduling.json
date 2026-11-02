@@ -1,0 +1,87 @@
+{
+  "id": "tour-scheduling",
+  "title": "Tour scheduling",
+  "school": "Banner Christian School",
+  "aspect": "1512 / 796",
+  "start": {
+    "headline": "The visit is where families decide.",
+    "body": "Here's how a parent books a campus visit on their own, and how Banner Connect makes sure they actually show up."
+  },
+  "steps": [
+    {
+      "image": "screens/tour-scheduling/01.jpg",
+      "alt": "The Schedule a Visit booking page with November dates available",
+      "illustration": false,
+      "hotspot": {
+        "x": 41.01,
+        "y": 32.66,
+        "w": 22.16,
+        "h": 30.78
+      },
+      "title": "Parents pick a day that works",
+      "body": "Your booking page shows only the times you're available. No back-and-forth emails to find a slot.",
+      "hint": "Click the calendar"
+    },
+    {
+      "image": "screens/tour-scheduling/02.jpg",
+      "alt": "The booking page with 10:00 AM on Thursday, November 5 selected",
+      "illustration": false,
+      "hotspot": {
+        "x": 72.95,
+        "y": 37.19,
+        "w": 6.22,
+        "h": 5.65
+      },
+      "title": "Then a time",
+      "body": "Sarah picks 10:00 AM on Thursday. The visit is blocked on your calendar the moment she confirms.",
+      "hint": "Click Select"
+    },
+    {
+      "image": "screens/tour-scheduling/03.jpg",
+      "alt": "The booking details form filled in by Sarah Ramirez with a note about her son starting 2nd grade",
+      "illustration": false,
+      "hotspot": {
+        "x": 71.3,
+        "y": 79.02,
+        "w": 8.86,
+        "h": 4.65
+      },
+      "title": "A few details and she's booked",
+      "body": "She adds a note for your team. It goes straight onto her record, so whoever gives the tour knows what to expect.",
+      "hint": "Click Schedule meeting"
+    },
+    {
+      "image": "screens/tour-scheduling/04.jpg",
+      "alt": "The Request a Visit workflow: confirmation email, then reminders 24 hours and 1 hour before the visit",
+      "illustration": false,
+      "hotspot": {
+        "x": 47.09,
+        "y": 13.19,
+        "w": 8.8,
+        "h": 53.39
+      },
+      "title": "Reminders go out on their own",
+      "body": "A confirmation right away, a reminder the day before, and another an hour before. Fewer families forget.",
+      "hint": "Click the reminders"
+    },
+    {
+      "image": "screens/tour-scheduling/05.jpg",
+      "alt": "The workflow branches for visit attended, no-show with reschedule email, and not a fit",
+      "illustration": false,
+      "hotspot": {
+        "x": 34.92,
+        "y": 66.08,
+        "w": 33.2,
+        "h": 5.28
+      },
+      "title": "After the visit, one click from your team",
+      "body": "Your staff marks how it went. Attended moves the family forward. A no-show gets a friendly reschedule email automatically.",
+      "hint": "Click the outcomes to finish"
+    }
+  ],
+  "finish": {
+    "headline": "Booked, reminded and followed up, all without a phone call.",
+    "body": "Your team spends its time on the visit itself, not on scheduling it.",
+    "next": "admissions-pipeline"
+  }
+}
