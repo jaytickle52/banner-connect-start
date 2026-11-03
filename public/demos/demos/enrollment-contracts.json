@@ -1,0 +1,59 @@
+{
+  "id": "enrollment-contracts",
+  "title": "Enrollment contracts",
+  "school": "Banner Christian School",
+  "aspect": "1512 / 796",
+  "start": {
+    "headline": "Enrollment, signed without a stack of paper.",
+    "body": "Here's how your enrollment agreement goes out, gets signed and comes back, all online."
+  },
+  "steps": [
+    {
+      "image": "screens/enrollment-contracts/01.jpg",
+      "alt": "Document templates with the Enrollment Agreement",
+      "illustration": false,
+      "hotspot": {
+        "x": 23.39,
+        "y": 33.87,
+        "w": 71.31,
+        "h": 7.61
+      },
+      "title": "Your agreement, ready to send",
+      "body": "Your enrollment agreement is saved as a template. Send it to any family in a few clicks, from their record or from an automation.",
+      "hint": "Click the Enrollment Agreement"
+    },
+    {
+      "image": "screens/enrollment-contracts/02.jpg",
+      "alt": "The Enrollment Agreement signed by Elena Ramirez",
+      "illustration": false,
+      "hotspot": {
+        "x": 29.46,
+        "y": 50.92,
+        "w": 31.65,
+        "h": 11.04
+      },
+      "title": "Parents sign from any device",
+      "body": "The Ramirez family opened the link on their phone, signed and dated it. No printer, no scanner, no trip to the front office.",
+      "hint": "Click the signature"
+    },
+    {
+      "image": "screens/enrollment-contracts/03.jpg",
+      "alt": "The Completed tab with the signed Enrollment Agreement",
+      "illustration": false,
+      "hotspot": {
+        "x": 23.39,
+        "y": 35.34,
+        "w": 71.31,
+        "h": 7.61
+      },
+      "title": "You know the moment it's signed",
+      "body": "Signed agreements move to Completed, and the signed copy stays on the family's record.",
+      "hint": "Click the completed agreement"
+    }
+  ],
+  "finish": {
+    "headline": "Signed, dated and filed on the family's record.",
+    "body": "No printing, scanning or chasing signatures. You know the moment a family commits.",
+    "next": "family-newsletter"
+  }
+}

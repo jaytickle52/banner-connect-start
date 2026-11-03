@@ -88,6 +88,15 @@
       "plan": null
     },
     {
+      "id": "enrollment-contracts",
+      "job": "Close enrollment",
+      "title": "Enrollment contracts",
+      "summary": "Send your enrollment agreement and get it signed online.",
+      "minutes": 1,
+      "status": "ready",
+      "plan": null
+    },
+    {
       "id": "family-newsletter",
       "job": "Keep families close",
       "title": "Family newsletter",

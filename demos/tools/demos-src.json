@@ -1271,6 +1271,63 @@
           "alt": "Contact details for the Johnson family beside the conversation"
         }
       ]
+    },
+    {
+      "id": "enrollment-contracts",
+      "title": "Enrollment contracts",
+      "start": {
+        "headline": "Enrollment, signed without a stack of paper.",
+        "body": "Here's how your enrollment agreement goes out, gets signed and comes back, all online."
+      },
+      "finish": {
+        "headline": "Signed, dated and filed on the family's record.",
+        "body": "No printing, scanning or chasing signatures. You know the moment a family commits.",
+        "next": "family-newsletter"
+      },
+      "steps": [
+        {
+          "raw": "contract-templates.jpg",
+          "edits": [],
+          "hotspot": [
+            316,
+            276,
+            1420,
+            338
+          ],
+          "title": "Your agreement, ready to send",
+          "body": "Your enrollment agreement is saved as a template. Send it to any family in a few clicks, from their record or from an automation.",
+          "hint": "Click the Enrollment Agreement",
+          "alt": "Document templates with the Enrollment Agreement"
+        },
+        {
+          "raw": "contract-signed.jpg",
+          "edits": [],
+          "hotspot": [
+            410,
+            415,
+            900,
+            505
+          ],
+          "title": "Parents sign from any device",
+          "body": "The Ramirez family opened the link on their phone, signed and dated it. No printer, no scanner, no trip to the front office.",
+          "hint": "Click the signature",
+          "alt": "The Enrollment Agreement signed by Elena Ramirez"
+        },
+        {
+          "raw": "contract-completed.jpg",
+          "edits": [],
+          "hotspot": [
+            316,
+            288,
+            1420,
+            350
+          ],
+          "title": "You know the moment it's signed",
+          "body": "Signed agreements move to Completed, and the signed copy stays on the family's record.",
+          "hint": "Click the completed agreement",
+          "alt": "The Completed tab with the signed Enrollment Agreement"
+        }
+      ]
     }
   ]
 }
