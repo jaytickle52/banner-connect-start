@@ -1,0 +1,59 @@
+{
+  "id": "open-house",
+  "title": "Open house registration",
+  "school": "Banner Christian School",
+  "aspect": "1512 / 796",
+  "start": {
+    "headline": "Fill your open house without a spreadsheet.",
+    "body": "Here's how a family signs up for an event, and what your team sees afterward."
+  },
+  "steps": [
+    {
+      "image": "screens/open-house/01.jpg",
+      "alt": "The Winter Open House registration page for Thursday, December 3",
+      "illustration": false,
+      "hotspot": {
+        "x": 53.75,
+        "y": 20.37,
+        "w": 24.03,
+        "h": 9.57
+      },
+      "title": "Families pick the open house",
+      "body": "Share one link on your website, in an email or on social media. Families see the date and time and choose it.",
+      "hint": "Click the date and time"
+    },
+    {
+      "image": "screens/open-house/02.jpg",
+      "alt": "The open house registration form filled in by the Ramirez family",
+      "illustration": false,
+      "hotspot": {
+        "x": 69.96,
+        "y": 74.36,
+        "w": 8.4,
+        "h": 4.42
+      },
+      "title": "A few details and they're in",
+      "body": "You learn who's coming, their children's names and grades, and how many to expect.",
+      "hint": "Click Schedule meeting"
+    },
+    {
+      "image": "screens/open-house/03.jpg",
+      "alt": "The appointment list with open house registrations",
+      "illustration": false,
+      "hotspot": {
+        "x": 22.48,
+        "y": 68.22,
+        "w": 73.12,
+        "h": 30.92
+      },
+      "title": "Everyone who's coming",
+      "body": "Each family who registers shows up here, ready for name tags and a follow-up the next morning.",
+      "hint": "Click the registrations"
+    }
+  ],
+  "finish": {
+    "headline": "Registered, confirmed and on your list.",
+    "body": "Families sign up on their own and get a reminder before the night. You know exactly who's coming.",
+    "next": "family-newsletter"
+  }
+}

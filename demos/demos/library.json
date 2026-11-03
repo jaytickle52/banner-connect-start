@@ -61,6 +61,15 @@
       "plan": null
     },
     {
+      "id": "calendar-view",
+      "job": "See your week",
+      "title": "Calendar view",
+      "summary": "Every visit and tour your families booked, on one calendar.",
+      "minutes": 1,
+      "status": "ready",
+      "plan": null
+    },
+    {
       "id": "one-inbox",
       "job": "Answer faster",
       "title": "One inbox",
@@ -75,7 +84,7 @@
       "title": "Open house registration",
       "summary": "Registration page, confirmations, reminders and an attendee list.",
       "minutes": 1,
-      "status": "coming-soon",
+      "status": "ready",
       "plan": null
     },
     {
@@ -84,7 +93,7 @@
       "title": "Family newsletter",
       "summary": "Send a broadcast email to current families.",
       "minutes": 1,
-      "status": "coming-soon",
+      "status": "ready",
       "plan": null
     },
     {

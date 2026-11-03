@@ -1,0 +1,59 @@
+{
+  "id": "family-newsletter",
+  "title": "Family newsletter",
+  "school": "Banner Christian School",
+  "aspect": "1512 / 796",
+  "start": {
+    "headline": "Keep current families in the loop.",
+    "body": "Here's how your monthly update goes out to enrolled families, and only to them."
+  },
+  "steps": [
+    {
+      "image": "screens/family-newsletter/01.jpg",
+      "alt": "Email templates with the Family Newsletter first",
+      "illustration": false,
+      "hotspot": {
+        "x": 22.87,
+        "y": 25.77,
+        "w": 13.69,
+        "h": 41.72
+      },
+      "title": "Start from your school's newsletter",
+      "body": "Your branded newsletter is saved as a template, so each month starts from what you sent last time.",
+      "hint": "Click the Family Newsletter"
+    },
+    {
+      "image": "screens/family-newsletter/02.jpg",
+      "alt": "The November family newsletter",
+      "illustration": false,
+      "hotspot": {
+        "x": 33.21,
+        "y": 2.45,
+        "w": 33.59,
+        "h": 91.04
+      },
+      "title": "Dates, events and one clear ask",
+      "body": "Each family's name fills in on its own. The button takes them straight to conference sign-ups.",
+      "hint": "Click the newsletter"
+    },
+    {
+      "image": "screens/family-newsletter/03.jpg",
+      "alt": "The Current Families list with four enrolled families",
+      "illustration": false,
+      "hotspot": {
+        "x": 23.39,
+        "y": 20.86,
+        "w": 71.31,
+        "h": 20.12
+      },
+      "title": "Only enrolled families get it",
+      "body": "A saved list pulls every family in the Enrolled stage, so prospective families never see an internal update.",
+      "hint": "Click the Current Families list"
+    }
+  ],
+  "finish": {
+    "headline": "Written once, sent to the right families.",
+    "body": "Pick a send time and it goes out on its own. Next month, copy it and change the dates.",
+    "next": "capture-inquiry"
+  }
+}

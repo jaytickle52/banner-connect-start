@@ -691,6 +691,307 @@
         "body": "No more pulling reports together the night before a board meeting.",
         "next": "capture-inquiry"
       }
+    },
+    {
+      "id": "calendar-view",
+      "title": "Calendar view",
+      "start": {
+        "headline": "Know who's coming in this week.",
+        "body": "Every visit, tour and assessment lands on one calendar, booked by families themselves."
+      },
+      "finish": {
+        "headline": "Your week, already on the calendar.",
+        "body": "Families book online, and your team walks in knowing who's coming and why.",
+        "next": "open-house"
+      },
+      "steps": [
+        {
+          "raw": "cal-week.jpg",
+          "edits": [],
+          "hotspot": [
+            822,
+            274,
+            975,
+            336
+          ],
+          "title": "Every visit this week, in one place",
+          "body": "Campus visits booked online show up here on their own, next to anything already on your calendar.",
+          "hint": "Click the Johnson Family visit",
+          "alt": "A week calendar with six campus visits"
+        },
+        {
+          "raw": "cal-detail.jpg",
+          "edits": [
+            {
+              "type": "fill",
+              "box": [
+                1066,
+                424,
+                1405,
+                446
+              ],
+              "color": "#ffffff"
+            },
+            {
+              "type": "text",
+              "at": [
+                1069,
+                426
+              ],
+              "text": "1 Any Street, Greenville, SC 29601",
+              "size": 13,
+              "weight": "Regular",
+              "color": "#1d2433"
+            }
+          ],
+          "hotspot": [
+            1030,
+            150,
+            1405,
+            500
+          ],
+          "title": "One click shows who's coming",
+          "body": "The family's name, phone and email, the time and the place. Their full record is a click away.",
+          "hint": "Click the visit details",
+          "alt": "Visit details for the Johnson Family"
+        },
+        {
+          "raw": "appt-list.jpg",
+          "edits": [],
+          "hotspot": [
+            302,
+            240,
+            1434,
+            556
+          ],
+          "title": "Every booking in one list",
+          "body": "Search and filter every visit and event. Mark who showed up, and the follow-up starts from there.",
+          "hint": "Click the list",
+          "alt": "The appointment list with upcoming campus visits"
+        }
+      ]
+    },
+    {
+      "id": "open-house",
+      "title": "Open house registration",
+      "start": {
+        "headline": "Fill your open house without a spreadsheet.",
+        "body": "Here's how a family signs up for an event, and what your team sees afterward."
+      },
+      "finish": {
+        "headline": "Registered, confirmed and on your list.",
+        "body": "Families sign up on their own and get a reminder before the night. You know exactly who's coming.",
+        "next": "family-newsletter"
+      },
+      "steps": [
+        {
+          "raw": "oh-date.jpg",
+          "edits": [
+            {
+              "type": "fill",
+              "box": [
+                286,
+                98,
+                565,
+                128
+              ],
+              "color": "#ffffff"
+            },
+            {
+              "type": "text",
+              "at": [
+                288,
+                100
+              ],
+              "text": "Winter Open House",
+              "size": 20,
+              "weight": "Medium",
+              "color": "#1d2433"
+            }
+          ],
+          "hotspot": [
+            786,
+            166,
+            1158,
+            244
+          ],
+          "title": "Families pick the open house",
+          "body": "Share one link on your website, in an email or on social media. Families see the date and time and choose it.",
+          "hint": "Click the date and time",
+          "alt": "The Winter Open House registration page for Thursday, December 3"
+        },
+        {
+          "raw": "oh-details.jpg",
+          "edits": [
+            {
+              "type": "fill",
+              "box": [
+                286,
+                133,
+                565,
+                163
+              ],
+              "color": "#ffffff"
+            },
+            {
+              "type": "text",
+              "at": [
+                288,
+                135
+              ],
+              "text": "Winter Open House",
+              "size": 20,
+              "weight": "Medium",
+              "color": "#1d2433"
+            },
+            {
+              "type": "fill",
+              "box": [
+                1092,
+                262,
+                1122,
+                284
+              ],
+              "color": "#ffffff"
+            }
+          ],
+          "hotspot": [
+            1037,
+            606,
+            1167,
+            642
+          ],
+          "title": "A few details and they're in",
+          "body": "You learn who's coming, their children's names and grades, and how many to expect.",
+          "hint": "Click Schedule meeting",
+          "alt": "The open house registration form filled in by the Ramirez family"
+        },
+        {
+          "raw": "appt-list.jpg",
+          "edits": [],
+          "hotspot": [
+            302,
+            556,
+            1434,
+            808
+          ],
+          "title": "Everyone who's coming",
+          "body": "Each family who registers shows up here, ready for name tags and a follow-up the next morning.",
+          "hint": "Click the registrations",
+          "alt": "The appointment list with open house registrations"
+        }
+      ]
+    },
+    {
+      "id": "family-newsletter",
+      "title": "Family newsletter",
+      "start": {
+        "headline": "Keep current families in the loop.",
+        "body": "Here's how your monthly update goes out to enrolled families, and only to them."
+      },
+      "finish": {
+        "headline": "Written once, sent to the right families.",
+        "body": "Pick a send time and it goes out on its own. Next month, copy it and change the dates.",
+        "next": "capture-inquiry"
+      },
+      "steps": [
+        {
+          "raw": "email-templates.jpg",
+          "edits": [],
+          "hotspot": [
+            308,
+            210,
+            520,
+            550
+          ],
+          "title": "Start from your school's newsletter",
+          "body": "Your branded newsletter is saved as a template, so each month starts from what you sent last time.",
+          "hint": "Click the Family Newsletter",
+          "alt": "Email templates with the Family Newsletter first"
+        },
+        {
+          "raw": "nl-preview.jpg",
+          "edits": [
+            {
+              "type": "fill",
+              "box": [
+                492,
+                120,
+                720,
+                142
+              ],
+              "color": "#ffffff"
+            },
+            {
+              "type": "text",
+              "at": [
+                493,
+                121
+              ],
+              "text": "Hi Melissa,",
+              "size": 15,
+              "weight": "Regular",
+              "color": "#1f2933"
+            },
+            {
+              "type": "fill",
+              "box": [
+                490,
+                772,
+                900,
+                792
+              ],
+              "color": "#f4f4f2"
+            },
+            {
+              "type": "text",
+              "at": [
+                493,
+                775
+              ],
+              "text": "Banner Christian School \u00b7 1 Any Street, Greenville, SC 29601",
+              "size": 11,
+              "weight": "Regular",
+              "color": "#6b7280"
+            }
+          ],
+          "hotspot": [
+            468,
+            20,
+            988,
+            762
+          ],
+          "title": "Dates, events and one clear ask",
+          "body": "Each family's name fills in on its own. The button takes them straight to conference sign-ups.",
+          "hint": "Click the newsletter",
+          "alt": "The November family newsletter"
+        },
+        {
+          "raw": "nl-list.jpg",
+          "edits": [
+            {
+              "type": "fill",
+              "box": [
+                1266,
+                208,
+                1416,
+                334
+              ],
+              "color": "#ffffff"
+            }
+          ],
+          "hotspot": [
+            316,
+            170,
+            1420,
+            334
+          ],
+          "title": "Only enrolled families get it",
+          "body": "A saved list pulls every family in the Enrolled stage, so prospective families never see an internal update.",
+          "hint": "Click the Current Families list",
+          "alt": "The Current Families list with four enrolled families"
+        }
+      ]
     }
   ]
 }

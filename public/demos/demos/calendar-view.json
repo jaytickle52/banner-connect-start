@@ -1,0 +1,59 @@
+{
+  "id": "calendar-view",
+  "title": "Calendar view",
+  "school": "Banner Christian School",
+  "aspect": "1512 / 796",
+  "start": {
+    "headline": "Know who's coming in this week.",
+    "body": "Every visit, tour and assessment lands on one calendar, booked by families themselves."
+  },
+  "steps": [
+    {
+      "image": "screens/calendar-view/01.jpg",
+      "alt": "A week calendar with six campus visits",
+      "illustration": false,
+      "hotspot": {
+        "x": 56.07,
+        "y": 33.62,
+        "w": 9.88,
+        "h": 7.61
+      },
+      "title": "Every visit this week, in one place",
+      "body": "Campus visits booked online show up here on their own, next to anything already on your calendar.",
+      "hint": "Click the Johnson Family visit"
+    },
+    {
+      "image": "screens/calendar-view/02.jpg",
+      "alt": "Visit details for the Johnson Family",
+      "illustration": false,
+      "hotspot": {
+        "x": 69.51,
+        "y": 18.4,
+        "w": 24.22,
+        "h": 42.94
+      },
+      "title": "One click shows who's coming",
+      "body": "The family's name, phone and email, the time and the place. Their full record is a click away.",
+      "hint": "Click the visit details"
+    },
+    {
+      "image": "screens/calendar-view/03.jpg",
+      "alt": "The appointment list with upcoming campus visits",
+      "illustration": false,
+      "hotspot": {
+        "x": 22.48,
+        "y": 29.45,
+        "w": 73.12,
+        "h": 38.77
+      },
+      "title": "Every booking in one list",
+      "body": "Search and filter every visit and event. Mark who showed up, and the follow-up starts from there.",
+      "hint": "Click the list"
+    }
+  ],
+  "finish": {
+    "headline": "Your week, already on the calendar.",
+    "body": "Families book online, and your team walks in knowing who's coming and why.",
+    "next": "open-house"
+  }
+}
