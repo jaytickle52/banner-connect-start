@@ -61,7 +61,7 @@ p{margin:0}
 .head p{color:var(--muted);max-width:68ch;margin-top:4px}
 .brand{display:inline-flex;align-items:center;gap:8px;color:var(--subtle);font-size:12px;font-weight:500;white-space:nowrap}
 .brand b{color:var(--text);font-weight:600}
-.flag{width:8px;height:14px;background:var(--b61);clip-path:polygon(0 0,100% 0,100% 100%,50% 75%,0 100%);display:inline-block}
+.flag{width:18px;height:18px;display:inline-block;flex:none}
 .card{background:var(--surface);border:1px solid var(--border);border-radius:12px;box-shadow:0 1px 2px rgba(16,24,40,.05)}
 .card-head{padding:16px 20px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
 .card-head p{color:var(--muted);font-size:13px}
@@ -130,7 +130,7 @@ def page(title, body, desc="", css_href="/assets/app.css"):
 
 
 def footer(support):
-    return (f'<footer class="foot"><span class="brand"><span class="flag"></span><b>Banner Connect</b> by Banner 61</span>'
+    return (f'<footer class="foot"><span class="brand"><img class="flag" src="/assets/banner61-mark.png" alt="" width="18" height="18"><b>Banner Connect</b> by Banner 61</span>'
             f'<a href="{e(support["href"])}" target="_blank" rel="noopener">{e(support["label"])}</a></footer>')
 
 
@@ -159,7 +159,7 @@ def build_index(gs, guides, demo_ids):
     n = len(gs["start"])
     body = f"""<main class="page">
 <header class="head"><div><h1>{e(gs["title"])}</h1><p>{e(gs["intro"])}</p></div>
-<span class="brand"><span class="flag"></span><b>Banner Connect</b> by Banner 61</span></header>
+<span class="brand"><img class="flag" src="/assets/banner61-mark.png" alt="" width="18" height="18"><b>Banner Connect</b> by Banner 61</span></header>
 <section class="card" aria-labelledby="start-h"><div class="card-head"><div><h2 id="start-h">Start here</h2><p>Four steps for your first week.</p></div>
 <div class="progress"><span id="count">0 of {n} done</span><span class="bar"><i id="fill" style="width:0%"></i></span></div></div>
 <ol class="steps">{"".join(start_rows)}</ol></section>
@@ -222,6 +222,8 @@ def main():
     if gs.get("demosUrl", "demos/") == "demos/":
         copy_demos(os.path.join(DIST, "demos"))
     os.makedirs(os.path.join(DIST, "assets"))
+    for f in os.listdir(os.path.join(ROOT, "static")):
+        shutil.copy(os.path.join(ROOT, "static", f), os.path.join(DIST, "assets", f))
     open(os.path.join(DIST, "assets", "app.css"), "w").write(" ".join(l.strip() for l in CSS.strip().splitlines()))
     open(os.path.join(DIST, "index.html"), "w").write(build_index(gs, guides, demo_ids))
     for slug, g in guides.items():

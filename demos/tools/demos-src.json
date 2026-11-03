@@ -992,6 +992,285 @@
           "alt": "The Current Families list with four enrolled families"
         }
       ]
+    },
+    {
+      "id": "one-inbox",
+      "title": "One inbox",
+      "start": {
+        "headline": "Families reach out wherever they are.",
+        "body": "A text, an email, a Facebook message. Here's how your team answers all of them from one place."
+      },
+      "finish": {
+        "headline": "Every message, one inbox, nothing missed.",
+        "body": "Your team answers faster because nobody has to check four places. The mobile app puts the same inbox on your phone.",
+        "next": "tour-scheduling"
+      },
+      "steps": [
+        {
+          "raw": "inbox-list.jpg",
+          "edits": [
+            {
+              "type": "fill",
+              "box": [
+                347,
+                422,
+                594,
+                500
+              ],
+              "color": "#ffffff"
+            },
+            {
+              "type": "fill",
+              "box": [
+                1362,
+                521,
+                1388,
+                543
+              ],
+              "color": "#ffffff"
+            },
+            {
+              "type": "fill",
+              "box": [
+                1178,
+                542,
+                1394,
+                579
+              ],
+              "color": "#ffffff"
+            }
+          ],
+          "hotspot": [
+            347,
+            190,
+            594,
+            420
+          ],
+          "title": "Email, texts and Facebook in one list",
+          "body": "An email from the Lynch family, a Facebook message from the Santos family and a text from the Johnsons, all waiting in the same inbox.",
+          "hint": "Click the conversations",
+          "alt": "The team inbox with an email, a Facebook message and a text from three families"
+        },
+        {
+          "raw": "inbox-reply.jpg",
+          "edits": [
+            {
+              "type": "fill",
+              "box": [
+                347,
+                422,
+                594,
+                500
+              ],
+              "color": "#ffffff"
+            },
+            {
+              "type": "fill",
+              "box": [
+                668,
+                580,
+                820,
+                600
+              ],
+              "color": "#ffffff"
+            },
+            {
+              "type": "text",
+              "at": [
+                672,
+                583
+              ],
+              "text": "admissions@bcs.org",
+              "size": 12,
+              "weight": "Regular",
+              "color": "#1d2433"
+            },
+            {
+              "type": "fill",
+              "box": [
+                908,
+                580,
+                992,
+                600
+              ],
+              "color": "#ffffff"
+            },
+            {
+              "type": "text",
+              "at": [
+                914,
+                583
+              ],
+              "text": "Admissions",
+              "size": 12,
+              "weight": "Regular",
+              "color": "#1d2433"
+            },
+            {
+              "type": "fill",
+              "box": [
+                1362,
+                502,
+                1388,
+                524
+              ],
+              "color": "#ffffff"
+            },
+            {
+              "type": "fill",
+              "box": [
+                1178,
+                523,
+                1394,
+                560
+              ],
+              "color": "#ffffff"
+            }
+          ],
+          "hotspot": [
+            623,
+            430,
+            1130,
+            800
+          ],
+          "title": "Reply from the same screen",
+          "body": "Kayla asked about tuition before her visit. Your reply goes out from the school's address, and it stays on her record.",
+          "hint": "Click the reply box",
+          "alt": "Replying to the Lynch family's tuition question by email"
+        },
+        {
+          "raw": "inbox-snippets.jpg",
+          "edits": [
+            {
+              "type": "fill",
+              "box": [
+                347,
+                422,
+                594,
+                500
+              ],
+              "color": "#ffffff"
+            },
+            {
+              "type": "fill",
+              "box": [
+                668,
+                580,
+                820,
+                600
+              ],
+              "color": "#ffffff"
+            },
+            {
+              "type": "text",
+              "at": [
+                672,
+                583
+              ],
+              "text": "admissions@bcs.org",
+              "size": 12,
+              "weight": "Regular",
+              "color": "#1d2433"
+            },
+            {
+              "type": "fill",
+              "box": [
+                908,
+                580,
+                992,
+                600
+              ],
+              "color": "#ffffff"
+            },
+            {
+              "type": "text",
+              "at": [
+                914,
+                583
+              ],
+              "text": "Admissions",
+              "size": 12,
+              "weight": "Regular",
+              "color": "#1d2433"
+            },
+            {
+              "type": "fill",
+              "box": [
+                1362,
+                502,
+                1388,
+                524
+              ],
+              "color": "#ffffff"
+            },
+            {
+              "type": "fill",
+              "box": [
+                1178,
+                523,
+                1394,
+                560
+              ],
+              "color": "#ffffff"
+            }
+          ],
+          "hotspot": [
+            750,
+            722,
+            1272,
+            762
+          ],
+          "title": "Saved replies for the questions you get every week",
+          "body": "Tuition, uniforms, tour times. Write the answer once as a snippet and drop it in with two clicks. The family's name fills in on its own.",
+          "hint": "Click the snippet",
+          "alt": "The snippet picker open in the reply box"
+        },
+        {
+          "raw": "inbox-list.jpg",
+          "edits": [
+            {
+              "type": "fill",
+              "box": [
+                347,
+                422,
+                594,
+                500
+              ],
+              "color": "#ffffff"
+            },
+            {
+              "type": "fill",
+              "box": [
+                1362,
+                521,
+                1388,
+                543
+              ],
+              "color": "#ffffff"
+            },
+            {
+              "type": "fill",
+              "box": [
+                1178,
+                542,
+                1394,
+                579
+              ],
+              "color": "#ffffff"
+            }
+          ],
+          "hotspot": [
+            1166,
+            90,
+            1396,
+            800
+          ],
+          "title": "The whole family on one screen",
+          "body": "Tags, contact details and where they found you sit beside the conversation, so whoever answers next knows the whole story.",
+          "hint": "Click the contact details",
+          "alt": "Contact details for the Johnson family beside the conversation"
+        }
+      ]
     }
   ]
 }

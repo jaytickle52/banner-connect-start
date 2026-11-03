@@ -1,0 +1,73 @@
+{
+  "id": "one-inbox",
+  "title": "One inbox",
+  "school": "Banner Christian School",
+  "aspect": "1512 / 796",
+  "start": {
+    "headline": "Families reach out wherever they are.",
+    "body": "A text, an email, a Facebook message. Here's how your team answers all of them from one place."
+  },
+  "steps": [
+    {
+      "image": "screens/one-inbox/01.jpg",
+      "alt": "The team inbox with an email, a Facebook message and a text from three families",
+      "illustration": false,
+      "hotspot": {
+        "x": 25.39,
+        "y": 23.31,
+        "w": 15.96,
+        "h": 28.22
+      },
+      "title": "Email, texts and Facebook in one list",
+      "body": "An email from the Lynch family, a Facebook message from the Santos family and a text from the Johnsons, all waiting in the same inbox.",
+      "hint": "Click the conversations"
+    },
+    {
+      "image": "screens/one-inbox/02.jpg",
+      "alt": "Replying to the Lynch family's tuition question by email",
+      "illustration": false,
+      "hotspot": {
+        "x": 43.22,
+        "y": 52.76,
+        "w": 32.75,
+        "h": 45.4
+      },
+      "title": "Reply from the same screen",
+      "body": "Kayla asked about tuition before her visit. Your reply goes out from the school's address, and it stays on her record.",
+      "hint": "Click the reply box"
+    },
+    {
+      "image": "screens/one-inbox/03.jpg",
+      "alt": "The snippet picker open in the reply box",
+      "illustration": false,
+      "hotspot": {
+        "x": 51.42,
+        "y": 88.59,
+        "w": 33.72,
+        "h": 4.91
+      },
+      "title": "Saved replies for the questions you get every week",
+      "body": "Tuition, uniforms, tour times. Write the answer once as a snippet and drop it in with two clicks. The family's name fills in on its own.",
+      "hint": "Click the snippet"
+    },
+    {
+      "image": "screens/one-inbox/04.jpg",
+      "alt": "Contact details for the Johnson family beside the conversation",
+      "illustration": false,
+      "hotspot": {
+        "x": 78.29,
+        "y": 11.04,
+        "w": 14.86,
+        "h": 87.12
+      },
+      "title": "The whole family on one screen",
+      "body": "Tags, contact details and where they found you sit beside the conversation, so whoever answers next knows the whole story.",
+      "hint": "Click the contact details"
+    }
+  ],
+  "finish": {
+    "headline": "Every message, one inbox, nothing missed.",
+    "body": "Your team answers faster because nobody has to check four places. The mobile app puts the same inbox on your phone.",
+    "next": "tour-scheduling"
+  }
+}

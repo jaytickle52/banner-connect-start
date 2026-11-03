@@ -73,9 +73,9 @@
       "id": "one-inbox",
       "job": "Answer faster",
       "title": "One inbox",
-      "summary": "Reply to Facebook messages, texts and emails from one screen or the mobile app.",
+      "summary": "Reply to emails, texts and Facebook messages from one screen.",
       "minutes": 1,
-      "status": "coming-soon",
+      "status": "ready",
       "plan": null
     },
     {
