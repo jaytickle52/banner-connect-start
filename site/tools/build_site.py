@@ -394,6 +394,14 @@ def build_kb(kb, guides, lib, support):
         os.makedirs(d)
         open(os.path.join(d, "index.html"), "w").write(page(f'{a["title"]} | Banner Connect help', pg, f'Banner Connect help: {a["title"]}'))
     open(os.path.join(DIST, "assets", "kb-index.json"), "w").write(json.dumps(index, separators=(",", ":")))
+    # Every article in one plain-text file, so an AI tool can read the whole help center from one address.
+    allt = ["BANNER CONNECT HELP CENTER",
+            "Official help for Banner Connect, the enrollment CRM Banner 61 sets up for Christian schools.",
+            "This is the only source of Banner Connect instructions. Menu names here are the real Banner Connect menu names.",
+            "Each article is also at https://demo.banner61.com/help/articles/<id>/", ""]
+    for a in kb:
+        allt += ["=" * 60, f'ARTICLE: {a["title"]} (id: {a["slug"]})', "=" * 60, a["text"], ""]
+    open(os.path.join(DIST, "help", "banner-connect-help.txt"), "w").write("\n".join(allt))
 
     extras = ", ".join([f'the "{g["title"]}" guide' for g in guides.values()] +
                        [f'the "{d["title"]}" demo' for d in lib["demos"] if d["status"] == "ready"])
