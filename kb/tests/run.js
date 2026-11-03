@@ -20,7 +20,10 @@ function checkText(text, q) {
 async function viaApi() {
   let failed = 0;
   for (const q of T.questions) {
-    const r = await fetch(target.replace(/\/$/, "") + "/api/help", { method: "POST", headers: { "content-type": "application/json", origin: target.replace(/\/$/, "") }, body: JSON.stringify({ question: q.q }) });
+    let r;
+    try {
+      r = await fetch(target.replace(/\/$/, "") + "/api/help", { method: "POST", headers: { "content-type": "application/json", origin: target.replace(/\/$/, "") }, body: JSON.stringify({ question: q.q }) });
+    } catch (err) { console.log(`Couldn't reach ${target}: ${err.cause ? err.cause.code || err.cause.message : err.message}`); return 1; }
     if (!r.ok) { console.log(`FAIL  ${q.q}\n      HTTP ${r.status}${r.status === 503 ? " (no API key set in Vercel)" : ""}`); failed++; if (r.status === 503) break; continue; }
     const j = await r.json(), fails = checkText(j.answer || "", q);
     const src = (j.sources || []).map((s) => s.slug);
