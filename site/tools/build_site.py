@@ -7,11 +7,16 @@ Pages: /              Getting Started (content/getting-started.json)
        /demos/        public copy of the clickable demo library
 Styling matches the Banner Connect app (light, Inter, blue actions), branded Banner 61.
 """
-import html, json, os, shutil, sys
+import html, json, os, re, shutil, sys
+
+import markdown
+from markdown.extensions.toc import slugify
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REPO = os.path.dirname(ROOT)
 DIST = os.path.join(REPO, "public")
+KB_DIR = os.path.join(REPO, "kb")
+API_KB = os.path.join(REPO, "api", "_kb.js")
 DEMOS_SRC = sys.argv[1] if len(sys.argv) > 1 else os.path.join(REPO, "demos")
 e = html.escape
 
@@ -33,6 +38,8 @@ ICONS = {
     "clock": '<circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>',
     "arrow": '<path d="M5 12h14M13 6l6 6-6 6"/>',
     "back": '<path d="M19 12H5M11 18l-6-6 6-6"/>',
+    "help": '<circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3M12 17h.01"/>',
+    "send": '<path d="m22 2-7 20-4-9-9-4z"/><path d="M22 2 11 13"/>',
 }
 
 
@@ -51,7 +58,7 @@ body{margin:0;background:var(--bg);color:var(--body);font-family:var(--font);fon
 padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 a{color:var(--primary);text-decoration:none}a:hover{text-decoration:underline}
 :focus-visible{outline:2px solid var(--primary);outline-offset:2px;border-radius:6px}
-.page{max-width:1120px;margin:0 auto;padding-block:24px 48px;display:grid;gap:24px}
+.page{max-width:1120px;margin:0 auto;padding-block:24px 48px;display:grid;grid-template-columns:minmax(0,1fr);gap:24px}
 h1,h2,h3{color:var(--text);margin:0;text-wrap:balance}
 h1{font-size:24px;line-height:32px;font-weight:600}
 h2{font-size:18px;line-height:28px;font-weight:600}
@@ -115,8 +122,47 @@ cursor:pointer;color:transparent;padding:0}
 .ok p{color:#085d3a}
 .next{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px 20px;flex-wrap:wrap}
 .next span{color:var(--subtle);font-size:12px;font-weight:500;text-transform:uppercase;letter-spacing:.04em}
+/* ask a question */
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.ask-body{padding:16px 20px 20px;display:grid;gap:14px}
+.ask-form{display:flex;gap:8px}
+.ask-form input{flex:1;min-width:0;height:40px;border:1px solid var(--border-strong);border-radius:8px;padding:0 12px;font:inherit;font-size:15px;color:var(--text);background:var(--surface)}
+.ask-form input:focus{outline:2px solid var(--primary-100);border-color:var(--primary)}
+.ask-form .btn{height:40px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{font:inherit;font-size:13px;color:var(--body);background:var(--bg);border:1px solid var(--border);border-radius:99px;padding:4px 12px;cursor:pointer}
+.chip:hover{border-color:var(--primary);color:var(--primary)}
+.thread{display:grid;gap:14px}
+.thread:empty{display:none}
+.q{justify-self:end;max-width:85%;background:var(--primary-50);color:var(--text);border-radius:12px 12px 4px 12px;padding:8px 12px;font-weight:500}
+.a{border:1px solid var(--border);border-radius:12px;padding:14px 16px;display:grid;gap:10px;color:var(--body);max-width:72ch}
+.a p,.a ol,.a ul{margin:0}.a ol,.a ul{padding-left:20px;display:grid;gap:4px}
+.a b,.a strong{color:var(--text)}
+.a .src{display:flex;gap:6px 12px;flex-wrap:wrap;font-size:13px;color:var(--subtle);border-top:1px solid var(--border);padding-top:10px}
+.a .hit{display:grid;gap:2px}.a .hit+.hit{border-top:1px solid var(--border);padding-top:10px}
+.a .hit span{font-size:12px;color:var(--subtle)}
+.a .note{font-size:13px;color:var(--muted)}
+.dots{display:inline-flex;gap:4px}.dots i{width:6px;height:6px;border-radius:50%;background:var(--subtle);animation:b 1s infinite ease-in-out}
+.dots i:nth-child(2){animation-delay:.15s}.dots i:nth-child(3){animation-delay:.3s}
+@keyframes b{0%,80%,100%{opacity:.25}40%{opacity:1}}
+.ask-foot{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:13px;color:var(--subtle)}
+.ask-foot button{font:inherit;color:var(--primary);background:none;border:0;padding:0;cursor:pointer}
+.arts{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:4px 16px;margin:10px 0 0;padding:0;list-style:none;font-size:13px}
+details.all summary{cursor:pointer;color:var(--primary);font-weight:500;font-size:13px}
+/* article pages */
+.prose{padding:20px 24px 24px;color:var(--body);font-size:15px;line-height:1.6}
+.prose h2{font-size:18px;margin:24px 0 8px;scroll-margin-top:16px}
+.prose h3{font-size:15px;margin:18px 0 6px}
+.prose p,.prose ul,.prose ol{margin:0 0 12px;max-width:68ch}
+.prose li{margin-bottom:4px}
+.prose strong{color:var(--text)}
+.prose>:first-child{margin-top:0}
+.prose table{border-collapse:collapse;width:100%;font-size:14px;margin:0 0 16px;display:block;overflow-x:auto}
+.prose th,.prose td{border:1px solid var(--border);padding:8px 10px;text-align:left;vertical-align:top}
+.prose th{background:var(--bg);color:var(--text);font-weight:600}
+.prose code{font-size:13px;background:var(--bg);border:1px solid var(--border);border-radius:4px;padding:0 4px}
 @media (max-width:560px){.step{grid-template-columns:auto 1fr}.step .btn{grid-column:2;justify-self:start}.inside div{grid-template-columns:1fr;gap:0}}
-@media (prefers-reduced-motion:reduce){.bar i{transition:none}}
+@media (prefers-reduced-motion:reduce){.bar i{transition:none}.dots i{animation:none;opacity:.6}}
 """
 
 
@@ -135,7 +181,77 @@ def footer(support):
             f'<a href="{e(support["href"])}" target="_blank" rel="noopener">{e(support["label"])}</a></footer>')
 
 
-def build_index(gs, guides, demo_ids):
+ASK_JS = r"""
+(function(){
+var form=document.getElementById("ask-form"),input=document.getElementById("ask-q"),thread=document.getElementById("ask-thread"),
+reset=document.getElementById("ask-reset"),history=[],mode="ai",index=null;
+function esc(s){return s.replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function inline(s){return esc(s).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>").replace(/\[([^\]]+)\]\((\/help\/[^)\s]+)\)/g,'<a href="$2">$1</a>')}
+function render(md){var out=[],list=null;md.replace(/\r/g,"").split("\n").forEach(function(l){var t=l.trim(),m;
+if(!t){if(list){out.push("</"+list+">");list=null}return}
+if((m=t.match(/^\d+[.)]\s+(.*)/))){if(list!=="ol"){if(list)out.push("</"+list+">");out.push("<ol>");list="ol"}out.push("<li>"+inline(m[1])+"</li>");return}
+if((m=t.match(/^[-*]\s+(.*)/))){if(list!=="ul"){if(list)out.push("</"+list+">");out.push("<ul>");list="ul"}out.push("<li>"+inline(m[1])+"</li>");return}
+if(list){out.push("</"+list+">");list=null}t=t.replace(/^#+\s*/,"");out.push("<p>"+inline(t)+"</p>")});
+if(list)out.push("</"+list+">");return out.join("")}
+var STOP="a an and are can do does for from get how i if in is it me my of on or our out set should the to up use we what when where which who why will with you your this that there have has".split(" ");
+var SYN={staff:["user"],employee:["user"],assistant:["user"],teacher:["user"],access:["user","permission"],login:["sign"],password:["sign"],
+family:["contact"],families:["contact"],parent:["contact"],parents:["contact"],tour:["visit"],tours:["visit"],book:["visit","calendar"],
+open:["event"],house:["event"],text:["texting","sms"],texts:["texting","sms"],newsletter:["campaign"],deposit:["payment"],fee:["payment"],
+pay:["payment"],website:["embed"],site:["embed"],field:["custom"],deleted:["restore"],accepted:["stage"],stage:["pipeline"],
+followup:["workflow"],automation:["workflow"],automatic:["workflow"],email:["template"],wording:["template"],qr:["code"],
+source:["report"],sources:["report"],report:["reporting"],facebook:["integrations"],instagram:["integrations"],notification:["notifications"],inquiry:["lead"],inquiries:["lead","report"],come:["source","report"],
+heard:["activity","smart"],contacted:["activity","smart"],touch:["activity"],automatically:["workflow"],happens:["workflow"]};
+function stem(w){return w.length>4?w.replace(/(ing|ed|es|s)$/,""):w}
+function terms(q){var out=[];q.toLowerCase().replace(/[^a-z0-9 ]/g," ").split(/\s+/).forEach(function(w){if(!w||STOP.indexOf(w)>=0)return;
+out.push(stem(w));(SYN[w]||[]).forEach(function(s){out.push(stem(s))})});return out}
+function search(q){var ts=terms(q);if(!ts.length)return[];var N=index.length,df={};
+index.forEach(function(s){s._w=s._w||(s.h+" "+s.x).toLowerCase().replace(/[^a-z0-9 ]/g," ").split(/\s+/).map(stem);
+s._hw=s._hw||s.h.toLowerCase().replace(/[^a-z0-9 ]/g," ").split(/\s+/).map(stem);
+ts.forEach(function(t){if(s._w.indexOf(t)>=0)df[t]=(df[t]||0)+1})});
+return index.map(function(s){var sc=0;ts.forEach(function(t){if(!df[t])return;var idf=Math.log(1+N/df[t]),c=0;
+s._w.forEach(function(w){if(w===t)c++});if(c)sc+=idf*(1+Math.log(c));if(s._hw.indexOf(t)>=0)sc+=idf*2});return{s:s,sc:sc}})
+.filter(function(r){return r.sc>0}).sort(function(a,b){return b.sc-a.sc}).slice(0,3).map(function(r){return r.s})}
+function snippet(x){var p=x.split(/\n\s*\n/)[0].replace(/\*\*/g,"").replace(/\s+/g," ").trim();return p.length>280?p.slice(0,277).replace(/\s\S*$/,"")+"...":p}
+function add(cls,html){var d=document.createElement("div");d.className=cls;d.innerHTML=html;thread.appendChild(d);return d}
+function srcs(list){return list&&list.length?'<div class="src">From: '+list.map(function(s){return'<a href="help/articles/'+esc(s.slug)+'/">'+esc(s.title)+"</a>"}).join("")+"</div>":""}
+function fallback(q,box){var go=function(){var hits=search(q);
+box.innerHTML=hits.length?'<p class="note">Here\'s what our help articles say:</p>'+hits.map(function(s){return'<div class="hit"><span>'+esc(s.t)+'</span><a href="help/articles/'+esc(s.a)+"/#"+esc(s.id)+'"><b>'+esc(s.h)+"</b></a><p>"+esc(snippet(s.x))+"</p></div>"}).join("")
+:"<p>I couldn't find that in our help articles. Try different words, or contact the Banner 61 team using the link at the bottom of this page.</p>";
+if(window.va)window.va("event",{name:"Help search",found:hits.length?"yes":"no"})};
+if(index)go();else fetch("assets/kb-index.json").then(function(r){return r.json()}).then(function(j){index=j;go()}).catch(function(){box.innerHTML="<p>Something went wrong. Please try again.</p>"})}
+function ask(q){q=q.trim();if(!q)return;input.value="";add("q",esc(q));reset.hidden=false;
+var box=add("a",'<span class="dots" aria-label="Working on it"><i></i><i></i><i></i></span>');box.scrollIntoView({block:"nearest"});
+if(mode!=="ai")return fallback(q,box);
+fetch("/api/help",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({question:q,history:history})})
+.then(function(r){if(r.status===503)mode="search";if(!r.ok)throw r.status;return r.json()})
+.then(function(j){box.innerHTML=render(j.answer||"")+srcs(j.sources);history.push({role:"user",content:q},{role:"assistant",content:j.answer||""});
+history=history.slice(-6);if(window.va)window.va("event",{name:"Help answer"})})
+.catch(function(s){if(s===429){box.innerHTML="<p>That's a lot of questions in a short time. Please wait a few minutes and try again.</p>";return}fallback(q,box)})}
+form.addEventListener("submit",function(ev){ev.preventDefault();ask(input.value)});
+[].forEach.call(document.querySelectorAll(".chip"),function(c){c.addEventListener("click",function(){ask(c.textContent)})});
+reset.addEventListener("click",function(){thread.innerHTML="";history=[];reset.hidden=true;input.focus()});
+})();
+"""
+
+ASK_EXAMPLES = ["How do I book a visit for a family who called?", "How do I give a new staff member access?",
+                "How do I set up an open house?"]
+
+
+def ask_section(kb):
+    chips = "".join(f'<button class="chip" type="button">{e(q)}</button>' for q in ASK_EXAMPLES)
+    arts = "".join(f'<li><a href="help/articles/{e(a["slug"])}/">{e(a["title"])}</a></li>' for a in kb)
+    return f"""<section class="card" aria-labelledby="ask-h"><div class="card-head"><div><h2 id="ask-h">Ask a question</h2>
+<p>Answers come from the Banner Connect help articles, written by the Banner 61 team for your account.</p></div></div>
+<div class="ask-body"><form class="ask-form" id="ask-form"><label class="sr" for="ask-q">Your question</label>
+<input id="ask-q" type="text" maxlength="600" autocomplete="off" placeholder="Ask how to do something in Banner Connect">
+<button class="btn primary" type="submit">{icon("send",16)}Ask</button></form>
+<div class="chips">{chips}</div>
+<div class="thread" id="ask-thread" aria-live="polite"></div>
+<div class="ask-foot"><details class="all"><summary>Browse all help articles</summary><ul class="arts">{arts}</ul></details>
+<button type="button" id="ask-reset" hidden>Start over</button></div></div></section>"""
+
+
+def build_index(gs, guides, demo_ids, kb):
     start_rows = []
     for s in gs["start"]:
         g = s.get("guide")
@@ -161,6 +277,7 @@ def build_index(gs, guides, demo_ids):
     body = f"""<main class="page">
 <header class="head"><div><h1>{e(gs["title"])}</h1><p>{e(gs["intro"])}</p></div>
 <span class="brand"><img class="flag" src="/assets/banner61-mark.png" alt="" width="18" height="18"><b>Banner Connect</b> by Banner 61</span></header>
+{ask_section(kb)}
 <section class="card" aria-labelledby="start-h"><div class="card-head"><div><h2 id="start-h">Start here</h2><p>Four steps for your first week.</p></div>
 <div class="progress"><span id="count">0 of {n} done</span><span class="bar"><i id="fill" style="width:0%"></i></span></div></div>
 <ol class="steps">{"".join(start_rows)}</ol></section>
@@ -176,7 +293,7 @@ r.querySelector(".tick").setAttribute("aria-pressed",on);if(on)c++}});
 document.getElementById("count").textContent=c+" of "+rows.length+" done";document.getElementById("fill").style.width=(c/rows.length*100)+"%"}}
 rows.forEach(function(r){{r.querySelector(".tick").addEventListener("click",function(){{done[r.dataset.id]=!done[r.dataset.id];
 try{{localStorage.setItem(KEY,JSON.stringify(done))}}catch(_){{}}paint()}})}});paint()}})();
-</script>"""
+</script><script>{ASK_JS}</script>"""
     return page("Getting started", body, "Getting started with Banner Connect: first steps and what each menu tab is for.")
 
 
@@ -196,6 +313,100 @@ def build_guide(slug, g, guides, support):
 <div class="ok">{icon("check",20)}<div><b>How to know it worked</b><p>{e(g["check"])}</p></div></div>
 {nxt}{footer(support)}</main>"""
     return page(g["title"], body, g["summary"])
+
+
+ASSISTANT_RULES = """## This assistant
+
+You are the help assistant on the Getting Started page in Banner Connect. Staff type a question and you answer it.
+
+- Answer only from the Banner Connect articles below. Don't use outside knowledge of other software, and never link to or mention any other website or help center.
+- You can't see the school's account, families, numbers or settings, and you can't do anything in it. When someone asks about their own data (for example "which families haven't heard from us"), explain how to find it in Banner Connect, such as a Smart List filter or a report.
+- If the articles don't cover the question, say that plainly in one sentence, give any closely related help the articles do cover, and suggest contacting the Banner 61 team with the "Contact Banner 61 support" link at the bottom of this page.
+- If the question isn't about Banner Connect or school enrollment work, say you can only help with Banner Connect.
+- Format: plain text with **bold** for menu names and buttons, numbered lists for steps, "- " bullets for options. No headings, no tables, no links. Aim for under 180 words.
+- When one of these Getting Started guides or demos fits, mention it by name: {extras}.
+- On the very last line, write SOURCES: followed by the ids of up to 3 articles you used, separated by commas (for example SOURCES: calendars, automations). Use the ids exactly as given. Write SOURCES: none if you used none."""
+
+
+def load_kb():
+    arts = []
+    for f in sorted(os.listdir(KB_DIR)):
+        m = re.match(r"\d\d-(.+)\.md$", f)
+        if not m:
+            continue
+        text = open(os.path.join(KB_DIR, f)).read().strip()
+        lines = text.splitlines()
+        title = lines[0].lstrip("#").strip()
+        secs, cur = [], [title, []]
+        for line in lines[1:]:
+            if line.startswith("## "):
+                secs.append(cur)
+                cur = [line[3:].strip(), []]
+            else:
+                cur[1].append(line)
+        secs.append(cur)
+        sections = [(h, "\n".join(b).strip()) for h, b in secs if "\n".join(b).strip()]
+        arts.append({"slug": m.group(1), "title": title, "text": text, "sections": sections})
+    return arts
+
+
+def table_rows(s):
+    """Markdown table -> 'cell: cell; cell' lines, header and divider rows dropped."""
+    out, lines = [], s.splitlines()
+    for i, l in enumerate(lines):
+        if l.startswith("|"):
+            nxt = lines[i + 1] if i + 1 < len(lines) else ""
+            if re.match(r"^\|?[-:| ]+\|?$", l) or re.match(r"^\|?[-:| ]+\|?$", nxt):
+                continue
+            cells = [c.strip() for c in l.strip("|").split("|")]
+            out.append(cells[0] + ": " + "; ".join(cells[1:]))
+        else:
+            out.append(l)
+    return "\n".join(out)
+
+
+def strip_md(s):
+    s = table_rows(s)
+    s = re.sub(r"\*\*(.+?)\*\*", r"\1", s)
+    s = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", s)
+    s = re.sub(r"^\s*(\d+\.|[-*])\s+", "", s, flags=re.M)
+    s = re.sub(r"^\|?[-:| ]+\|?$", "", s, flags=re.M)
+    return s.replace("|", " ").replace("`", "")
+
+
+def build_kb(kb, guides, lib, support):
+    index = []
+    for a in kb:
+        top = slugify(a["title"], "-")
+        for h, body in a["sections"]:
+            index.append({"a": a["slug"], "t": a["title"], "h": h, "id": top if h == a["title"] else slugify(h, "-"),
+                          "x": strip_md(body)})
+        body_md = "\n".join(a["text"].splitlines()[1:])
+        content = markdown.markdown(body_md, extensions=["tables", "toc", "sane_lists"])
+        others = "".join(f'<li><a href="../{e(o["slug"])}/">{e(o["title"])}</a></li>' for o in kb if o is not a)
+        pg = f"""<main class="guide">
+<a class="crumb" href="../../../">{icon("back",16)}Getting started</a>
+<header><h1 id="{e(top)}">{e(a["title"])}</h1><span class="meta">{icon("book",14)}Banner Connect help</span></header>
+<article class="card prose">{content}</article>
+<div class="card" style="padding:16px 20px"><details class="all"><summary>More help articles</summary><ul class="arts">{others}</ul></details></div>
+{footer(support)}</main>"""
+        d = os.path.join(DIST, "help", "articles", a["slug"])
+        os.makedirs(d)
+        open(os.path.join(d, "index.html"), "w").write(page(f'{a["title"]} | Banner Connect help', pg, f'Banner Connect help: {a["title"]}'))
+    open(os.path.join(DIST, "assets", "kb-index.json"), "w").write(json.dumps(index, separators=(",", ":")))
+
+    extras = ", ".join([f'the "{g["title"]}" guide' for g in guides.values()] +
+                       [f'the "{d["title"]}" demo' for d in lib["demos"] if d["status"] == "ready"])
+    rules = ASSISTANT_RULES.replace("{extras}", extras)
+    instructions = open(os.path.join(KB_DIR, "instructions.md")).read().strip()
+    parts = [instructions, rules, "# Banner Connect articles"]
+    for a in kb:
+        parts.append(f'<article id="{a["slug"]}">\n{a["text"]}\n</article>')
+    system = "\n\n".join(parts)
+    js = ("// Generated by site/tools/build_site.py from kb/. Don't edit by hand.\n"
+          f"module.exports = {json.dumps({'system': system, 'articles': {a['slug']: a['title'] for a in kb}}, indent=0)};\n")
+    open(API_KB, "w").write(js)
+    return len(system)
 
 
 def copy_demos(dest):
@@ -226,12 +437,14 @@ def main():
     for f in os.listdir(os.path.join(ROOT, "static")):
         shutil.copy(os.path.join(ROOT, "static", f), os.path.join(DIST, "assets", f))
     open(os.path.join(DIST, "assets", "app.css"), "w").write(" ".join(l.strip() for l in CSS.strip().splitlines()))
-    open(os.path.join(DIST, "index.html"), "w").write(build_index(gs, guides, demo_ids))
+    kb = load_kb()
+    open(os.path.join(DIST, "index.html"), "w").write(build_index(gs, guides, demo_ids, kb))
     for slug, g in guides.items():
         d = os.path.join(DIST, "help", slug)
         os.makedirs(d)
         open(os.path.join(d, "index.html"), "w").write(build_guide(slug, g, guides, gs["support"]))
-    print("built:", len(guides), "guides,", len(demo_ids), "demos")
+    size = build_kb(kb, guides, lib, gs["support"])
+    print("built:", len(guides), "guides,", len(demo_ids), "demos,", len(kb), f"help articles (assistant prompt {size:,} characters)")
 
 
 if __name__ == "__main__":
