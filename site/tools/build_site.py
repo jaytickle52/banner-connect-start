@@ -205,7 +205,7 @@ def copy_demos(dest):
            '<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">'
            '<style>[hidden]{display:none!important}img{max-width:100%}body{margin:0}</style></head><body>\n' + raw + "\n</body></html>")
     open(os.path.join(dest, "index.html"), "w").write(doc)
-    for sub in ("demos", "screens"):
+    for sub in ("demos", "screens", "assets"):
         shutil.copytree(os.path.join(src, sub), os.path.join(dest, sub))
     lib = json.load(open(os.path.join(src, "demos", "library.json")))
     return {d["id"] for d in lib["demos"] if d["status"] == "ready"}
