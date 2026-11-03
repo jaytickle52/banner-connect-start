@@ -1,6 +1,6 @@
 # Banner Connect: Getting Started and demos
 
-The help site schools open from the Getting Started link in their Banner Connect menu, plus the clickable demo library at `/demos/`.
+Live at https://demo.banner61.com (demos at /demos/). The help site schools open from the Getting Started link in their Banner Connect menu, plus the clickable demo library at `/demos/`.
 
 ## Layout
 
