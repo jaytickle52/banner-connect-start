@@ -107,7 +107,7 @@
         ]
       ],
       "first": "Open Opportunities and find the newest family in New Inquiry.",
-      "demo": "admissions-pipeline",
+      "demo": "one-inbox",
       "guide": null,
       "plan": null
     },
@@ -134,7 +134,7 @@
         ]
       ],
       "first": "Connect your Google or Outlook calendar.",
-      "demo": "tour-scheduling",
+      "demo": "calendar-view",
       "guide": "connect-calendar",
       "plan": null
     },
@@ -157,7 +157,7 @@
         ]
       ],
       "first": "Copy your inquiry form onto your website.",
-      "demo": "capture-inquiry",
+      "demo": "enrollment-contracts",
       "guide": "add-inquiry-form",
       "plan": null
     },
@@ -188,7 +188,7 @@
         ]
       ],
       "first": "Read the three emails new families already receive.",
-      "demo": "nurture-sequence",
+      "demo": "family-newsletter",
       "guide": null,
       "plan": null
     },

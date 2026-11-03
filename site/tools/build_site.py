@@ -126,7 +126,8 @@ def page(title, body, desc="", css_href="/assets/app.css"):
 <title>{e(title)}</title><meta name="description" content="{e(desc)}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="{css_href}"></head><body>{body}</body></html>"""
+<link rel="icon" href="/assets/favicon.png"><link rel="stylesheet" href="{css_href}">
+<script>window.va=window.va||function(){{(window.vaq=window.vaq||[]).push(arguments)}};</script><script defer src="/_vercel/insights/script.js"></script></head><body>{body}</body></html>"""
 
 
 def footer(support):
