@@ -41,10 +41,10 @@
       "alt": "The task list with overdue follow-ups assigned to the admissions director",
       "illustration": false,
       "hotspot": {
-        "x": 20.24,
-        "y": 39.95,
-        "w": 78.77,
-        "h": 28.52
+        "x": 22.48,
+        "y": 27.98,
+        "w": 73.12,
+        "h": 40.98
       },
       "title": "And a to-do list that keeps up",
       "body": "Follow-ups are assigned to a person with a due date. Overdue calls turn red so they get handled first.",

@@ -55,10 +55,10 @@
       "alt": "The email template library in grid view",
       "illustration": false,
       "hotspot": {
-        "x": 36.71,
-        "y": 27.26,
-        "w": 61.64,
-        "h": 46.48
+        "x": 22.87,
+        "y": 25.77,
+        "w": 72.35,
+        "h": 66.26
       },
       "title": "Every email is a template you can edit",
       "body": "Change the wording once and every family gets the new version. Your school's name, address and phone fill in automatically.",
@@ -69,10 +69,10 @@
       "alt": "The Prebuilt Workflows folder listing seven admissions automations",
       "illustration": false,
       "hotspot": {
-        "x": 21.16,
-        "y": 34.17,
-        "w": 76.92,
-        "h": 55.03
+        "x": 22.87,
+        "y": 32.15,
+        "w": 72.35,
+        "h": 51.78
       },
       "title": "A sequence for every kind of inquiry",
       "body": "Tuition questions, financial aid, visits, events and families who went quiet each get their own follow-up, already built and ready to turn on.",
