@@ -1,3 +1,13 @@
+---
+id: tasks
+title: "Tasks and notifications"
+menu: "CRM > Tasks; Dashboard; Settings > My Profile > Notifications"
+use_when: "Creating and assigning follow-up tasks, due dates, getting notified when a task is assigned, and reading the Dashboard."
+also_called: ["to-do", "follow-up", "reminder", "assign", "notification", "alert", "email me when", "dashboard", "home screen"]
+related: [advanced-and-settings, reporting-and-payments]
+plan: ""  # SchoolBox, Full or All, once the feature map is filled in
+reviewed: 2026-11-03
+---
 # Tasks and notifications
 
 Tasks are internal to-dos with a due date and an owner: call a family back, send a tuition sheet, review an application. Families never see them.

@@ -1,7 +1,7 @@
 BANNER CONNECT HELP CENTER
 Official help for Banner Connect, the enrollment CRM Banner 61 sets up for Christian schools.
 This is the only source of Banner Connect instructions. Menu names here are the real Banner Connect menu names.
-Each article is also at https://demo.banner61.com/help/articles/<id>/
+The index of articles is at https://demo.banner61.com/help/index.txt. Each article is also at https://demo.banner61.com/help/articles/<id>/
 
 ============================================================
 ARTICLE: About Banner Connect (id: about-banner-connect)
@@ -48,6 +48,17 @@ Trigger Links appear in two places (CRM, then Conversations, and Marketing). The
 - **Custom field**: an extra detail you track, like Grade(s) of Interest.
 - **Custom value**: a school detail used in every email, like your school's name, address or phone number.
 
+## Names in your account
+
+Banner 61 sets up every account with the same names. Use them exactly, because automations depend on them.
+
+- **Forms** (Forms & Docs, then Forms): General Inquiry Form, Request Info Packet, Request Tuition Info, Request Financial Aid Info, Request a Visit, Event Registration Form, Sibling Intent Form. See [Your prebuilt forms](https://demo.banner61.com/help/articles/forms-and-docs/#your-prebuilt-forms).
+- **Calendars** (Calendars, then Meeting Calendars): Schedule a Visit (campus visits), Event Registration (open houses and events), Schedule an Assessment (off until needed). See [Your prebuilt calendars](https://demo.banner61.com/help/articles/calendars/#your-prebuilt-calendars).
+- **Pipelines** (CRM, then Opportunities): Inquiry to Enrollment (New Inquiry, Visit Scheduled, Visit Attended, Application Sent, Application Submitted, Accepted, Enrolled), Re-Enrollment Pipeline, Sibling Enrollment Fast Track. See [Your pipelines](https://demo.banner61.com/help/articles/pipeline/#your-pipelines).
+- **Smart list** (CRM, then Contacts): Current Families, everyone in the Enrolled stage.
+- **Workflows** (Automations, then Workflows): Request Info Packet / Lead Nurture, Request Tuition Info, Request Financial Aid Info, General Inquiry, Request a Visit, Event Registration, Cold Inquiry Revival, Stalled Leads / Remove Stalled Tag. See [What's already built](https://demo.banner61.com/help/articles/automations/#whats-already-built).
+- **Tags that start automations**: Cold Inquiry Revival (a series of re-engagement emails). Check before adding any tag.
+
 ## What Banner 61 handles
 
 Banner 61 sets up the account, the prebuilt forms, workflows, templates and pipeline. Banner 61 can also add your inquiry form to your website, create new custom fields, attach your info packets to emails, add users, and change account-level settings. When a school isn't sure whether something is safe to change, the answer is to ask the Banner 61 team first.
@@ -74,9 +85,9 @@ Can't find the activation email or the security code? Check Promotions and Spam.
 
 The Getting Started tab at the top of the menu walks through these with a short guide for each.
 
-1. **Put your inquiry form on your website.** This is how families reach you. See "Forms" for the steps. Most schools finish in ten minutes, and Banner 61 will do it for you if you share access to your website.
-2. **Connect Facebook, Instagram and Google.** Messages from your pages then land in one inbox with your email and texts. Someone at the school does this, because it signs in to the school's own accounts. See "Conversations".
-3. **Connect your calendar.** Visits booked online then fit around what's already on your calendar. See "Calendars".
+1. **Put your inquiry form on your website.** This is how families reach you. See [Put your inquiry form on your website](https://demo.banner61.com/help/articles/forms-and-docs/#put-your-inquiry-form-on-your-website) for the steps. Most schools finish in ten minutes, and Banner 61 will do it for you if you share access to your website.
+2. **Connect Facebook, Instagram and Google.** Messages from your pages then land in one inbox with your email and texts. Someone at the school does this, because it signs in to the school's own accounts. See [Connect Facebook, Instagram and Google](https://demo.banner61.com/help/articles/conversations/#connect-facebook-instagram-and-google).
+3. **Connect your calendar.** Visits booked online then fit around what's already on your calendar. See [Connect your calendar](https://demo.banner61.com/help/articles/calendars/#connect-your-calendar).
 4. **Install the mobile app.** Search for LeadConnector in the App Store or Google Play, sign in with your Banner Connect email and password, choose your school if asked, and allow notifications.
 
 ## Connect your email (two-way sync)
@@ -224,7 +235,7 @@ Many moves happen on their own. A form submission creates a card in New Inquiry.
 
 - **Contact**: the family it belongs to. Click the name to open the full contact record.
 - **Pipeline and Stage**: where they are.
-- **Status**: Open, Won, Lost or Abandoned (see below).
+- **Status**: Open, Won, Lost or Abandoned (see [Status: Open, Won, Lost, Abandoned](https://demo.banner61.com/help/articles/pipeline/#status-open-won-lost-abandoned)).
 - **Owner**: the staff member responsible for moving the family forward.
 - **Followers**: up to 10 other staff who can see and edit the opportunity. Followers can't change the owner.
 - **Value**: optional. Many schools leave it at $0; some use it for annual tuition.
@@ -338,7 +349,7 @@ Phone numbers are managed in **Settings**, then **Communications**, then **Phone
 
 ## Trigger links
 
-A trigger link is a tracked link. When a family clicks it, the click is recorded on their record and it can start an automation (for example, send tuition details to everyone who clicks "View Tuition"). Find them in **CRM**, then **Conversations**, then **Trigger Links**, or under **Marketing**. See "Marketing" for how to create and use them.
+A trigger link is a tracked link. When a family clicks it, the click is recorded on their record and it can start an automation (for example, send tuition details to everyone who clicks "View Tuition"). Find them in **CRM**, then **Conversations**, then **Trigger Links**, or under **Marketing**. See [Trigger links](https://demo.banner61.com/help/articles/marketing/#trigger-links) for how to create and use them.
 
 ============================================================
 ARTICLE: Tasks and notifications (id: tasks)
@@ -401,7 +412,7 @@ The Calendars tab has four pages:
 
 ## Your prebuilt calendars
 
-- **Schedule a Visit**: families book a campus visit. Booking here sends a confirmation and reminders automatically, and moves the family to Visit Scheduled in the Inquiry to Enrollment pipeline. After the visit, your staff get an email with links to mark what happened (see "Automations").
+- **Schedule a Visit**: families book a campus visit. Booking here sends a confirmation and reminders automatically, and moves the family to Visit Scheduled in the Inquiry to Enrollment pipeline. After the visit, your staff get an email with links to mark what happened (see [After a visit: the staff follow-up email](https://demo.banner61.com/help/articles/automations/#after-a-visit-the-staff-follow-up-email)).
 - **Event Registration**: for open houses, preview days and information nights. Families pick from the dates you add.
 - **Schedule an Assessment**: turned off until your school needs it.
 
@@ -539,14 +550,14 @@ The Marketing tab has Social Planner, Emails, Trigger Links, Video Testimonials,
 
 ## Email templates
 
-Go to **Marketing**, then **Emails**, then the **Templates** tab. Templates are the saved emails your automations and campaigns send. Your account comes with folders of ready-made templates (see "Getting started" for what each folder does).
+Go to **Marketing**, then **Emails**, then the **Templates** tab. Templates are the saved emails your automations and campaigns send. Your account comes with folders of ready-made templates (see [Before your forms go live: review and approve](https://demo.banner61.com/help/articles/getting-started/#before-your-forms-go-live-review-and-approve) for what each folder does).
 
 - **Edit a template**: open it, change the wording, and save. Check tone, your admissions steps, visit instructions and your signature.
 - **Make a new template**: click **New**, choose a layout or start blank, drag in text, images, buttons and your logo, name it and save.
 - **Copy a template**: use the three-dot menu next to it and choose the clone option, then rename it.
 - **Test before you use it**: send yourself a test email to check the layout, links and names.
 
-Personalize with merge fields (see "Advanced and settings" for the list). If a family has no first name on file, "Hi {{contact.first_name}}," arrives as "Hi ,". To avoid that, click the merge field in the email editor and add fallback text such as "there".
+Personalize with merge fields (see [Merge fields](https://demo.banner61.com/help/articles/advanced-and-settings/#merge-fields-personalizing-messages) for the list). If a family has no first name on file, "Hi {{contact.first_name}}," arrives as "Hi ,". To avoid that, click the merge field in the email editor and add fallback text such as "there".
 
 Name templates clearly (for example, "Tour Confirmation – Admissions") and keep them in folders.
 
@@ -700,7 +711,7 @@ The Reporting tab has:
 
 A good question to answer once a term: which lead source sent you the most families this year (your website, Facebook, Google, a referral)? That's where your next hour of marketing should go. Open **Reporting**, then **Reports**, and look at lead sources.
 
-For email results, see "Marketing". For QR code scans, hover the code in Marketing, then QR Codes, and click Analytics.
+For email results, see [Email campaigns](https://demo.banner61.com/help/articles/marketing/#email-campaigns-one-time-emails-to-a-group). For QR code scans, hover the code in Marketing, then QR Codes, and click Analytics.
 
 ## Payments
 
@@ -767,7 +778,7 @@ Empty fields come through blank. In emails, add fallback text to a merge field (
 ## Settings
 
 - **My Profile**: your name, email, phone and password, your email connection (two-way sync), your calendar connections, and your notifications (including task notifications).
-- **Users**: the people on your team. See below.
+- **Users**: the people on your team. See [Users and access](#users-and-access) below.
 - **Business Profile**: your school's name, logo, address, phone and time zone.
 - **Communications**: phone numbers (Phone System), email sending and WhatsApp. Banner 61 sets these up.
 - **Integrations**: connect Facebook, Instagram and Google Business Profile.

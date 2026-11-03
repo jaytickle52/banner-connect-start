@@ -1,3 +1,13 @@
+---
+id: advanced-and-settings
+title: "Advanced and settings"
+menu: "Advanced; Settings"
+use_when: "Custom values (school name, address, phone used in every email), custom fields (grade of interest and other details), merge fields for personalizing messages, Business Profile, Users and access for staff, Integrations and Audit Logs."
+also_called: ["field", "grade", "grade of interest", "custom field", "school address", "school phone", "merge field", "personalize", "first name", "staff", "staff member", "employee", "assistant", "teacher", "user", "access", "permissions", "remove a user", "audit log", "who deleted"]
+related: [forms-and-docs, tasks, conversations]
+plan: ""  # SchoolBox, Full or All, once the feature map is filled in
+reviewed: 2026-11-03
+---
 # Advanced and settings
 
 Most of what's under Advanced is set once by Banner 61 and rarely touched.
@@ -43,7 +53,7 @@ Empty fields come through blank. In emails, add fallback text to a merge field (
 ## Settings
 
 - **My Profile**: your name, email, phone and password, your email connection (two-way sync), your calendar connections, and your notifications (including task notifications).
-- **Users**: the people on your team. See below.
+- **Users**: the people on your team. See [Users and access](#users-and-access) below.
 - **Business Profile**: your school's name, logo, address, phone and time zone.
 - **Communications**: phone numbers (Phone System), email sending and WhatsApp. Banner 61 sets these up.
 - **Integrations**: connect Facebook, Instagram and Google Business Profile.

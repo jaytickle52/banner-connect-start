@@ -1,3 +1,13 @@
+---
+id: contacts
+title: "Contacts"
+menu: "CRM > Contacts"
+use_when: "Finding, adding, importing, exporting or merging families; what's on a family's record; tags; Smart Lists and filters (for example families with no recent activity)."
+also_called: ["family", "families", "parent", "parents", "student", "lead", "inquiry", "record", "list", "spreadsheet", "CSV", "upload", "duplicate", "tag", "label", "segment", "haven't heard from", "no activity"]
+related: [pipeline, marketing, automations]
+plan: ""  # SchoolBox, Full or All, once the feature map is filled in
+reviewed: 2026-11-03
+---
 # Contacts
 
 Go to **CRM**, then **Contacts**. Every person your school interacts with is a contact: prospective parents, current families, alumni, donors and staff. Contacts are created when someone submits a form, books a visit, is added by hand or is imported.

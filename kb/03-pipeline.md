@@ -1,3 +1,13 @@
+---
+id: pipeline
+title: "The enrollment pipeline (Opportunities)"
+menu: "CRM > Opportunities"
+use_when: "The enrollment pipeline: where every family sits, moving a family to a stage (Visit Scheduled, Accepted, Enrolled), status (Won, Lost), stalled families, bulk updates, deleting and restoring a family, why stages shouldn't be renamed."
+also_called: ["pipeline", "board", "funnel", "stage", "column", "accepted", "enrolled", "applied", "admitted", "won", "lost", "card", "deal", "opportunity", "deleted family", "restore"]
+related: [contacts, automations, reporting-and-payments]
+plan: ""  # SchoolBox, Full or All, once the feature map is filled in
+reviewed: 2026-11-03
+---
 # The enrollment pipeline (Opportunities)
 
 Go to **CRM**, then **Opportunities**. Each card is one family. Each column is a stage. Families move left to right as they get closer to enrolling.
@@ -25,7 +35,7 @@ Many moves happen on their own. A form submission creates a card in New Inquiry.
 
 - **Contact**: the family it belongs to. Click the name to open the full contact record.
 - **Pipeline and Stage**: where they are.
-- **Status**: Open, Won, Lost or Abandoned (see below).
+- **Status**: Open, Won, Lost or Abandoned (see [Status: Open, Won, Lost, Abandoned](/help/articles/pipeline/#status-open-won-lost-abandoned)).
 - **Owner**: the staff member responsible for moving the family forward.
 - **Followers**: up to 10 other staff who can see and edit the opportunity. Followers can't change the owner.
 - **Value**: optional. Many schools leave it at $0; some use it for annual tuition.

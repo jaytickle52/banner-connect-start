@@ -1,17 +1,27 @@
+---
+id: marketing
+title: "Marketing"
+menu: "Marketing"
+use_when: "Email templates and their wording, one-time email campaigns to a group (newsletter, current families), trigger links, funnels (landing pages), QR codes, the Social Planner and video testimonials."
+also_called: ["newsletter", "email blast", "announcement", "bulk email", "mass email", "campaign", "template", "wording", "landing page", "QR", "viewbook", "flyer", "social media", "post", "testimonial", "video review"]
+related: [contacts, automations, conversations]
+plan: ""  # SchoolBox, Full or All, once the feature map is filled in
+reviewed: 2026-11-03
+---
 # Marketing
 
 The Marketing tab has Social Planner, Emails, Trigger Links, Video Testimonials, Funnels and QR Codes.
 
 ## Email templates
 
-Go to **Marketing**, then **Emails**, then the **Templates** tab. Templates are the saved emails your automations and campaigns send. Your account comes with folders of ready-made templates (see "Getting started" for what each folder does).
+Go to **Marketing**, then **Emails**, then the **Templates** tab. Templates are the saved emails your automations and campaigns send. Your account comes with folders of ready-made templates (see [Before your forms go live: review and approve](/help/articles/getting-started/#before-your-forms-go-live-review-and-approve) for what each folder does).
 
 - **Edit a template**: open it, change the wording, and save. Check tone, your admissions steps, visit instructions and your signature.
 - **Make a new template**: click **New**, choose a layout or start blank, drag in text, images, buttons and your logo, name it and save.
 - **Copy a template**: use the three-dot menu next to it and choose the clone option, then rename it.
 - **Test before you use it**: send yourself a test email to check the layout, links and names.
 
-Personalize with merge fields (see "Advanced and settings" for the list). If a family has no first name on file, "Hi {{contact.first_name}}," arrives as "Hi ,". To avoid that, click the merge field in the email editor and add fallback text such as "there".
+Personalize with merge fields (see [Merge fields](/help/articles/advanced-and-settings/#merge-fields-personalizing-messages) for the list). If a family has no first name on file, "Hi {{contact.first_name}}," arrives as "Hi ,". To avoid that, click the merge field in the email editor and add fallback text such as "there".
 
 Name templates clearly (for example, "Tour Confirmation – Admissions") and keep them in folders.
 

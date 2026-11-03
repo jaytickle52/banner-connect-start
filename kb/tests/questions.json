@@ -1,0 +1,26 @@
+{
+  "_about": "Real school questions from the Nov 3 Ask AI stress test. 'article' is the article (id) whose section should be in the help box's top three search results. 'must' lists words a good written answer has to contain (case doesn't matter; 'a|b' means either). 'must_not' adds to the global list.",
+  "must_not_everywhere": ["gohighlevel", "highlevel", "GHL", "help.leadconnectorhq", "Field Services", "gift card", "Memberships", "Agency View", "sub-account"],
+  "questions": [
+    {"q": "How do I put our inquiry form on our school website?", "article": "forms-and-docs", "must": ["Forms & Docs", "Request Info Packet", "Banner 61"]},
+    {"q": "We hired a new admissions assistant. How do I give her access to Banner Connect?", "article": "advanced-and-settings", "must": ["Settings", "Users"], "must_not": ["agency"]},
+    {"q": "A parent just called and wants to schedule a campus visit. How do I book it for them?", "article": "calendars", "must": ["Schedule a Visit"]},
+    {"q": "What happens automatically when a family submits the Request Info Packet form?", "article": "automations", "must": ["New Inquiry", "email"]},
+    {"q": "How do I send a newsletter email to only our current families?", "article": "marketing", "must": ["Current Families", "campaign"], "must_not": ["Custom Object", "Companies"]},
+    {"q": "How do I connect our school's Facebook page?", "article": "conversations", "must": ["Facebook", "Integrations|Connect"]},
+    {"q": "How do I text a family?", "article": "conversations", "must": ["Conversations", "phone number|Banner 61"], "must_not": ["Custom Object"]},
+    {"q": "How do I change the wording of the follow-up emails families get after they inquire?", "article": "marketing", "must": ["Templates"]},
+    {"q": "A family was accepted. How do I move them to Accepted?", "article": "pipeline", "must": ["Opportunities", "Accepted", "drag|Stage"], "must_not": ["Community"]},
+    {"q": "How do I add a field to track which grade a student is interested in?", "article": "advanced-and-settings", "must": ["Advanced", "Custom Fields", "Grade(s) of Interest"]},
+    {"q": "I accidentally deleted a family. Can I get them back?", "article": "pipeline", "must": ["restore", "Audit Logs|60 days"]},
+    {"q": "We're having an open house on January 15. How do I set up registration?", "article": "calendars", "must": ["Event Registration", "Date Specific"]},
+    {"q": "How do I make a QR code for our viewbook?", "article": "marketing", "must": ["Marketing", "QR Codes"], "must_not": ["Sites"]},
+    {"q": "How do I get an email when someone assigns me a task?", "article": "tasks", "must": ["My Profile", "Notifications"]},
+    {"q": "Can families pay their enrollment deposit online?", "article": "reporting-and-payments", "must": ["Payments", "Stripe|payment link"]},
+    {"q": "Is this GoHighLevel?", "article": null, "must": ["Banner Connect"]},
+    {"q": "How do I set up an automation that emails families the day after their visit?", "article": "automations", "must": ["Request a Visit|already", "Banner 61"]},
+    {"q": "How do I put our visit calendar on our website?", "article": "calendars", "must": ["Schedule a Visit", "embed|Embed"]},
+    {"q": "Where do our inquiries come from?", "article": "reporting-and-payments", "must": ["Reporting", "lead source|Lead Source"]},
+    {"q": "Which families haven't heard from us in two weeks?", "article": "contacts", "must": ["Smart List|filter"]}
+  ]
+}

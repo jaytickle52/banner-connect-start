@@ -1,3 +1,13 @@
+---
+id: forms-and-docs
+title: "Forms, surveys and documents"
+menu: "Forms & Docs"
+use_when: "The prebuilt forms (Request Info Packet, General Inquiry, tuition and financial aid), putting the inquiry form on the school website, editing a form and its fields, surveys, and documents and contracts families sign (enrollment agreements)."
+also_called: ["inquiry form", "contact form", "info packet", "embed", "website form", "WordPress", "Squarespace", "Wix", "survey", "feedback", "contract", "enrollment agreement", "e-signature", "sign", "PDF"]
+related: [calendars, automations, advanced-and-settings]
+plan: ""  # SchoolBox, Full or All, once the feature map is filled in
+reviewed: 2026-11-03
+---
 # Forms, surveys and documents
 
 The Forms & Docs tab has Forms, Surveys, and Documents & Contracts.

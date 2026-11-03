@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 """Bundle the Banner Connect knowledge base into Ask AI skill files.
 
+Legacy: personal Ask AI skills that hold the full articles (ruled out Nov 3; Ask AI now uses a short
+skill that reads https://demo.banner61.com/help/index.txt instead). Kept for reference.
+
 Usage: python3 kb/build_skill.py
 Writes one SKILL.md per group in kb/dist/<skill-name>/SKILL.md.
 Each skill = the shared answering instructions + its articles.
 Ask AI limits: name 80 characters, description 500, instructions 50,000.
 """
+import re
 from pathlib import Path
 
 KB = Path(__file__).resolve().parent
@@ -41,7 +45,7 @@ def main():
         parts = [instructions, "# Banner Connect articles"]
         for prefix in g["articles"]:
             (path,) = KB.glob(f"{prefix}-*.md")
-            parts.append(demote(path.read_text()))
+            parts.append(demote(re.sub(r"^---\n.*?\n---\n", "", path.read_text(), flags=re.S)))
         body = "\n\n".join(parts).rstrip() + "\n"
         assert len(g["name"]) <= 80 and len(g["description"]) <= 500
         assert len(body) <= LIMIT, f"{g['name']} is {len(body)} characters, over {LIMIT}"

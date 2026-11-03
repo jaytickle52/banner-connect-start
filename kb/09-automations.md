@@ -1,3 +1,13 @@
+---
+id: automations
+title: "Automations (workflows)"
+menu: "Automations > Workflows"
+use_when: "What the prebuilt workflows do (after an inquiry, after a visit, open house follow-up, cold inquiry revival, stalled families), the staff follow-up email after a visit, what's safe to change, and why an email didn't send."
+also_called: ["automation", "automatic", "workflow", "follow-up emails", "drip", "nurture", "sequence", "what happens when", "day after the visit", "didn't send", "not sending", "re-engage", "win back"]
+related: [marketing, calendars, pipeline]
+plan: ""  # SchoolBox, Full or All, once the feature map is filled in
+reviewed: 2026-11-03
+---
 # Automations (workflows)
 
 Go to **Automations**, then **Workflows**. Workflows are the follow-up that happens on its own. Banner 61 builds them for you. Before building anything new, look through what's already running.

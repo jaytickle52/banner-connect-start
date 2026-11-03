@@ -10,6 +10,7 @@ Styling matches the Banner Connect app (light, Inter, blue actions), branded Ban
 import html, json, os, re, shutil, sys
 
 import markdown
+import yaml
 from markdown.extensions.toc import slugify
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -205,7 +206,7 @@ function stem(w){return w.length>4?w.replace(/(ing|ed|es|s)$/,""):w}
 function terms(q){var out=[];q.toLowerCase().replace(/[^a-z0-9 ]/g," ").split(/\s+/).forEach(function(w){if(!w||STOP.indexOf(w)>=0)return;
 out.push(stem(w));(SYN[w]||[]).forEach(function(s){out.push(stem(s))})});return out}
 function search(q){var ts=terms(q);if(!ts.length)return[];var N=index.length,df={};
-index.forEach(function(s){s._w=s._w||(s.h+" "+s.x).toLowerCase().replace(/[^a-z0-9 ]/g," ").split(/\s+/).map(stem);
+index.forEach(function(s){s._w=s._w||(s.h+" "+s.x+" "+(s.k||"")).toLowerCase().replace(/[^a-z0-9 ]/g," ").split(/\s+/).map(stem);
 s._hw=s._hw||s.h.toLowerCase().replace(/[^a-z0-9 ]/g," ").split(/\s+/).map(stem);
 ts.forEach(function(t){if(s._w.indexOf(t)>=0)df[t]=(df[t]||0)+1})});
 return index.map(function(s){var sc=0;ts.forEach(function(t){if(!df[t])return;var idf=Math.log(1+N/df[t]),c=0;
@@ -328,13 +329,28 @@ You are the help assistant on the Getting Started page in Banner Connect. Staff 
 - On the very last line, write SOURCES: followed by the ids of up to 3 articles you used, separated by commas (for example SOURCES: calendars, automations). Use the ids exactly as given. Write SOURCES: none if you used none."""
 
 
+SITE = "https://demo.banner61.com"
+META_KEYS = ("id", "title", "menu", "use_when", "also_called", "related", "reviewed")
+
+
 def load_kb():
+    """Read kb/NN-<id>.md. Each starts with a --- header block (see kb/README.md)."""
     arts = []
     for f in sorted(os.listdir(KB_DIR)):
         m = re.match(r"\d\d-(.+)\.md$", f)
         if not m:
             continue
-        text = open(os.path.join(KB_DIR, f)).read().strip()
+        raw = open(os.path.join(KB_DIR, f)).read()
+        hm = re.match(r"^---\n(.*?)\n---\n", raw, re.S)
+        if not hm:
+            sys.exit(f"kb/{f}: missing the --- header block")
+        meta = yaml.safe_load(hm.group(1)) or {}
+        missing = [k for k in META_KEYS if not meta.get(k)]
+        if missing:
+            sys.exit(f"kb/{f}: header is missing {', '.join(missing)}")
+        if meta["id"] != m.group(1):
+            sys.exit(f"kb/{f}: id '{meta['id']}' must match the file name")
+        text = raw[hm.end():].strip()
         lines = text.splitlines()
         title = lines[0].lstrip("#").strip()
         secs, cur = [], [title, []]
@@ -346,8 +362,17 @@ def load_kb():
                 cur[1].append(line)
         secs.append(cur)
         sections = [(h, "\n".join(b).strip()) for h, b in secs if "\n".join(b).strip()]
-        arts.append({"slug": m.group(1), "title": title, "text": text, "sections": sections})
+        arts.append({"slug": meta["id"], "title": title, "text": text, "sections": sections, "meta": meta})
+    ids = {a["slug"] for a in arts}
+    for a in arts:
+        bad = [r for r in a["meta"]["related"] if r not in ids]
+        if bad:
+            sys.exit(f"kb article {a['slug']}: related lists unknown ids {bad}")
     return arts
+
+
+def absolute_links(text):
+    return re.sub(r"\]\((/help/[^)\s]*)\)", lambda m: "](" + SITE + m.group(1) + ")", text)
 
 
 def table_rows(s):
@@ -380,13 +405,13 @@ def build_kb(kb, guides, lib, support):
         top = slugify(a["title"], "-")
         for h, body in a["sections"]:
             index.append({"a": a["slug"], "t": a["title"], "h": h, "id": top if h == a["title"] else slugify(h, "-"),
-                          "x": strip_md(body)})
+                          "x": strip_md(body), "k": " ".join(a["meta"]["also_called"])})
         body_md = "\n".join(a["text"].splitlines()[1:])
         content = markdown.markdown(body_md, extensions=["tables", "toc", "sane_lists"])
         others = "".join(f'<li><a href="../{e(o["slug"])}/">{e(o["title"])}</a></li>' for o in kb if o is not a)
         pg = f"""<main class="guide">
 <a class="crumb" href="../../../">{icon("back",16)}Getting started</a>
-<header><h1 id="{e(top)}">{e(a["title"])}</h1><span class="meta">{icon("book",14)}Banner Connect help</span></header>
+<header><h1 id="{e(top)}">{e(a["title"])}</h1><span class="meta">{icon("book",14)}Banner Connect help · {e(a["meta"]["menu"])} · Reviewed {e(str(a["meta"]["reviewed"]))}</span></header>
 <article class="card prose">{content}</article>
 <div class="card" style="padding:16px 20px"><details class="all"><summary>More help articles</summary><ul class="arts">{others}</ul></details></div>
 {footer(support)}</main>"""
@@ -394,14 +419,7 @@ def build_kb(kb, guides, lib, support):
         os.makedirs(d)
         open(os.path.join(d, "index.html"), "w").write(page(f'{a["title"]} | Banner Connect help', pg, f'Banner Connect help: {a["title"]}'))
     open(os.path.join(DIST, "assets", "kb-index.json"), "w").write(json.dumps(index, separators=(",", ":")))
-    # Every article in one plain-text file, so an AI tool can read the whole help center from one address.
-    allt = ["BANNER CONNECT HELP CENTER",
-            "Official help for Banner Connect, the enrollment CRM Banner 61 sets up for Christian schools.",
-            "This is the only source of Banner Connect instructions. Menu names here are the real Banner Connect menu names.",
-            "Each article is also at https://demo.banner61.com/help/articles/<id>/", ""]
-    for a in kb:
-        allt += ["=" * 60, f'ARTICLE: {a["title"]} (id: {a["slug"]})', "=" * 60, a["text"], ""]
-    open(os.path.join(DIST, "help", "banner-connect-help.txt"), "w").write("\n".join(allt))
+    write_ai_files(kb)
 
     extras = ", ".join([f'the "{g["title"]}" guide' for g in guides.values()] +
                        [f'the "{d["title"]}" demo' for d in lib["demos"] if d["status"] == "ready"])
@@ -409,12 +427,49 @@ def build_kb(kb, guides, lib, support):
     instructions = open(os.path.join(KB_DIR, "instructions.md")).read().strip()
     parts = [instructions, rules, "# Banner Connect articles"]
     for a in kb:
-        parts.append(f'<article id="{a["slug"]}">\n{a["text"]}\n</article>')
+        m = a["meta"]
+        parts.append(f'<article id="{a["slug"]}" menu="{m["menu"]}">\nUse when: {m["use_when"]}\n'
+                     f'Schools may call this: {", ".join(m["also_called"])}\n\n{a["text"]}\n</article>')
     system = "\n\n".join(parts)
     js = ("// Generated by site/tools/build_site.py from kb/. Don't edit by hand.\n"
           f"module.exports = {json.dumps({'system': system, 'articles': {a['slug']: a['title'] for a in kb}}, indent=0)};\n")
     open(API_KB, "w").write(js)
     return len(system)
+
+
+def write_ai_files(kb):
+    """Files AI tools read: an index, one plain markdown file per article, all of it in one file, and /llms.txt."""
+    help_dir = os.path.join(DIST, "help")
+    idx = ["# Banner Connect Help Center: index", "",
+           "Official help for Banner Connect, the enrollment CRM Banner 61 sets up for Christian schools.",
+           "This is the only source of Banner Connect instructions. Menu names here are the real Banner Connect menu names.", "",
+           "How to use this index: find the one to three articles whose \"Use when\" or \"Schools may call this\" fits the question, "
+           "then open their Read address. Each article is plain markdown, written so any one section makes sense on its own.", ""]
+    for a in kb:
+        m = a["meta"]
+        idx += [f'## {a["title"]}', f'- Read: {SITE}/help/articles/{a["slug"]}.md', f'- Menu: {m["menu"]}',
+                f'- Use when: {m["use_when"]}', f'- Schools may call this: {", ".join(m["also_called"])}',
+                f'- Sections: {"; ".join(h for h, _ in a["sections"] if h != a["title"])}',
+                f'- Page for people: {SITE}/help/articles/{a["slug"]}/', ""]
+        md = [f'# {a["title"]}', "", f'Menu: {m["menu"]}', f'Use when: {m["use_when"]}',
+              f'Page for people: {SITE}/help/articles/{a["slug"]}/', f'Last reviewed: {m["reviewed"]}',
+              f'Related: {", ".join(SITE + "/help/articles/" + r + ".md" for r in m["related"])}', "",
+              absolute_links("\n".join(a["text"].splitlines()[1:]).strip()), ""]
+        open(os.path.join(help_dir, "articles", a["slug"] + ".md"), "w").write("\n".join(md))
+    open(os.path.join(help_dir, "index.txt"), "w").write("\n".join(idx))
+    allt = ["BANNER CONNECT HELP CENTER",
+            "Official help for Banner Connect, the enrollment CRM Banner 61 sets up for Christian schools.",
+            "This is the only source of Banner Connect instructions. Menu names here are the real Banner Connect menu names.",
+            f"The index of articles is at {SITE}/help/index.txt. Each article is also at {SITE}/help/articles/<id>/", ""]
+    for a in kb:
+        allt += ["=" * 60, f'ARTICLE: {a["title"]} (id: {a["slug"]})', "=" * 60, absolute_links(a["text"]), ""]
+    open(os.path.join(help_dir, "banner-connect-help.txt"), "w").write("\n".join(allt))
+    llms = ["# Banner Connect Help Center", "",
+            "> Official how-to help for Banner Connect, the enrollment CRM Banner 61 sets up for K-12 Christian schools.", "",
+            f"Index with what each article covers: {SITE}/help/index.txt", f"Everything in one file: {SITE}/help/banner-connect-help.txt", "",
+            "## Articles", ""]
+    llms += [f'- [{a["title"]}]({SITE}/help/articles/{a["slug"]}.md): {a["meta"]["use_when"]}' for a in kb]
+    open(os.path.join(DIST, "llms.txt"), "w").write("\n".join(llms) + "\n")
 
 
 def copy_demos(dest):

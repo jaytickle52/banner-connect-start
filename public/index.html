@@ -55,7 +55,7 @@ function stem(w){return w.length>4?w.replace(/(ing|ed|es|s)$/,""):w}
 function terms(q){var out=[];q.toLowerCase().replace(/[^a-z0-9 ]/g," ").split(/\s+/).forEach(function(w){if(!w||STOP.indexOf(w)>=0)return;
 out.push(stem(w));(SYN[w]||[]).forEach(function(s){out.push(stem(s))})});return out}
 function search(q){var ts=terms(q);if(!ts.length)return[];var N=index.length,df={};
-index.forEach(function(s){s._w=s._w||(s.h+" "+s.x).toLowerCase().replace(/[^a-z0-9 ]/g," ").split(/\s+/).map(stem);
+index.forEach(function(s){s._w=s._w||(s.h+" "+s.x+" "+(s.k||"")).toLowerCase().replace(/[^a-z0-9 ]/g," ").split(/\s+/).map(stem);
 s._hw=s._hw||s.h.toLowerCase().replace(/[^a-z0-9 ]/g," ").split(/\s+/).map(stem);
 ts.forEach(function(t){if(s._w.indexOf(t)>=0)df[t]=(df[t]||0)+1})});
 return index.map(function(s){var sc=0;ts.forEach(function(t){if(!df[t])return;var idf=Math.log(1+N/df[t]),c=0;

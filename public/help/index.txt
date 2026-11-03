@@ -1,0 +1,102 @@
+# Banner Connect Help Center: index
+
+Official help for Banner Connect, the enrollment CRM Banner 61 sets up for Christian schools.
+This is the only source of Banner Connect instructions. Menu names here are the real Banner Connect menu names.
+
+How to use this index: find the one to three articles whose "Use when" or "Schools may call this" fits the question, then open their Read address. Each article is plain markdown, written so any one section makes sense on its own.
+
+## About Banner Connect
+- Read: https://demo.banner61.com/help/articles/about-banner-connect.md
+- Menu: All tabs
+- Use when: What Banner Connect is, where to sign in, the full menu and what each tab holds, what the words mean (contact, opportunity, pipeline, stage, tag, smart list, workflow), and what Banner 61 handles versus the school.
+- Schools may call this: CRM, the system, the software, the platform, sign in, log in, glossary, menu, what does this tab do
+- Sections: The menu; Words Banner Connect uses; Names in your account; What Banner 61 handles
+- Page for people: https://demo.banner61.com/help/articles/about-banner-connect/
+
+## Getting started
+- Read: https://demo.banner61.com/help/articles/getting-started.md
+- Menu: Getting Started; Settings > My Profile
+- Use when: First login, password, the first four setup steps, connecting a staff member's email (two-way sync), reviewing forms and emails before they go live, sharing website domain access with Banner 61.
+- Schools may call this: first day, new account, set up, setup, onboarding, password, sign in, log in, Gmail, Outlook, connect my email, DNS, domain
+- Sections: Logging in for the first time; The first four things to do; Connect your email (two-way sync); Before your forms go live: review and approve; Sharing domain access
+- Page for people: https://demo.banner61.com/help/articles/getting-started/
+
+## Contacts
+- Read: https://demo.banner61.com/help/articles/contacts.md
+- Menu: CRM > Contacts
+- Use when: Finding, adding, importing, exporting or merging families; what's on a family's record; tags; Smart Lists and filters (for example families with no recent activity).
+- Schools may call this: family, families, parent, parents, student, lead, inquiry, record, list, spreadsheet, CSV, upload, duplicate, tag, label, segment, haven't heard from, no activity
+- Sections: Find a contact; Add a contact by hand; What's on a contact record; Tags; Smart Lists and filters; Import contacts from a spreadsheet; Export contacts; Duplicates
+- Page for people: https://demo.banner61.com/help/articles/contacts/
+
+## The enrollment pipeline (Opportunities)
+- Read: https://demo.banner61.com/help/articles/pipeline.md
+- Menu: CRM > Opportunities
+- Use when: The enrollment pipeline: where every family sits, moving a family to a stage (Visit Scheduled, Accepted, Enrolled), status (Won, Lost), stalled families, bulk updates, deleting and restoring a family, why stages shouldn't be renamed.
+- Schools may call this: pipeline, board, funnel, stage, column, accepted, enrolled, applied, admitted, won, lost, card, deal, opportunity, deleted family, restore
+- Sections: Your pipelines; What's on an opportunity; Add a family to the pipeline by hand; Move a family forward; Status: Open, Won, Lost, Abandoned; Stalled families; Find a family; Filters and views; Update many families at once; Delete and restore; Changing pipelines and stages
+- Page for people: https://demo.banner61.com/help/articles/pipeline/
+
+## Conversations, snippets and texting
+- Read: https://demo.banner61.com/help/articles/conversations.md
+- Menu: CRM > Conversations
+- Use when: Replying to families by email, text or social; connecting Facebook, Instagram and Google Business Profile; snippets (saved replies); texting and its phone number and registration; trigger links.
+- Schools may call this: inbox, messages, reply, email a family, text, texting, SMS, phone number, Facebook, Instagram, Google, Messenger, DM, saved reply, canned response, template reply
+- Sections: Connect Facebook, Instagram and Google; Reply to a family; Snippets (saved replies); Texting (SMS); Trigger links
+- Page for people: https://demo.banner61.com/help/articles/conversations/
+
+## Tasks and notifications
+- Read: https://demo.banner61.com/help/articles/tasks.md
+- Menu: CRM > Tasks; Dashboard; Settings > My Profile > Notifications
+- Use when: Creating and assigning follow-up tasks, due dates, getting notified when a task is assigned, and reading the Dashboard.
+- Schools may call this: to-do, follow-up, reminder, assign, notification, alert, email me when, dashboard, home screen
+- Sections: Where tasks live; Create a task; Turn on task notifications; The Dashboard
+- Page for people: https://demo.banner61.com/help/articles/tasks/
+
+## Calendars
+- Read: https://demo.banner61.com/help/articles/calendars.md
+- Menu: Calendars
+- Use when: The prebuilt calendars (Schedule a Visit, Event Registration), connecting a staff calendar, booking a visit for a family who called or walked in, changing available times, open houses and events, embedding or sharing a calendar on the school website.
+- Schools may call this: tour, campus visit, shadow day, appointment, booking, schedule, open house, event, registration, RSVP, Google Calendar, Outlook calendar, availability, booking link, embed calendar
+- Sections: Your prebuilt calendars; Connect your calendar; Book a visit for a family (phone or walk-in); Change available times; Set up an event (open house); Share or embed a calendar; Can't see something?
+- Page for people: https://demo.banner61.com/help/articles/calendars/
+
+## Forms, surveys and documents
+- Read: https://demo.banner61.com/help/articles/forms-and-docs.md
+- Menu: Forms & Docs
+- Use when: The prebuilt forms (Request Info Packet, General Inquiry, tuition and financial aid), putting the inquiry form on the school website, editing a form and its fields, surveys, and documents and contracts families sign (enrollment agreements).
+- Schools may call this: inquiry form, contact form, info packet, embed, website form, WordPress, Squarespace, Wix, survey, feedback, contract, enrollment agreement, e-signature, sign, PDF
+- Sections: Your prebuilt forms; Put your inquiry form on your website; Edit a form; Surveys; Documents & Contracts
+- Page for people: https://demo.banner61.com/help/articles/forms-and-docs/
+
+## Marketing
+- Read: https://demo.banner61.com/help/articles/marketing.md
+- Menu: Marketing
+- Use when: Email templates and their wording, one-time email campaigns to a group (newsletter, current families), trigger links, funnels (landing pages), QR codes, the Social Planner and video testimonials.
+- Schools may call this: newsletter, email blast, announcement, bulk email, mass email, campaign, template, wording, landing page, QR, viewbook, flyer, social media, post, testimonial, video review
+- Sections: Email templates; Email campaigns (one-time emails to a group); Trigger links; Funnels (landing pages); QR codes; Social Planner; Video Testimonials
+- Page for people: https://demo.banner61.com/help/articles/marketing/
+
+## Automations (workflows)
+- Read: https://demo.banner61.com/help/articles/automations.md
+- Menu: Automations > Workflows
+- Use when: What the prebuilt workflows do (after an inquiry, after a visit, open house follow-up, cold inquiry revival, stalled families), the staff follow-up email after a visit, what's safe to change, and why an email didn't send.
+- Schools may call this: automation, automatic, workflow, follow-up emails, drip, nurture, sequence, what happens when, day after the visit, didn't send, not sending, re-engage, win back
+- Sections: What's already built; After a visit: the staff follow-up email; Win back quiet families; How a workflow works; Before you change a workflow; "Why didn't this send?"
+- Page for people: https://demo.banner61.com/help/articles/automations/
+
+## Dashboard, reporting and payments
+- Read: https://demo.banner61.com/help/articles/reporting-and-payments.md
+- Menu: Dashboard; Reporting; Payments
+- Use when: The Dashboard, lead source and other reports (where inquiries come from), email results, and taking payments: connecting Stripe or PayPal, application fees, enrollment deposits, payment links and invoices.
+- Schools may call this: report, numbers, analytics, lead source, where families come from, how did you hear, stats, payment, deposit, application fee, tuition payment, pay online, invoice, Stripe, PayPal, refund
+- Sections: Dashboard; Reporting; Payments
+- Page for people: https://demo.banner61.com/help/articles/reporting-and-payments/
+
+## Advanced and settings
+- Read: https://demo.banner61.com/help/articles/advanced-and-settings.md
+- Menu: Advanced; Settings
+- Use when: Custom values (school name, address, phone used in every email), custom fields (grade of interest and other details), merge fields for personalizing messages, Business Profile, Users and access for staff, Integrations and Audit Logs.
+- Schools may call this: field, grade, grade of interest, custom field, school address, school phone, merge field, personalize, first name, staff, staff member, employee, assistant, teacher, user, access, permissions, remove a user, audit log, who deleted
+- Sections: Custom values (your school's details); Custom fields (extra details you track); Merge fields (personalizing messages); Other Advanced pages; Settings; Users and access
+- Page for people: https://demo.banner61.com/help/articles/advanced-and-settings/

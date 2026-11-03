@@ -1,3 +1,13 @@
+---
+id: conversations
+title: "Conversations, snippets and texting"
+menu: "CRM > Conversations"
+use_when: "Replying to families by email, text or social; connecting Facebook, Instagram and Google Business Profile; snippets (saved replies); texting and its phone number and registration; trigger links."
+also_called: ["inbox", "messages", "reply", "email a family", "text", "texting", "SMS", "phone number", "Facebook", "Instagram", "Google", "Messenger", "DM", "saved reply", "canned response", "template reply"]
+related: [marketing, advanced-and-settings]
+plan: ""  # SchoolBox, Full or All, once the feature map is filled in
+reviewed: 2026-11-03
+---
 # Conversations, snippets and texting
 
 Go to **CRM**, then **Conversations**, then **Inbox**. Email, text messages, Facebook and Instagram messages and Google Business Profile messages all land in one list. Reply from the same screen, on your computer or in the LeadConnector mobile app.
@@ -43,4 +53,4 @@ Phone numbers are managed in **Settings**, then **Communications**, then **Phone
 
 ## Trigger links
 
-A trigger link is a tracked link. When a family clicks it, the click is recorded on their record and it can start an automation (for example, send tuition details to everyone who clicks "View Tuition"). Find them in **CRM**, then **Conversations**, then **Trigger Links**, or under **Marketing**. See "Marketing" for how to create and use them.
+A trigger link is a tracked link. When a family clicks it, the click is recorded on their record and it can start an automation (for example, send tuition details to everyone who clicks "View Tuition"). Find them in **CRM**, then **Conversations**, then **Trigger Links**, or under **Marketing**. See [Trigger links](/help/articles/marketing/#trigger-links) for how to create and use them.
