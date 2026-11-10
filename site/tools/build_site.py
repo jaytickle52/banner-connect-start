@@ -279,7 +279,7 @@ def build_index(gs, guides, demo_ids, kb):
 <header class="head"><div><h1>{e(gs["title"])}</h1><p>{e(gs["intro"])}</p></div>
 <span class="brand"><img class="flag" src="/assets/banner61-mark.png" alt="" width="18" height="18"><b>Banner Connect</b> by Banner 61</span></header>
 {ask_section(kb)}
-<section class="card" aria-labelledby="start-h"><div class="card-head"><div><h2 id="start-h">Start here</h2><p>Four steps for your first week.</p></div>
+<section class="card" aria-labelledby="start-h"><div class="card-head"><div><h2 id="start-h">Start here</h2><p>Four steps for your first week. Tick each one off as you go; your ticks are saved on this computer and browser only.</p></div>
 <div class="progress"><span id="count">0 of {n} done</span><span class="bar"><i id="fill" style="width:0%"></i></span></div></div>
 <ol class="steps">{"".join(start_rows)}</ol></section>
 <section aria-labelledby="menu-h" style="display:grid;gap:12px"><div><h2 id="menu-h">Your menu, tab by tab</h2>
