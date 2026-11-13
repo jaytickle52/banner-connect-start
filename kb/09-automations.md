@@ -4,9 +4,9 @@ title: "Automations (workflows)"
 menu: "Automations > Workflows"
 use_when: "What the prebuilt workflows do (after an inquiry, after a visit, open house follow-up, cold inquiry revival, stalled families), the staff follow-up email after a visit, what's safe to change, and why an email didn't send."
 also_called: ["automation", "automatic", "workflow", "follow-up emails", "drip", "nurture", "sequence", "what happens when", "day after the visit", "didn't send", "not sending", "re-engage", "win back"]
-related: [marketing, calendars, pipeline]
+related: [marketing, calendars, pipeline, bulk-actions]
 plan: ""  # SchoolBox, Full or All, once the feature map is filled in
-reviewed: 2026-11-03
+reviewed: 2026-11-13
 ---
 # Automations (workflows)
 
@@ -59,6 +59,8 @@ Each workflow also has a **Settings** tab with:
 Workflows send real emails to real families, and many of them depend on each other (for example, on exact stage names, tag names and templates). It's easy to send families duplicate or wrong emails by accident. Safe changes a school can make on its own:
 - editing the wording of the email templates a workflow uses,
 - changing the staff email address in a notification step (like Internal Staff Email in Event Registration).
+
+To start a workflow by hand for a whole list of families, see [Start an automation for a list of families](/help/articles/bulk-actions/#start-an-automation-for-a-list-of-families).
 
 For anything else, such as new workflows, new triggers, or turning a workflow on or off, ask the Banner 61 team. We'll build or change it with you.
 

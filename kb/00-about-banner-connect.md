@@ -6,7 +6,7 @@ use_when: "What Banner Connect is, where to sign in, the full menu and what each
 also_called: ["CRM", "the system", "the software", "the platform", "sign in", "log in", "glossary", "menu", "what does this tab do"]
 related: [getting-started]
 plan: ""  # SchoolBox, Full or All, once the feature map is filled in
-reviewed: 2026-11-03
+reviewed: 2026-11-13
 ---
 # About Banner Connect
 
@@ -59,6 +59,7 @@ Banner 61 sets up every account with the same names. Use them exactly, because a
 - **Pipelines** (CRM, then Opportunities): Inquiry to Enrollment (New Inquiry, Visit Scheduled, Visit Attended, Application Sent, Application Submitted, Accepted, Enrolled), Re-Enrollment Pipeline, Sibling Enrollment Fast Track. See [Your pipelines](/help/articles/pipeline/#your-pipelines).
 - **Smart list** (CRM, then Contacts): Current Families, everyone in the Enrolled stage.
 - **Workflows** (Automations, then Workflows): Request Info Packet / Lead Nurture, Request Tuition Info, Request Financial Aid Info, General Inquiry, Request a Visit, Event Registration, Cold Inquiry Revival, Stalled Leads / Remove Stalled Tag. See [What's already built](/help/articles/automations/#whats-already-built).
+- **Email templates** (Marketing, then Emails, then Templates): one folder per workflow above, plus a **Campaigns** folder with Open House Invitation, Monthly Family Newsletter, Re-enrollment Is Open and Quick Announcement for one-time sends. See [Email campaigns](/help/articles/marketing/#email-campaigns-one-time-emails-to-a-group).
 - **Tags that start automations**: Cold Inquiry Revival (a series of re-engagement emails). Check before adding any tag.
 
 ## What Banner 61 handles

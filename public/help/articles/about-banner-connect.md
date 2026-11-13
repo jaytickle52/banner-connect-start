@@ -3,7 +3,7 @@
 Menu: All tabs
 Use when: What Banner Connect is, where to sign in, the full menu and what each tab holds, what the words mean (contact, opportunity, pipeline, stage, tag, smart list, workflow), and what Banner 61 handles versus the school.
 Page for people: https://demo.banner61.com/help/articles/about-banner-connect/
-Last reviewed: 2026-11-03
+Last reviewed: 2026-11-13
 Related: https://demo.banner61.com/help/articles/getting-started.md
 
 Banner Connect is the enrollment CRM Banner 61 sets up for Christian schools. It keeps every family, message, visit and follow-up in one place, from the first inquiry to an enrolled student. Banner 61 builds each school's account with forms, a pipeline, calendars, email templates and automations already in place, so most schools start by reviewing what's there rather than building from scratch.
@@ -55,6 +55,7 @@ Banner 61 sets up every account with the same names. Use them exactly, because a
 - **Pipelines** (CRM, then Opportunities): Inquiry to Enrollment (New Inquiry, Visit Scheduled, Visit Attended, Application Sent, Application Submitted, Accepted, Enrolled), Re-Enrollment Pipeline, Sibling Enrollment Fast Track. See [Your pipelines](https://demo.banner61.com/help/articles/pipeline/#your-pipelines).
 - **Smart list** (CRM, then Contacts): Current Families, everyone in the Enrolled stage.
 - **Workflows** (Automations, then Workflows): Request Info Packet / Lead Nurture, Request Tuition Info, Request Financial Aid Info, General Inquiry, Request a Visit, Event Registration, Cold Inquiry Revival, Stalled Leads / Remove Stalled Tag. See [What's already built](https://demo.banner61.com/help/articles/automations/#whats-already-built).
+- **Email templates** (Marketing, then Emails, then Templates): one folder per workflow above, plus a **Campaigns** folder with Open House Invitation, Monthly Family Newsletter, Re-enrollment Is Open and Quick Announcement for one-time sends. See [Email campaigns](https://demo.banner61.com/help/articles/marketing/#email-campaigns-one-time-emails-to-a-group).
 - **Tags that start automations**: Cold Inquiry Revival (a series of re-engagement emails). Check before adding any tag.
 
 ## What Banner 61 handles

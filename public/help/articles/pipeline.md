@@ -3,8 +3,8 @@
 Menu: CRM > Opportunities
 Use when: The enrollment pipeline: where every family sits, moving a family to a stage (Visit Scheduled, Accepted, Enrolled), status (Won, Lost), stalled families, bulk updates, deleting and restoring a family, why stages shouldn't be renamed.
 Page for people: https://demo.banner61.com/help/articles/pipeline/
-Last reviewed: 2026-11-03
-Related: https://demo.banner61.com/help/articles/contacts.md, https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/reporting-and-payments.md
+Last reviewed: 2026-11-13
+Related: https://demo.banner61.com/help/articles/contacts.md, https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/reporting-and-payments.md, https://demo.banner61.com/help/articles/bulk-actions.md
 
 Go to **CRM**, then **Opportunities**. Each card is one family. Each column is a stage. Families move left to right as they get closer to enrolling.
 
@@ -82,6 +82,8 @@ Handy filters: Stage = Visit Attended (visited but no application yet); Owner = 
 2. Click **Edit** to change Stage, Pipeline, Status, Owner, Followers, Value, Source, Expected Close Date, Lost Reason or custom fields for all of them.
 
 For example, after an open house, filter to the families who attended, select them and move them to the next stage in one step. Bulk changes run in the background; check progress on the **Bulk Actions** page under Opportunities.
+
+You can also move a group from a contact list in **CRM**, then **Contacts**. See [Update the pipeline for a whole list of families](https://demo.banner61.com/help/articles/bulk-actions/#update-the-pipeline-for-a-whole-list-of-families).
 
 ## Delete and restore
 
