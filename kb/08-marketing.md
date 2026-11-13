@@ -4,7 +4,7 @@ title: "Marketing"
 menu: "Marketing"
 use_when: "Email templates and their wording, one-time email campaigns to a group (newsletter, current families), trigger links, funnels (landing pages), QR codes, the Social Planner and video testimonials."
 also_called: ["newsletter", "email blast", "announcement", "bulk email", "mass email", "campaign", "template", "wording", "landing page", "QR", "viewbook", "flyer", "social media", "post", "testimonial", "video review"]
-related: [contacts, automations, conversations]
+related: [smart-lists, contacts, automations, conversations]
 plan: ""  # SchoolBox, Full or All, once the feature map is filled in
 reviewed: 2026-11-03
 ---

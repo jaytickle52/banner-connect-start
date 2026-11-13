@@ -2,11 +2,11 @@
 id: contacts
 title: "Contacts"
 menu: "CRM > Contacts"
-use_when: "Finding, adding, importing, exporting or merging families; what's on a family's record; tags; Smart Lists and filters (for example families with no recent activity)."
-also_called: ["family", "families", "parent", "parents", "student", "lead", "inquiry", "record", "list", "spreadsheet", "CSV", "upload", "duplicate", "tag", "label", "segment", "haven't heard from", "no activity"]
-related: [pipeline, marketing, automations]
+use_when: "Finding, adding, importing, exporting or merging families; what's on a family's record; tags; filtering the contact list. Saved lists such as Stalled Leads are in Smart Lists."
+also_called: ["family", "families", "parent", "parents", "student", "lead", "inquiry", "record", "spreadsheet", "CSV", "upload", "duplicate", "tag", "label", "filter"]
+related: [smart-lists, pipeline, marketing, automations]
 plan: ""  # SchoolBox, Full or All, once the feature map is filled in
-reviewed: 2026-11-03
+reviewed: 2026-11-13
 ---
 # Contacts
 
@@ -53,14 +53,9 @@ Good to know:
 
 Tags vs custom fields: a tag is a label (Tour Scheduled). A custom field holds a value (Grade Level Applying For = 5th Grade).
 
-## Smart Lists and filters
+## Filter the contact list
 
-1. In **CRM**, then **Contacts**, open **Advanced Filters**.
-2. Add conditions, such as Tag is Open House Attendee and Grade of Entry is 6th Grade. Use AND to require every condition and OR to allow any.
-3. Apply the filter to see the results.
-4. To keep it, click **Unsaved Changes**, then **Save as new smart list**, and give it a clear name like "Tours – Middle School".
-
-Smart Lists update on their own as families gain or lose tags or change stages. Your account includes a **Current Families** smart list (families in the Enrolled stage). Useful ones to add: new inquiries from the last 30 days, and families with no activity in 60 days.
+Click **Filters** above the contact list in **CRM**, then **Contacts**, to narrow it to the families you need. To keep a filter as a list that updates on its own, save it as a smart list. Smart lists, including Current Families and Stalled Leads, have their own article: [Smart Lists](/help/articles/smart-lists/).
 
 ## Import contacts from a spreadsheet
 
