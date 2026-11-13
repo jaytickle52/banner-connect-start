@@ -177,6 +177,8 @@ Tags vs custom fields: a tag is a label (Tour Scheduled). A custom field holds a
 
 Click **Filters** above the contact list in **CRM**, then **Contacts**, to narrow it to the families you need. To keep a filter as a list that updates on its own, save it as a smart list. Smart lists, including Current Families and Stalled Leads, have their own article: [Smart Lists](https://demo.banner61.com/help/articles/smart-lists/).
 
+To tag, move or email everyone on a list at once, see [Select a whole list of families](https://demo.banner61.com/help/articles/bulk-actions/#select-a-whole-list-of-families).
+
 ## Import contacts from a spreadsheet
 
 1. Save your spreadsheet as a CSV file with a header row (First Name, Email, Grade and so on). Every row needs an email or phone number.

@@ -1,0 +1,29 @@
+{
+  "title": "Build a list of families and act on it",
+  "summary": "A smart list keeps a group of families together, like everyone who came to your open house. Once you have the list, you can tag, move or email the whole group in one step instead of one family at a time.",
+  "minutes": 10,
+  "steps": [
+    {
+      "title": "Open your contacts",
+      "body": "In the menu, go to CRM, then Contacts. The tabs across the top are your smart lists. Current Families is already there."
+    },
+    {
+      "title": "Filter to the group you want",
+      "body": "Click Filters. Search for a field, such as Tag, pick it, choose the value (for example, Event Registration) and click Apply. Add another filter if you need to narrow it further. The Contacts count beside the Filters button shows how many families match."
+    },
+    {
+      "title": "Save it as a smart list",
+      "body": "Click Unsaved changes, then Save as new smartlist. Give it a name your team will recognize, like \"Open House Families: Fall\". The list keeps itself up to date as families gain tags or change stages."
+    },
+    {
+      "title": "Select everyone on the list",
+      "body": "Open your new list and check the box at the top of the name column. If the list is longer than one page, click the blue Select all button so every family is included."
+    },
+    {
+      "title": "Do one thing to all of them",
+      "body": "Pick an action from the toolbar: Add tags, Send email or Trigger automation, or open More for Manage opportunities (to move them to a new stage) and Remove tags. Every action asks for an Action name. Start with what you did and who it was for, like \"Tag open house families: attended event (Nov 2026)\". If you're not sure what a tag or automation will do, ask the Banner 61 team first."
+    }
+  ],
+  "check": "Go to CRM, then Contacts, then Bulk Actions. Your job shows there by name with the status Complete. Click the chart icon in the Statistics column to see every family it reached.",
+  "next": null
+}
