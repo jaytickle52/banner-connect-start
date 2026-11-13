@@ -21,6 +21,9 @@
     {"q": "How do I set up an automation that emails families the day after their visit?", "article": "automations", "must": ["Request a Visit|already", "Banner 61"]},
     {"q": "How do I put our visit calendar on our website?", "article": "calendars", "must": ["Schedule a Visit", "embed|Embed"]},
     {"q": "Where do our inquiries come from?", "article": "reporting-and-payments", "must": ["Reporting", "lead source|Lead Source"]},
-    {"q": "Which families haven't heard from us in two weeks?", "article": "contacts", "must": ["Smart List|filter"]}
+    {"q": "Which families haven't heard from us in two weeks?", "article": "smart-lists", "must": ["Stalled Leads", "14 days|two weeks"]},
+    {"q": "What is a smart list?", "article": "smart-lists", "must": ["saved", "Contacts"]},
+    {"q": "Why is the Thompson family on Stalled Leads?", "article": "smart-lists", "must": ["14 days|two weeks", "email|call|text"]},
+    {"q": "How do I make a list of all the families interested in kindergarten?", "article": "smart-lists", "must": ["Filters", "Grade(s) of Interest|grade", "Save as new smartlist|save"]}
   ]
 }

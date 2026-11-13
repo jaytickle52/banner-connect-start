@@ -4,7 +4,7 @@ title: "The enrollment pipeline (Opportunities)"
 menu: "CRM > Opportunities"
 use_when: "The enrollment pipeline: where every family sits, moving a family to a stage (Visit Scheduled, Accepted, Enrolled), status (Won, Lost), stalled families, bulk updates, deleting and restoring a family, why stages shouldn't be renamed."
 also_called: ["pipeline", "board", "funnel", "stage", "column", "accepted", "enrolled", "applied", "admitted", "won", "lost", "card", "deal", "opportunity", "deleted family", "restore"]
-related: [contacts, automations, reporting-and-payments]
+related: [contacts, smart-lists, automations, reporting-and-payments]
 plan: ""  # SchoolBox, Full or All, once the feature map is filled in
 reviewed: 2026-11-03
 ---

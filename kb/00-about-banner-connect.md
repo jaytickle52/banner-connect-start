@@ -4,9 +4,9 @@ title: "About Banner Connect"
 menu: "All tabs"
 use_when: "What Banner Connect is, where to sign in, the full menu and what each tab holds, what the words mean (contact, opportunity, pipeline, stage, tag, smart list, workflow), and what Banner 61 handles versus the school."
 also_called: ["CRM", "the system", "the software", "the platform", "sign in", "log in", "glossary", "menu", "what does this tab do"]
-related: [getting-started]
+related: [getting-started, smart-lists]
 plan: ""  # SchoolBox, Full or All, once the feature map is filled in
-reviewed: 2026-11-03
+reviewed: 2026-11-13
 ---
 # About Banner Connect
 
@@ -57,7 +57,7 @@ Banner 61 sets up every account with the same names. Use them exactly, because a
 - **Forms** (Forms & Docs, then Forms): General Inquiry Form, Request Info Packet, Request Tuition Info, Request Financial Aid Info, Request a Visit, Event Registration Form, Sibling Intent Form. See [Your prebuilt forms](/help/articles/forms-and-docs/#your-prebuilt-forms).
 - **Calendars** (Calendars, then Meeting Calendars): Schedule a Visit (campus visits), Event Registration (open houses and events), Schedule an Assessment (off until needed). See [Your prebuilt calendars](/help/articles/calendars/#your-prebuilt-calendars).
 - **Pipelines** (CRM, then Opportunities): Inquiry to Enrollment (New Inquiry, Visit Scheduled, Visit Attended, Application Sent, Application Submitted, Accepted, Enrolled), Re-Enrollment Pipeline, Sibling Enrollment Fast Track. See [Your pipelines](/help/articles/pipeline/#your-pipelines).
-- **Smart list** (CRM, then Contacts): Current Families, everyone in the Enrolled stage.
+- **Smart lists** (CRM, then Contacts): Current Families (everyone in the Enrolled stage) and Stalled Leads (open families in Inquiry to Enrollment with no email, text or call in 14 days). See [Smart Lists](/help/articles/smart-lists/).
 - **Workflows** (Automations, then Workflows): Request Info Packet / Lead Nurture, Request Tuition Info, Request Financial Aid Info, General Inquiry, Request a Visit, Event Registration, Cold Inquiry Revival, Stalled Leads / Remove Stalled Tag. See [What's already built](/help/articles/automations/#whats-already-built).
 - **Tags that start automations**: Cold Inquiry Revival (a series of re-engagement emails). Check before adding any tag.
 

@@ -54,8 +54,8 @@ The build stops with a message if the header is missing a field, the id doesn't 
 
 ## How to write so the AI gets it right
 
-- **Headings are tasks, in school words.** "Book a visit for a family who called", not "Appointments".
-- **The first sentence of each section answers the question.** Then numbered steps, then "How to check it worked."
+- **Headings are tasks or questions, in school words.** A how-to section is named for the task: "Book a visit for a family who called", not "Appointments". An explainer section is named for the question staff actually ask: "What is a smart list?", "Why is this family on Stalled Leads?". Never a bare feature name.
+- **The first sentence of each section answers the question.** In a how-to section, then numbered steps, then "How to check it worked." In an explainer, a few plain sentences that answer it, then a link to the how-to section that goes with it. No steps and no "How to check it worked" in an explainer.
 - **Every section stands on its own.** The AI often reads one section without the rest. Repeat the menu path in each section. Never write "as above", "see below" or "the previous step". To point elsewhere, link to the section: `[Connect your calendar](/help/articles/calendars/#connect-your-calendar)`.
 - **Exact menu names, in bold, with "then":** **Advanced**, then **Custom Fields**. Not "Settings > Custom Fields" or "the fields page".
 - **Exact account names** from the "Names in your account" section of `00-about-banner-connect.md`: Request Info Packet, Schedule a Visit, Event Registration, Inquiry to Enrollment, Current Families. If you add a form, calendar, stage or workflow, add it there too.
