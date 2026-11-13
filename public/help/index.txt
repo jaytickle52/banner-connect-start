@@ -25,7 +25,7 @@ How to use this index: find the one to three articles whose "Use when" or "Schoo
 - Read: https://demo.banner61.com/help/articles/contacts.md
 - Menu: CRM > Contacts
 - Use when: Finding, adding, importing, exporting or merging families; what's on a family's record; tags; filtering the contact list. Saved lists such as Stalled Leads are in Smart Lists.
-- Schools may call this: family, families, parent, parents, student, lead, inquiry, record, spreadsheet, CSV, upload, duplicate, tag, label, filter
+- Schools may call this: family, families, parent, parents, student, lead, inquiry, record, spreadsheet, CSV, upload, duplicate, tag, label, filter, bulk, select all
 - Sections: Find a contact; Add a contact by hand; What's on a contact record; Tags; Filter the contact list; Import contacts from a spreadsheet; Export contacts; Duplicates
 - Page for people: https://demo.banner61.com/help/articles/contacts/
 
@@ -73,7 +73,7 @@ How to use this index: find the one to three articles whose "Use when" or "Schoo
 - Read: https://demo.banner61.com/help/articles/marketing.md
 - Menu: Marketing
 - Use when: Email templates and their wording, one-time email campaigns to a group (newsletter, current families), trigger links, funnels (landing pages), QR codes, the Social Planner and video testimonials.
-- Schools may call this: newsletter, email blast, announcement, bulk email, mass email, campaign, template, wording, landing page, QR, viewbook, flyer, social media, post, testimonial, video review
+- Schools may call this: newsletter, email blast, announcement, bulk email, mass email, campaign, template, wording, landing page, QR, viewbook, flyer, social media, post, testimonial, video review, invitation, open house invite, re-enrollment email, school announcement
 - Sections: Email templates; Email campaigns (one-time emails to a group); Trigger links; Funnels (landing pages); QR codes; Social Planner; Video Testimonials
 - Page for people: https://demo.banner61.com/help/articles/marketing/
 
@@ -108,3 +108,11 @@ How to use this index: find the one to three articles whose "Use when" or "Schoo
 - Schools may call this: smart list, saved list, saved search, saved filter, filtered list, list of families, segment, spreadsheet tab, haven't heard from, gone quiet, no activity, stalled, stuck, falling through the cracks, kindergarten list, grade list, who toured
 - Sections: What is a smart list?; What lists are already in my account?; Email or tag everyone on a list; Make a smart list; Make a list of families interested in one grade; Undo a change to a smart list; Why is this family on Stalled Leads?; Follow up with families on Stalled Leads
 - Page for people: https://demo.banner61.com/help/articles/smart-lists/
+
+## Bulk actions (do one thing to many families)
+- Read: https://demo.banner61.com/help/articles/bulk-actions.md
+- Menu: CRM > Contacts > Bulk Actions
+- Use when: Doing one thing to a whole group of families at once: tagging or untagging a list, moving a group to a new pipeline stage, starting an automation for a list, a quick email to a list, naming a bulk job and checking whether it finished.
+- Schools may call this: bulk, mass update, all at once, select all, everyone on the list, whole list, group of families, batch, tag everyone, move everyone, bulk tag, bulk stage, mass tag, bulk actions page, did it finish
+- Sections: Select a whole list of families; Tag every family on a list; Remove a tag from a group of families; Update the pipeline for a whole list of families; Start an automation for a list of families; Send a quick email to a list; Check whether a bulk action finished
+- Page for people: https://demo.banner61.com/help/articles/bulk-actions/

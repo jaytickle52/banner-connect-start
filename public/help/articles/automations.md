@@ -3,8 +3,8 @@
 Menu: Automations > Workflows
 Use when: What the prebuilt workflows do (after an inquiry, after a visit, open house follow-up, cold inquiry revival, stalled families), the staff follow-up email after a visit, what's safe to change, and why an email didn't send.
 Page for people: https://demo.banner61.com/help/articles/automations/
-Last reviewed: 2026-11-03
-Related: https://demo.banner61.com/help/articles/smart-lists.md, https://demo.banner61.com/help/articles/marketing.md, https://demo.banner61.com/help/articles/calendars.md, https://demo.banner61.com/help/articles/pipeline.md
+Last reviewed: 2026-11-13
+Related: https://demo.banner61.com/help/articles/smart-lists.md, https://demo.banner61.com/help/articles/marketing.md, https://demo.banner61.com/help/articles/calendars.md, https://demo.banner61.com/help/articles/pipeline.md, https://demo.banner61.com/help/articles/bulk-actions.md
 
 Go to **Automations**, then **Workflows**. Workflows are the follow-up that happens on its own. Banner 61 builds them for you. Before building anything new, look through what's already running.
 
@@ -55,6 +55,8 @@ Each workflow also has a **Settings** tab with:
 Workflows send real emails to real families, and many of them depend on each other (for example, on exact stage names, tag names and templates). It's easy to send families duplicate or wrong emails by accident. Safe changes a school can make on its own:
 - editing the wording of the email templates a workflow uses,
 - changing the staff email address in a notification step (like Internal Staff Email in Event Registration).
+
+To start a workflow by hand for a whole list of families, see [Start an automation for a list of families](https://demo.banner61.com/help/articles/bulk-actions/#start-an-automation-for-a-list-of-families).
 
 For anything else, such as new workflows, new triggers, or turning a workflow on or off, ask the Banner 61 team. We'll build or change it with you.
 

@@ -55,6 +55,7 @@ Banner 61 sets up every account with the same names. Use them exactly, because a
 - **Pipelines** (CRM, then Opportunities): Inquiry to Enrollment (New Inquiry, Visit Scheduled, Visit Attended, Application Sent, Application Submitted, Accepted, Enrolled), Re-Enrollment Pipeline, Sibling Enrollment Fast Track. See [Your pipelines](https://demo.banner61.com/help/articles/pipeline/#your-pipelines).
 - **Smart lists** (CRM, then Contacts): Current Families (everyone in the Enrolled stage) and Stalled Leads (open families in Inquiry to Enrollment with no email, text or call in 14 days). See [Smart Lists](https://demo.banner61.com/help/articles/smart-lists/).
 - **Workflows** (Automations, then Workflows): Request Info Packet / Lead Nurture, Request Tuition Info, Request Financial Aid Info, General Inquiry, Request a Visit, Event Registration, Cold Inquiry Revival, Stalled Leads / Remove Stalled Tag. See [What's already built](https://demo.banner61.com/help/articles/automations/#whats-already-built).
+- **Email templates** (Marketing, then Emails, then Templates): one folder per workflow above, plus a **Campaigns** folder with Open House Invitation, Monthly Family Newsletter, Re-enrollment Is Open and Quick Announcement for one-time sends. See [Email campaigns](https://demo.banner61.com/help/articles/marketing/#email-campaigns-one-time-emails-to-a-group).
 - **Tags that start automations**: Cold Inquiry Revival (a series of re-engagement emails). Check before adding any tag.
 
 ## What Banner 61 handles

@@ -4,7 +4,7 @@ Menu: CRM > Contacts
 Use when: Finding, adding, importing, exporting or merging families; what's on a family's record; tags; filtering the contact list. Saved lists such as Stalled Leads are in Smart Lists.
 Page for people: https://demo.banner61.com/help/articles/contacts/
 Last reviewed: 2026-11-13
-Related: https://demo.banner61.com/help/articles/smart-lists.md, https://demo.banner61.com/help/articles/pipeline.md, https://demo.banner61.com/help/articles/marketing.md, https://demo.banner61.com/help/articles/automations.md
+Related: https://demo.banner61.com/help/articles/smart-lists.md, https://demo.banner61.com/help/articles/pipeline.md, https://demo.banner61.com/help/articles/marketing.md, https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/bulk-actions.md
 
 Go to **CRM**, then **Contacts**. Every person your school interacts with is a contact: prospective parents, current families, alumni, donors and staff. Contacts are created when someone submits a form, books a visit, is added by hand or is imported.
 
@@ -36,8 +36,8 @@ Notes are internal. Families never see them. Every entry on the timeline is time
 Tags are labels on a contact. Use them to group families, filter lists and start automations.
 
 - **Add a tag**: open the contact, click into **Tags**, type or pick the tag (choose Add New Tag if it doesn't exist), then click **Apply**. The tag only saves when you click Apply.
-- **Add tags to many contacts**: in CRM, then Contacts, check the contacts, click the **Add Tag** icon, name the action, pick the tags and click **Add Tags**. This only adds tags; it never removes existing ones.
-- **Remove tags**: deselect the tag and click Apply, or use the **Remove Tags** bulk action.
+- **Add tags to many contacts**: in **CRM**, then **Contacts**, check the contacts, click **Add tags**, type an Action name, pick the tags and click **Add tags**. This only adds tags; it never removes existing ones. See [Tag every family on a list](https://demo.banner61.com/help/articles/bulk-actions/#tag-every-family-on-a-list).
+- **Remove tags**: deselect the tag and click Apply, or select many contacts, open **More** and choose **Remove tags**. See [Remove a tag from a group of families](https://demo.banner61.com/help/articles/bulk-actions/#remove-a-tag-from-a-group-of-families).
 - **Manage all tags**: go to **CRM**, then **Contacts**, then **Tags** to create, rename or delete tags.
 
 Good to know:
@@ -65,8 +65,8 @@ Tips: put general information in the Notes field, use the existing grade fields 
 
 1. Filter the list or open a Smart List first, so the file only has who you need.
 2. Check the contacts (the top checkbox selects everyone shown).
-3. Click **More** or the three-dot menu and choose **Export Contacts**.
-4. Download the file from the Bulk Actions area when it's ready. Files are kept for about 30 days.
+3. Click **Export** in the toolbar and confirm.
+4. You get a notification when the file is ready. Download it from **CRM**, then **Contacts**, then **Bulk Actions**. Files are kept for 30 days.
 
 The export includes the columns you can see, not full conversation history. Exported files contain private family information, so store them securely.
 
