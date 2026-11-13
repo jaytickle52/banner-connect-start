@@ -4,7 +4,7 @@ title: "Bulk actions (do one thing to many families)"
 menu: "CRM > Contacts > Bulk Actions"
 use_when: "Doing one thing to a whole group of families at once: tagging or untagging a list, moving a group to a new pipeline stage, starting an automation for a list, a quick email to a list, naming a bulk job and checking whether it finished."
 also_called: ["bulk", "mass update", "all at once", "select all", "everyone on the list", "whole list", "group of families", "batch", "tag everyone", "move everyone", "bulk tag", "bulk stage", "mass tag", "bulk actions page", "did it finish"]
-related: [contacts, marketing, pipeline, automations]
+related: [contacts, smart-lists, marketing, pipeline, automations]
 plan: ""  # SchoolBox, Full or All
 reviewed: 2026-11-13
 ---

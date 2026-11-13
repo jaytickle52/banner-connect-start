@@ -4,7 +4,7 @@ Menu: Marketing
 Use when: Email templates and their wording, one-time email campaigns to a group (newsletter, current families), trigger links, funnels (landing pages), QR codes, the Social Planner and video testimonials.
 Page for people: https://demo.banner61.com/help/articles/marketing/
 Last reviewed: 2026-11-13
-Related: https://demo.banner61.com/help/articles/contacts.md, https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/conversations.md, https://demo.banner61.com/help/articles/bulk-actions.md
+Related: https://demo.banner61.com/help/articles/smart-lists.md, https://demo.banner61.com/help/articles/contacts.md, https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/conversations.md, https://demo.banner61.com/help/articles/bulk-actions.md
 
 The Marketing tab has Social Planner, Emails, Trigger Links, Video Testimonials, Funnels and QR Codes.
 

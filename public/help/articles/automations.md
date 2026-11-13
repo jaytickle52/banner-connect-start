@@ -4,7 +4,7 @@ Menu: Automations > Workflows
 Use when: What the prebuilt workflows do (after an inquiry, after a visit, open house follow-up, cold inquiry revival, stalled families), the staff follow-up email after a visit, what's safe to change, and why an email didn't send.
 Page for people: https://demo.banner61.com/help/articles/automations/
 Last reviewed: 2026-11-13
-Related: https://demo.banner61.com/help/articles/marketing.md, https://demo.banner61.com/help/articles/calendars.md, https://demo.banner61.com/help/articles/pipeline.md, https://demo.banner61.com/help/articles/bulk-actions.md
+Related: https://demo.banner61.com/help/articles/smart-lists.md, https://demo.banner61.com/help/articles/marketing.md, https://demo.banner61.com/help/articles/calendars.md, https://demo.banner61.com/help/articles/pipeline.md, https://demo.banner61.com/help/articles/bulk-actions.md
 
 Go to **Automations**, then **Workflows**. Workflows are the follow-up that happens on its own. Banner 61 builds them for you. Before building anything new, look through what's already running.
 

@@ -4,7 +4,7 @@ Menu: CRM > Contacts > Bulk Actions
 Use when: Doing one thing to a whole group of families at once: tagging or untagging a list, moving a group to a new pipeline stage, starting an automation for a list, a quick email to a list, naming a bulk job and checking whether it finished.
 Page for people: https://demo.banner61.com/help/articles/bulk-actions/
 Last reviewed: 2026-11-13
-Related: https://demo.banner61.com/help/articles/contacts.md, https://demo.banner61.com/help/articles/marketing.md, https://demo.banner61.com/help/articles/pipeline.md, https://demo.banner61.com/help/articles/automations.md
+Related: https://demo.banner61.com/help/articles/contacts.md, https://demo.banner61.com/help/articles/smart-lists.md, https://demo.banner61.com/help/articles/marketing.md, https://demo.banner61.com/help/articles/pipeline.md, https://demo.banner61.com/help/articles/automations.md
 
 A bulk action does one job to a whole group of families in one step, like tagging everyone from the fall fair. Start it from a list in **CRM**, then **Contacts**, and track it on **CRM**, then **Contacts**, then **Bulk Actions**.
 

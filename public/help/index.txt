@@ -24,9 +24,9 @@ How to use this index: find the one to three articles whose "Use when" or "Schoo
 ## Contacts
 - Read: https://demo.banner61.com/help/articles/contacts.md
 - Menu: CRM > Contacts
-- Use when: Finding, adding, importing, exporting or merging families; what's on a family's record; tags; Smart Lists and filters (for example families with no recent activity).
-- Schools may call this: family, families, parent, parents, student, lead, inquiry, record, list, spreadsheet, CSV, upload, duplicate, tag, label, segment, haven't heard from, no activity, bulk, select all
-- Sections: Find a contact; Add a contact by hand; What's on a contact record; Tags; Smart Lists and filters; Import contacts from a spreadsheet; Export contacts; Duplicates
+- Use when: Finding, adding, importing, exporting or merging families; what's on a family's record; tags; filtering the contact list. Saved lists such as Stalled Leads are in Smart Lists.
+- Schools may call this: family, families, parent, parents, student, lead, inquiry, record, spreadsheet, CSV, upload, duplicate, tag, label, filter, bulk, select all
+- Sections: Find a contact; Add a contact by hand; What's on a contact record; Tags; Filter the contact list; Import contacts from a spreadsheet; Export contacts; Duplicates
 - Page for people: https://demo.banner61.com/help/articles/contacts/
 
 ## The enrollment pipeline (Opportunities)
@@ -100,6 +100,14 @@ How to use this index: find the one to three articles whose "Use when" or "Schoo
 - Schools may call this: field, grade, grade of interest, custom field, school address, school phone, merge field, personalize, first name, staff, staff member, employee, assistant, teacher, user, access, permissions, remove a user, audit log, who deleted
 - Sections: Custom values (your school's details); Custom fields (extra details you track); Merge fields (personalizing messages); Other Advanced pages; Settings; Users and access
 - Page for people: https://demo.banner61.com/help/articles/advanced-and-settings/
+
+## Smart Lists
+- Read: https://demo.banner61.com/help/articles/smart-lists.md
+- Menu: CRM > Contacts
+- Use when: What a smart list is; the lists in your account (Current Families, Stalled Leads); making a list of families by grade, stage or activity; families who haven't heard from us; why a family is on Stalled Leads; emailing or tagging everyone on a list.
+- Schools may call this: smart list, saved list, saved search, saved filter, filtered list, list of families, segment, spreadsheet tab, haven't heard from, gone quiet, no activity, stalled, stuck, falling through the cracks, kindergarten list, grade list, who toured
+- Sections: What is a smart list?; What lists are already in my account?; Email or tag everyone on a list; Make a smart list; Make a list of families interested in one grade; Undo a change to a smart list; Why is this family on Stalled Leads?; Follow up with families on Stalled Leads
+- Page for people: https://demo.banner61.com/help/articles/smart-lists/
 
 ## Bulk actions (do one thing to many families)
 - Read: https://demo.banner61.com/help/articles/bulk-actions.md
