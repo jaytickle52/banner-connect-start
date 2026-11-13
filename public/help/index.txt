@@ -172,3 +172,19 @@ How to use this index: find the one to three articles whose "Use when" or "Schoo
 - Schools may call this: open house, preview night, preview day, information night, info night, kindergarten night, event, RSVP, sign up, sign-up, registration, register, event reminder, who is coming, attendance
 - Sections: Add your open house date and time; Write the event description families see; Invite families to sign up; What happens when a family signs up?; See who signed up; Mark who came after the open house; Should I use this or an Events page?; Plan the next open house
 - Page for people: https://demo.banner61.com/help/articles/open-houses/
+
+## Send the visit feedback survey automatically after every tour
+- Read: https://demo.banner61.com/help/articles/visit-feedback-survey.md
+- Menu: Forms & Docs > Surveys
+- Use when: How the Visit Feedback survey goes out on its own after a campus visit or open house, what staff need to click so every family gets it, where to read the answers, and how to follow up with a family who asks for a conversation.
+- Schools may call this: visit survey, tour survey, tour feedback, feedback survey, post-visit survey, after the tour, how was your visit, visit feedback, survey results, survey answers, survey responses, follow-up conversation, parent feedback
+- Sections: What sends the visit feedback survey?; Make sure every family who tours gets the survey; Read what families said about their visit; Follow up when a family asks for a conversation; Change the survey questions
+- Page for people: https://demo.banner61.com/help/articles/visit-feedback-survey/
+
+## Hear from new families after their first 60 days
+- Read: https://demo.banner61.com/help/articles/new-family-survey.md
+- Menu: Forms & Docs > Surveys
+- Use when: Asking families in their first year how the start went: when to send the New Family Survey, who to send it to, sending it with an email campaign, reading the answers, and following up with families who share their name.
+- Schools may call this: new family survey, first year survey, onboarding survey, new parent survey, 60 day survey, first semester survey, how is the year going, welcome survey, new families, first year families, family experience survey, retention
+- Sections: When should we send the New Family Survey?; Mark your new families with a tag; Send the survey to your new families; Have the survey send automatically; Read what new families said; Follow up with a family who shared their name
+- Page for people: https://demo.banner61.com/help/articles/new-family-survey/

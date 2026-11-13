@@ -49,6 +49,11 @@
     {"q": "How do I let parents book a school tour on our website?", "article": "campus-visits", "must": ["Schedule a Visit", "link|embed"]},
     {"q": "What happens after a family books a campus visit?", "article": "campus-visits", "must": ["Visit Scheduled", "reminder"]},
     {"q": "How do I get families to RSVP for our preview night and get reminders?", "article": "open-houses", "must": ["Event Registration", "reminder"]},
-    {"q": "How do I mark which families came to the open house?", "article": "open-houses", "must": ["showed|Showed"]}
+    {"q": "How do I mark which families came to the open house?", "article": "open-houses", "must": ["showed|Showed"]},
+    {"q": "How do I see what families thought of their tour?", "article": "visit-feedback-survey", "must": ["Visit Feedback", "Submissions"]},
+    {"q": "Does the feedback survey go out on its own after a campus visit?", "article": "visit-feedback-survey", "must": ["good fit", "Visit Feedback"]},
+    {"q": "A parent asked for a follow-up conversation on the visit survey. What do I do?", "article": "visit-feedback-survey", "must": ["follow-up conversation|follow-up", "call|email"]},
+    {"q": "How do I survey our new families after their first couple of months?", "article": "new-family-survey", "must": ["New Family Survey", "60"]},
+    {"q": "Are the new family survey answers anonymous?", "article": "new-family-survey", "must": ["anonymous"]}
   ]
 }
