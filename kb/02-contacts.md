@@ -4,7 +4,7 @@ title: "Contacts"
 menu: "CRM > Contacts"
 use_when: "Finding, adding, importing, exporting or merging families; what's on a family's record; tags; Smart Lists and filters (for example families with no recent activity)."
 also_called: ["family", "families", "parent", "parents", "student", "lead", "inquiry", "record", "list", "spreadsheet", "CSV", "upload", "duplicate", "tag", "label", "segment", "haven't heard from", "no activity"]
-related: [pipeline, marketing, automations]
+related: [pipeline, marketing, automations, engagement-score]
 plan: ""  # SchoolBox, Full or All, once the feature map is filled in
 reviewed: 2026-11-03
 ---

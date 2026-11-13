@@ -58,7 +58,7 @@ Banner 61 sets up every account with the same names. Use them exactly, because a
 - **Calendars** (Calendars, then Meeting Calendars): Schedule a Visit (campus visits), Event Registration (open houses and events), Schedule an Assessment (off until needed). See [Your prebuilt calendars](/help/articles/calendars/#your-prebuilt-calendars).
 - **Pipelines** (CRM, then Opportunities): Inquiry to Enrollment (New Inquiry, Visit Scheduled, Visit Attended, Application Sent, Application Submitted, Accepted, Enrolled), Re-Enrollment Pipeline, Sibling Enrollment Fast Track. See [Your pipelines](/help/articles/pipeline/#your-pipelines).
 - **Smart list** (CRM, then Contacts): Current Families, everyone in the Enrolled stage.
-- **Workflows** (Automations, then Workflows): Request Info Packet / Lead Nurture, Request Tuition Info, Request Financial Aid Info, General Inquiry, Request a Visit, Event Registration, Cold Inquiry Revival, Stalled Leads / Remove Stalled Tag. See [What's already built](/help/articles/automations/#whats-already-built).
+- **Workflows** (Automations, then Workflows): Request Info Packet / Lead Nurture, Request Tuition Info, Request Financial Aid Info, General Inquiry, Request a Visit, Event Registration, Cold Inquiry Revival, Stalled Leads / Remove Stalled Tag, Engagement score: application submitted. See [What's already built](/help/articles/automations/#whats-already-built).
 - **Tags that start automations**: Cold Inquiry Revival (a series of re-engagement emails). Check before adding any tag.
 
 ## What Banner 61 handles

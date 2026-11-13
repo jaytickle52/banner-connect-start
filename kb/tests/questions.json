@@ -21,6 +21,9 @@
     {"q": "How do I set up an automation that emails families the day after their visit?", "article": "automations", "must": ["Request a Visit|already", "Banner 61"]},
     {"q": "How do I put our visit calendar on our website?", "article": "calendars", "must": ["Schedule a Visit", "embed|Embed"]},
     {"q": "Where do our inquiries come from?", "article": "reporting-and-payments", "must": ["Reporting", "lead source|Lead Source"]},
-    {"q": "Which families haven't heard from us in two weeks?", "article": "contacts", "must": ["Smart List|filter"]}
+    {"q": "Which families haven't heard from us in two weeks?", "article": "contacts", "must": ["Smart List|filter"]},
+    {"q": "Which families should I call first this week?", "article": "engagement-score", "must": ["score"]},
+    {"q": "Why did this family's engagement score go down?", "article": "engagement-score", "must": ["score"]},
+    {"q": "How many points does a family get for submitting an application?", "article": "engagement-score", "must": ["25", "Application Submitted"]}
   ]
 }

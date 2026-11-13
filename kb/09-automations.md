@@ -4,7 +4,7 @@ title: "Automations (workflows)"
 menu: "Automations > Workflows"
 use_when: "What the prebuilt workflows do (after an inquiry, after a visit, open house follow-up, cold inquiry revival, stalled families), the staff follow-up email after a visit, what's safe to change, and why an email didn't send."
 also_called: ["automation", "automatic", "workflow", "follow-up emails", "drip", "nurture", "sequence", "what happens when", "day after the visit", "didn't send", "not sending", "re-engage", "win back"]
-related: [marketing, calendars, pipeline]
+related: [marketing, calendars, pipeline, engagement-score]
 plan: ""  # SchoolBox, Full or All, once the feature map is filled in
 reviewed: 2026-11-03
 ---
