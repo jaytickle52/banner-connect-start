@@ -4,7 +4,7 @@ title: "The enrollment pipeline (Opportunities)"
 menu: "CRM > Opportunities"
 use_when: "The enrollment pipeline: where every family sits, moving a family to a stage (Visit Scheduled, Accepted, Enrolled), status (Won, Lost), stalled families, bulk updates, deleting and restoring a family, why stages shouldn't be renamed."
 also_called: ["pipeline", "board", "funnel", "stage", "column", "accepted", "enrolled", "applied", "admitted", "won", "lost", "card", "deal", "opportunity", "deleted family", "restore"]
-related: [contacts, smart-lists, automations, reporting-and-payments, bulk-actions, engagement-score]
+related: [contacts, smart-lists, automations, reporting-and-payments, bulk-actions, engagement-score, enrollment-stages]
 plan: ""  # SchoolBox, Full or All, once the feature map is filled in
 reviewed: 2026-11-13
 ---
@@ -29,7 +29,7 @@ Every account starts with these pipelines. Switch between them with the pipeline
 
 **Sibling Enrollment Fast Track**: Sibling Intent Request, Application Sent, Application Submitted, Sibling Accepted, Sibling Enrolled.
 
-Many moves happen on their own. A form submission creates a card in New Inquiry. Booking on the Schedule a Visit calendar moves the family to Visit Scheduled. Marking the visit as attended (from the follow-up email your staff receive) moves them to Visit Attended. The later stages you move by hand.
+Many moves happen on their own. A form submission creates a card in New Inquiry. Booking on the Schedule a Visit calendar moves the family to Visit Scheduled. Marking the visit as attended (from the follow-up email your staff receive) moves them to Visit Attended. The later stages you move by hand. For what each stage means and when to move a family, see [Your enrollment board, stage by stage](/help/articles/enrollment-stages/).
 
 ## What's on an opportunity
 
@@ -76,7 +76,7 @@ Type at least 3 letters into the search bar at the top of Opportunities. It matc
 
 - Click **Advanced filters** (the funnel icon) above the board to filter by stage, owner, status, tags, value or custom fields. Combine with AND or OR.
 - Switch between the board and list view with the icons at the top right. List view can be sorted by name, value, date created or stage.
-- Choose which details show on each card with **Manage Fields** at the top right of the board (up to 7).
+- Choose which details show on each card with **Manage Fields** at the top right of the board (up to 8).
 
 Handy filters: Stage = Visit Attended (visited but no application yet); Owner = a counselor; Created Date = last 7 days.
 

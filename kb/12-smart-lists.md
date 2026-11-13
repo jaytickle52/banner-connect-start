@@ -4,7 +4,7 @@ title: "Smart Lists"
 menu: "CRM > Contacts"
 use_when: "What a smart list is; the lists in your account (Current Families, Stalled Leads); finding families in one grade without saving a list; making a list of families by stage or activity; families who haven't heard from us; why a family is on Stalled Leads; emailing or tagging everyone on a list."
 also_called: ["smart list", "saved list", "saved search", "saved filter", "filtered list", "list of families", "segment", "spreadsheet tab", "haven't heard from", "gone quiet", "no activity", "stalled", "stuck", "falling through the cracks", "kindergarten list", "grade list", "families in one grade", "quick filter", "who toured"]
-related: [contacts, pipeline, marketing, automations, bulk-actions]
+related: [contacts, pipeline, marketing, automations, bulk-actions, enrollment-stages]
 plan: ""  # SchoolBox, Full or All, once the feature map is filled in
 reviewed: 2026-11-13
 ---

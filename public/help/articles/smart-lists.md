@@ -4,7 +4,7 @@ Menu: CRM > Contacts
 Use when: What a smart list is; the lists in your account (Current Families, Stalled Leads); finding families in one grade without saving a list; making a list of families by stage or activity; families who haven't heard from us; why a family is on Stalled Leads; emailing or tagging everyone on a list.
 Page for people: https://demo.banner61.com/help/articles/smart-lists/
 Last reviewed: 2026-11-13
-Related: https://demo.banner61.com/help/articles/contacts.md, https://demo.banner61.com/help/articles/pipeline.md, https://demo.banner61.com/help/articles/marketing.md, https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/bulk-actions.md
+Related: https://demo.banner61.com/help/articles/contacts.md, https://demo.banner61.com/help/articles/pipeline.md, https://demo.banner61.com/help/articles/marketing.md, https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/bulk-actions.md, https://demo.banner61.com/help/articles/enrollment-stages.md
 
 A smart list is a saved filter of families that keeps itself up to date. Smart lists are the tabs across the top of **CRM**, then **Contacts**.
 

@@ -124,3 +124,11 @@ How to use this index: find the one to three articles whose "Use when" or "Schoo
 - Schools may call this: score, lead score, points, interest level, hot families, warm families, most interested, most engaged, who to call first, priority, ranking, points for replying
 - Sections: Decide which families to call first; What adds points to a family's score; Why a family's score went down; Why a family you know is serious has a low score; Change the points or add a rule
 - Page for people: https://demo.banner61.com/help/articles/engagement-score/
+
+## Your enrollment board, stage by stage
+- Read: https://demo.banner61.com/help/articles/enrollment-stages.md
+- Menu: CRM > Opportunities
+- Use when: What each stage of the Inquiry to Enrollment pipeline means (New Inquiry, Visit Scheduled, Visit Attended, Application Sent, Application Submitted, Accepted, Enrolled), when to move a family to the next stage, which moves happen on their own, and what to do when a family decides not to enroll.
+- Schools may call this: stages, steps, columns, enrollment board, admissions board, admissions process, funnel, when do I move, what does this stage mean, next step, tour, applied, admitted, accepted, enrolled, lost reason, chose another school, not enrolling, decided not to come
+- Sections: What is the enrollment board for?; What does each stage mean?; Which moves happen on their own?; Move a family to the next stage; Why does it matter to keep the board up to date?; Mark a family who isn't enrolling; Who owns each family on the board?; What are the other two pipelines for?
+- Page for people: https://demo.banner61.com/help/articles/enrollment-stages/
