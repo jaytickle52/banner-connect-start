@@ -4,7 +4,7 @@ Menu: CRM > Opportunities
 Use when: What each stage of the Inquiry to Enrollment pipeline means (New Inquiry, Visit Scheduled, Visit Attended, Application Sent, Application Submitted, Accepted, Enrolled), when to move a family to the next stage, which moves happen on their own, and what to do when a family decides not to enroll.
 Page for people: https://demo.banner61.com/help/articles/enrollment-stages/
 Last reviewed: 2026-11-13
-Related: https://demo.banner61.com/help/articles/pipeline.md, https://demo.banner61.com/help/articles/engagement-score.md, https://demo.banner61.com/help/articles/smart-lists.md, https://demo.banner61.com/help/articles/automations.md
+Related: https://demo.banner61.com/help/articles/pipeline.md, https://demo.banner61.com/help/articles/engagement-score.md, https://demo.banner61.com/help/articles/smart-lists.md, https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/enrollment-forecast.md
 
 Your enrollment board is the Inquiry to Enrollment pipeline in **CRM**, then **Opportunities**. Each card is one family, and each column is a step in your admissions process, from first inquiry to enrolled.
 

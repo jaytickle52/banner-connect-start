@@ -35,6 +35,9 @@
     {"q": "Does a family get points when they reply to one of our texts?", "article": "engagement-score", "must": ["5", "first"]},
     {"q": "When should I move a family from Visit Attended to Application Sent?", "article": "enrollment-stages", "must": ["Application Sent", "application"]},
     {"q": "What does the Accepted stage mean?", "article": "enrollment-stages", "must": ["Accepted", "offered|accepted"]},
-    {"q": "A family chose another school. What do I do with their card?", "article": "enrollment-stages", "must": ["Lost", "Lost reason|reason"], "must_not": ["delete it"]}
+    {"q": "A family chose another school. What do I do with their card?", "article": "enrollment-stages", "must": ["Lost", "Lost reason|reason"], "must_not": ["delete it"]},
+    {"q": "How many new families are likely to enroll this fall?", "article": "enrollment-forecast", "must": ["Forecast", "odds"]},
+    {"q": "Why does the forecast say expected revenue? We're a school.", "article": "enrollment-forecast", "must": ["tuition"]},
+    {"q": "How do I use last year's numbers to make the enrollment projection more accurate?", "article": "enrollment-forecast", "must": ["reached", "enrolled", "Banner 61"]}
   ]
 }
