@@ -3,10 +3,10 @@ id: marketing
 title: "Marketing"
 menu: "Marketing"
 use_when: "Email templates and their wording, one-time email campaigns to a group (newsletter, current families), trigger links, funnels (landing pages), QR codes, the Social Planner and video testimonials."
-also_called: ["newsletter", "email blast", "announcement", "bulk email", "mass email", "campaign", "template", "wording", "landing page", "QR", "viewbook", "flyer", "social media", "post", "testimonial", "video review"]
-related: [contacts, automations, conversations]
+also_called: ["newsletter", "email blast", "announcement", "bulk email", "mass email", "campaign", "template", "wording", "landing page", "QR", "viewbook", "flyer", "social media", "post", "testimonial", "video review", "invitation", "open house invite", "re-enrollment email", "school announcement"]
+related: [smart-lists, contacts, automations, conversations, bulk-actions]
 plan: ""  # SchoolBox, Full or All, once the feature map is filled in
-reviewed: 2026-11-03
+reviewed: 2026-11-13
 ---
 # Marketing
 
@@ -29,10 +29,12 @@ Good to know: whether an edit to a template reaches emails an automation already
 
 ## Email campaigns (one-time emails to a group)
 
-Use a campaign for announcements, newsletters, event invitations and other one-time sends.
+Use a campaign for announcements, newsletters, event invitations and other one-time sends. It's the best way to email a group, because it looks polished and shows who opened and clicked.
+
+Your account has a **Campaigns** template folder (**Marketing**, then **Emails**, then **Templates**) with four ready-to-edit starters: **Open House Invitation**, **Monthly Family Newsletter**, **Re-enrollment Is Open** and **Quick Announcement**. Each has your logo, signature and footer already in place. Replace every word in [BRACKETS] before you send.
 
 1. Go to **Marketing**, then **Emails**, then the **Campaigns** tab, and create a new campaign.
-2. Start from a template or a blank layout and build the email.
+2. Start from a template (one from the **Campaigns** folder is the quickest) or a blank layout, and build the email.
 3. Click **Preview** to check desktop and mobile, and send a test to yourself.
 4. Click **Send or Schedule** and fill in:
    - Sender name (such as "Admissions at Banner Christian School") and sender email. The sender email must use your school's verified sending address; ask Banner 61 if you're not sure which to use.
@@ -44,6 +46,8 @@ Use a campaign for announcements, newsletters, event invitations and other one-t
 Attachments must total 10 MB or less. Families who unsubscribed or are set to Do Not Disturb are skipped automatically. To change a scheduled send, use the campaign's three-dot menu and choose Reschedule at least an hour before it goes out.
 
 **Custom segments:** in the Recipients area choose **Build Segments**. Each rule has a field, a condition and a value (Tag is Prospective Family). **Add Filter** adds a rule that must also match (AND); **Add OR Filter** adds an alternative group (OR). Examples: Tag is Inquiry and Tag is not Tour Scheduled; Grade Level Applying For is Kindergarten. Save segments you'll reuse.
+
+For a short, plain note to a list, you can also send straight from a contact list. See [Send a quick email to a list](/help/articles/bulk-actions/#send-a-quick-email-to-a-list).
 
 **Results:** open the campaign's three-dot menu and choose **Statistics**, then **Load More Statistics** for clicks by link. For all email together, open the **Statistics** tab under Marketing, then Emails. Delivered means it reached the family's mail server, not that they opened it. Watch bounces, unsubscribes and spam complaints for list problems.
 

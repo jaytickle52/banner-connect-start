@@ -4,9 +4,9 @@ title: "The enrollment pipeline (Opportunities)"
 menu: "CRM > Opportunities"
 use_when: "The enrollment pipeline: where every family sits, moving a family to a stage (Visit Scheduled, Accepted, Enrolled), status (Won, Lost), stalled families, bulk updates, deleting and restoring a family, why stages shouldn't be renamed."
 also_called: ["pipeline", "board", "funnel", "stage", "column", "accepted", "enrolled", "applied", "admitted", "won", "lost", "card", "deal", "opportunity", "deleted family", "restore"]
-related: [contacts, automations, reporting-and-payments, engagement-score]
+related: [contacts, smart-lists, automations, reporting-and-payments, bulk-actions, engagement-score]
 plan: ""  # SchoolBox, Full or All, once the feature map is filled in
-reviewed: 2026-11-03
+reviewed: 2026-11-13
 ---
 # The enrollment pipeline (Opportunities)
 
@@ -86,6 +86,8 @@ Handy filters: Stage = Visit Attended (visited but no application yet); Owner = 
 2. Click **Edit** to change Stage, Pipeline, Status, Owner, Followers, Value, Source, Expected Close Date, Lost Reason or custom fields for all of them.
 
 For example, after an open house, filter to the families who attended, select them and move them to the next stage in one step. Bulk changes run in the background; check progress on the **Bulk Actions** page under Opportunities.
+
+You can also move a group from a contact list in **CRM**, then **Contacts**. See [Update the pipeline for a whole list of families](/help/articles/bulk-actions/#update-the-pipeline-for-a-whole-list-of-families).
 
 ## Delete and restore
 

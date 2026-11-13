@@ -55,8 +55,9 @@ Banner 61 sets up every account with the same names. Use them exactly, because a
 - **Forms** (Forms & Docs, then Forms): General Inquiry Form, Request Info Packet, Request Tuition Info, Request Financial Aid Info, Request a Visit, Event Registration Form, Sibling Intent Form. See [Your prebuilt forms](https://demo.banner61.com/help/articles/forms-and-docs/#your-prebuilt-forms).
 - **Calendars** (Calendars, then Meeting Calendars): Schedule a Visit (campus visits), Event Registration (open houses and events), Schedule an Assessment (off until needed). See [Your prebuilt calendars](https://demo.banner61.com/help/articles/calendars/#your-prebuilt-calendars).
 - **Pipelines** (CRM, then Opportunities): Inquiry to Enrollment (New Inquiry, Visit Scheduled, Visit Attended, Application Sent, Application Submitted, Accepted, Enrolled), Re-Enrollment Pipeline, Sibling Enrollment Fast Track. See [Your pipelines](https://demo.banner61.com/help/articles/pipeline/#your-pipelines).
-- **Smart list** (CRM, then Contacts): Current Families, everyone in the Enrolled stage.
-- **Workflows** (Automations, then Workflows): Request Info Packet / Lead Nurture, Request Tuition Info, Request Financial Aid Info, General Inquiry, Request a Visit, Event Registration, Cold Inquiry Revival, Stalled Leads / Remove Stalled Tag. See [What's already built](https://demo.banner61.com/help/articles/automations/#whats-already-built).
+- **Smart lists** (CRM, then Contacts): Current Families (everyone in the Enrolled stage) and Stalled Leads (open families in Inquiry to Enrollment with no email, text or call in 14 days). See [Smart Lists](https://demo.banner61.com/help/articles/smart-lists/).
+- **Workflows** (Automations, then Workflows): Request Info Packet / Lead Nurture, Request Tuition Info, Request Financial Aid Info, General Inquiry, Request a Visit, Event Registration, Cold Inquiry Revival, Stalled Leads / Remove Stalled Tag, Engagement score: application submitted. See [What's already built](https://demo.banner61.com/help/articles/automations/#whats-already-built).
+- **Email templates** (Marketing, then Emails, then Templates): one folder per workflow above, plus a **Campaigns** folder with Open House Invitation, Monthly Family Newsletter, Re-enrollment Is Open and Quick Announcement for one-time sends. See [Email campaigns](https://demo.banner61.com/help/articles/marketing/#email-campaigns-one-time-emails-to-a-group).
 - **Tags that start automations**: Cold Inquiry Revival (a series of re-engagement emails). Check before adding any tag.
 
 ## What Banner 61 handles
@@ -159,8 +160,8 @@ Notes are internal. Families never see them. Every entry on the timeline is time
 Tags are labels on a contact. Use them to group families, filter lists and start automations.
 
 - **Add a tag**: open the contact, click into **Tags**, type or pick the tag (choose Add New Tag if it doesn't exist), then click **Apply**. The tag only saves when you click Apply.
-- **Add tags to many contacts**: in CRM, then Contacts, check the contacts, click the **Add Tag** icon, name the action, pick the tags and click **Add Tags**. This only adds tags; it never removes existing ones.
-- **Remove tags**: deselect the tag and click Apply, or use the **Remove Tags** bulk action.
+- **Add tags to many contacts**: in **CRM**, then **Contacts**, check the contacts, click **Add tags**, type an Action name, pick the tags and click **Add tags**. This only adds tags; it never removes existing ones. See [Tag every family on a list](https://demo.banner61.com/help/articles/bulk-actions/#tag-every-family-on-a-list).
+- **Remove tags**: deselect the tag and click Apply, or select many contacts, open **More** and choose **Remove tags**. See [Remove a tag from a group of families](https://demo.banner61.com/help/articles/bulk-actions/#remove-a-tag-from-a-group-of-families).
 - **Manage all tags**: go to **CRM**, then **Contacts**, then **Tags** to create, rename or delete tags.
 
 Good to know:
@@ -172,14 +173,9 @@ Good to know:
 
 Tags vs custom fields: a tag is a label (Tour Scheduled). A custom field holds a value (Grade Level Applying For = 5th Grade).
 
-## Smart Lists and filters
+## Filter the contact list
 
-1. In **CRM**, then **Contacts**, open **Advanced Filters**.
-2. Add conditions, such as Tag is Open House Attendee and Grade of Entry is 6th Grade. Use AND to require every condition and OR to allow any.
-3. Apply the filter to see the results.
-4. To keep it, click **Unsaved Changes**, then **Save as new smart list**, and give it a clear name like "Tours – Middle School".
-
-Smart Lists update on their own as families gain or lose tags or change stages. Your account includes a **Current Families** smart list (families in the Enrolled stage). Useful ones to add: new inquiries from the last 30 days, and families with no activity in 60 days.
+Click **Filters** above the contact list in **CRM**, then **Contacts**, to narrow it to the families you need. To keep a filter as a list that updates on its own, save it as a smart list. Smart lists, including Current Families and Stalled Leads, have their own article: [Smart Lists](https://demo.banner61.com/help/articles/smart-lists/).
 
 ## Import contacts from a spreadsheet
 
@@ -193,8 +189,8 @@ Tips: put general information in the Notes field, use the existing grade fields 
 
 1. Filter the list or open a Smart List first, so the file only has who you need.
 2. Check the contacts (the top checkbox selects everyone shown).
-3. Click **More** or the three-dot menu and choose **Export Contacts**.
-4. Download the file from the Bulk Actions area when it's ready. Files are kept for about 30 days.
+3. Click **Export** in the toolbar and confirm.
+4. You get a notification when the file is ready. Download it from **CRM**, then **Contacts**, then **Bulk Actions**. Files are kept for 30 days.
 
 The export includes the columns you can see, not full conversation history. Exported files contain private family information, so store them securely.
 
@@ -286,6 +282,8 @@ Handy filters: Stage = Visit Attended (visited but no application yet); Owner = 
 2. Click **Edit** to change Stage, Pipeline, Status, Owner, Followers, Value, Source, Expected Close Date, Lost Reason or custom fields for all of them.
 
 For example, after an open house, filter to the families who attended, select them and move them to the next stage in one step. Bulk changes run in the background; check progress on the **Bulk Actions** page under Opportunities.
+
+You can also move a group from a contact list in **CRM**, then **Contacts**. See [Update the pipeline for a whole list of families](https://demo.banner61.com/help/articles/bulk-actions/#update-the-pipeline-for-a-whole-list-of-families).
 
 ## Delete and restore
 
@@ -565,10 +563,12 @@ Good to know: whether an edit to a template reaches emails an automation already
 
 ## Email campaigns (one-time emails to a group)
 
-Use a campaign for announcements, newsletters, event invitations and other one-time sends.
+Use a campaign for announcements, newsletters, event invitations and other one-time sends. It's the best way to email a group, because it looks polished and shows who opened and clicked.
+
+Your account has a **Campaigns** template folder (**Marketing**, then **Emails**, then **Templates**) with four ready-to-edit starters: **Open House Invitation**, **Monthly Family Newsletter**, **Re-enrollment Is Open** and **Quick Announcement**. Each has your logo, signature and footer already in place. Replace every word in [BRACKETS] before you send.
 
 1. Go to **Marketing**, then **Emails**, then the **Campaigns** tab, and create a new campaign.
-2. Start from a template or a blank layout and build the email.
+2. Start from a template (one from the **Campaigns** folder is the quickest) or a blank layout, and build the email.
 3. Click **Preview** to check desktop and mobile, and send a test to yourself.
 4. Click **Send or Schedule** and fill in:
    - Sender name (such as "Admissions at Banner Christian School") and sender email. The sender email must use your school's verified sending address; ask Banner 61 if you're not sure which to use.
@@ -580,6 +580,8 @@ Use a campaign for announcements, newsletters, event invitations and other one-t
 Attachments must total 10 MB or less. Families who unsubscribed or are set to Do Not Disturb are skipped automatically. To change a scheduled send, use the campaign's three-dot menu and choose Reschedule at least an hour before it goes out.
 
 **Custom segments:** in the Recipients area choose **Build Segments**. Each rule has a field, a condition and a value (Tag is Prospective Family). **Add Filter** adds a rule that must also match (AND); **Add OR Filter** adds an alternative group (OR). Examples: Tag is Inquiry and Tag is not Tour Scheduled; Grade Level Applying For is Kindergarten. Save segments you'll reuse.
+
+For a short, plain note to a list, you can also send straight from a contact list. See [Send a quick email to a list](https://demo.banner61.com/help/articles/bulk-actions/#send-a-quick-email-to-a-list).
 
 **Results:** open the campaign's three-dot menu and choose **Statistics**, then **Load More Statistics** for clicks by link. For all email together, open the **Statistics** tab under Marketing, then Emails. Delivered means it reached the family's mail server, not that they opened it. Watch bounces, unsubscribes and spam complaints for list problems.
 
@@ -675,6 +677,8 @@ Each workflow also has a **Settings** tab with:
 Workflows send real emails to real families, and many of them depend on each other (for example, on exact stage names, tag names and templates). It's easy to send families duplicate or wrong emails by accident. Safe changes a school can make on its own:
 - editing the wording of the email templates a workflow uses,
 - changing the staff email address in a notification step (like Internal Staff Email in Event Registration).
+
+To start a workflow by hand for a whole list of families, see [Start an automation for a list of families](https://demo.banner61.com/help/articles/bulk-actions/#start-an-automation-for-a-list-of-families).
 
 For anything else, such as new workflows, new triggers, or turning a workflow on or off, ask the Banner 61 team. We'll build or change it with you.
 
@@ -795,3 +799,291 @@ Go to **Settings**, then **Users**, to see everyone on your team.
 Give each person only the access they need, keep admin access to a few trusted people, and review your list each term. Every person who answers families should have their own user, so tasks and conversations can be assigned to them.
 
 Some users only see the families assigned to them. Adding them as a follower on an opportunity lets them see that family too.
+
+============================================================
+ARTICLE: Smart Lists (id: smart-lists)
+============================================================
+# Smart Lists
+
+A smart list is a saved filter of families that keeps itself up to date. Smart lists are the tabs across the top of **CRM**, then **Contacts**.
+
+## What is a smart list?
+
+A smart list is a saved search that shows whoever matches its rules today, so it never goes stale the way a spreadsheet tab does. You set the rules once, such as "families still deciding who haven't heard from us in two weeks." When a family books a visit, enrolls or inquires for the first time, the list changes on its own. Nobody has to move a family from one tab to another.
+
+Your smart lists are the tabs across the top of **CRM**, then **Contacts**. A smart list never sends anything by itself. It only finds families, so you can act on them. To make your own, see [Make a smart list](https://demo.banner61.com/help/articles/smart-lists/#make-a-smart-list).
+
+## What lists are already in my account?
+
+Every account comes with these smart lists, as tabs across the top of **CRM**, then **Contacts**:
+
+| List | Who's on it |
+| --- | --- |
+| All | Every contact in your account |
+| Current Families | Families in the Enrolled stage |
+| Stalled Leads | Families still deciding in the Inquiry to Enrollment pipeline who haven't had an email, text or call in the last 14 days |
+
+To change which families a list shows, see [Make a smart list](https://demo.banner61.com/help/articles/smart-lists/#make-a-smart-list).
+
+## Email or tag everyone on a list
+
+Open the list, select the families, then choose the action. This is the quickest way to invite every family who toured to your open house, or to follow up with everyone who has gone quiet.
+
+1. Go to **CRM**, then **Contacts**, and click the list's tab, such as **Stalled Leads**.
+2. Check the families you want. The top checkbox selects everyone on the page.
+3. Choose the action from the toolbar: send an email, add a tag, or move families to a new stage.
+
+Check which tags you add before you click. Some tags start automatic emails: adding **Cold Inquiry Revival** starts the Cold Inquiry Revival emails to every family you selected. Ask the Banner 61 team before adding a tag you don't recognize.
+
+How to check it worked: open one of the families and look for the email or tag on their record.
+
+## Make a smart list
+
+You can save any filter as its own list in about two minutes. Start from the **All** tab in **CRM**, then **Contacts**, so you don't change a list your team already uses.
+
+1. Go to **CRM**, then **Contacts**, and click the **All** tab.
+2. Click **Filters**.
+3. Click **Add Filter**. Type in the search box to find a field, then pick it. For example, type "grade" for Grade(s) of Interest, or "opportunity" to filter by pipeline, stage or status.
+4. Choose the condition and the value, such as **Is** and **Kindergarten**.
+5. To require a second rule as well, click **Add nested filter** inside the same box. A family must match every rule in one box.
+6. Click **Apply** and look over the families that come back.
+7. Click **Unsaved changes** at the top, then **Save as new smartlist**, and give it a name your team will recognize, like "Kindergarten 2027".
+
+How to check it worked: the new list appears as a tab across the top of **CRM**, then **Contacts**.
+
+Good to know:
+- **Add nested filter** means "and": a family must match every rule in the box. **Add Filter** starts a new box, which means "or": a family can match either box.
+- For dates like Last activity or Created, choose **In the last** and a number of days. The list then always counts back from today.
+- A list is only as good as the details on each family. If grade isn't filled in for most families, a grade list comes back short. Ask the Banner 61 team if you need a field added to your forms.
+
+Lists worth making:
+
+| List | Rules |
+| --- | --- |
+| New inquiries this week | Created, In the last 7 days, and Opportunity stage is New Inquiry |
+| Toured, not applied | Opportunity stage is Visit Attended |
+| Applications in progress | Opportunity stage is Application Sent |
+| By grade | Grade(s) of Interest is the grade you want |
+
+## Make a list of families interested in one grade
+
+Filter on Grade(s) of Interest and save it. In **CRM**, then **Contacts**:
+
+1. Click the **All** tab, then **Filters**, then **Add Filter**.
+2. Search for Grade(s) of Interest, pick it, and set it to **Is** and the grade, such as **Kindergarten**.
+3. Click **Apply**.
+4. Click **Unsaved changes**, then **Save as new smartlist**, and name it.
+
+How to check it worked: the families on the new tab all show that grade on their record. Families whose grade isn't filled in won't appear.
+
+## Undo a change to a smart list
+
+If you see **Unsaved changes** above a list, click it and choose **Discard changes**. That puts the list back the way it was, in **CRM**, then **Contacts**.
+
+If you already clicked **Save**, the list changed for everyone on your team. Ask the Banner 61 team and we'll put it back.
+
+How to check it worked: the **Unsaved changes** button is gone and the family count is back to what it was.
+
+## Why is this family on Stalled Leads?
+
+A family is on Stalled Leads because they're still deciding and nobody has emailed, texted or called them in the last 14 days. It doesn't mean they've lost interest. It means it's time for someone to reach out. The list is a tab in **CRM**, then **Contacts**.
+
+A family is on the list when all three are true:
+- They're in the **Inquiry to Enrollment** pipeline.
+- Their status is **Open**: not enrolled and not marked Lost.
+- There has been no email, text or call with them in the last 14 days.
+
+Enrolled families and families marked Lost never appear. Updating a family's details, like their phone number or grade, doesn't take them off the list. Only an email, text or call does, including a reply from the family.
+
+## Follow up with families on Stalled Leads
+
+Work the list from the top, a few families at a time. Start with families furthest along in the pipeline, since a family at Application Sent is closer to enrolling than one at New Inquiry.
+
+1. Go to **CRM**, then **Contacts**, and click the **Stalled Leads** tab.
+2. Open a family and read their timeline, so you know where things left off.
+3. Reach out by call, email or text, with a reason that fits where they are: a visit date, an application reminder, an answer to a question they asked.
+4. If something has happened that the pipeline doesn't show, move them forward in **CRM**, then **Opportunities**.
+5. If they've chosen another school or said they're not interested, mark them Lost. That keeps their history and keeps your reports accurate.
+
+For older inquiries who never booked a visit, adding the **Cold Inquiry Revival** tag starts a short series of re-engagement emails. Review those emails first in **Marketing**, then **Emails**, then **Templates**.
+
+How to check it worked: once you've emailed, texted or called a family, they drop off the Stalled Leads tab.
+
+============================================================
+ARTICLE: Bulk actions (do one thing to many families) (id: bulk-actions)
+============================================================
+# Bulk actions (do one thing to many families)
+
+A bulk action does one job to a whole group of families in one step, like tagging everyone from the fall fair. Start it from a list in **CRM**, then **Contacts**, and track it on **CRM**, then **Contacts**, then **Bulk Actions**.
+
+## Select a whole list of families
+
+To act on a group, open a list, check the families, then pick an action from the toolbar that appears.
+
+1. Go to **CRM**, then **Contacts**, then **Smart Lists**, and click the list you want, such as **Current Families**.
+2. Check the box next to each family, or check the box at the top of the name column to select everyone on the page.
+3. If the list runs longer than one page, click the blue **Select all** button, which shows the full count.
+4. Pick an action from the toolbar (**Export**, **Trigger automation**, **Send email**, **Add tags**, **Delete**) or from **More** (**Send SMS**, **Manage opportunities**, **Remove tags**, **Merge**, **Verify email addresses**). Schools can ignore **Send WhatsApp**, **Request reviews** and **Manage companies**.
+
+Every bulk action asks for an **Action name**. Lead with what you did and who it was for, then the month, because only the first few words show in the log: "Tag fall fair families: attended event (Nov 2026)".
+
+How to check it worked: the toolbar shows "Selected" with the number of families you meant to pick before you choose an action.
+
+## Tag every family on a list
+
+To tag a group, select the families in **CRM**, then **Contacts**, and click **Add tags**.
+
+1. Go to **CRM**, then **Contacts**, then **Smart Lists**, open the list and select the families (check the top box, then **Select all** for a long list).
+2. Click **Add tags** in the toolbar.
+3. Type an **Action name**, such as "Tag open house families: attended event (Nov 2026)".
+4. Under **Tags**, pick one or more tags that already exist.
+5. Click **Add tags**.
+
+Some tags start automations: adding **Cold Inquiry Revival** starts those emails for every family you tagged. Check with the Banner 61 team before adding a tag you don't recognize or creating a new one.
+
+How to check it worked: go to **CRM**, then **Contacts**, then **Bulk Actions**. Your job shows by name with the status Complete, and the tag shows on each family's record.
+
+## Remove a tag from a group of families
+
+To take a tag off many families, select them in **CRM**, then **Contacts**, open **More** and choose **Remove tags**.
+
+1. Go to **CRM**, then **Contacts**, then **Smart Lists**, open the list and select the families.
+2. Open **More** and choose **Remove tags**.
+3. Type an **Action name**.
+4. Under **Tags**, pick the tag or tags to remove, then click **Remove tags**.
+
+Leave the **Remove all tags** switch off. It strips every tag from every selected family, which can break automations and smart lists; check with the Banner 61 team first. Removing a tag doesn't undo emails an automation already sent.
+
+How to check it worked: on **CRM**, then **Contacts**, then **Bulk Actions**, the job shows Complete, and the tag is gone from the families' records.
+
+## Update the pipeline for a whole list of families
+
+To update the pipeline for a whole group from a contact list, select them in **CRM**, then **Contacts**, open **More** and choose **Manage opportunities**.
+
+1. Go to **CRM**, then **Contacts**, then **Smart Lists**, open a list that holds only the families to update, and select them.
+2. Open **More** and choose **Manage opportunities**.
+3. Type an **Action name**, such as "Update toured families: Application Sent (Nov 2026)".
+4. Under **Select pipeline**, choose **Inquiry to Enrollment** (or the **Re-Enrollment Pipeline** or **Sibling Enrollment Fast Track** if that's the one you mean).
+5. Under **Select stage**, pick the column they belong in now.
+6. Click **Add/update opportunity**.
+
+This action adds or updates: a family with a card in that pipeline is updated, and a family without one gets a new card. Run it only on a list you trust.
+
+You can also do this from the pipeline board. See [Update many families at once](https://demo.banner61.com/help/articles/pipeline/#update-many-families-at-once).
+
+How to check it worked: go to **CRM**, then **Opportunities**. The families show in their new column, and the total number of cards hasn't grown unless you meant to add families.
+
+## Start an automation for a list of families
+
+To put a group of families into a workflow by hand, select them in **CRM**, then **Contacts**, and click **Trigger automation**.
+
+1. Go to **CRM**, then **Contacts**, then **Smart Lists**, open the list and select the families.
+2. Click **Trigger automation**.
+3. Type an **Action name**, such as "Start re-engagement: spring inquiries (Nov 2026)".
+4. Under **Workflow**, choose the workflow.
+5. Choose **Send all at once**, **Send at scheduled time**, or **Send in drip mode** (a few families at a time).
+6. Click **Add to automation**.
+
+Workflows send real emails and texts to every family you selected, and a workflow in Draft won't run. Check with the Banner 61 team before starting one for a big group.
+
+How to check it worked: on **CRM**, then **Contacts**, then **Bulk Actions**, the job shows Complete. Open the workflow in **Automations**, then **Workflows** to see the families enrolled.
+
+## Send a quick email to a list
+
+For a newsletter, an invitation or anything you want to look polished and measure, use an email campaign instead: see [Email campaigns](https://demo.banner61.com/help/articles/marketing/#email-campaigns-one-time-emails-to-a-group). For a short, one-time note to a list, you can send straight from **CRM**, then **Contacts**.
+
+1. Go to **CRM**, then **Contacts**, then **Smart Lists**, open the list and select the families.
+2. Click **Send email**.
+3. Check the **Confirm recipient list** window. It shows how many families you selected and how many were filtered out because the address is invalid or the family unsubscribed. Click **Confirm and proceed**.
+4. Type an **Action name**, the From name and From email, a **Subject** and an optional **Pre-header**.
+5. Write the message with **Quick compose**, or choose **Select existing template**.
+6. Under **Mode**, send now, at a scheduled time, or in batches.
+7. Under **Test emails**, send yourself a test.
+8. Check the box confirming these families agreed to hear from you, then click **Send email**.
+
+Each family gets their own copy. A sent email can't be called back. If you're not sure which sending address to use, check with the Banner 61 team first.
+
+How to check it worked: on **CRM**, then **Contacts**, then **Bulk Actions**, your send shows Complete. Open a family's record to see the email in their conversation.
+
+## Check whether a bulk action finished
+
+Every bulk job is listed on **CRM**, then **Contacts**, then **Bulk Actions**, with its name, type, status, who ran it and when it started and finished.
+
+1. Go to **CRM**, then **Contacts**, then **Bulk Actions**.
+2. Use the filters at the top to narrow by date, status, type of action or the person who ran it.
+3. Click the chart icon in the **Statistics** column to see every family the job touched and whether each one succeeded or failed.
+4. The menu at the end of a row opens **View details**.
+
+A large list can take a few minutes. Changes made from the pipeline board are tracked separately, under **CRM**, then **Opportunities**.
+
+How to check it worked: the job's status reads Complete and the Statistics window shows no errors.
+
+============================================================
+ARTICLE: Engagement score (id: engagement-score)
+============================================================
+# Engagement score
+
+Every family in Banner Connect has an engagement score: a running number that goes up when they take a real step toward enrolling and comes down when they pull back. The rules that set the points live in **CRM**, then **Contacts**, then **Engagement Score**.
+
+## Decide which families to call first
+
+A higher engagement score means a family has done more of the things that usually come before enrolling, so start your calls at the top. Use the score to plan your week, not to judge a family.
+
+| Score | What it usually means | What to do |
+|---|---|---|
+| 40 and up | They've visited, applied or both | Call them personally this week |
+| 15 to 39 | They've asked for information or asked to visit | Make sure the visit happens, then follow up |
+| 0 to 14 | Early interest, or they've pulled back | Keep them on your regular emails |
+
+The score only sees what happens in Banner Connect. A family who talked with you at a ball game or called the front office won't show it, so your own judgment still comes first.
+
+## What adds points to a family's score
+
+Points go up on their own each time a family does one of these things. Bigger steps toward enrolling are worth more. The rules live in **CRM**, then **Contacts**, then **Engagement Score**.
+
+| When a family... | Points |
+|---|---|
+| Is moved to the Application Submitted stage of the Inquiry to Enrollment pipeline | +25 |
+| Shows up for a visit, event or assessment (the appointment is marked Showed) | +15 |
+| Fills out the Request a Visit form | +10 |
+| Has the Application Fee field changed to Paid | +10 |
+| Fills out the General Inquiry Form, Request Info Packet, Request Tuition Info or Request Financial Aid Info form | +5 |
+| Fills out the Event Registration Form | +5 |
+| Fills out the Visit Feedback survey | +5 |
+| Clicks a link in one of your emails | +2 |
+
+A family who inquires, asks to visit, shows up and applies lands around 55.
+
+Opening an email doesn't add points. Many phones now open every email automatically, so an "open" no longer means a parent read it. A click does.
+
+How to check it worked: open a family who just did one of these things and confirm their score went up by the points in the table.
+
+## Why a family's score went down
+
+A family's engagement score drops when they miss a visit or tell you they don't want your emails, so the number reflects where they are now, not just their history. The rules live in **CRM**, then **Contacts**, then **Engagement Score**.
+
+| When a family... | Points |
+|---|---|
+| Is marked No-show for a visit, event or assessment | -5 |
+| Unsubscribes from your emails | -10 |
+| Marks one of your emails as spam | -20 |
+
+A dropping score is a good reason to reach out personally. A short, warm check-in often restarts a stalled conversation.
+
+## Why a family you know is serious has a low score
+
+A low score usually means the family's interest happened outside Banner Connect. Phone calls, hallway conversations and paper applications don't add points. The score also only counts the Application Submitted stage when someone moves the family there in **CRM**, then **Opportunities**.
+
+To bring their score in line, move them to the right stage in the Inquiry to Enrollment pipeline and book their next visit through the Schedule a Visit calendar.
+
+How to check it worked: reopen the family's record and confirm the score went up.
+
+## Change the points or add a rule
+
+Check with the Banner 61 team before changing any scoring rule, because lists, reports and automations may depend on the current numbers. The rules live in **CRM**, then **Contacts**, then **Engagement Score**.
+
+1. Go to **CRM**, then **Contacts**, then **Engagement Score**.
+2. To change a rule, click the three dots at the end of its row, then **Edit**.
+3. To add one, click **Add new rule**, choose what the family does, choose **Add** or **Subtract**, enter the points and click **Save**.
+
+How to check it worked: the rule shows in the list with the points you entered.
