@@ -104,9 +104,9 @@ How to use this index: find the one to three articles whose "Use when" or "Schoo
 ## Smart Lists
 - Read: https://demo.banner61.com/help/articles/smart-lists.md
 - Menu: CRM > Contacts
-- Use when: What a smart list is; the lists in your account (Current Families, Stalled Leads); making a list of families by grade, stage or activity; families who haven't heard from us; why a family is on Stalled Leads; emailing or tagging everyone on a list.
-- Schools may call this: smart list, saved list, saved search, saved filter, filtered list, list of families, segment, spreadsheet tab, haven't heard from, gone quiet, no activity, stalled, stuck, falling through the cracks, kindergarten list, grade list, who toured
-- Sections: What is a smart list?; What lists are already in my account?; Email or tag everyone on a list; Make a smart list; Make a list of families interested in one grade; Undo a change to a smart list; Why is this family on Stalled Leads?; Follow up with families on Stalled Leads
+- Use when: What a smart list is; the lists in your account (Current Families, Stalled Leads); finding families in one grade without saving a list; making a list of families by stage or activity; families who haven't heard from us; why a family is on Stalled Leads; emailing or tagging everyone on a list.
+- Schools may call this: smart list, saved list, saved search, saved filter, filtered list, list of families, segment, spreadsheet tab, haven't heard from, gone quiet, no activity, stalled, stuck, falling through the cracks, kindergarten list, grade list, families in one grade, quick filter, who toured
+- Sections: What is a smart list?; What lists are already in my account?; Email or tag everyone on a list; Make a smart list; Find families interested in one grade; Undo a change to a smart list; Why is this family on Stalled Leads?; Follow up with families on Stalled Leads
 - Page for people: https://demo.banner61.com/help/articles/smart-lists/
 
 ## Bulk actions (do one thing to many families)

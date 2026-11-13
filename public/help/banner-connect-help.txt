@@ -843,18 +843,18 @@ You can save any filter as its own list in about two minutes. Start from the **A
 
 1. Go to **CRM**, then **Contacts**, and click the **All** tab.
 2. Click **Filters**.
-3. Click **Add Filter**. Type in the search box to find a field, then pick it. For example, type "grade" for Grade(s) of Entry, or "opportunity" to filter by pipeline, stage or status.
-4. Choose the condition and the value, such as **Is** and **Kindergarten**.
+3. Click **Add Filter**. Type in the search box to find a field, then pick it. For example, type "opportunity" to filter by pipeline, stage or status.
+4. Choose the condition and the value, such as **Is** and **Visit Attended**.
 5. To require a second rule as well, click **Add nested filter** inside the same box. A family must match every rule in one box.
 6. Click **Apply** and look over the families that come back.
-7. Click **Unsaved changes** at the top, then **Save as new smartlist**, and give it a name your team will recognize, like "Kindergarten 2027".
+7. Click **Unsaved changes** at the top, then **Save as new smartlist**, and give it a name your team will recognize, like "Toured, Not Applied".
 
 How to check it worked: the new list appears as a tab across the top of **CRM**, then **Contacts**.
 
 Good to know:
 - **Add nested filter** means "and": a family must match every rule in the box. **Add Filter** starts a new box, which means "or": a family can match either box.
 - For dates like Last activity or Created, choose **In the last** and a number of days. The list then always counts back from today.
-- A list is only as good as the details on each family. If grade isn't filled in for most families, a grade list comes back short. Ask the Banner 61 team if you need a field added to your forms.
+- Save a list only when your team will open it again and again. For a one-time question, like which families are interested in kindergarten, filter and then discard. See [Find families interested in one grade](https://demo.banner61.com/help/articles/smart-lists/#find-families-interested-in-one-grade).
 
 Lists worth making:
 
@@ -863,19 +863,18 @@ Lists worth making:
 | New Inquiries | Opportunity pipeline is Inquiry to Enrollment, stage is New Inquiry, and Opportunity status is Open |
 | Toured, Not Applied | Same, with stage Visit Attended |
 | Applications in Progress | Same, with stage Application Sent |
-| Kindergarten (or any grade) | Grade(s) of Entry is the grade you want |
 | New inquiries this week | Created, In the last 7 days, and stage is New Inquiry |
 
-## Make a list of families interested in one grade
+## Find families interested in one grade
 
-Filter on Grade(s) of Entry and save it. In **CRM**, then **Contacts**:
+Filter the **All** tab on Grade(s) of Entry. You don't need to save a list for this, so your tabs stay short. In **CRM**, then **Contacts**:
 
 1. Click the **All** tab, then **Filters**, then **Add Filter**.
-2. Search for Grade(s) of Entry, pick it, and set it to **Is** and the grade, such as **Kindergarten**.
-3. Click **Apply**.
-4. Click **Unsaved changes**, then **Save as new smartlist**, and name it.
+2. Type "grade" in the search box, pick **Grade(s) of Entry**, and set it to **Is** and the grade, such as **Kindergarten**. You can pick more than one grade.
+3. Click **Apply**. Now you can email, tag or export the families shown.
+4. When you're done, click **Unsaved changes**, then **Discard changes**, so the All tab goes back to showing everyone.
 
-How to check it worked: the families on the new tab all show that grade in Grade(s) of Entry on their record. Families whose grade isn't filled in won't appear. A family with children in two grades shows on both grade lists.
+How to check it worked: the count at the top matches the families you expected, and each one shows that grade in Grade(s) of Entry on their record. Families whose grade isn't filled in won't appear, and a family with children in two grades shows up for both.
 
 ## Undo a change to a smart list
 
