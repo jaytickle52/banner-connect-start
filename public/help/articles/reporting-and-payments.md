@@ -4,7 +4,7 @@ Menu: Dashboard; Reporting; Payments
 Use when: The Dashboard, lead source and other reports (where inquiries come from), email results, and taking payments: connecting Stripe or PayPal, application fees, enrollment deposits, payment links and invoices.
 Page for people: https://demo.banner61.com/help/articles/reporting-and-payments/
 Last reviewed: 2026-11-03
-Related: https://demo.banner61.com/help/articles/pipeline.md, https://demo.banner61.com/help/articles/marketing.md
+Related: https://demo.banner61.com/help/articles/pipeline.md, https://demo.banner61.com/help/articles/marketing.md, https://demo.banner61.com/help/articles/enrollment-forecast.md
 
 ## Dashboard
 

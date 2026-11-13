@@ -4,7 +4,7 @@ title: "Dashboard, reporting and payments"
 menu: "Dashboard; Reporting; Payments"
 use_when: "The Dashboard, lead source and other reports (where inquiries come from), email results, and taking payments: connecting Stripe or PayPal, application fees, enrollment deposits, payment links and invoices."
 also_called: ["report", "numbers", "analytics", "lead source", "where families come from", "how did you hear", "stats", "payment", "deposit", "application fee", "tuition payment", "pay online", "invoice", "Stripe", "PayPal", "refund"]
-related: [pipeline, marketing]
+related: [pipeline, marketing, enrollment-forecast]
 plan: ""  # SchoolBox, Full or All, once the feature map is filled in
 reviewed: 2026-11-03
 ---

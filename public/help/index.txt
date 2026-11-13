@@ -132,3 +132,11 @@ How to use this index: find the one to three articles whose "Use when" or "Schoo
 - Schools may call this: stages, steps, columns, enrollment board, admissions board, admissions process, funnel, when do I move, what does this stage mean, next step, tour, applied, admitted, accepted, enrolled, lost reason, chose another school, not enrolling, decided not to come
 - Sections: What is the enrollment board for?; What does each stage mean?; Which moves happen on their own?; Move a family to the next stage; Why does it matter to keep the board up to date?; Mark a family who isn't enrolling; Who owns each family on the board?; What are the other two pipelines for?
 - Page for people: https://demo.banner61.com/help/articles/enrollment-stages/
+
+## How many families will enroll this fall?
+- Read: https://demo.banner61.com/help/articles/enrollment-forecast.md
+- Menu: CRM > Opportunities > Forecast
+- Use when: How many new families and students are likely to enroll for next school year, how much tuition that means, which month families are likely to decide, where the odds come from, why the forecast says expected revenue (it means expected tuition), and how to replace the starting odds with your school's own history.
+- Schools may call this: forecast, enrollment forecast, enrollment projection, projected enrollment, how many will enroll, how many new students, seats, open seats, expected tuition, expected revenue, tuition projection, budget, board report, close date, decision date, odds, probability, conversion rate, yield
+- Sections: What does the enrollment forecast show?; Why does the forecast say "expected revenue"?; How does Banner Connect estimate who will enroll?; How many seats will that fill?; What is a close date for a school?; Why is a family under "No close date"?; Read your forecast before a board meeting; Replace the starting odds with your school's numbers
+- Page for people: https://demo.banner61.com/help/articles/enrollment-forecast/
