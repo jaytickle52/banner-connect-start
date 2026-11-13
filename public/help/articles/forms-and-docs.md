@@ -55,6 +55,8 @@ Good to know:
 
 Go to **Forms & Docs**, then **Surveys**. The **Visit Feedback** survey sends automatically after a visit is marked as attended and a good fit. Review its questions and wording before your visits start. You can edit any survey yourself, or ask Banner 61 to.
 
+Your account has three ready-made surveys in the **Prebuilt Surveys** folder: **Visit Feedback**, **New Family Survey** and **Family Exit Survey**, plus **Application (optional)** for schools that take applications in Banner Connect. See [Send the visit feedback survey automatically after every tour](https://demo.banner61.com/help/articles/visit-feedback-survey/) and [Hear from new families after their first 60 days](https://demo.banner61.com/help/articles/new-family-survey/).
+
 ## Documents & Contracts
 
 Go to **Forms & Docs**, then **Documents & Contracts**. Use it for enrollment agreements, permission slips, consent forms, waivers and handbook acknowledgments that families sign online.
