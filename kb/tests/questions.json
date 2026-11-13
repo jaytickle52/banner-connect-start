@@ -41,6 +41,10 @@
     {"q": "How do I use last year's numbers to make the enrollment projection more accurate?", "article": "enrollment-forecast", "must": ["reached", "enrolled", "Banner 61"]},
     {"q": "A mom messaged us on Facebook. Where do I see it and reply?", "article": "parent-inbox", "must": ["Conversations", "Inbox"]},
     {"q": "How do I pass a family over to our other admissions person?", "article": "parent-inbox", "must": ["Owner"]},
-    {"q": "Can I leave a note on a conversation that the parent won't see?", "article": "parent-inbox", "must": ["Internal Comment"]}
+    {"q": "Can I leave a note on a conversation that the parent won't see?", "article": "parent-inbox", "must": ["Internal Comment"]},
+    {"q": "How do I make an RSVP page for our open house?", "article": "events", "must": ["Calendars and Events", "RSVP"]},
+    {"q": "We're hosting a Vision Night for current families. How do I set up the sign-up?", "article": "events", "must": ["Create Event", "RSVP"]},
+    {"q": "Can I stop people from RSVPing to our Promoter Reception without deleting the page?", "article": "events", "must": ["deadline"]},
+    {"q": "Can the open house RSVP form ask for the child's grade?", "article": "events", "must": ["Add fields", "Grade"]}
   ]
 }

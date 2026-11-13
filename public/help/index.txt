@@ -148,3 +148,11 @@ How to use this index: find the one to three articles whose "Use when" or "Schoo
 - Schools may call this: inbox, team inbox, my inbox, messages, parent messages, unread, assign, hand off, pass to a colleague, owner, who's handling this family, internal note, comment, chat, website chat, Facebook message, DM
 - Sections: Where do parent messages show up?; See what's new this morning; Hand a family to a colleague; Leave a note for staff that the family won't see; What is the panel beside each conversation?; Why do I see "Opportunity updated" lines in a conversation?; Answer common questions faster with snippets
 - Page for people: https://demo.banner61.com/help/articles/parent-inbox/
+
+## Open houses, Vision Nights and Promoter Receptions
+- Read: https://demo.banner61.com/help/articles/events.md
+- Menu: Calendars and Events > Events
+- Use when: Setting up an event page families can RSVP to, such as an open house, a Vision Night or a Promoter Reception; adding a cover image, FAQs and RSVP questions; publishing the page and sharing the link; seeing who RSVPed and checking families in; closing RSVPs; when to use Events instead of the Event Registration calendar.
+- Schools may call this: open house, vision night, vision dinner, promoter reception, parent reception, ambassador reception, preview day, information night, info night, event page, RSVP, RSVP form, registration page, sign-up page, event link, check-in, QR code, who's coming, attendee list, close registration
+- Sections: Which kind of event should I create?; Create an open house page; Add FAQs to an event page; Choose the questions on the RSVP form; Publish an event and share the link; See who RSVPed and check families in; Close RSVPs without taking the page down; What emails do families get?; Should I use Events or the Event Registration calendar?
+- Page for people: https://demo.banner61.com/help/articles/events/
