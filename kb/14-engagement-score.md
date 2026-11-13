@@ -4,7 +4,7 @@ title: "Engagement score"
 menu: "CRM > Contacts > Engagement Score"
 use_when: "What a family's engagement score means, how points are added and taken away (forms, visits, applications, replies, email clicks), which families to call first, why a score is low or went down, and where the scoring rules live."
 also_called: ["score", "lead score", "points", "interest level", "hot families", "warm families", "most interested", "most engaged", "who to call first", "priority", "ranking", "points for replying"]
-related: [contacts, pipeline, automations, enrollment-stages]
+related: [contacts, pipeline, automations, enrollment-stages, campus-visits, open-houses]
 plan: ""  # SchoolBox, Full or All once known
 reviewed: 2026-11-13
 ---

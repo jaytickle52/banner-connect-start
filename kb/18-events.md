@@ -4,7 +4,7 @@ title: "Open houses, Vision Nights and Promoter Receptions"
 menu: "Calendars and Events > Events"
 use_when: "Setting up an event page families can RSVP to, such as an open house, a Vision Night or a Promoter Reception; adding a cover image, FAQs and RSVP questions; publishing the page and sharing the link; seeing who RSVPed and checking families in; closing RSVPs; when to use Events instead of the Event Registration calendar."
 also_called: ["open house", "vision night", "vision dinner", "promoter reception", "parent reception", "ambassador reception", "preview day", "information night", "info night", "event page", "RSVP", "RSVP form", "registration page", "sign-up page", "event link", "check-in", "QR code", "who's coming", "attendee list", "close registration"]
-related: [calendars, forms-and-docs, contacts, marketing]
+related: [calendars, forms-and-docs, contacts, marketing, open-houses]
 plan: ""  # SchoolBox, Full or All once known. Events is a beta Banner 61 turns on per school
 reviewed: 2026-11-13
 ---

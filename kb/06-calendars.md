@@ -4,7 +4,7 @@ title: "Calendars"
 menu: "Calendars"
 use_when: "The prebuilt calendars (Schedule a Visit, Event Registration), connecting a staff calendar, booking a visit for a family who called or walked in, changing available times, open houses and events, embedding or sharing a calendar on the school website."
 also_called: ["tour", "campus visit", "shadow day", "appointment", "booking", "schedule", "open house", "event", "registration", "RSVP", "Google Calendar", "Outlook calendar", "availability", "booking link", "embed calendar"]
-related: [automations, forms-and-docs, events]
+related: [automations, forms-and-docs, events, campus-visits, open-houses]
 plan: ""  # SchoolBox, Full or All, once the feature map is filled in
 reviewed: 2026-11-13
 ---

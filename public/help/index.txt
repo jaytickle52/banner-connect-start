@@ -156,3 +156,19 @@ How to use this index: find the one to three articles whose "Use when" or "Schoo
 - Schools may call this: open house, vision night, vision dinner, promoter reception, parent reception, ambassador reception, preview day, information night, info night, event page, RSVP, RSVP form, registration page, sign-up page, event link, check-in, QR code, who's coming, attendee list, close registration
 - Sections: Which kind of event should I create?; Create an open house page; Add FAQs to an event page; Choose the questions on the RSVP form; Publish an event and share the link; See who RSVPed and check families in; Close RSVPs without taking the page down; What emails do families get?; Should I use Events or the Event Registration calendar?
 - Page for people: https://demo.banner61.com/help/articles/events/
+
+## Let families book a campus visit
+- Read: https://demo.banner61.com/help/articles/campus-visits.md
+- Menu: Calendars and Events > Calendars > Meeting Calendars
+- Use when: Setting up campus visits so families can book them online: visit hours, who gives the visit, where the booking link goes on your website and in emails, and what happens automatically after a family books and after the visit.
+- Schools may call this: tour, campus tour, school tour, visit, shadow day, consultation, booking link, schedule a tour, book a tour, visit hours, tour times, who gives tours, tour guide, online booking, self scheduling
+- Sections: Set your visit hours; Choose who gives the visit; Put the visit link on your website and in emails; What happens after a family books a visit?; Book a visit for a family who called; Change the message families see after booking
+- Page for people: https://demo.banner61.com/help/articles/campus-visits/
+
+## Run an open house with sign-ups and reminders
+- Read: https://demo.banner61.com/help/articles/open-houses.md
+- Menu: Calendars and Events > Calendars > Meeting Calendars
+- Use when: Running an open house, preview night or information night: adding the date and time, letting families sign up online, inviting families by email, the confirmation and reminder emails, and following up after the event.
+- Schools may call this: open house, preview night, preview day, information night, info night, kindergarten night, event, RSVP, sign up, sign-up, registration, register, event reminder, who is coming, attendance
+- Sections: Add your open house date and time; Write the event description families see; Invite families to sign up; What happens when a family signs up?; See who signed up; Mark who came after the open house; Should I use this or an Events page?; Plan the next open house
+- Page for people: https://demo.banner61.com/help/articles/open-houses/
