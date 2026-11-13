@@ -45,7 +45,7 @@ Trigger Links appear in two places (CRM, then Conversations, and Marketing). The
 - **Workflow**: an automation. It starts when something happens (a form is submitted, a visit is booked) and then sends emails, adds tags, creates tasks and so on.
 - **Template**: a saved email that workflows and campaigns reuse.
 - **Snippet**: a saved reply you can drop into a message.
-- **Custom field**: an extra detail you track, like Grade(s) of Interest.
+- **Custom field**: an extra detail you track, like Grade(s) of Entry.
 - **Custom value**: a school detail used in every email, like your school's name, address or phone number.
 
 ## Names in your account
@@ -142,7 +142,7 @@ Use this for phone calls, walk-ins and families you meet at events.
 
 1. Go to **CRM**, then **Contacts**, and click **+ Add Contact**.
 2. Enter first and last name, and an email or phone number (at least one is required).
-3. Fill in any fields you know, like Grade(s) of Interest or student name.
+3. Fill in any fields you know, like Grade(s) of Entry or student name.
 4. Click **Save**.
 
 Then make the record useful: add a tag (for example, Open House Attendee), add a note about why they're in the system, and, if they're a prospective family, create an opportunity so they show up in your pipeline. Capitalize names properly, because automatic emails greet families by name.
@@ -843,7 +843,7 @@ You can save any filter as its own list in about two minutes. Start from the **A
 
 1. Go to **CRM**, then **Contacts**, and click the **All** tab.
 2. Click **Filters**.
-3. Click **Add Filter**. Type in the search box to find a field, then pick it. For example, type "grade" for Grade(s) of Interest, or "opportunity" to filter by pipeline, stage or status.
+3. Click **Add Filter**. Type in the search box to find a field, then pick it. For example, type "grade" for Grade(s) of Entry, or "opportunity" to filter by pipeline, stage or status.
 4. Choose the condition and the value, such as **Is** and **Kindergarten**.
 5. To require a second rule as well, click **Add nested filter** inside the same box. A family must match every rule in one box.
 6. Click **Apply** and look over the families that come back.
@@ -860,21 +860,22 @@ Lists worth making:
 
 | List | Rules |
 | --- | --- |
-| New inquiries this week | Created, In the last 7 days, and Opportunity stage is New Inquiry |
-| Toured, not applied | Opportunity stage is Visit Attended |
-| Applications in progress | Opportunity stage is Application Sent |
-| By grade | Grade(s) of Interest is the grade you want |
+| New Inquiries | Opportunity pipeline is Inquiry to Enrollment, stage is New Inquiry, and Opportunity status is Open |
+| Toured, Not Applied | Same, with stage Visit Attended |
+| Applications in Progress | Same, with stage Application Sent |
+| Kindergarten (or any grade) | Grade(s) of Entry is the grade you want |
+| New inquiries this week | Created, In the last 7 days, and stage is New Inquiry |
 
 ## Make a list of families interested in one grade
 
-Filter on Grade(s) of Interest and save it. In **CRM**, then **Contacts**:
+Filter on Grade(s) of Entry and save it. In **CRM**, then **Contacts**:
 
 1. Click the **All** tab, then **Filters**, then **Add Filter**.
-2. Search for Grade(s) of Interest, pick it, and set it to **Is** and the grade, such as **Kindergarten**.
+2. Search for Grade(s) of Entry, pick it, and set it to **Is** and the grade, such as **Kindergarten**.
 3. Click **Apply**.
 4. Click **Unsaved changes**, then **Save as new smartlist**, and name it.
 
-How to check it worked: the families on the new tab all show that grade on their record. Families whose grade isn't filled in won't appear.
+How to check it worked: the families on the new tab all show that grade in Grade(s) of Entry on their record. Families whose grade isn't filled in won't appear. A family with children in two grades shows on both grade lists.
 
 ## Undo a change to a smart list
 
@@ -1035,6 +1036,8 @@ A higher engagement score means a family has done more of the things that usuall
 | 15 to 39 | They've asked for information or asked to visit | Make sure the visit happens, then follow up |
 | 0 to 14 | Early interest, or they've pulled back | Keep them on your regular emails |
 
+To see families in score order, go to **CRM**, then **Contacts**, click **Sort**, choose **Engagement Score** and set it so the highest scores are on top.
+
 The score only sees what happens in Banner Connect. A family who talked with you at a ball game or called the front office won't show it, so your own judgment still comes first.
 
 ## What adds points to a family's score
@@ -1050,6 +1053,7 @@ Points go up on their own each time a family does one of these things. Bigger st
 | Fills out the General Inquiry Form, Request Info Packet, Request Tuition Info or Request Financial Aid Info form | +5 |
 | Fills out the Event Registration Form | +5 |
 | Fills out the Visit Feedback survey | +5 |
+| Replies to a message from your staff for the first time | +5 |
 | Clicks a link in one of your emails | +2 |
 
 A family who inquires, asks to visit, shows up and applies lands around 55.

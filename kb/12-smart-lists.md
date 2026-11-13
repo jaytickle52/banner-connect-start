@@ -48,7 +48,7 @@ You can save any filter as its own list in about two minutes. Start from the **A
 
 1. Go to **CRM**, then **Contacts**, and click the **All** tab.
 2. Click **Filters**.
-3. Click **Add Filter**. Type in the search box to find a field, then pick it. For example, type "grade" for Grade(s) of Interest, or "opportunity" to filter by pipeline, stage or status.
+3. Click **Add Filter**. Type in the search box to find a field, then pick it. For example, type "grade" for Grade(s) of Entry, or "opportunity" to filter by pipeline, stage or status.
 4. Choose the condition and the value, such as **Is** and **Kindergarten**.
 5. To require a second rule as well, click **Add nested filter** inside the same box. A family must match every rule in one box.
 6. Click **Apply** and look over the families that come back.
@@ -65,21 +65,22 @@ Lists worth making:
 
 | List | Rules |
 | --- | --- |
-| New inquiries this week | Created, In the last 7 days, and Opportunity stage is New Inquiry |
-| Toured, not applied | Opportunity stage is Visit Attended |
-| Applications in progress | Opportunity stage is Application Sent |
-| By grade | Grade(s) of Interest is the grade you want |
+| New Inquiries | Opportunity pipeline is Inquiry to Enrollment, stage is New Inquiry, and Opportunity status is Open |
+| Toured, Not Applied | Same, with stage Visit Attended |
+| Applications in Progress | Same, with stage Application Sent |
+| Kindergarten (or any grade) | Grade(s) of Entry is the grade you want |
+| New inquiries this week | Created, In the last 7 days, and stage is New Inquiry |
 
 ## Make a list of families interested in one grade
 
-Filter on Grade(s) of Interest and save it. In **CRM**, then **Contacts**:
+Filter on Grade(s) of Entry and save it. In **CRM**, then **Contacts**:
 
 1. Click the **All** tab, then **Filters**, then **Add Filter**.
-2. Search for Grade(s) of Interest, pick it, and set it to **Is** and the grade, such as **Kindergarten**.
+2. Search for Grade(s) of Entry, pick it, and set it to **Is** and the grade, such as **Kindergarten**.
 3. Click **Apply**.
 4. Click **Unsaved changes**, then **Save as new smartlist**, and name it.
 
-How to check it worked: the families on the new tab all show that grade on their record. Families whose grade isn't filled in won't appear.
+How to check it worked: the families on the new tab all show that grade in Grade(s) of Entry on their record. Families whose grade isn't filled in won't appear. A family with children in two grades shows on both grade lists.
 
 ## Undo a change to a smart list
 
