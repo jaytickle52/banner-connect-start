@@ -140,3 +140,11 @@ How to use this index: find the one to three articles whose "Use when" or "Schoo
 - Schools may call this: forecast, enrollment forecast, enrollment projection, projected enrollment, how many will enroll, how many new students, seats, open seats, expected tuition, expected revenue, tuition projection, budget, board report, close date, decision date, odds, probability, conversion rate, yield
 - Sections: What does the enrollment forecast show?; Why does the forecast say "expected revenue"?; How does Banner Connect estimate who will enroll?; How many seats will that fill?; What is a close date for a school?; Why is a family under "No close date"?; Read your forecast before a board meeting; Replace the starting odds with your school's numbers
 - Page for people: https://demo.banner61.com/help/articles/enrollment-forecast/
+
+## One inbox for every parent message
+- Read: https://demo.banner61.com/help/articles/parent-inbox.md
+- Menu: CRM > Conversations > Inbox
+- Use when: Where parent emails, texts, Facebook and Instagram messages and website chats show up; how to see what's new; how to hand a family to a colleague; what the family details beside each message mean; how to leave a note for staff without the family seeing it.
+- Schools may call this: inbox, team inbox, my inbox, messages, parent messages, unread, assign, hand off, pass to a colleague, owner, who's handling this family, internal note, comment, chat, website chat, Facebook message, DM
+- Sections: Where do parent messages show up?; See what's new this morning; Hand a family to a colleague; Leave a note for staff that the family won't see; What is the panel beside each conversation?; Why do I see "Opportunity updated" lines in a conversation?; Answer common questions faster with snippets
+- Page for people: https://demo.banner61.com/help/articles/parent-inbox/
