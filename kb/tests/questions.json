@@ -32,6 +32,9 @@
     {"q": "Which families should I call first this week?", "article": "engagement-score", "must": ["score"]},
     {"q": "Why did this family's engagement score go down?", "article": "engagement-score", "must": ["score"]},
     {"q": "How many points does a family get for submitting an application?", "article": "engagement-score", "must": ["25", "Application Submitted"]},
-    {"q": "Does a family get points when they reply to one of our texts?", "article": "engagement-score", "must": ["5", "first"]}
+    {"q": "Does a family get points when they reply to one of our texts?", "article": "engagement-score", "must": ["5", "first"]},
+    {"q": "When should I move a family from Visit Attended to Application Sent?", "article": "enrollment-stages", "must": ["Application Sent", "application"]},
+    {"q": "What does the Accepted stage mean?", "article": "enrollment-stages", "must": ["Accepted", "offered|accepted"]},
+    {"q": "A family chose another school. What do I do with their card?", "article": "enrollment-stages", "must": ["Lost", "Lost reason|reason"], "must_not": ["delete it"]}
   ]
 }
