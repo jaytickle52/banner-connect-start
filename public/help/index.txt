@@ -64,8 +64,8 @@ How to use this index: find the one to three articles whose "Use when" or "Schoo
 ## Forms, surveys and documents
 - Read: https://demo.banner61.com/help/articles/forms-and-docs.md
 - Menu: Forms & Docs
-- Use when: The prebuilt forms (Request Info Packet, General Inquiry, tuition and financial aid), putting the inquiry form on the school website, editing a form and its fields, surveys, and documents and contracts families sign (enrollment agreements).
-- Schools may call this: inquiry form, contact form, info packet, embed, website form, WordPress, Squarespace, Wix, survey, feedback, contract, enrollment agreement, e-signature, sign, PDF
+- Use when: The prebuilt forms (Request Info Packet, General Inquiry, tuition and financial aid), editing a form and its fields, surveys, and documents and contracts families sign (enrollment agreements).
+- Schools may call this: inquiry form, contact form, info packet, survey, feedback, contract, enrollment agreement, e-signature, sign, PDF
 - Sections: Your prebuilt forms; Put your inquiry form on your website; Edit a form; Surveys; Documents & Contracts
 - Page for people: https://demo.banner61.com/help/articles/forms-and-docs/
 
@@ -172,3 +172,19 @@ How to use this index: find the one to three articles whose "Use when" or "Schoo
 - Schools may call this: open house, preview night, preview day, information night, info night, kindergarten night, event, RSVP, sign up, sign-up, registration, register, event reminder, who is coming, attendance
 - Sections: Add your open house date and time; Write the event description families see; Invite families to sign up; What happens when a family signs up?; See who signed up; Mark who came after the open house; Should I use this or an Events page?; Plan the next open house
 - Page for people: https://demo.banner61.com/help/articles/open-houses/
+
+## Put your inquiry form on your website
+- Read: https://demo.banner61.com/help/articles/website-forms.md
+- Menu: Forms & Docs > Forms
+- Use when: Adding the inquiry, info packet or visit request form to the school website, choosing which form to use, linking to a form when you can't edit the website, testing it, and fixing a form that doesn't show up.
+- Schools may call this: embed, embed code, website form, contact form, inquiry form, info packet form, request info, put the form on our site, add form to website, iframe, WordPress, Squarespace, Wix, Webflow, Elementor, Divi, web designer, form link, form not showing
+- Sections: Which form should go on our website?; Link to a form when you can't edit your website; Test your website form; Why isn't our form showing on our website?
+- Page for people: https://demo.banner61.com/help/articles/website-forms/
+
+## What happens when a family fills out a form
+- Read: https://demo.banner61.com/help/articles/form-submissions.md
+- Menu: Forms & Docs > Forms > Submissions
+- Use when: What Banner Connect does when a family submits a form (their record, their enrollment card, follow-up emails, engagement score), whether a form makes a duplicate family, where to see who filled out a form this week, and why a family didn't get a follow-up.
+- Schools may call this: fills out, filled out a form, parent filled out the contact form, contact form submitted, submission, submissions, form entries, responses, who filled out, who requested a visit, new inquiries this week, web inquiry, form came in, inquiry, lead, duplicate, follow-up email, auto reply, didn't get the email, where did the form go
+- Sections: What happens when a family fills out a form?; Which follow-up does each form start?; Does a form make a duplicate family?; See who filled out a form this week; See everything a family has sent you; Why didn't a family get the follow-up email?
+- Page for people: https://demo.banner61.com/help/articles/form-submissions/

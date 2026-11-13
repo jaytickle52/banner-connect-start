@@ -2,11 +2,11 @@
 id: forms-and-docs
 title: "Forms, surveys and documents"
 menu: "Forms & Docs"
-use_when: "The prebuilt forms (Request Info Packet, General Inquiry, tuition and financial aid), putting the inquiry form on the school website, editing a form and its fields, surveys, and documents and contracts families sign (enrollment agreements)."
-also_called: ["inquiry form", "contact form", "info packet", "embed", "website form", "WordPress", "Squarespace", "Wix", "survey", "feedback", "contract", "enrollment agreement", "e-signature", "sign", "PDF"]
-related: [calendars, automations, advanced-and-settings]
+use_when: "The prebuilt forms (Request Info Packet, General Inquiry, tuition and financial aid), editing a form and its fields, surveys, and documents and contracts families sign (enrollment agreements)."
+also_called: ["inquiry form", "contact form", "info packet", "survey", "feedback", "contract", "enrollment agreement", "e-signature", "sign", "PDF"]
+related: [calendars, automations, advanced-and-settings, website-forms, form-submissions]
 plan: ""  # SchoolBox, Full or All, once the feature map is filled in
-reviewed: 2026-11-03
+reviewed: 2026-11-13
 ---
 # Forms, surveys and documents
 
@@ -17,27 +17,15 @@ The Forms & Docs tab has Forms, Surveys, and Documents & Contracts.
 - **General Inquiry Form (contact form)**: a simple contact form.
 - **Request Info Packet**: the main inquiry form. Families who submit it get the Request Info Packet / Lead Nurture emails.
 - **Request Tuition Info** and **Request Financial Aid Info**: each sends its own information email.
-- **Request a Visit**
+- **Request a Visit**: a family asks you to contact them about a visit.
 - **Event Registration Form**: used by the Event Registration calendar.
 - **Sibling Intent Form**: for current families adding a sibling.
 
-Every submission creates or updates the family's contact record and starts the matching automation. You can see all submissions in each form's submissions list.
+Every submission creates or updates the family's contact record, adds to their engagement score and starts that form's follow-up if your school has it turned on. You can see every submission in **Forms & Docs**, then **Forms**, on the **Submissions** tab. See [What happens when a family fills out a form](/help/articles/form-submissions/).
 
 ## Put your inquiry form on your website
 
-1. Go to **Forms & Docs**, then **Forms**, and open **Request Info Packet** (or General Inquiry Form for a simpler contact form).
-2. Click **Integrate** in the top right, choose the embed option, and click **Copy**.
-3. Paste the code on your website:
-   - WordPress: add a Custom HTML block (Elementor: an HTML widget; Divi: a Code module).
-   - Squarespace: a Code block.
-   - Wix: Embed, then Embed HTML. Webflow and others: an Embed or custom code element.
-4. Publish the page and check it on the live site (some editors don't show embeds in preview).
-
-If someone else manages your site, send them the code and tell them which page it goes on. If you'd rather not do it, share access to your website with Banner 61 and we'll add it.
-
-Test it: fill out the form with your own name and email. Within a minute you should see yourself in **CRM**, then **Opportunities**, under New Inquiry, and the first email in your inbox. Delete the test contact afterward so it doesn't count in your reports.
-
-**No access to your website code?** Use a form landing page instead: a ready-made page with the form on it that you link to from a button. Your account has landing pages for Request Info Packet, General Inquiry Form, Request Tuition Info and Request Financial Aid Info under **Marketing**, then **Funnels**. Open the page, copy its URL, and use it as the link on your site.
+You copy the form's embed code from **Forms & Docs**, then **Forms** (open the form, then click **Integrate**), and paste it in a code or HTML block on your website. For the full steps for WordPress, Squarespace, Wix and other builders, which form to use on which page, and how to test it, see [Put your inquiry form on your website](/help/articles/website-forms/). If you'd rather not do it yourself, share access to your website with Banner 61 and we'll add it.
 
 ## Edit a form
 

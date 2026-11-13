@@ -2,10 +2,10 @@
   "_about": "Real school questions from the Nov 3 Ask AI stress test. 'article' is the article (id) whose section should be in the help box's top three search results. 'must' lists words a good written answer has to contain (case doesn't matter; 'a|b' means either). 'must_not' adds to the global list.",
   "must_not_everywhere": ["gohighlevel", "highlevel", "GHL", "help.leadconnectorhq", "Field Services", "gift card", "Memberships", "Agency View", "sub-account"],
   "questions": [
-    {"q": "How do I put our inquiry form on our school website?", "article": "forms-and-docs", "must": ["Forms & Docs", "Request Info Packet", "Banner 61"]},
+    {"q": "How do I put our inquiry form on our school website?", "article": "website-forms", "must": ["Forms & Docs", "Request Info Packet", "Banner 61"]},
     {"q": "We hired a new admissions assistant. How do I give her access to Banner Connect?", "article": "advanced-and-settings", "must": ["Settings", "Users"], "must_not": ["agency"]},
     {"q": "A parent just called and wants to schedule a campus visit. How do I book it for them?", "article": "calendars", "must": ["Schedule a Visit"]},
-    {"q": "What happens automatically when a family submits the Request Info Packet form?", "article": "automations", "must": ["New Inquiry", "email"]},
+    {"q": "What happens automatically when a family submits the Request Info Packet form?", "article": "form-submissions", "must": ["New Inquiry", "email"]},
     {"q": "How do I send a newsletter email to only our current families?", "article": "marketing", "must": ["Current Families", "campaign"], "must_not": ["Custom Object", "Companies"]},
     {"q": "How do I connect our school's Facebook page?", "article": "conversations", "must": ["Facebook", "Integrations|Connect"]},
     {"q": "How do I text a family?", "article": "conversations", "must": ["Conversations", "phone number|Banner 61"], "must_not": ["Custom Object"]},
@@ -49,6 +49,10 @@
     {"q": "How do I let parents book a school tour on our website?", "article": "campus-visits", "must": ["Schedule a Visit", "link|embed"]},
     {"q": "What happens after a family books a campus visit?", "article": "campus-visits", "must": ["Visit Scheduled", "reminder"]},
     {"q": "How do I get families to RSVP for our preview night and get reminders?", "article": "open-houses", "must": ["Event Registration", "reminder"]},
-    {"q": "How do I mark which families came to the open house?", "article": "open-houses", "must": ["showed|Showed"]}
+    {"q": "How do I mark which families came to the open house?", "article": "open-houses", "must": ["showed|Showed"]},
+    {"q": "Our form isn't showing up on our website. What's wrong?", "article": "website-forms", "must": ["publish|Publish", "code|HTML"]},
+    {"q": "Where do I see who requested a visit this week?", "article": "form-submissions", "must": ["Submissions", "Request a Visit"]},
+    {"q": "What happens when a parent fills out the contact form on our website?", "article": "form-submissions", "must": ["General Inquiry", "New Inquiry"]},
+    {"q": "If a family we already have fills out a form again, does it make a duplicate?", "article": "form-submissions", "must": ["email|phone", "updat"]}
   ]
 }

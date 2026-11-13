@@ -87,7 +87,7 @@ Can't find the activation email or the security code? Check Promotions and Spam.
 
 The Getting Started tab at the top of the menu walks through these with a short guide for each.
 
-1. **Put your inquiry form on your website.** This is how families reach you. See [Put your inquiry form on your website](https://demo.banner61.com/help/articles/forms-and-docs/#put-your-inquiry-form-on-your-website) for the steps. Most schools finish in ten minutes, and Banner 61 will do it for you if you share access to your website.
+1. **Put your inquiry form on your website.** This is how families reach you. See [Put your inquiry form on your website](https://demo.banner61.com/help/articles/website-forms/) for the steps. Most schools finish in ten minutes, and Banner 61 will do it for you if you share access to your website.
 2. **Connect Facebook, Instagram and Google.** Messages from your pages then land in one inbox with your email and texts. Someone at the school does this, because it signs in to the school's own accounts. See [Connect Facebook, Instagram and Google](https://demo.banner61.com/help/articles/conversations/#connect-facebook-instagram-and-google).
 3. **Connect your calendar.** Visits booked online then fit around what's already on your calendar. See [Connect your calendar](https://demo.banner61.com/help/articles/calendars/#connect-your-calendar).
 4. **Install the mobile app.** Search for LeadConnector in the App Store or Google Play, sign in with your Banner Connect email and password, choose your school if asked, and allow notifications.
@@ -481,27 +481,15 @@ The Forms & Docs tab has Forms, Surveys, and Documents & Contracts.
 - **General Inquiry Form (contact form)**: a simple contact form.
 - **Request Info Packet**: the main inquiry form. Families who submit it get the Request Info Packet / Lead Nurture emails.
 - **Request Tuition Info** and **Request Financial Aid Info**: each sends its own information email.
-- **Request a Visit**
+- **Request a Visit**: a family asks you to contact them about a visit.
 - **Event Registration Form**: used by the Event Registration calendar.
 - **Sibling Intent Form**: for current families adding a sibling.
 
-Every submission creates or updates the family's contact record and starts the matching automation. You can see all submissions in each form's submissions list.
+Every submission creates or updates the family's contact record, adds to their engagement score and starts that form's follow-up if your school has it turned on. You can see every submission in **Forms & Docs**, then **Forms**, on the **Submissions** tab. See [What happens when a family fills out a form](https://demo.banner61.com/help/articles/form-submissions/).
 
 ## Put your inquiry form on your website
 
-1. Go to **Forms & Docs**, then **Forms**, and open **Request Info Packet** (or General Inquiry Form for a simpler contact form).
-2. Click **Integrate** in the top right, choose the embed option, and click **Copy**.
-3. Paste the code on your website:
-   - WordPress: add a Custom HTML block (Elementor: an HTML widget; Divi: a Code module).
-   - Squarespace: a Code block.
-   - Wix: Embed, then Embed HTML. Webflow and others: an Embed or custom code element.
-4. Publish the page and check it on the live site (some editors don't show embeds in preview).
-
-If someone else manages your site, send them the code and tell them which page it goes on. If you'd rather not do it, share access to your website with Banner 61 and we'll add it.
-
-Test it: fill out the form with your own name and email. Within a minute you should see yourself in **CRM**, then **Opportunities**, under New Inquiry, and the first email in your inbox. Delete the test contact afterward so it doesn't count in your reports.
-
-**No access to your website code?** Use a form landing page instead: a ready-made page with the form on it that you link to from a button. Your account has landing pages for Request Info Packet, General Inquiry Form, Request Tuition Info and Request Financial Aid Info under **Marketing**, then **Funnels**. Open the page, copy its URL, and use it as the link on your site.
+You copy the form's embed code from **Forms & Docs**, then **Forms** (open the form, then click **Integrate**), and paste it in a code or HTML block on your website. For the full steps for WordPress, Squarespace, Wix and other builders, which form to use on which page, and how to test it, see [Put your inquiry form on your website](https://demo.banner61.com/help/articles/website-forms/). If you'd rather not do it yourself, share access to your website with Banner 61 and we'll add it.
 
 ## Edit a form
 
@@ -1605,3 +1593,155 @@ Use the Event Registration calendar when you want families who sign up added to 
 ## Plan the next open house
 
 Add the next date as soon as one event ends, so families who find you between events can still sign up. Remove past dates from **Availability** on the Event Registration calendar and update the description if it mentions a date.
+
+============================================================
+ARTICLE: Put your inquiry form on your website (id: website-forms)
+============================================================
+# Put your inquiry form on your website
+
+Your website form is how most families first reach you. Banner Connect gives you a short piece of code for each form in **Forms & Docs**, then **Forms**, and every family who fills it out lands in your account with their follow-up already started.
+
+## Which form should go on our website?
+
+Most schools put **Request Info Packet** on their admissions page and **General Inquiry Form** on their contact page. Request Info Packet asks what the family wants to know (admissions, tuition and aid, academics, athletics or spiritual life). General Inquiry Form asks whether they're a prospective family, a current family or someone else, so the right person sees it.
+
+Two more forms are worth a spot on the site:
+
+- **Request a Visit** on a "Visit us" page, for families who want you to call them to set up a time. To let families pick a time themselves, see [Let families book a campus visit](https://demo.banner61.com/help/articles/campus-visits/).
+- **Request Tuition Info** and **Request Financial Aid Info** on your tuition page.
+
+Keep the forms short. Each one asks only for the parent's name, email, phone and how many children they're thinking about enrolling, plus one or two questions. Every extra field you add means fewer families finish it. To put a form on a page, see [Put your inquiry form on your website](#put-your-inquiry-form-on-your-website).
+
+## Put your inquiry form on your website
+
+You copy the form's embed code from **Forms & Docs**, then **Forms**, and paste it on the page where families should see it.
+
+1. Go to **Forms & Docs**, then **Forms**, open the **Prebuilt Forms** folder and open the form (for example **Request Info Packet**).
+2. Click **Integrate** in the top right, choose the embed option and click **Copy**.
+3. Paste the code on your website page:
+   - WordPress: add a Custom HTML block (in Elementor, an HTML widget; in Divi, a Code module).
+   - Squarespace: add a Code block.
+   - Wix: add Embed, then Embed HTML.
+   - Webflow and other builders: add an Embed or custom code element.
+4. Publish the page.
+5. Open the live page in a new window. Some website editors don't show the form in preview, only on the published page.
+
+If someone else manages your website, send them the code and tell them which page it goes on. If you'd rather not do it yourself, share access to your website with the Banner 61 team and we'll add it.
+
+How to check it worked: the form shows on your live page, and a test submission shows up in **Forms & Docs**, then **Forms**, on the **Submissions** tab. See [Test your website form](#test-your-website-form).
+
+## Link to a form when you can't edit your website
+
+If you can't paste code on your website, link a button to a page that holds only the form.
+
+1. Go to **Forms & Docs**, then **Forms**, and open the form.
+2. Click **Integrate** and copy the form's link instead of the embed code.
+3. On your website, social post or email, point a button or link (for example "Request info") at that link.
+
+Your account also has ready-made form pages for Request Info Packet, General Inquiry Form, Request Tuition Info and Request Financial Aid Info under **Marketing**, then **Funnels**. Open the page, copy its address and use it the same way.
+
+How to check it worked: click your new button on the live site and the form opens.
+
+## Test your website form
+
+Fill out the form on your live website once with your own name and email, then check that it arrived in **Forms & Docs**, then **Forms**.
+
+1. Open your live website page and fill out the form with your own name and a real email you can check.
+2. Go to **Forms & Docs**, then **Forms**, and click the **Submissions** tab.
+3. Choose the form at the top left. Your test should be at the top of the list.
+4. Go to **CRM**, then **Contacts**, and search your name. Your answers are on your contact record.
+5. When you're done, delete your test submission and your test contact so they don't count in your reports or get your school's follow-up emails.
+
+Before you delete anything else, check with the Banner 61 team.
+
+How to check it worked: your test shows on the Submissions tab with today's date. To learn what else happens when a form comes in, see [What happens when a family fills out a form](https://demo.banner61.com/help/articles/form-submissions/).
+
+## Why isn't our form showing on our website?
+
+Most of the time the page wasn't published, or the website editor removed the code. Check these in order:
+
+- **You're looking at a preview.** Many website editors only show embedded forms on the published page. Publish and check the live page.
+- **The code was pasted in the wrong place.** It has to go in a code, HTML or embed block, not a regular text block, or the page shows the code as words.
+- **Part of the code got cut off.** Copy it again from **Forms & Docs**, then **Forms**, then **Integrate**, and paste the whole thing.
+- **The page has a security setting that blocks outside forms.** Ask whoever manages your website, or the Banner 61 team.
+
+If you changed the form's fields, the change shows on your website right away. You don't need to paste the code again. To fix a form that loads but doesn't send, see [Test your website form](#test-your-website-form).
+
+============================================================
+ARTICLE: What happens when a family fills out a form (id: form-submissions)
+============================================================
+# What happens when a family fills out a form
+
+When a family submits one of your forms, Banner Connect saves their answers, files them on the family's record and starts that form's follow-up, without anyone on your staff lifting a finger. Every submission is listed in **Forms & Docs**, then **Forms**, on the **Submissions** tab.
+
+## What happens when a family fills out a form?
+
+Four things happen within a minute of a family clicking submit:
+
+1. **Their record is created or updated.** A new family gets a new contact. A family already in Banner Connect is matched by email or phone, and their record is updated instead of copied.
+2. **Their answers are saved.** Each answer lands in a field on the family's record (for example child name and grade of entry), and the whole submission shows on the **Submissions** tab and on the family's record.
+3. **Their engagement score goes up.** Request a Visit adds 10 points. General Inquiry Form, Request Info Packet, Request Tuition Info, Request Financial Aid Info and the Event Registration Form add 5. See [What adds points to a family's score](https://demo.banner61.com/help/articles/engagement-score/#what-adds-points-to-a-familys-score).
+4. **The form's follow-up starts**, if your school has it turned on: a tag, an enrollment card in New Inquiry or a series of emails, depending on the form. See [Which follow-up does each form start?](#which-follow-up-does-each-form-start)
+
+To see the submission for yourself, see [See who filled out a form this week](#see-who-filled-out-a-form-this-week).
+
+## Which follow-up does each form start?
+
+Each prebuilt form has its own workflow in **Automations**, then **Workflows**. Which ones are turned on depends on your school's setup, so ask the Banner 61 team if you're not sure.
+
+| Form | What usually happens next |
+|---|---|
+| General Inquiry Form | Adds the General Inquiry tag. If the parent chose "Prospective Family," the family gets a card in New Inquiry on Inquiry to Enrollment |
+| Request Info Packet | The family gets a card in New Inquiry and a short series of follow-up emails |
+| Request Tuition Info | Sends your tuition information email |
+| Request Financial Aid Info | Sends your financial aid email |
+| Request a Visit | Saves the request so your staff can call the family. A visit is only booked, and the family only moves to Visit Scheduled, when it's put on the Schedule a Visit calendar |
+| Event Registration Form | Used on the Event Registration calendar. The registration, not the form, sends the confirmation and reminders |
+| Sibling Intent Form | Saves the sibling's details for your admissions team |
+
+A family who already has an open card on Inquiry to Enrollment doesn't get a second one. Their existing card stays where it is.
+
+Turning a workflow on or off, or changing what a form starts, affects every family who fills it out. Check with the Banner 61 team before you change one. For how workflows work, see [Automations](https://demo.banner61.com/help/articles/automations/).
+
+## Does a form make a duplicate family?
+
+No. When a family already in Banner Connect fills out a form with the same email or phone, Banner Connect updates their existing record instead of making a new one.
+
+What does change is any field they answered differently. If a parent types a new phone number or a different grade, the new answer replaces the old one on their record. If a parent uses a different email and phone than last time, Banner Connect can't tell it's the same family, and you'll see two records. To combine them, see [Duplicates](https://demo.banner61.com/help/articles/contacts/#duplicates).
+
+## See who filled out a form this week
+
+Go to **Forms & Docs**, then **Forms**, then the **Submissions** tab, and choose the form you want.
+
+1. Go to **Forms & Docs**, then **Forms**.
+2. Click the **Submissions** tab.
+3. Choose the form at the top left (for example **Request a Visit**).
+4. Set the dates at the top right to this week. The list shows the newest first.
+5. Click a family's name to open their record and call or email them.
+
+To keep a copy, click **Export** to download the list.
+
+How to check it worked: the families who filled out that form in those dates are listed, each with the date and time they submitted.
+
+## See everything a family has sent you
+
+Open the family's record in **CRM**, then **Contacts**, and their form submissions sit in the timeline with every email, text and booking.
+
+1. Go to **CRM**, then **Contacts**, and search the parent's name or email.
+2. Open their record. The center of the page shows every form submission, email, text and booking, newest at the bottom.
+3. On the right, open **Activity** to see the forms they submitted and the pages they visited.
+
+How to check it worked: the form the family filled out shows with the date and their answers.
+
+## Why didn't a family get the follow-up email?
+
+Usually the form's workflow isn't turned on, the family is set to Do Not Disturb, or they already got that email once. A submission always saves, even when no email goes out, so you'll still see it on the **Submissions** tab in **Forms & Docs**, then **Forms**.
+
+Other common reasons:
+
+- The workflow for that form is in Draft in **Automations**, then **Workflows**.
+- The family unsubscribed from your emails earlier.
+- The email went to their spam folder.
+- They filled out a form that doesn't send an email, such as Request a Visit or the Sibling Intent Form.
+
+For the full list and how to check, see ["Why didn't this send?"](https://demo.banner61.com/help/articles/automations/#why-didnt-this-send). Before you turn a workflow on, check with the Banner 61 team.

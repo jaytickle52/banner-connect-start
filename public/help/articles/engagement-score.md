@@ -4,7 +4,7 @@ Menu: CRM > Contacts > Engagement Score
 Use when: What a family's engagement score means, how points are added and taken away (forms, visits, applications, replies, email clicks), which families to call first, why a score is low or went down, and where the scoring rules live.
 Page for people: https://demo.banner61.com/help/articles/engagement-score/
 Last reviewed: 2026-11-13
-Related: https://demo.banner61.com/help/articles/contacts.md, https://demo.banner61.com/help/articles/pipeline.md, https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/enrollment-stages.md, https://demo.banner61.com/help/articles/campus-visits.md, https://demo.banner61.com/help/articles/open-houses.md
+Related: https://demo.banner61.com/help/articles/contacts.md, https://demo.banner61.com/help/articles/pipeline.md, https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/enrollment-stages.md, https://demo.banner61.com/help/articles/campus-visits.md, https://demo.banner61.com/help/articles/open-houses.md, https://demo.banner61.com/help/articles/form-submissions.md
 
 Every family in Banner Connect has an engagement score: a running number that goes up when they take a real step toward enrolling and comes down when they pull back. The rules that set the points live in **CRM**, then **Contacts**, then **Engagement Score**.
 
