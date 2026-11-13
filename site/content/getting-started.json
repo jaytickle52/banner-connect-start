@@ -102,6 +102,10 @@
           "Follow-ups assigned to a person with a due date"
         ],
         [
+          "Engagement score",
+          "A number on each family that goes up as they visit and apply, so you know who to call first"
+        ],
+        [
           "Students",
           "The children in each family, with grade and status"
         ]
