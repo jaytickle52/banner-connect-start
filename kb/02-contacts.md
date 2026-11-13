@@ -4,7 +4,7 @@ title: "Contacts"
 menu: "CRM > Contacts"
 use_when: "Finding, adding, importing, exporting or merging families; what's on a family's record; tags; filtering the contact list. Saved lists such as Stalled Leads are in Smart Lists."
 also_called: ["family", "families", "parent", "parents", "student", "lead", "inquiry", "record", "spreadsheet", "CSV", "upload", "duplicate", "tag", "label", "filter", "bulk", "select all"]
-related: [smart-lists, pipeline, marketing, automations, bulk-actions]
+related: [smart-lists, pipeline, marketing, automations, bulk-actions, engagement-score]
 plan: ""  # SchoolBox, Full or All, once the feature map is filled in
 reviewed: 2026-11-13
 ---
