@@ -47,7 +47,7 @@ Trigger Links appear in two places (CRM, then Conversations, and Marketing). The
 - **Workflow**: an automation. It starts when something happens (a form is submitted, a visit is booked) and then sends emails, adds tags, creates tasks and so on.
 - **Template**: a saved email that workflows and campaigns reuse.
 - **Snippet**: a saved reply you can drop into a message.
-- **Custom field**: an extra detail you track, like Grade(s) of Interest.
+- **Custom field**: an extra detail you track, like Grade(s) of Entry.
 - **Custom value**: a school detail used in every email, like your school's name, address or phone number.
 
 ## Names in your account

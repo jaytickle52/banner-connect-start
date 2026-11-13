@@ -18,7 +18,7 @@ Use this for phone calls, walk-ins and families you meet at events.
 
 1. Go to **CRM**, then **Contacts**, and click **+ Add Contact**.
 2. Enter first and last name, and an email or phone number (at least one is required).
-3. Fill in any fields you know, like Grade(s) of Interest or student name.
+3. Fill in any fields you know, like Grade(s) of Entry or student name.
 4. Click **Save**.
 
 Then make the record useful: add a tag (for example, Open House Attendee), add a note about why they're in the system, and, if they're a prospective family, create an opportunity so they show up in your pipeline. Capitalize names properly, because automatic emails greet families by name.
