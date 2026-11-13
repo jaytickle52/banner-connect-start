@@ -2,8 +2,8 @@
 id: engagement-score
 title: "Engagement score"
 menu: "CRM > Contacts > Engagement Score"
-use_when: "What a family's engagement score means, how points are added and taken away, which families to call first, why a score is low or went down, and where the scoring rules live."
-also_called: ["score", "lead score", "points", "interest level", "hot families", "warm families", "most interested", "most engaged", "who to call first", "priority", "ranking"]
+use_when: "What a family's engagement score means, how points are added and taken away (forms, visits, applications, replies, email clicks), which families to call first, why a score is low or went down, and where the scoring rules live."
+also_called: ["score", "lead score", "points", "interest level", "hot families", "warm families", "most interested", "most engaged", "who to call first", "priority", "ranking", "points for replying"]
 related: [contacts, pipeline, automations]
 plan: ""  # SchoolBox, Full or All once known
 reviewed: 2026-11-13
@@ -22,6 +22,8 @@ A higher engagement score means a family has done more of the things that usuall
 | 15 to 39 | They've asked for information or asked to visit | Make sure the visit happens, then follow up |
 | 0 to 14 | Early interest, or they've pulled back | Keep them on your regular emails |
 
+To see families in score order, go to **CRM**, then **Contacts**, click **Sort**, choose **Engagement Score** and set it so the highest scores are on top.
+
 The score only sees what happens in Banner Connect. A family who talked with you at a ball game or called the front office won't show it, so your own judgment still comes first.
 
 ## What adds points to a family's score
@@ -37,6 +39,7 @@ Points go up on their own each time a family does one of these things. Bigger st
 | Fills out the General Inquiry Form, Request Info Packet, Request Tuition Info or Request Financial Aid Info form | +5 |
 | Fills out the Event Registration Form | +5 |
 | Fills out the Visit Feedback survey | +5 |
+| Replies to a message from your staff for the first time | +5 |
 | Clicks a link in one of your emails | +2 |
 
 A family who inquires, asks to visit, shows up and applies lands around 55.

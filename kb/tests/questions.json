@@ -31,6 +31,7 @@
     {"q": "How do I send an open house invitation email to our inquiry families?", "article": "marketing", "must": ["campaign", "Open House Invitation"]},
     {"q": "Which families should I call first this week?", "article": "engagement-score", "must": ["score"]},
     {"q": "Why did this family's engagement score go down?", "article": "engagement-score", "must": ["score"]},
-    {"q": "How many points does a family get for submitting an application?", "article": "engagement-score", "must": ["25", "Application Submitted"]}
+    {"q": "How many points does a family get for submitting an application?", "article": "engagement-score", "must": ["25", "Application Submitted"]},
+    {"q": "Does a family get points when they reply to one of our texts?", "article": "engagement-score", "must": ["5", "first"]}
   ]
 }
