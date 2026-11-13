@@ -4,7 +4,7 @@ Menu: Calendars
 Use when: The prebuilt calendars (Schedule a Visit, Event Registration), connecting a staff calendar, booking a visit for a family who called or walked in, changing available times, open houses and events, embedding or sharing a calendar on the school website.
 Page for people: https://demo.banner61.com/help/articles/calendars/
 Last reviewed: 2026-11-13
-Related: https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/forms-and-docs.md, https://demo.banner61.com/help/articles/events.md
+Related: https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/forms-and-docs.md, https://demo.banner61.com/help/articles/events.md, https://demo.banner61.com/help/articles/campus-visits.md, https://demo.banner61.com/help/articles/open-houses.md
 
 The Calendars tab has four pages:
 - **Calendar View**: everyone coming in, by day or week.

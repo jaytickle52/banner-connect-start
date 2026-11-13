@@ -4,7 +4,7 @@ Menu: CRM > Opportunities
 Use when: The enrollment pipeline: where every family sits, moving a family to a stage (Visit Scheduled, Accepted, Enrolled), status (Won, Lost), stalled families, bulk updates, deleting and restoring a family, why stages shouldn't be renamed.
 Page for people: https://demo.banner61.com/help/articles/pipeline/
 Last reviewed: 2026-11-13
-Related: https://demo.banner61.com/help/articles/contacts.md, https://demo.banner61.com/help/articles/smart-lists.md, https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/reporting-and-payments.md, https://demo.banner61.com/help/articles/bulk-actions.md, https://demo.banner61.com/help/articles/engagement-score.md, https://demo.banner61.com/help/articles/enrollment-stages.md, https://demo.banner61.com/help/articles/enrollment-forecast.md
+Related: https://demo.banner61.com/help/articles/contacts.md, https://demo.banner61.com/help/articles/smart-lists.md, https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/reporting-and-payments.md, https://demo.banner61.com/help/articles/bulk-actions.md, https://demo.banner61.com/help/articles/engagement-score.md, https://demo.banner61.com/help/articles/enrollment-stages.md, https://demo.banner61.com/help/articles/enrollment-forecast.md, https://demo.banner61.com/help/articles/campus-visits.md
 
 Go to **CRM**, then **Opportunities**. Each card is one family. Each column is a stage. Families move left to right as they get closer to enrolling.
 

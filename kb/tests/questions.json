@@ -45,6 +45,10 @@
     {"q": "How do I make an RSVP page for our open house?", "article": "events", "must": ["Calendars and Events", "RSVP"]},
     {"q": "We're hosting a Vision Night for current families. How do I set up the sign-up?", "article": "events", "must": ["Create Event", "RSVP"]},
     {"q": "Can I stop people from RSVPing to our Promoter Reception without deleting the page?", "article": "events", "must": ["deadline"]},
-    {"q": "Can the open house RSVP form ask for the child's grade?", "article": "events", "must": ["Add fields", "Grade"]}
+    {"q": "Can the open house RSVP form ask for the child's grade?", "article": "events", "must": ["Add fields", "Grade"]},
+    {"q": "How do I let parents book a school tour on our website?", "article": "campus-visits", "must": ["Schedule a Visit", "link|embed"]},
+    {"q": "What happens after a family books a campus visit?", "article": "campus-visits", "must": ["Visit Scheduled", "reminder"]},
+    {"q": "How do I get families to RSVP for our preview night and get reminders?", "article": "open-houses", "must": ["Event Registration", "reminder"]},
+    {"q": "How do I mark which families came to the open house?", "article": "open-houses", "must": ["showed|Showed"]}
   ]
 }

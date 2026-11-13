@@ -4,7 +4,7 @@ Menu: Calendars and Events > Events
 Use when: Setting up an event page families can RSVP to, such as an open house, a Vision Night or a Promoter Reception; adding a cover image, FAQs and RSVP questions; publishing the page and sharing the link; seeing who RSVPed and checking families in; closing RSVPs; when to use Events instead of the Event Registration calendar.
 Page for people: https://demo.banner61.com/help/articles/events/
 Last reviewed: 2026-11-13
-Related: https://demo.banner61.com/help/articles/calendars.md, https://demo.banner61.com/help/articles/forms-and-docs.md, https://demo.banner61.com/help/articles/contacts.md, https://demo.banner61.com/help/articles/marketing.md
+Related: https://demo.banner61.com/help/articles/calendars.md, https://demo.banner61.com/help/articles/forms-and-docs.md, https://demo.banner61.com/help/articles/contacts.md, https://demo.banner61.com/help/articles/marketing.md, https://demo.banner61.com/help/articles/open-houses.md
 
 Events gives each gathering its own page with a cover image, details, FAQs and an RSVP button, plus a list of who's coming and QR check-in at the door. It lives in **Calendars and Events**, then **Events**. Banner 61 turns Events on for your school, so if you don't see it, ask the Banner 61 team.
 
