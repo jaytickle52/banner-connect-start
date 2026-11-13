@@ -3,8 +3,8 @@
 Menu: Calendars
 Use when: The prebuilt calendars (Schedule a Visit, Event Registration), connecting a staff calendar, booking a visit for a family who called or walked in, changing available times, open houses and events, embedding or sharing a calendar on the school website.
 Page for people: https://demo.banner61.com/help/articles/calendars/
-Last reviewed: 2026-11-03
-Related: https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/forms-and-docs.md
+Last reviewed: 2026-11-13
+Related: https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/forms-and-docs.md, https://demo.banner61.com/help/articles/events.md
 
 The Calendars tab has four pages:
 - **Calendar View**: everyone coming in, by day or week.
@@ -57,6 +57,8 @@ Before you share the Event Registration calendar:
 4. **Review the event emails** in **Marketing**, then **Emails**, then **Templates**: Event Registration Confirmation Email #1, 24 Hours Before #2, 1 Hour Before #3, After Visit Internal Notification #4, Reschedule Visit Email #5, Thank You Email with Next Steps #6 and Visit Feedback Survey Email #7. Pay the most attention to #6, which tells families what to do next after the event.
 
 When a family registers, Banner Connect adds them to New Inquiry (if they aren't in the pipeline yet), tags them Event Registration, sends a confirmation, a reminder 24 hours before and another 1 hour before. After the event your staff get an email with three links: they showed up (sends next steps and the feedback survey), they didn't show (sends a "sorry we missed you" email with a link to book a visit), or they showed but aren't a fit (no email). Click one per family.
+
+Want a full event page with a cover image, FAQs, a guest list and check-in? See [Open houses, Vision Nights and Promoter Receptions](https://demo.banner61.com/help/articles/events/). An Events RSVP doesn't start the Event Registration workflow, so use this calendar when you want families added to your pipeline automatically.
 
 ## Share or embed a calendar
 
