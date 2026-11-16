@@ -6,7 +6,7 @@ use_when: "Asking families in their first year how the start went: when to send 
 also_called: ["new family survey", "first year survey", "onboarding survey", "new parent survey", "60 day survey", "first semester survey", "how is the year going", "welcome survey", "new families", "first year families", "family experience survey", "retention"]
 related: [forms-and-docs, marketing, bulk-actions, smart-lists, visit-feedback-survey]
 plan: ""  # SchoolBox, Full or All once known
-reviewed: 2026-11-13
+reviewed: 2026-11-16
 ---
 # Hear from new families after their first 60 days
 
@@ -38,7 +38,7 @@ How to check it worked: go to **CRM**, then **Contacts**, then **Bulk Actions**.
 Send the New Family Survey with an email campaign in **Marketing**, then **Emails**, so it looks polished and you can see who opened it.
 
 1. Go to **Forms & Docs**, then **Surveys**, open the **Prebuilt Surveys** folder, and copy the share link for **New Family Survey**.
-2. Go to **Marketing**, then **Emails**, then the **Campaigns** tab, and create a new campaign. The **Quick Announcement** template in the Campaigns folder is a good start.
+2. Go to **Marketing**, then **Emails**, then the **Campaigns** tab, and create a new campaign. The **Quick Announcement** template in the Campaigns (you send these) folder is a good start.
 3. Write a short, warm note: you're glad they're part of the school, you'd love to hear how the first two months went, and it takes a few minutes. Add a button that links to the survey.
 4. Click **Send or Schedule**. Under recipients, choose the tag you added for this year's new families.
 5. Schedule it for a weekday morning, and plan one reminder a week later to families who haven't opened it.

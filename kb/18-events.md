@@ -6,7 +6,7 @@ use_when: "Setting up an event page families can RSVP to, such as an open house,
 also_called: ["open house", "vision night", "vision dinner", "promoter reception", "parent reception", "ambassador reception", "preview day", "information night", "info night", "event page", "RSVP", "RSVP form", "registration page", "sign-up page", "event link", "check-in", "QR code", "who's coming", "attendee list", "close registration"]
 related: [calendars, forms-and-docs, contacts, marketing, open-houses]
 plan: ""  # SchoolBox, Full or All once known. Events is a beta Banner 61 turns on per school
-reviewed: 2026-11-13
+reviewed: 2026-11-16
 ---
 # Open houses, Vision Nights and Promoter Receptions
 
@@ -75,7 +75,7 @@ Publishing makes the page public and opens RSVPs. Publish only when everything i
 1. Go to **Calendars and Events**, then **Events**, and open the event.
 2. Click **Preview** to see the page the way families will.
 3. Click **Publish event**.
-4. To share it, go back to **Calendars and Events**, then **Events**, switch to the list view, click the three dots beside the event and choose **Copy event link**. Put the link in your newsletter, on your website and in social posts. The **Open House Invitation** email template in **Marketing**, then **Emails**, then **Templates**, then the **Campaigns** folder is a good place to start the invitation.
+4. To share it, go back to **Calendars and Events**, then **Events**, switch to the list view, click the three dots beside the event and choose **Copy event link**. Put the link in your newsletter, on your website and in social posts. The **Open House Invitation** email template in **Marketing**, then **Emails**, then **Templates**, then the **Campaigns (you send these)** folder is a good place to start the invitation.
 
 How to check it worked: the label beside the event name changes to green **Published**, and the copied link opens the page with an RSVP button.
 

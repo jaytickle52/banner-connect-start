@@ -3,7 +3,7 @@
 Menu: Getting Started; Settings > My Profile
 Use when: First login, password, the first four setup steps, connecting a staff member's email (two-way sync), reviewing forms and emails before they go live, sharing website domain access with Banner 61.
 Page for people: https://demo.banner61.com/help/articles/getting-started/
-Last reviewed: 2026-11-03
+Last reviewed: 2026-11-16
 Related: https://demo.banner61.com/help/articles/forms-and-docs.md, https://demo.banner61.com/help/articles/conversations.md, https://demo.banner61.com/help/articles/calendars.md, https://demo.banner61.com/help/articles/website-forms.md
 
 ## Logging in for the first time
@@ -43,12 +43,14 @@ Banner 61 builds your forms, emails and visit survey before launch. Review the o
 
 **Forms.** Go to **Forms & Docs**, then **Forms**. The prebuilt forms are General Inquiry Form (contact form), Request a Visit, Request Financial Aid Info, Request Info Packet and Request Tuition Info. Open each one you'll use and check the fields and labels.
 
-**Email templates.** Go to **Marketing**, then **Emails**, then the **Templates** tab. Templates are grouped in folders that match the workflows that send them:
-- **Request Info Packet / Lead Nurture**: a short series that goes to families who submit the Request Info Packet form.
-- **Request Tuition Info**: one email, sent when the Request Tuition Info form is submitted.
-- **Request Financial Aid Info**: one email, sent when the Request Financial Aid Info form is submitted.
-- **Request a Visit**: visit confirmation, reminders, and an internal follow-up email to your staff after the visit.
-- **Cold Inquiry Revival**: a series for older inquiries that went quiet. It starts when someone adds the Cold Inquiry Revival tag to a family.
+**Email templates.** Go to **Marketing**, then **Emails**, then the **Templates** tab. Templates are grouped in folders. A folder name ending in "(sends on its own)" holds emails a workflow sends automatically; edit their wording, but ask the Banner 61 team before changing anything else. **Campaigns (you send these)** holds starters for one-time emails you send yourself.
+- **Request Info Packet / Lead Nurture (sends on its own)**: a short series that goes to families who submit the Request Info Packet form.
+- **Request Tuition Info (sends on its own)**: one email, sent when the Request Tuition Info form is submitted.
+- **Request Financial Aid Info (sends on its own)**: one email, sent when the Request Financial Aid Info form is submitted.
+- **Request a Visit (sends on its own)**: visit confirmation, reminders, and an internal follow-up email to your staff after the visit.
+- **Event Registration (sends on its own)**: confirmation, reminders and next-step emails for open houses and other events.
+- **Cold Inquiry Revival (sends on its own)**: a series for older inquiries that went quiet. It starts when someone adds the Cold Inquiry Revival tag to a family.
+- **Campaigns (you send these)**: Open House Invitation, Monthly Family Newsletter, Re-enrollment Is Open and Quick Announcement. Nothing here sends on its own.
 
 Check the tone, your admissions steps, visit instructions and your signature. You don't need to rebuild anything.
 

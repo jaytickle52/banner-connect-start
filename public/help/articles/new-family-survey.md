@@ -3,7 +3,7 @@
 Menu: Forms & Docs > Surveys
 Use when: Asking families in their first year how the start went: when to send the New Family Survey, who to send it to, sending it with an email campaign, reading the answers, and following up with families who share their name.
 Page for people: https://demo.banner61.com/help/articles/new-family-survey/
-Last reviewed: 2026-11-13
+Last reviewed: 2026-11-16
 Related: https://demo.banner61.com/help/articles/forms-and-docs.md, https://demo.banner61.com/help/articles/marketing.md, https://demo.banner61.com/help/articles/bulk-actions.md, https://demo.banner61.com/help/articles/smart-lists.md, https://demo.banner61.com/help/articles/visit-feedback-survey.md
 
 About 60 days into a family's first year is the best time to ask how the start went. They know your school well enough to answer, and it's early enough to fix a problem before it turns into a family who doesn't re-enroll. Your account has a ready-made **New Family Survey** in **Forms & Docs**, then **Surveys**, then the **Prebuilt Surveys** folder.
@@ -34,7 +34,7 @@ How to check it worked: go to **CRM**, then **Contacts**, then **Bulk Actions**.
 Send the New Family Survey with an email campaign in **Marketing**, then **Emails**, so it looks polished and you can see who opened it.
 
 1. Go to **Forms & Docs**, then **Surveys**, open the **Prebuilt Surveys** folder, and copy the share link for **New Family Survey**.
-2. Go to **Marketing**, then **Emails**, then the **Campaigns** tab, and create a new campaign. The **Quick Announcement** template in the Campaigns folder is a good start.
+2. Go to **Marketing**, then **Emails**, then the **Campaigns** tab, and create a new campaign. The **Quick Announcement** template in the Campaigns (you send these) folder is a good start.
 3. Write a short, warm note: you're glad they're part of the school, you'd love to hear how the first two months went, and it takes a few minutes. Add a button that links to the survey.
 4. Click **Send or Schedule**. Under recipients, choose the tag you added for this year's new families.
 5. Schedule it for a weekday morning, and plan one reminder a week later to families who haven't opened it.
