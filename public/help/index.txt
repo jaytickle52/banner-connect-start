@@ -220,3 +220,27 @@ How to use this index: find the one to three articles whose "Use when" or "Schoo
 - Schools may call this: video widget, testimonial widget, testimonials on website, embed video, embed code, video wall, parent videos, video testimonial, testimonials page, reviews on website, show videos, WordPress, Squarespace, Wix, take down video, remove video
 - Sections: Where should parent videos go on our website?; Choose which videos show on your website; Take a parent's video off our website; We don't have any parent videos yet. Where do we start?
 - Page for people: https://demo.banner61.com/help/articles/parent-videos-on-website/
+
+## Send your monthly family newsletter
+- Read: https://demo.banner61.com/help/articles/family-newsletter.md
+- Menu: Marketing > Emails
+- Use when: Writing and sending the monthly newsletter or another update to current families from the Monthly Family Newsletter template, choosing who gets it, scheduling it ahead, checking who opened it, and why some families didn't get it.
+- Schools may call this: newsletter, monthly newsletter, family newsletter, parent newsletter, school newsletter, email all parents, email current families, email blast, mass email, bulk email, announcement, update to parents, schedule an email, send later, open rate, who opened, campaign
+- Sections: Who should get our family newsletter?; Schedule the newsletter ahead of time; See who opened the newsletter; Why didn't some families get the newsletter?
+- Page for people: https://demo.banner61.com/help/articles/family-newsletter/
+
+## Connect your school's Facebook and Instagram
+- Read: https://demo.banner61.com/help/articles/connect-social-accounts.md
+- Menu: Marketing > Social Planner
+- Use when: Connecting the school's Facebook page and Instagram account so staff can schedule posts from Social Planner, what you need before you start, asking whoever manages the school's social media to connect them, and why an account won't show up.
+- Schools may call this: Facebook, Instagram, social media, social planner, connect Facebook, connect Instagram, link Facebook page, Facebook page, Instagram business account, Instagram creator account, schedule a post, post to Facebook, post to Instagram, Meta, social accounts, add socials, our Instagram won't connect
+- Sections: What do we need before we connect Facebook and Instagram?; Connect your school's Facebook page; Connect your school's Instagram account; Ask someone else to connect your accounts; Why won't our Instagram account show up?; Will parent messages from Facebook and Instagram come into Banner Connect?
+- Page for people: https://demo.banner61.com/help/articles/connect-social-accounts/
+
+## Make a QR code for your open house flyer
+- Read: https://demo.banner61.com/help/articles/open-house-qr-code.md
+- Menu: Marketing > QR Codes
+- Use when: Making a QR code for an open house flyer, poster, yard sign or viewbook that opens the open house sign-up, adding the school logo, downloading it for print, testing it, changing where it goes after printing, seeing how many people scanned it, and making codes for campus visits and the info packet.
+- Schools may call this: QR, QR code, scan code, flyer, poster, yard sign, banner, viewbook, brochure, print, open house flyer, RSVP code, sign-up code, scan to register, scan to book a tour, logo in QR code, how many scans, change QR link
+- Sections: Put your school logo in the middle of the code; Test the QR code before you print; Change where the QR code goes after you've printed it; How many families scanned our QR code?; Which other QR codes should we make?
+- Page for people: https://demo.banner61.com/help/articles/open-house-qr-code/

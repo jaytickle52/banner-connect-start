@@ -7,14 +7,14 @@
     {"q": "A parent just called and wants to schedule a campus visit. How do I book it for them?", "article": "calendars", "must": ["Schedule a Visit"]},
     {"q": "What happens automatically when a family submits the Request Info Packet form?", "article": "form-submissions", "must": ["New Inquiry", "email"]},
     {"q": "How do I send a newsletter email to only our current families?", "article": "marketing", "must": ["Current Families", "campaign"], "must_not": ["Custom Object", "Companies"]},
-    {"q": "How do I connect our school's Facebook page?", "article": "conversations", "must": ["Facebook", "Integrations|Connect"]},
+    {"q": "How do I connect our school's Facebook page?", "article": "connect-social-accounts", "must": ["Facebook", "Integrations|Connect"]},
     {"q": "How do I text a family?", "article": "conversations", "must": ["Conversations", "phone number|Banner 61"], "must_not": ["Custom Object"]},
     {"q": "How do I change the wording of the follow-up emails families get after they inquire?", "article": "marketing", "must": ["Templates"]},
     {"q": "A family was accepted. How do I move them to Accepted?", "article": "pipeline", "must": ["Opportunities", "Accepted", "drag|Stage"], "must_not": ["Community"]},
     {"q": "How do I add a field to track which grade a student is interested in?", "article": "advanced-and-settings", "must": ["Advanced", "Custom Fields", "Grade(s) of Interest"]},
     {"q": "I accidentally deleted a family. Can I get them back?", "article": "pipeline", "must": ["restore", "Audit Logs|60 days"]},
     {"q": "We're having an open house on January 15. How do I set up registration?", "article": "calendars", "must": ["Event Registration", "Date Specific"]},
-    {"q": "How do I make a QR code for our viewbook?", "article": "marketing", "must": ["Marketing", "QR Codes"], "must_not": ["Sites"]},
+    {"q": "How do I make a QR code for our viewbook?", "article": "open-house-qr-code", "must": ["Marketing", "QR Codes"], "must_not": ["Sites"]},
     {"q": "How do I get an email when someone assigns me a task?", "article": "tasks", "must": ["My Profile", "Notifications"]},
     {"q": "Can families pay their enrollment deposit online?", "article": "reporting-and-payments", "must": ["Payments", "Stripe|payment link"]},
     {"q": "Is this GoHighLevel?", "article": null, "must": ["Banner Connect"]},
@@ -63,6 +63,15 @@
     {"q": "What should we ask parents to talk about in their video?", "article": "parent-video-stories", "must": ["chose|choose", "teacher"]},
     {"q": "Why does the video testimonials page say Send Review Request?", "article": "parent-video-stories", "must": ["review request|Review Request", "link"]},
     {"q": "How do I put parent testimonial videos on our school website?", "article": "parent-videos-on-website", "must": ["widget", "Banner 61"]},
-    {"q": "A parent wants their video taken off our website. What do I do?", "article": "parent-videos-on-website", "must": ["Banner 61", "widget"]}
+    {"q": "A parent wants their video taken off our website. What do I do?", "article": "parent-videos-on-website", "must": ["Banner 61", "widget"]},
+    {"q": "How do I send our monthly newsletter to current parents?", "article": "family-newsletter", "must": ["Monthly Family Newsletter", "Current Families"]},
+    {"q": "Can I write the newsletter now and have it go out next Tuesday morning?", "article": "family-newsletter", "must": ["Schedule"]},
+    {"q": "Some parents say they never got our newsletter. Why?", "article": "family-newsletter", "must": ["unsubscribe|Do Not Disturb"]},
+    {"q": "How do I hook up our school's Instagram so we can schedule posts?", "article": "connect-social-accounts", "must": ["Social Planner", "business|creator"]},
+    {"q": "Our Instagram account won't show up when I try to connect it. What's wrong?", "article": "connect-social-accounts", "must": ["business|creator", "admin"]},
+    {"q": "Our parent volunteer runs our Facebook page. Can she connect it without logging in to Banner Connect?", "article": "connect-social-accounts", "must": ["invite"]},
+    {"q": "I need a QR code on our open house flyer so parents can RSVP. How do I make one?", "article": "open-house-qr-code", "must": ["QR Codes", "Event Registration"]},
+    {"q": "Can I put our school logo in the middle of a QR code?", "article": "open-house-qr-code", "must": ["Logo"]},
+    {"q": "We already printed the flyers but the QR code goes to the wrong page. Do we have to reprint?", "article": "open-house-qr-code", "must": ["Edit"]}
   ]
 }

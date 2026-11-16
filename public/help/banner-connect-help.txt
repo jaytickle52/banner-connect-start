@@ -576,7 +576,7 @@ Attachments must total 10 MB or less. Families who unsubscribed or are set to Do
 
 **Custom segments:** in the Recipients area choose **Build Segments**. Each rule has a field, a condition and a value (Tag is Prospective Family). **Add Filter** adds a rule that must also match (AND); **Add OR Filter** adds an alternative group (OR). Examples: Tag is Inquiry and Tag is not Tour Scheduled; Grade Level Applying For is Kindergarten. Save segments you'll reuse.
 
-For a short, plain note to a list, you can also send straight from a contact list. See [Send a quick email to a list](https://demo.banner61.com/help/articles/bulk-actions/#send-a-quick-email-to-a-list).
+For the monthly newsletter step by step, see [Send your monthly family newsletter](https://demo.banner61.com/help/articles/family-newsletter/). For a short, plain note to a list, you can also send straight from a contact list. See [Send a quick email to a list](https://demo.banner61.com/help/articles/bulk-actions/#send-a-quick-email-to-a-list).
 
 **Results:** open the campaign's three-dot menu and choose **Statistics**, then **Load More Statistics** for clicks by link. For all email together, open the **Statistics** tab under Marketing, then Emails. Delivered means it reached the family's mail server, not that they opened it. Watch bounces, unsubscribes and spam complaints for list problems.
 
@@ -608,11 +608,11 @@ Go to **Marketing**, then **QR Codes**.
 
 You can change where a code points later without reprinting: hover the code, click **Edit** and update the destination. (Codes made with the bulk CSV upload are plain codes; make a code one at a time if you'll want to change it later.)
 
-Use one code per purpose (tour, request info, apply, RSVP, survey) so you can see which one families use. Hover a code and click **Analytics** to see scans over time, by device and by location. Organize codes in folders, and download before deleting; deleting a QR code is permanent.
+Use one code per purpose (tour, request info, apply, RSVP, survey) so you can see which one families use. Hover a code and click **Analytics** to see scans over time, by device and by location. Organize codes in folders, and download before deleting; deleting a QR code is permanent. For a step-by-step example, see [Make a QR code for your open house flyer](https://demo.banner61.com/help/articles/open-house-qr-code/).
 
 ## Social Planner
 
-Social Planner lets you schedule posts to Facebook, Instagram and other accounts from Banner Connect. It shows a connect screen until your school's social accounts are connected; someone at the school connects them, because it signs in to the school's own accounts.
+Social Planner lets you schedule posts to Facebook, Instagram and other accounts from Banner Connect. It shows a connect screen until your school's social accounts are connected; someone at the school connects them, because it signs in to the school's own accounts. See [Connect your school's Facebook and Instagram](https://demo.banner61.com/help/articles/connect-social-accounts/).
 
 ## Video Testimonials
 
@@ -2032,3 +2032,209 @@ How to check it worked: open the live page in a private browser window and confi
 ## We don't have any parent videos yet. Where do we start?
 
 Start by asking two or three parents you know love the school. Send each one the **Parent Video Stories** link with a short, personal note. See [Send a parent the video link](https://demo.banner61.com/help/articles/parent-video-stories/#send-a-parent-the-video-link) and [What should we say when we ask a parent?](https://demo.banner61.com/help/articles/parent-video-stories/#what-should-we-say-when-we-ask-a-parent)
+
+============================================================
+ARTICLE: Send your monthly family newsletter (id: family-newsletter)
+============================================================
+# Send your monthly family newsletter
+
+A monthly newsletter is an email campaign sent to your current families. Your account has a **Monthly Family Newsletter** template in **Marketing**, then **Emails**, then **Templates**, in the **Campaigns** folder, so most of the work is filling in this month's news.
+
+## Who should get our family newsletter?
+
+Send it to the **Current Families** smart list. That list holds every family in the Enrolled stage of your Inquiry to Enrollment pipeline, and it updates on its own as families enroll, so you never have to rebuild it.
+
+Prospective families who are still deciding usually get their own emails from your automations. If you want them to see the newsletter too, add a second group when you pick recipients, for example everyone with an open opportunity, and check the list with the Banner 61 team the first time. To send it, see [Send your monthly family newsletter](#send-your-monthly-family-newsletter).
+
+## Send your monthly family newsletter
+
+Start a campaign from the **Monthly Family Newsletter** template in **Marketing**, then **Emails**, fill in this month's news, and send it to **Current Families**.
+
+1. Go to **Marketing**, then **Emails**, then the **Campaigns** tab.
+2. Click **Create campaign**, choose **Your Templates**, and pick **Monthly Family Newsletter**.
+3. Click the pencil next to the name at the top and rename it for the month, for example "December Family Newsletter".
+4. Replace every word in [BRACKETS] with this month's news: one story or student win, the dates coming up, and one way families can help or pray. Delete any section you don't need.
+5. Click the eye icon at the top to preview it on a computer and a phone. Check that the logo at the top is your school's.
+6. Click **Send or schedule** and fill in the sender name (for example "Banner Christian School"), the sender email your school sends from, the subject line and the preview text. If you're not sure which sender email to use, ask the Banner 61 team.
+7. Under recipients, choose the **Current Families** smart list.
+8. Send yourself a test first. When it looks right, choose **Send now** or schedule it (see [Schedule the newsletter ahead of time](#schedule-the-newsletter-ahead-of-time)).
+
+The campaign saves as you work, so you can stop and come back to it from the **Campaigns** tab.
+
+How to check it worked: the campaign shows on the **Campaigns** tab with its send date (or as Scheduled), and your own test copy looks right on your phone.
+
+## Schedule the newsletter ahead of time
+
+You can write the newsletter now and have it go out later, from **Marketing**, then **Emails**.
+
+1. Go to **Marketing**, then **Emails**, then the **Campaigns** tab, and open the newsletter.
+2. Click **Send or schedule** and fill in the sender, subject and recipients.
+3. Choose **Schedule** and pick the date and time. It uses your school's time zone.
+
+To change the time later, open the campaign's three-dot menu on the **Campaigns** tab and choose Reschedule at least an hour before it goes out.
+
+How to check it worked: the campaign shows as Scheduled on the **Campaigns** tab with the date you picked.
+
+## See who opened the newsletter
+
+Each campaign has its own results in **Marketing**, then **Emails**, then the **Campaigns** tab.
+
+1. Go to **Marketing**, then **Emails**, then the **Campaigns** tab.
+2. Click the newsletter to see how many were sent, delivered, opened and clicked.
+3. For every email your school has sent together, open the **Statistics** tab.
+
+Delivered means the email reached the family's email provider, not that they read it. If a lot of emails bounce, the email addresses on those families are probably wrong; fix them on each contact in **CRM**, then **Contacts**.
+
+How to check it worked: the numbers show a day or two after it sends, once families have had time to open it.
+
+## Why didn't some families get the newsletter?
+
+Banner Connect skips anyone it can't or shouldn't email, so a few families on the list may not get it. The usual reasons:
+
+- **They unsubscribed** from your emails, or their contact is set to Do Not Disturb.
+- **There's no email address** on their contact, or the address is misspelled.
+- **They aren't on the Current Families list**, because their family isn't in the Enrolled stage yet. See [Move a family forward](https://demo.banner61.com/help/articles/pipeline/#move-a-family-forward).
+- **It went to spam or Promotions.** Ask the family to check there and mark it as not spam.
+
+Open the family in **CRM**, then **Contacts**, to check their email and Do Not Disturb settings. Don't turn Do Not Disturb off for a family who asked not to be emailed. If many families aren't getting your emails, ask the Banner 61 team to check your school's email sending setup.
+
+============================================================
+ARTICLE: Connect your school's Facebook and Instagram (id: connect-social-accounts)
+============================================================
+# Connect your school's Facebook and Instagram
+
+Connecting your school's Facebook page and Instagram account in **Marketing**, then **Social Planner**, lets your staff write and schedule posts from Banner Connect. Someone at your school does this, because it signs in to the school's own accounts. Banner 61 can't connect them for you.
+
+## What do we need before we connect Facebook and Instagram?
+
+You need three things, and it helps to check them before you start:
+
+- **A Facebook page for the school**, not a personal profile. Pages are the ones with a Like or Follow button.
+- **A Facebook login that's an admin of that page.** In Facebook, open the page and check its settings for who has access. If the person who set up the page left the school, ask them to add someone else first.
+- **An Instagram business or creator account.** Personal Instagram accounts can't be connected. In the Instagram app, open your profile, then Settings, and switch to a professional account; it's free and keeps your posts and followers. It works best when the Instagram account is linked to your school's Facebook page.
+
+Whoever runs your school's social media is usually the right person to connect them. To do it, see [Connect your school's Facebook page](#connect-your-schools-facebook-page).
+
+## Connect your school's Facebook page
+
+Connect Facebook first, from **Marketing**, then **Social Planner**, signed in as an admin of your school's page.
+
+1. Go to **Marketing**, then **Social Planner**. Until something is connected, it shows a list of accounts with a **+ Connect** button under each.
+2. Click **+ Connect** under **Facebook**.
+3. Sign in to Facebook with the login that's an admin of your school's page, and allow Banner Connect the access it asks for.
+4. Choose your school's page from the list and finish.
+
+How to check it worked: your school's page shows as connected in **Social Planner**, and you can start a new post with it selected.
+
+## Connect your school's Instagram account
+
+Connect Instagram from **Marketing**, then **Social Planner**, after you've switched it to a business or creator account.
+
+1. Go to **Marketing**, then **Social Planner**.
+2. Click **+ Connect** under **Instagram**.
+3. Sign in the way it asks. If your Instagram is linked to your school's Facebook page, sign in with the same Facebook login you used for the page. Otherwise, sign in with your school's Instagram username and password.
+4. Choose your school's Instagram account and finish.
+
+How to check it worked: your Instagram account shows as connected in **Social Planner**, next to your Facebook page.
+
+## Ask someone else to connect your accounts
+
+If someone outside the office manages your school's social media, send them an invite from **Marketing**, then **Social Planner**, so they can connect the accounts without a Banner Connect login and without sharing passwords.
+
+1. Go to **Marketing**, then **Social Planner**.
+2. Scroll down and click **Send social connect invite**.
+3. Enter their email and send it.
+
+They open the email, sign in to Facebook and Instagram, and the accounts connect to your school's Banner Connect.
+
+How to check it worked: after they finish, the accounts show as connected in **Social Planner**.
+
+## Why won't our Instagram account show up?
+
+Almost always, the Instagram account is still a personal account, or the person connecting isn't an admin of the Facebook page it's linked to. Check these:
+
+- **It's a personal Instagram account.** Switch it to a business or creator account in the Instagram app, then try again.
+- **The Facebook login isn't a page admin.** Ask a current admin to give that person full access to the page in Facebook, then try again.
+- **Instagram is linked to a different Facebook page**, such as a church page or an old school page. Link it to the school's page in Facebook, or sign in with Instagram directly.
+- **You chose only some pages or accounts** when Facebook asked. Connect again and select the school's page and Instagram account.
+
+If it still won't connect, send the Banner 61 team a screenshot of what you see.
+
+## Will parent messages from Facebook and Instagram come into Banner Connect?
+
+Connecting in **Social Planner** is for posting. To have messages from your Facebook page and Instagram land in your inbox with your email and texts, connect them in **Settings**, then **Integrations** as well. See [Connect Facebook, Instagram and Google](https://demo.banner61.com/help/articles/conversations/#connect-facebook-instagram-and-google).
+
+============================================================
+ARTICLE: Make a QR code for your open house flyer (id: open-house-qr-code)
+============================================================
+# Make a QR code for your open house flyer
+
+A QR code on your flyer lets a parent sign up for your open house by pointing their phone at it. You make it in **Marketing**, then **QR Codes**, and it opens the **Event Registration** calendar, where families pick the open house date.
+
+## Make a QR code for your open house flyer
+
+Create the code in **Marketing**, then **QR Codes**, and point it at the **Event Registration** calendar.
+
+1. Go to **Marketing**, then **QR Codes**, and click **Create QR code**.
+2. Under **QR name**, name it for what it does, for example "Open House Sign-up".
+3. Choose **Calendar** as the type and click **Next**.
+4. For **Resource type**, choose **Calendars**. For **Select calendar**, choose **Event Registration**. Click **Next**.
+5. On the colors and shape step, click **Logo** to add your school logo (see [Put your school logo in the middle of the code](#put-your-school-logo-in-the-middle-of-the-code)).
+6. Click **Save**.
+7. To print it, open the three-dot menu on the code and choose **Download**. Use PDF or SVG for anything printed, and PNG for email or social posts.
+
+Before you print, add your open house dates to the **Event Registration** calendar, so families who scan have a date to pick. See [Run an open house with sign-ups and reminders](https://demo.banner61.com/help/articles/open-houses/).
+
+How to check it worked: scan the code with your phone's camera. The open house sign-up page opens with your next date.
+
+## Put your school logo in the middle of the code
+
+Your logo goes in the middle of the code from the **Logo** step in **Marketing**, then **QR Codes**. Phones still read the code with a small logo in the middle.
+
+1. While making or editing the code in **Marketing**, then **QR Codes**, go to the colors and shape step and click **Logo**.
+2. Click **Browse** next to **Upload image**.
+3. Pick your logo from Media Storage and click **Insert media**. If it isn't there yet, click **Upload** to add it first.
+4. Click **Save**.
+
+A square logo, or just the symbol from your logo, looks best, because a wide logo gets very small in the middle. Don't pick the other company logos shown under "Or use our logos"; they're for businesses linking to those sites.
+
+How to check it worked: the preview on the right shows your logo in the middle, and the code still scans.
+
+## Test the QR code before you print
+
+Scan the code from **Marketing**, then **QR Codes**, before you send anything to the printer.
+
+1. Open the code in **Marketing**, then **QR Codes**, or download it and open the file.
+2. Point your phone's camera at it and tap the link that appears.
+3. Check that it opens the right page: the open house sign-up, not a visit or a form.
+4. Print one copy at the size you'll use and scan it from about an arm's length away.
+
+Keep the code at least an inch wide on a flyer and bigger on a poster or yard sign, and leave white space around it.
+
+How to check it worked: the right page opens on more than one phone.
+
+## Change where the QR code goes after you've printed it
+
+You can change where a code goes in **Marketing**, then **QR Codes**, without reprinting it. The flyers already out there start opening the new page.
+
+1. Go to **Marketing**, then **QR Codes**.
+2. Hover the code and click **Edit**.
+3. Change the calendar, form or link, then click through to **Save**.
+
+How to check it worked: scan a printed copy. It opens the new page.
+
+Be careful deleting a QR code. Deleting is permanent, and every printed copy stops working. Check with the Banner 61 team first.
+
+## How many families scanned our QR code?
+
+Each code counts its scans in **Marketing**, then **QR Codes**. Hover the code and click **Analytics** to see scans over time and by device. Make one code per flyer or per place (one for the newspaper ad, one for the church bulletin) so you can see which one families actually use. Families who sign up after scanning also show up in **CRM**, then **Contacts**, like any other sign-up.
+
+## Which other QR codes should we make?
+
+Most schools need three codes, all made the same way in **Marketing**, then **QR Codes**:
+
+- **Open House Sign-up**: type **Calendar**, then the **Event Registration** calendar. For flyers, posters and yard signs before an open house.
+- **Schedule a Visit**: type **Calendar**, then the **Schedule a Visit** calendar. For your viewbook, business cards and the welcome sign in your office.
+- **Info Packet**: type **Form**, then the **Request Info Packet** form. For booths, church bulletins and ads, where a parent wants information but isn't ready to visit.
+
+A code that opens a form or calendar adds the family to your account when they finish signing up, so their follow-up starts on its own.
