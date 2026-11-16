@@ -4,7 +4,7 @@ Menu: Marketing
 Use when: Email templates and their wording, one-time email campaigns to a group (newsletter, current families), trigger links, funnels (landing pages), QR codes, the Social Planner and video testimonials.
 Page for people: https://demo.banner61.com/help/articles/marketing/
 Last reviewed: 2026-11-16
-Related: https://demo.banner61.com/help/articles/smart-lists.md, https://demo.banner61.com/help/articles/contacts.md, https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/conversations.md, https://demo.banner61.com/help/articles/bulk-actions.md, https://demo.banner61.com/help/articles/open-houses.md, https://demo.banner61.com/help/articles/parent-video-stories.md, https://demo.banner61.com/help/articles/parent-videos-on-website.md
+Related: https://demo.banner61.com/help/articles/smart-lists.md, https://demo.banner61.com/help/articles/contacts.md, https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/conversations.md, https://demo.banner61.com/help/articles/bulk-actions.md, https://demo.banner61.com/help/articles/open-houses.md, https://demo.banner61.com/help/articles/parent-video-stories.md, https://demo.banner61.com/help/articles/parent-videos-on-website.md, https://demo.banner61.com/help/articles/family-newsletter.md, https://demo.banner61.com/help/articles/connect-social-accounts.md, https://demo.banner61.com/help/articles/open-house-qr-code.md
 
 The Marketing tab has Social Planner, Emails, Trigger Links, Video Testimonials, Funnels and QR Codes.
 
@@ -43,7 +43,7 @@ Attachments must total 10 MB or less. Families who unsubscribed or are set to Do
 
 **Custom segments:** in the Recipients area choose **Build Segments**. Each rule has a field, a condition and a value (Tag is Prospective Family). **Add Filter** adds a rule that must also match (AND); **Add OR Filter** adds an alternative group (OR). Examples: Tag is Inquiry and Tag is not Tour Scheduled; Grade Level Applying For is Kindergarten. Save segments you'll reuse.
 
-For a short, plain note to a list, you can also send straight from a contact list. See [Send a quick email to a list](https://demo.banner61.com/help/articles/bulk-actions/#send-a-quick-email-to-a-list).
+For the monthly newsletter step by step, see [Send your monthly family newsletter](https://demo.banner61.com/help/articles/family-newsletter/). For a short, plain note to a list, you can also send straight from a contact list. See [Send a quick email to a list](https://demo.banner61.com/help/articles/bulk-actions/#send-a-quick-email-to-a-list).
 
 **Results:** open the campaign's three-dot menu and choose **Statistics**, then **Load More Statistics** for clicks by link. For all email together, open the **Statistics** tab under Marketing, then Emails. Delivered means it reached the family's mail server, not that they opened it. Watch bounces, unsubscribes and spam complaints for list problems.
 
@@ -75,11 +75,11 @@ Go to **Marketing**, then **QR Codes**.
 
 You can change where a code points later without reprinting: hover the code, click **Edit** and update the destination. (Codes made with the bulk CSV upload are plain codes; make a code one at a time if you'll want to change it later.)
 
-Use one code per purpose (tour, request info, apply, RSVP, survey) so you can see which one families use. Hover a code and click **Analytics** to see scans over time, by device and by location. Organize codes in folders, and download before deleting; deleting a QR code is permanent.
+Use one code per purpose (tour, request info, apply, RSVP, survey) so you can see which one families use. Hover a code and click **Analytics** to see scans over time, by device and by location. Organize codes in folders, and download before deleting; deleting a QR code is permanent. For a step-by-step example, see [Make a QR code for your open house flyer](https://demo.banner61.com/help/articles/open-house-qr-code/).
 
 ## Social Planner
 
-Social Planner lets you schedule posts to Facebook, Instagram and other accounts from Banner Connect. It shows a connect screen until your school's social accounts are connected; someone at the school connects them, because it signs in to the school's own accounts.
+Social Planner lets you schedule posts to Facebook, Instagram and other accounts from Banner Connect. It shows a connect screen until your school's social accounts are connected; someone at the school connects them, because it signs in to the school's own accounts. See [Connect your school's Facebook and Instagram](https://demo.banner61.com/help/articles/connect-social-accounts/).
 
 ## Video Testimonials
 
