@@ -6,7 +6,7 @@ use_when: "What Banner Connect is, where to sign in, the full menu and what each
 also_called: ["CRM", "the system", "the software", "the platform", "sign in", "log in", "glossary", "menu", "what does this tab do"]
 related: [getting-started, smart-lists]
 plan: ""  # SchoolBox, Full or All, once the feature map is filled in
-reviewed: 2026-11-13
+reviewed: 2026-11-16
 ---
 # About Banner Connect
 
@@ -62,6 +62,7 @@ Banner 61 sets up every account with the same names. Use them exactly, because a
 - **Workflows** (Automations, then Workflows): Request Info Packet / Lead Nurture, Request Tuition Info, Request Financial Aid Info, General Inquiry, Request a Visit, Event Registration, Cold Inquiry Revival, Stalled Leads / Remove Stalled Tag, Engagement score: application submitted. See [What's already built](/help/articles/automations/#whats-already-built).
 - **Email templates** (Marketing, then Emails, then Templates): one folder per workflow above, plus a **Campaigns** folder with Open House Invitation, Monthly Family Newsletter, Re-enrollment Is Open and Quick Announcement for one-time sends. See [Email campaigns](/help/articles/marketing/#email-campaigns-one-time-emails-to-a-group).
 - **Lost reasons** (on an opportunity, when Status is Lost): Chose another school, Cost, Moved, Not a fit, No response. See [Mark a family who isn't enrolling](/help/articles/enrollment-stages/#mark-a-family-who-isnt-enrolling).
+- **Video collector** (Marketing, then Video Testimonials): Parent Video Stories, the link you send parents to record a short video. See [Collect a parent video story in five minutes](/help/articles/parent-video-stories/).
 - **Tags that start automations**: Cold Inquiry Revival (a series of re-engagement emails). Check before adding any tag.
 
 ## What Banner 61 handles

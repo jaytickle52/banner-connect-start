@@ -58,6 +58,11 @@
     {"q": "Our form isn't showing up on our website. What's wrong?", "article": "website-forms", "must": ["publish|Publish", "code|HTML"]},
     {"q": "Where do I see who requested a visit this week?", "article": "form-submissions", "must": ["Submissions", "Request a Visit"]},
     {"q": "What happens when a parent fills out the contact form on our website?", "article": "form-submissions", "must": ["General Inquiry", "New Inquiry"]},
-    {"q": "If a family we already have fills out a form again, does it make a duplicate?", "article": "form-submissions", "must": ["email|phone", "updat"]}
+    {"q": "If a family we already have fills out a form again, does it make a duplicate?", "article": "form-submissions", "must": ["email|phone", "updat"]},
+    {"q": "How do I ask a parent to record a video testimonial for us?", "article": "parent-video-stories", "must": ["Parent Video Stories", "Copy Link"]},
+    {"q": "What should we ask parents to talk about in their video?", "article": "parent-video-stories", "must": ["chose|choose", "teacher"]},
+    {"q": "Why does the video testimonials page say Send Review Request?", "article": "parent-video-stories", "must": ["review request|Review Request", "link"]},
+    {"q": "How do I put parent testimonial videos on our school website?", "article": "parent-videos-on-website", "must": ["widget", "Banner 61"]},
+    {"q": "A parent wants their video taken off our website. What do I do?", "article": "parent-videos-on-website", "must": ["Banner 61", "widget"]}
   ]
 }
