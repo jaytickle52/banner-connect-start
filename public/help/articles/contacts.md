@@ -4,7 +4,7 @@ Menu: CRM > Contacts
 Use when: Finding, adding, importing, exporting or merging families; what's on a family's record; tags; filtering the contact list. Saved lists such as Stalled Leads are in Smart Lists.
 Page for people: https://demo.banner61.com/help/articles/contacts/
 Last reviewed: 2026-11-13
-Related: https://demo.banner61.com/help/articles/smart-lists.md, https://demo.banner61.com/help/articles/pipeline.md, https://demo.banner61.com/help/articles/marketing.md, https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/bulk-actions.md, https://demo.banner61.com/help/articles/engagement-score.md
+Related: https://demo.banner61.com/help/articles/smart-lists.md, https://demo.banner61.com/help/articles/pipeline.md, https://demo.banner61.com/help/articles/marketing.md, https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/bulk-actions.md, https://demo.banner61.com/help/articles/engagement-score.md, https://demo.banner61.com/help/articles/form-submissions.md
 
 Go to **CRM**, then **Contacts**. Every person your school interacts with is a contact: prospective parents, current families, alumni, donors and staff. Contacts are created when someone submits a form, books a visit, is added by hand or is imported.
 

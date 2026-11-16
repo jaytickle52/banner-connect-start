@@ -4,7 +4,7 @@ title: "Your enrollment board, stage by stage"
 menu: "CRM > Opportunities"
 use_when: "What each stage of the Inquiry to Enrollment pipeline means (New Inquiry, Visit Scheduled, Visit Attended, Application Sent, Application Submitted, Accepted, Enrolled), when to move a family to the next stage, which moves happen on their own, and what to do when a family decides not to enroll."
 also_called: ["stages", "steps", "columns", "enrollment board", "admissions board", "admissions process", "funnel", "when do I move", "what does this stage mean", "next step", "tour", "applied", "admitted", "accepted", "enrolled", "lost reason", "chose another school", "not enrolling", "decided not to come"]
-related: [pipeline, engagement-score, smart-lists, automations, enrollment-forecast]
+related: [pipeline, engagement-score, smart-lists, automations, enrollment-forecast, form-submissions]
 plan: ""  # SchoolBox, Full or All once known
 reviewed: 2026-11-13
 ---

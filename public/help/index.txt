@@ -64,8 +64,8 @@ How to use this index: find the one to three articles whose "Use when" or "Schoo
 ## Forms, surveys and documents
 - Read: https://demo.banner61.com/help/articles/forms-and-docs.md
 - Menu: Forms & Docs
-- Use when: The prebuilt forms (Request Info Packet, General Inquiry, tuition and financial aid), putting the inquiry form on the school website, editing a form and its fields, surveys, and documents and contracts families sign (enrollment agreements).
-- Schools may call this: inquiry form, contact form, info packet, embed, website form, WordPress, Squarespace, Wix, survey, feedback, contract, enrollment agreement, e-signature, sign, PDF
+- Use when: The prebuilt forms (Request Info Packet, General Inquiry, tuition and financial aid), editing a form and its fields, surveys, and documents and contracts families sign (enrollment agreements).
+- Schools may call this: inquiry form, contact form, info packet, survey, feedback, contract, enrollment agreement, e-signature, sign, PDF
 - Sections: Your prebuilt forms; Put your inquiry form on your website; Edit a form; Surveys; Documents & Contracts
 - Page for people: https://demo.banner61.com/help/articles/forms-and-docs/
 
@@ -121,7 +121,7 @@ How to use this index: find the one to three articles whose "Use when" or "Schoo
 - Read: https://demo.banner61.com/help/articles/engagement-score.md
 - Menu: CRM > Contacts > Engagement Score
 - Use when: What a family's engagement score means, how points are added and taken away (forms, visits, applications, replies, email clicks), which families to call first, why a score is low or went down, and where the scoring rules live.
-- Schools may call this: score, lead score, points, interest level, hot families, warm families, most interested, most engaged, who to call first, priority, ranking, points for replying
+- Schools may call this: score, lead score, points, interest level, hot families, warm families, most interested, most engaged, who to call first, priority, ranking, points for replying, points for texting back, reply to a text
 - Sections: Decide which families to call first; What adds points to a family's score; Why a family's score went down; Why a family you know is serious has a low score; Change the points or add a rule
 - Page for people: https://demo.banner61.com/help/articles/engagement-score/
 
@@ -188,3 +188,19 @@ How to use this index: find the one to three articles whose "Use when" or "Schoo
 - Schools may call this: new family survey, first year survey, onboarding survey, new parent survey, 60 day survey, first semester survey, how is the year going, welcome survey, new families, first year families, family experience survey, retention
 - Sections: When should we send the New Family Survey?; Mark your new families with a tag; Send the survey to your new families; Have the survey send automatically; Read what new families said; Follow up with a family who shared their name
 - Page for people: https://demo.banner61.com/help/articles/new-family-survey/
+
+## Put your inquiry form on your website
+- Read: https://demo.banner61.com/help/articles/website-forms.md
+- Menu: Forms & Docs > Forms
+- Use when: Adding the inquiry, info packet or visit request form to the school website, choosing which form to use, linking to a form when you can't edit the website, testing it, and fixing a form that doesn't show up.
+- Schools may call this: embed, embed code, website form, contact form, inquiry form, info packet form, request info, put the form on our site, add form to website, iframe, WordPress, Squarespace, Wix, Webflow, Elementor, Divi, web designer, form link, form not showing
+- Sections: Which form should go on our website?; Link to a form when you can't edit your website; Test your website form; Why isn't our form showing on our website?
+- Page for people: https://demo.banner61.com/help/articles/website-forms/
+
+## What happens when a family fills out a form
+- Read: https://demo.banner61.com/help/articles/form-submissions.md
+- Menu: Forms & Docs > Forms > Submissions
+- Use when: What Banner Connect does when a family submits a form (their record, their enrollment card, follow-up emails, engagement score), whether a form makes a duplicate family, where to see who filled out a form this week, and why a family didn't get a follow-up.
+- Schools may call this: fills out, filled out a form, parent filled out the contact form, contact form submitted, submission, submissions, form entries, responses, who filled out, who requested a visit, new inquiries this week, web inquiry, form came in, inquiry, lead, duplicate, follow-up email, auto reply, didn't get the email, where did the form go
+- Sections: What happens when a family fills out a form?; Which follow-up does each form start?; Does a form make a duplicate family?; See who filled out a form this week; See everything a family has sent you; Why didn't a family get the follow-up email?
+- Page for people: https://demo.banner61.com/help/articles/form-submissions/

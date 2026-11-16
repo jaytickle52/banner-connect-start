@@ -2,10 +2,10 @@
   "_about": "Real school questions from the Nov 3 Ask AI stress test. 'article' is the article (id) whose section should be in the help box's top three search results. 'must' lists words a good written answer has to contain (case doesn't matter; 'a|b' means either). 'must_not' adds to the global list.",
   "must_not_everywhere": ["gohighlevel", "highlevel", "GHL", "help.leadconnectorhq", "Field Services", "gift card", "Memberships", "Agency View", "sub-account"],
   "questions": [
-    {"q": "How do I put our inquiry form on our school website?", "article": "forms-and-docs", "must": ["Forms & Docs", "Request Info Packet", "Banner 61"]},
+    {"q": "How do I put our inquiry form on our school website?", "article": "website-forms", "must": ["Forms & Docs", "Request Info Packet", "Banner 61"]},
     {"q": "We hired a new admissions assistant. How do I give her access to Banner Connect?", "article": "advanced-and-settings", "must": ["Settings", "Users"], "must_not": ["agency"]},
     {"q": "A parent just called and wants to schedule a campus visit. How do I book it for them?", "article": "calendars", "must": ["Schedule a Visit"]},
-    {"q": "What happens automatically when a family submits the Request Info Packet form?", "article": "automations", "must": ["New Inquiry", "email"]},
+    {"q": "What happens automatically when a family submits the Request Info Packet form?", "article": "form-submissions", "must": ["New Inquiry", "email"]},
     {"q": "How do I send a newsletter email to only our current families?", "article": "marketing", "must": ["Current Families", "campaign"], "must_not": ["Custom Object", "Companies"]},
     {"q": "How do I connect our school's Facebook page?", "article": "conversations", "must": ["Facebook", "Integrations|Connect"]},
     {"q": "How do I text a family?", "article": "conversations", "must": ["Conversations", "phone number|Banner 61"], "must_not": ["Custom Object"]},
@@ -54,6 +54,10 @@
     {"q": "Does the feedback survey go out on its own after a campus visit?", "article": "visit-feedback-survey", "must": ["good fit", "Visit Feedback"]},
     {"q": "A parent asked for a follow-up conversation on the visit survey. What do I do?", "article": "visit-feedback-survey", "must": ["follow-up conversation|follow-up", "call|email"]},
     {"q": "How do I survey our new families after their first couple of months?", "article": "new-family-survey", "must": ["New Family Survey", "60"]},
-    {"q": "Are the new family survey answers anonymous?", "article": "new-family-survey", "must": ["anonymous"]}
+    {"q": "Are the new family survey answers anonymous?", "article": "new-family-survey", "must": ["anonymous"]},
+    {"q": "Our form isn't showing up on our website. What's wrong?", "article": "website-forms", "must": ["publish|Publish", "code|HTML"]},
+    {"q": "Where do I see who requested a visit this week?", "article": "form-submissions", "must": ["Submissions", "Request a Visit"]},
+    {"q": "What happens when a parent fills out the contact form on our website?", "article": "form-submissions", "must": ["General Inquiry", "New Inquiry"]},
+    {"q": "If a family we already have fills out a form again, does it make a duplicate?", "article": "form-submissions", "must": ["email|phone", "updat"]}
   ]
 }

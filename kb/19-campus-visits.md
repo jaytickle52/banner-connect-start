@@ -4,7 +4,7 @@ title: "Let families book a campus visit"
 menu: "Calendars and Events > Calendars > Meeting Calendars"
 use_when: "Setting up campus visits so families can book them online: visit hours, who gives the visit, where the booking link goes on your website and in emails, and what happens automatically after a family books and after the visit."
 also_called: ["tour", "campus tour", "school tour", "visit", "shadow day", "consultation", "booking link", "schedule a tour", "book a tour", "visit hours", "tour times", "who gives tours", "tour guide", "online booking", "self scheduling"]
-related: [calendars, automations, engagement-score, pipeline]
+related: [calendars, automations, engagement-score, pipeline, website-forms]
 plan: ""  # SchoolBox, Full or All once known
 reviewed: 2026-11-13
 ---

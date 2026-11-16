@@ -4,7 +4,7 @@ title: "Getting started"
 menu: "Getting Started; Settings > My Profile"
 use_when: "First login, password, the first four setup steps, connecting a staff member's email (two-way sync), reviewing forms and emails before they go live, sharing website domain access with Banner 61."
 also_called: ["first day", "new account", "set up", "setup", "onboarding", "password", "sign in", "log in", "Gmail", "Outlook", "connect my email", "DNS", "domain"]
-related: [forms-and-docs, conversations, calendars]
+related: [forms-and-docs, conversations, calendars, website-forms]
 plan: ""  # SchoolBox, Full or All, once the feature map is filled in
 reviewed: 2026-11-03
 ---
@@ -25,7 +25,7 @@ Can't find the activation email or the security code? Check Promotions and Spam.
 
 The Getting Started tab at the top of the menu walks through these with a short guide for each.
 
-1. **Put your inquiry form on your website.** This is how families reach you. See [Put your inquiry form on your website](/help/articles/forms-and-docs/#put-your-inquiry-form-on-your-website) for the steps. Most schools finish in ten minutes, and Banner 61 will do it for you if you share access to your website.
+1. **Put your inquiry form on your website.** This is how families reach you. See [Put your inquiry form on your website](/help/articles/website-forms/) for the steps. Most schools finish in ten minutes, and Banner 61 will do it for you if you share access to your website.
 2. **Connect Facebook, Instagram and Google.** Messages from your pages then land in one inbox with your email and texts. Someone at the school does this, because it signs in to the school's own accounts. See [Connect Facebook, Instagram and Google](/help/articles/conversations/#connect-facebook-instagram-and-google).
 3. **Connect your calendar.** Visits booked online then fit around what's already on your calendar. See [Connect your calendar](/help/articles/calendars/#connect-your-calendar).
 4. **Install the mobile app.** Search for LeadConnector in the App Store or Google Play, sign in with your Banner Connect email and password, choose your school if asked, and allow notifications.

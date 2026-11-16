@@ -4,7 +4,7 @@ Menu: Calendars and Events > Calendars > Meeting Calendars
 Use when: Setting up campus visits so families can book them online: visit hours, who gives the visit, where the booking link goes on your website and in emails, and what happens automatically after a family books and after the visit.
 Page for people: https://demo.banner61.com/help/articles/campus-visits/
 Last reviewed: 2026-11-13
-Related: https://demo.banner61.com/help/articles/calendars.md, https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/engagement-score.md, https://demo.banner61.com/help/articles/pipeline.md
+Related: https://demo.banner61.com/help/articles/calendars.md, https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/engagement-score.md, https://demo.banner61.com/help/articles/pipeline.md, https://demo.banner61.com/help/articles/website-forms.md
 
 Families can book a campus visit themselves from a link on your website or in your emails, at times you choose. The visit lands on the right staff calendar, the family moves to Visit Scheduled in the Inquiry to Enrollment pipeline, and the reminders and follow-up go out on their own. Visits use the **Schedule a Visit** calendar in **Calendars and Events**, then **Calendars**, then **Meeting Calendars**.
 
