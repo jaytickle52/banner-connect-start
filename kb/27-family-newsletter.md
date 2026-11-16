@@ -10,7 +10,7 @@ reviewed: 2026-11-16
 ---
 # Send your monthly family newsletter
 
-A monthly newsletter is an email campaign sent to your current families. Your account has a **Monthly Family Newsletter** template in **Marketing**, then **Emails**, then **Templates**, in the **Campaigns** folder, so most of the work is filling in this month's news.
+A monthly newsletter is an email campaign sent to your current families. Your account has a **Monthly Family Newsletter** template in **Marketing**, then **Emails**, then **Templates**, in the **Campaigns (you send these)** folder, so most of the work is filling in this month's news.
 
 ## Who should get our family newsletter?
 

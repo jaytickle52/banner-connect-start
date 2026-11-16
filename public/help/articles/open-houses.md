@@ -3,7 +3,7 @@
 Menu: Calendars and Events > Calendars > Meeting Calendars
 Use when: Running an open house, preview night or information night: adding the date and time, letting families sign up online, inviting families by email, the confirmation and reminder emails, and following up after the event.
 Page for people: https://demo.banner61.com/help/articles/open-houses/
-Last reviewed: 2026-11-13
+Last reviewed: 2026-11-16
 Related: https://demo.banner61.com/help/articles/calendars.md, https://demo.banner61.com/help/articles/events.md, https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/marketing.md, https://demo.banner61.com/help/articles/engagement-score.md
 
 Families sign up for an open house on the **Event Registration** calendar, and Banner Connect handles the confirmation, the reminders and the follow-up. You add the date, share the sign-up link, invite families, and after the event you mark who came. Event Registration lives in **Calendars and Events**, then **Calendars**, then **Meeting Calendars**.
@@ -38,7 +38,7 @@ How to check it worked: open the sign-up link and read it as a parent would.
 Send an email campaign with the sign-up link to the families you want to invite.
 
 1. Go to **Calendars and Events**, then **Calendars**, then **Meeting Calendars**, open the share options next to **Event Registration** and copy the link.
-2. Go to **Marketing**, then **Emails**, then **Templates**, and open **Open House Invitation** in the **Campaigns** folder.
+2. Go to **Marketing**, then **Emails**, then **Templates**, and open **Open House Invitation** in the **Campaigns (you send these)** folder.
 3. Fill in the date, time and details, and paste the sign-up link into the button.
 4. Send it to a smart list, such as families in New Inquiry. See [Email campaigns](https://demo.banner61.com/help/articles/marketing/#email-campaigns-one-time-emails-to-a-group).
 

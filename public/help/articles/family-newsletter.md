@@ -6,7 +6,7 @@ Page for people: https://demo.banner61.com/help/articles/family-newsletter/
 Last reviewed: 2026-11-16
 Related: https://demo.banner61.com/help/articles/marketing.md, https://demo.banner61.com/help/articles/smart-lists.md, https://demo.banner61.com/help/articles/bulk-actions.md, https://demo.banner61.com/help/articles/enrollment-stages.md
 
-A monthly newsletter is an email campaign sent to your current families. Your account has a **Monthly Family Newsletter** template in **Marketing**, then **Emails**, then **Templates**, in the **Campaigns** folder, so most of the work is filling in this month's news.
+A monthly newsletter is an email campaign sent to your current families. Your account has a **Monthly Family Newsletter** template in **Marketing**, then **Emails**, then **Templates**, in the **Campaigns (you send these)** folder, so most of the work is filling in this month's news.
 
 ## Who should get our family newsletter?
 
