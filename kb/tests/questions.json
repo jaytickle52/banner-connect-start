@@ -72,6 +72,10 @@
     {"q": "Our parent volunteer runs our Facebook page. Can she connect it without logging in to Banner Connect?", "article": "connect-social-accounts", "must": ["invite"]},
     {"q": "I need a QR code on our open house flyer so parents can RSVP. How do I make one?", "article": "open-house-qr-code", "must": ["QR Codes", "Event Registration"]},
     {"q": "Can I put our school logo in the middle of a QR code?", "article": "open-house-qr-code", "must": ["Logo"]},
-    {"q": "We already printed the flyers but the QR code goes to the wrong page. Do we have to reprint?", "article": "open-house-qr-code", "must": ["Edit"]}
+    {"q": "We already printed the flyers but the QR code goes to the wrong page. Do we have to reprint?", "article": "open-house-qr-code", "must": ["Edit"]},
+    {"q": "How do I schedule a Facebook post about our open house for next week?", "article": "social-posts", "must": ["Social Planner", "Schedule"]},
+    {"q": "Can our head of school look over a post before it goes on Facebook?", "article": "social-posts", "must": ["Approval|draft|Save for later"]},
+    {"q": "I scheduled a post with a typo. How do I fix it?", "article": "social-posts", "must": ["Edit"]},
+    {"q": "Our Facebook posts stopped going out and it says expired. What happened?", "article": "connect-social-accounts", "must": ["Connect Social|connect"]}
   ]
 }

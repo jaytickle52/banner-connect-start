@@ -234,7 +234,7 @@ How to use this index: find the one to three articles whose "Use when" or "Schoo
 - Menu: Marketing > Social Planner
 - Use when: Connecting the school's Facebook page and Instagram account so staff can schedule posts from Social Planner, what you need before you start, asking whoever manages the school's social media to connect them, and why an account won't show up.
 - Schools may call this: Facebook, Instagram, social media, social planner, connect Facebook, connect Instagram, link Facebook page, Facebook page, Instagram business account, Instagram creator account, schedule a post, post to Facebook, post to Instagram, Meta, social accounts, add socials, our Instagram won't connect
-- Sections: What do we need before we connect Facebook and Instagram?; Connect your school's Facebook page; Connect your school's Instagram account; Ask someone else to connect your accounts; Why won't our Instagram account show up?; Will parent messages from Facebook and Instagram come into Banner Connect?
+- Sections: What do we need before we connect Facebook and Instagram?; Connect your school's Facebook page; Connect your school's Instagram account; Ask someone else to connect your accounts; See which accounts are connected; Why did our Facebook page disconnect?; Why won't our Instagram account show up?; Will parent messages from Facebook and Instagram come into Banner Connect?
 - Page for people: https://demo.banner61.com/help/articles/connect-social-accounts/
 
 ## Make a QR code for your open house flyer
@@ -244,3 +244,11 @@ How to use this index: find the one to three articles whose "Use when" or "Schoo
 - Schools may call this: QR, QR code, scan code, flyer, poster, yard sign, banner, viewbook, brochure, print, open house flyer, RSVP code, sign-up code, scan to register, scan to book a tour, logo in QR code, how many scans, change QR link
 - Sections: Put your school logo in the middle of the code; Test the QR code before you print; Change where the QR code goes after you've printed it; How many families scanned our QR code?; Which other QR codes should we make?
 - Page for people: https://demo.banner61.com/help/articles/open-house-qr-code/
+
+## Schedule a post to Facebook and Instagram
+- Read: https://demo.banner61.com/help/articles/social-posts.md
+- Menu: Marketing > Social Planner
+- Use when: Writing a post for the school's Facebook page or Instagram, adding a photo, saving it as a draft, scheduling it for later, having someone approve it first, finding and changing posts that are already scheduled, and what makes a good school post.
+- Schools may call this: social post, Facebook post, Instagram post, schedule a post, post later, draft post, social media calendar, post an event, open house post, share on Facebook, post a photo, approve a post, recurring post, edit a scheduled post, delete a post, Social Planner, content calendar
+- Sections: Write and schedule a post; Save a post as a draft; Have someone approve a post before it goes out; Change or delete a post that's already scheduled; Post the same thing every week; What makes a good school post?
+- Page for people: https://demo.banner61.com/help/articles/social-posts/

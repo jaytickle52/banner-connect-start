@@ -4,7 +4,7 @@ title: "Marketing"
 menu: "Marketing"
 use_when: "Email templates and their wording, one-time email campaigns to a group (newsletter, current families), trigger links, funnels (landing pages), QR codes, the Social Planner and video testimonials."
 also_called: ["newsletter", "email blast", "announcement", "bulk email", "mass email", "campaign", "template", "wording", "landing page", "QR", "viewbook", "flyer", "social media", "post", "testimonial", "video review", "invitation", "open house invite", "re-enrollment email", "school announcement"]
-related: [smart-lists, contacts, automations, conversations, bulk-actions, open-houses, parent-video-stories, parent-videos-on-website, family-newsletter, connect-social-accounts, open-house-qr-code]
+related: [smart-lists, contacts, automations, conversations, bulk-actions, open-houses, parent-video-stories, parent-videos-on-website, family-newsletter, connect-social-accounts, open-house-qr-code, social-posts]
 plan: ""  # SchoolBox, Full or All, once the feature map is filled in
 reviewed: 2026-11-16
 ---
@@ -83,7 +83,7 @@ Use one code per purpose (tour, request info, apply, RSVP, survey) so you can se
 
 ## Social Planner
 
-Social Planner lets you schedule posts to Facebook, Instagram and other accounts from Banner Connect. It shows a connect screen until your school's social accounts are connected; someone at the school connects them, because it signs in to the school's own accounts. See [Connect your school's Facebook and Instagram](/help/articles/connect-social-accounts/).
+Social Planner lets you schedule posts to Facebook, Instagram and other accounts from Banner Connect. It shows a connect screen until your school's social accounts are connected; someone at the school connects them, because it signs in to the school's own accounts. See [Connect your school's Facebook and Instagram](/help/articles/connect-social-accounts/) and [Schedule a post to Facebook and Instagram](/help/articles/social-posts/).
 
 ## Video Testimonials
 

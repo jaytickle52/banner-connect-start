@@ -4,7 +4,7 @@ Menu: Marketing
 Use when: Email templates and their wording, one-time email campaigns to a group (newsletter, current families), trigger links, funnels (landing pages), QR codes, the Social Planner and video testimonials.
 Page for people: https://demo.banner61.com/help/articles/marketing/
 Last reviewed: 2026-11-16
-Related: https://demo.banner61.com/help/articles/smart-lists.md, https://demo.banner61.com/help/articles/contacts.md, https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/conversations.md, https://demo.banner61.com/help/articles/bulk-actions.md, https://demo.banner61.com/help/articles/open-houses.md, https://demo.banner61.com/help/articles/parent-video-stories.md, https://demo.banner61.com/help/articles/parent-videos-on-website.md, https://demo.banner61.com/help/articles/family-newsletter.md, https://demo.banner61.com/help/articles/connect-social-accounts.md, https://demo.banner61.com/help/articles/open-house-qr-code.md
+Related: https://demo.banner61.com/help/articles/smart-lists.md, https://demo.banner61.com/help/articles/contacts.md, https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/conversations.md, https://demo.banner61.com/help/articles/bulk-actions.md, https://demo.banner61.com/help/articles/open-houses.md, https://demo.banner61.com/help/articles/parent-video-stories.md, https://demo.banner61.com/help/articles/parent-videos-on-website.md, https://demo.banner61.com/help/articles/family-newsletter.md, https://demo.banner61.com/help/articles/connect-social-accounts.md, https://demo.banner61.com/help/articles/open-house-qr-code.md, https://demo.banner61.com/help/articles/social-posts.md
 
 The Marketing tab has Social Planner, Emails, Trigger Links, Video Testimonials, Funnels and QR Codes.
 
@@ -79,7 +79,7 @@ Use one code per purpose (tour, request info, apply, RSVP, survey) so you can se
 
 ## Social Planner
 
-Social Planner lets you schedule posts to Facebook, Instagram and other accounts from Banner Connect. It shows a connect screen until your school's social accounts are connected; someone at the school connects them, because it signs in to the school's own accounts. See [Connect your school's Facebook and Instagram](https://demo.banner61.com/help/articles/connect-social-accounts/).
+Social Planner lets you schedule posts to Facebook, Instagram and other accounts from Banner Connect. It shows a connect screen until your school's social accounts are connected; someone at the school connects them, because it signs in to the school's own accounts. See [Connect your school's Facebook and Instagram](https://demo.banner61.com/help/articles/connect-social-accounts/) and [Schedule a post to Facebook and Instagram](https://demo.banner61.com/help/articles/social-posts/).
 
 ## Video Testimonials
 

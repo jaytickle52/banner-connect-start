@@ -4,7 +4,7 @@ title: "Connect your school's Facebook and Instagram"
 menu: "Marketing > Social Planner"
 use_when: "Connecting the school's Facebook page and Instagram account so staff can schedule posts from Social Planner, what you need before you start, asking whoever manages the school's social media to connect them, and why an account won't show up."
 also_called: ["Facebook", "Instagram", "social media", "social planner", "connect Facebook", "connect Instagram", "link Facebook page", "Facebook page", "Instagram business account", "Instagram creator account", "schedule a post", "post to Facebook", "post to Instagram", "Meta", "social accounts", "add socials", "our Instagram won't connect"]
-related: [marketing, conversations, getting-started]
+related: [marketing, conversations, getting-started, social-posts]
 plan: ""  # SchoolBox, Full or All once known
 reviewed: 2026-11-16
 ---
@@ -31,7 +31,7 @@ Connect Facebook first, from **Marketing**, then **Social Planner**, signed in a
 3. Sign in to Facebook with the login that's an admin of your school's page, and allow Banner Connect the access it asks for.
 4. Choose your school's page from the list and finish.
 
-How to check it worked: your school's page shows as connected in **Social Planner**, and you can start a new post with it selected.
+How to check it worked: your school's page shows as Connected on the **Settings** tab in **Social Planner**, and you can pick it under **Post to** in a new post. To write your first post, see [Schedule a post to Facebook and Instagram](/help/articles/social-posts/).
 
 ## Connect your school's Instagram account
 
@@ -56,6 +56,21 @@ They open the email, sign in to Facebook and Instagram, and the accounts connect
 
 How to check it worked: after they finish, the accounts show as connected in **Social Planner**.
 
+## See which accounts are connected
+
+Every connected page and account is listed in **Marketing**, then **Social Planner**, on the **Settings** tab.
+
+1. Go to **Marketing**, then **Social Planner**, and click **Settings** at the top right.
+2. Under **Social accounts**, check the list. Each one shows its type (for example Page), its status and how many days are left before it needs to be connected again.
+
+To connect another account from this screen, click **Connect Social**.
+
+How to check it worked: your school's page shows with the status Connected.
+
+## Why did our Facebook page disconnect?
+
+Facebook connections expire after about two months, so Banner Connect has to be connected again from time to time. The **Settings** tab in **Marketing**, then **Social Planner**, shows how many days are left on each one. When it's close, or the status says Expired, click **Connect Social** and sign in again with the same Facebook login. To keep the connection from lapsing during a busy season, put a reminder on your calendar.
+
 ## Why won't our Instagram account show up?
 
 Almost always, the Instagram account is still a personal account, or the person connecting isn't an admin of the Facebook page it's linked to. Check these:
@@ -69,4 +84,4 @@ If it still won't connect, send the Banner 61 team a screenshot of what you see.
 
 ## Will parent messages from Facebook and Instagram come into Banner Connect?
 
-Connecting in **Social Planner** is for posting. To have messages from your Facebook page and Instagram land in your inbox with your email and texts, connect them in **Settings**, then **Integrations** as well. See [Connect Facebook, Instagram and Google](/help/articles/conversations/#connect-facebook-instagram-and-google).
+Not from Social Planner alone. Connecting in **Social Planner** is only for posting; it doesn't bring messages into your inbox. To have messages from your Facebook page and Instagram land in your inbox with your email and texts, connect them in **Settings**, then **Integrations** as well. See [Connect Facebook, Instagram and Google](/help/articles/conversations/#connect-facebook-instagram-and-google).
