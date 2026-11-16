@@ -4,9 +4,9 @@ title: "Marketing"
 menu: "Marketing"
 use_when: "Email templates and their wording, one-time email campaigns to a group (newsletter, current families), trigger links, funnels (landing pages), QR codes, the Social Planner and video testimonials."
 also_called: ["newsletter", "email blast", "announcement", "bulk email", "mass email", "campaign", "template", "wording", "landing page", "QR", "viewbook", "flyer", "social media", "post", "testimonial", "video review", "invitation", "open house invite", "re-enrollment email", "school announcement"]
-related: [smart-lists, contacts, automations, conversations, bulk-actions, open-houses]
+related: [smart-lists, contacts, automations, conversations, bulk-actions, open-houses, parent-video-stories, parent-videos-on-website]
 plan: ""  # SchoolBox, Full or All, once the feature map is filled in
-reviewed: 2026-11-13
+reviewed: 2026-11-16
 ---
 # Marketing
 
@@ -87,4 +87,4 @@ Social Planner lets you schedule posts to Facebook, Instagram and other accounts
 
 ## Video Testimonials
 
-Collect short videos from parents to use on your website. If you'd like help setting up a collection link, ask the Banner 61 team.
+Collect short parent videos with the **Parent Video Stories** link. See [Collect a parent video story](/help/articles/parent-video-stories/) and [Put parent videos on your website](/help/articles/parent-videos-on-website/).

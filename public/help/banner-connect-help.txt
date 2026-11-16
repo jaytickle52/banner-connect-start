@@ -60,6 +60,7 @@ Banner 61 sets up every account with the same names. Use them exactly, because a
 - **Workflows** (Automations, then Workflows): Request Info Packet / Lead Nurture, Request Tuition Info, Request Financial Aid Info, General Inquiry, Request a Visit, Event Registration, Cold Inquiry Revival, Stalled Leads / Remove Stalled Tag, Engagement score: application submitted. See [What's already built](https://demo.banner61.com/help/articles/automations/#whats-already-built).
 - **Email templates** (Marketing, then Emails, then Templates): one folder per workflow above, plus a **Campaigns** folder with Open House Invitation, Monthly Family Newsletter, Re-enrollment Is Open and Quick Announcement for one-time sends. See [Email campaigns](https://demo.banner61.com/help/articles/marketing/#email-campaigns-one-time-emails-to-a-group).
 - **Lost reasons** (on an opportunity, when Status is Lost): Chose another school, Cost, Moved, Not a fit, No response. See [Mark a family who isn't enrolling](https://demo.banner61.com/help/articles/enrollment-stages/#mark-a-family-who-isnt-enrolling).
+- **Video collector** (Marketing, then Video Testimonials): Parent Video Stories, the link you send parents to record a short video. See [Collect a parent video story in five minutes](https://demo.banner61.com/help/articles/parent-video-stories/).
 - **Tags that start automations**: Cold Inquiry Revival (a series of re-engagement emails). Check before adding any tag.
 
 ## What Banner 61 handles
@@ -615,7 +616,7 @@ Social Planner lets you schedule posts to Facebook, Instagram and other accounts
 
 ## Video Testimonials
 
-Collect short videos from parents to use on your website. If you'd like help setting up a collection link, ask the Banner 61 team.
+Collect short parent videos with the **Parent Video Stories** link. See [Collect a parent video story](https://demo.banner61.com/help/articles/parent-video-stories/) and [Put parent videos on your website](https://demo.banner61.com/help/articles/parent-videos-on-website/).
 
 ============================================================
 ARTICLE: Automations (workflows) (id: automations)
@@ -1890,3 +1891,144 @@ Other common reasons:
 - They filled out a form that doesn't send an email, such as Request a Visit or the Sibling Intent Form.
 
 For the full list and how to check, see ["Why didn't this send?"](https://demo.banner61.com/help/articles/automations/#why-didnt-this-send). Before you turn a workflow on, check with the Banner 61 team.
+
+============================================================
+ARTICLE: Collect a parent video story in five minutes (id: parent-video-stories)
+============================================================
+# Collect a parent video story in five minutes
+
+A parent video story is a short video, about 30 seconds, of a parent saying why they chose your school. You send the parent a link, they record on their phone, and the video lands in **Marketing**, then **Video Testimonials**, ready to put on your website.
+
+## What is a parent video story?
+
+A parent video story is a short phone video where a current parent tells other families why they chose your school. Families who are still deciding trust another parent more than anything the school says about itself, and a plain 30-second video does that better than a polished promo.
+
+Your account comes with one link already set up for this, called **Parent Video Stories**, in **Marketing**, then **Video Testimonials**. The parent doesn't need an app or an account. They open the link, answer a question or two on camera, add their name and send it. Videos can be up to two and a half minutes, but shorter is better. To send the link, see [Send a parent the video link](#send-a-parent-the-video-link).
+
+## Send a parent the video link
+
+Copy the Parent Video Stories link and send it to the parent in a personal email or text.
+
+1. Go to **Marketing**, then **Video Testimonials**, then the **Video Collectors** tab.
+2. On the **Parent Video Stories** card, click the three dots and choose **Copy Link**.
+3. Open the parent's contact in **CRM**, then **Contacts**, or go to **CRM**, then **Conversations**.
+4. Write a short, personal note and paste the link. For wording, see [What should we say when we ask a parent?](#what-should-we-say-when-we-ask-a-parent)
+5. Send it.
+
+Ask parents one at a time, in person first if you can ("Would you be willing to record a quick video for us? I'll send you the link."). A personal ask works far better than a group email.
+
+How to check it worked: open the link yourself in a private browser window. You should see your school's name and a **Let's Go!** button. Don't submit a test video, because it would show up with the real ones.
+
+## What should we say when we ask a parent?
+
+Keep the ask short and warm, say it takes about 30 seconds, and include a one-line permission statement. Here is wording you can copy and change:
+
+"Hi [first name], we have a small favor to ask. Families thinking about our school love hearing from parents like you. Would you record a short video, about 30 seconds, on why your family chose us? You can do it right from your phone with this link, no app needed: [link]. Talk the way you would to a friend at pickup. It doesn't need to be polished. Thank you for being part of our school family."
+
+Permission line to add at the end: "By sending your video, you give [school name] permission to share it on our website, social media and enrollment materials, and we'll take it down any time you ask."
+
+To send it, see [Send a parent the video link](#send-a-parent-the-video-link).
+
+## What should we ask parents to talk about?
+
+The best questions are ones a parent can answer from the heart without preparing. These three work well for Christian schools:
+
+- Why did your family choose our school?
+- Tell us about a teacher who made a difference for your child.
+- What would you tell a family who is thinking about our school?
+
+The Parent Video Stories link can hold up to three questions, and each question is its own short recording. One question is enough for a 30-second video. Pick the one that fits the parent best and mention it in your note.
+
+To change the questions on the link, see [Change the questions or the thank-you message](#change-the-questions-or-the-thank-you-message).
+
+## Do we need permission to share a parent's video?
+
+Yes. Only share a video when the parent has agreed to it being used publicly. The Parent Video Stories link asks every parent to tick a box agreeing that their video can be used for marketing, and your ask should include a plain permission line too (see [What should we say when we ask a parent?](#what-should-we-say-when-we-ask-a-parent)).
+
+A few good habits:
+
+- Check the consent before you use a video. In **Marketing**, then **Video Testimonials**, then **Responses**, use the **Marketing consent** filter to see which videos the parent agreed to share.
+- Students are minors. If a child appears in the video or is named, make sure the parent is comfortable with that before you share it.
+- If a parent asks you to take a video down, remove it from your website and social posts right away.
+
+To show or hide a video on your website, see [Choose which videos show on your website](https://demo.banner61.com/help/articles/parent-videos-on-website/#choose-which-videos-show-on-your-website).
+
+## See the videos parents have sent
+
+Every video a parent sends shows up in **Marketing**, then **Video Testimonials**, then the **Responses** tab.
+
+1. Go to **Marketing**, then **Video Testimonials**.
+2. Click the **Responses** tab.
+3. Use the **Status** and **Marketing consent** filters, or search by the parent's name.
+4. Open a response to watch the video.
+
+The **Overview** tab also shows how many videos each link has collected and the most recent ones.
+
+How to check it worked: after a parent tells you they've sent their video, their name should appear on the Responses tab.
+
+## Change the questions or the thank-you message
+
+You edit the Parent Video Stories link in **Marketing**, then **Video Testimonials**.
+
+1. Go to **Marketing**, then **Video Testimonials**, then the **Video Collectors** tab.
+2. On the **Parent Video Stories** card, click the three dots and choose **View & Edit Details**.
+3. Choose the page to change: **Welcome Page** (the title and short welcome), **Questions Page** (up to three questions), **Attribution Page** (where the parent adds their name) or **Thank You Page**.
+4. Click **Save**.
+
+The link stays the same after you edit it, so links you've already sent keep working. To change the logo or colors, ask the Banner 61 team.
+
+How to check it worked: open the link in a private browser window and read each page as a parent would.
+
+## Why does the screen say "Send Review Request"?
+
+Banner Connect doesn't use review requests, so you can ignore the **Send Review Request** button at the top of **Marketing**, then **Video Testimonials**. Its email and text options are turned off in your account, and it can't be hidden from the screen. To ask a parent for a video, copy the link and send a personal note instead. See [Send a parent the video link](#send-a-parent-the-video-link).
+
+============================================================
+ARTICLE: Put parent videos on your website (id: parent-videos-on-website)
+============================================================
+# Put parent videos on your website
+
+Parent videos go on your website through a video widget: a short piece of code that shows the videos parents sent through your **Parent Video Stories** link. The Banner 61 team builds the widget for you, and you paste its code on a page the same way you add a form.
+
+## Put parent videos on your website
+
+Ask the Banner 61 team for a video widget, then paste the code they send on your website page.
+
+1. Make sure at least two or three parents have sent videos. You can see them in **Marketing**, then **Video Testimonials**, then the **Responses** tab.
+2. Ask the Banner 61 team for a video widget for **Parent Video Stories**. Tell them which page it's for and which videos to include.
+3. Paste the code they send on your website page:
+   - WordPress: add a Custom HTML block (in Elementor, an HTML widget; in Divi, a Code module).
+   - Squarespace: add a Code block.
+   - Wix: add Embed, then Embed HTML.
+   - Webflow and other builders: add an Embed or custom code element.
+4. Publish the page.
+
+If someone else manages your website, send them the code and tell them which page it goes on. Or share access to your website with the Banner 61 team and they'll add it.
+
+How to check it worked: open the live page in a new window, not the editor preview, and play a video. Some website editors only show the widget on the published page.
+
+## Where should parent videos go on our website?
+
+Put parent videos where a family is deciding whether to take the next step. The admissions page, right above your inquiry form, is the best spot, because a parent's story answers "is this the right school for us?" just before the family reaches out.
+
+Other good places are the homepage, the tuition page (a parent on why it's worth it) and your "Visit us" page. One to three videos on a page is plenty. To add the widget to a page, see [Put parent videos on your website](#put-parent-videos-on-your-website).
+
+## Choose which videos show on your website
+
+Only show videos the parent agreed to share. Before a video goes on your website, check its consent in **Marketing**, then **Video Testimonials**, then **Responses**, using the **Marketing consent** filter.
+
+When you ask the Banner 61 team for a widget, tell them which videos to include. New videos don't need a new code: once the widget is on your page, the Banner 61 team can add or remove videos and your page updates on its own.
+
+For more on permission, see [Do we need permission to share a parent's video?](https://demo.banner61.com/help/articles/parent-video-stories/#do-we-need-permission-to-share-a-parents-video)
+
+## Take a parent's video off our website
+
+If a parent asks you to remove their video, tell the Banner 61 team which video it is and they'll take it out of your widget. Also remove it anywhere else you've used it, such as social posts or emails.
+
+You don't need to change the code on your website. The widget updates on its own.
+
+How to check it worked: open the live page in a private browser window and confirm the video is gone.
+
+## We don't have any parent videos yet. Where do we start?
+
+Start by asking two or three parents you know love the school. Send each one the **Parent Video Stories** link with a short, personal note. See [Send a parent the video link](https://demo.banner61.com/help/articles/parent-video-stories/#send-a-parent-the-video-link) and [What should we say when we ask a parent?](https://demo.banner61.com/help/articles/parent-video-stories/#what-should-we-say-when-we-ask-a-parent)

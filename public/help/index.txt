@@ -204,3 +204,19 @@ How to use this index: find the one to three articles whose "Use when" or "Schoo
 - Schools may call this: fills out, filled out a form, parent filled out the contact form, contact form submitted, submission, submissions, form entries, responses, who filled out, who requested a visit, new inquiries this week, web inquiry, form came in, inquiry, lead, duplicate, follow-up email, auto reply, didn't get the email, where did the form go
 - Sections: What happens when a family fills out a form?; Which follow-up does each form start?; Does a form make a duplicate family?; See who filled out a form this week; See everything a family has sent you; Why didn't a family get the follow-up email?
 - Page for people: https://demo.banner61.com/help/articles/form-submissions/
+
+## Collect a parent video story in five minutes
+- Read: https://demo.banner61.com/help/articles/parent-video-stories.md
+- Menu: Marketing > Video Testimonials
+- Use when: Asking a parent to record a short video about the school: sending the Parent Video Stories link, what to ask, getting permission to share it, finding the videos that come in, and why the screen shows a Send Review Request button.
+- Schools may call this: video testimonial, testimonial, parent video, parent story, video story, video review, review, reviews, record a video, parent quote, word of mouth, recommendation, collector, collector link, permission, consent, release, photo release, review request
+- Sections: What is a parent video story?; Send a parent the video link; What should we say when we ask a parent?; What should we ask parents to talk about?; Do we need permission to share a parent's video?; See the videos parents have sent; Change the questions or the thank-you message; Why does the screen say "Send Review Request"?
+- Page for people: https://demo.banner61.com/help/articles/parent-video-stories/
+
+## Put parent videos on your website
+- Read: https://demo.banner61.com/help/articles/parent-videos-on-website.md
+- Menu: Marketing > Video Testimonials
+- Use when: Showing parent video stories on the school website: getting the video widget code, pasting it on a page, choosing where the videos go, and taking a video down.
+- Schools may call this: video widget, testimonial widget, testimonials on website, embed video, embed code, video wall, parent videos, video testimonial, testimonials page, reviews on website, show videos, WordPress, Squarespace, Wix, take down video, remove video
+- Sections: Where should parent videos go on our website?; Choose which videos show on your website; Take a parent's video off our website; We don't have any parent videos yet. Where do we start?
+- Page for people: https://demo.banner61.com/help/articles/parent-videos-on-website/
