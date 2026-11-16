@@ -6,7 +6,7 @@ use_when: "Running an open house, preview night or information night: adding the
 also_called: ["open house", "preview night", "preview day", "information night", "info night", "kindergarten night", "event", "RSVP", "sign up", "sign-up", "registration", "register", "event reminder", "who is coming", "attendance"]
 related: [calendars, events, automations, marketing, engagement-score]
 plan: ""  # SchoolBox, Full or All once known
-reviewed: 2026-11-13
+reviewed: 2026-11-16
 ---
 # Run an open house with sign-ups and reminders
 
@@ -42,7 +42,7 @@ How to check it worked: open the sign-up link and read it as a parent would.
 Send an email campaign with the sign-up link to the families you want to invite.
 
 1. Go to **Calendars and Events**, then **Calendars**, then **Meeting Calendars**, open the share options next to **Event Registration** and copy the link.
-2. Go to **Marketing**, then **Emails**, then **Templates**, and open **Open House Invitation** in the **Campaigns** folder.
+2. Go to **Marketing**, then **Emails**, then **Templates**, and open **Open House Invitation** in the **Campaigns (you send these)** folder.
 3. Fill in the date, time and details, and paste the sign-up link into the button.
 4. Send it to a smart list, such as families in New Inquiry. See [Email campaigns](/help/articles/marketing/#email-campaigns-one-time-emails-to-a-group).
 

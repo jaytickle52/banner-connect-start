@@ -4,7 +4,7 @@ title: "Marketing"
 menu: "Marketing"
 use_when: "Email templates and their wording, one-time email campaigns to a group (newsletter, current families), trigger links, funnels (landing pages), QR codes, the Social Planner and video testimonials."
 also_called: ["newsletter", "email blast", "announcement", "bulk email", "mass email", "campaign", "template", "wording", "landing page", "QR", "viewbook", "flyer", "social media", "post", "testimonial", "video review", "invitation", "open house invite", "re-enrollment email", "school announcement"]
-related: [smart-lists, contacts, automations, conversations, bulk-actions, open-houses, parent-video-stories, parent-videos-on-website, family-newsletter, connect-social-accounts, open-house-qr-code]
+related: [smart-lists, contacts, automations, conversations, bulk-actions, open-houses, parent-video-stories, parent-videos-on-website, family-newsletter, connect-social-accounts, open-house-qr-code, social-posts]
 plan: ""  # SchoolBox, Full or All, once the feature map is filled in
 reviewed: 2026-11-16
 ---
@@ -14,7 +14,7 @@ The Marketing tab has Social Planner, Emails, Trigger Links, Video Testimonials,
 
 ## Email templates
 
-Go to **Marketing**, then **Emails**, then the **Templates** tab. Templates are the saved emails your automations and campaigns send. Your account comes with folders of ready-made templates (see [Before your forms go live: review and approve](/help/articles/getting-started/#before-your-forms-go-live-review-and-approve) for what each folder does).
+Go to **Marketing**, then **Emails**, then the **Templates** tab. Templates are the saved emails your automations and campaigns send. Your account comes with folders of ready-made templates. A folder ending in "(sends on its own)" holds emails a workflow sends automatically, and **Campaigns (you send these)** holds one-time starters (see [Before your forms go live: review and approve](/help/articles/getting-started/#before-your-forms-go-live-review-and-approve) for what each folder does).
 
 - **Edit a template**: open it, change the wording, and save. Check tone, your admissions steps, visit instructions and your signature.
 - **Make a new template**: click **New**, choose a layout or start blank, drag in text, images, buttons and your logo, name it and save.
@@ -31,10 +31,10 @@ Good to know: whether an edit to a template reaches emails an automation already
 
 Use a campaign for announcements, newsletters, event invitations and other one-time sends. It's the best way to email a group, because it looks polished and shows who opened and clicked.
 
-Your account has a **Campaigns** template folder (**Marketing**, then **Emails**, then **Templates**) with four ready-to-edit starters: **Open House Invitation**, **Monthly Family Newsletter**, **Re-enrollment Is Open** and **Quick Announcement**. Each has your logo, signature and footer already in place. Replace every word in [BRACKETS] before you send.
+Your account has a **Campaigns (you send these)** template folder (**Marketing**, then **Emails**, then **Templates**) with four ready-to-edit starters: **Open House Invitation**, **Monthly Family Newsletter**, **Re-enrollment Is Open** and **Quick Announcement**. Each has your logo, signature and footer already in place. Replace every word in [BRACKETS] before you send.
 
 1. Go to **Marketing**, then **Emails**, then the **Campaigns** tab, and create a new campaign.
-2. Start from a template (one from the **Campaigns** folder is the quickest) or a blank layout, and build the email.
+2. Start from a template (one from the **Campaigns (you send these)** folder is the quickest) or a blank layout, and build the email.
 3. Click **Preview** to check desktop and mobile, and send a test to yourself.
 4. Click **Send or Schedule** and fill in:
    - Sender name (such as "Admissions at Banner Christian School") and sender email. The sender email must use your school's verified sending address; ask Banner 61 if you're not sure which to use.
@@ -83,7 +83,7 @@ Use one code per purpose (tour, request info, apply, RSVP, survey) so you can se
 
 ## Social Planner
 
-Social Planner lets you schedule posts to Facebook, Instagram and other accounts from Banner Connect. It shows a connect screen until your school's social accounts are connected; someone at the school connects them, because it signs in to the school's own accounts. See [Connect your school's Facebook and Instagram](/help/articles/connect-social-accounts/).
+Social Planner lets you schedule posts to Facebook, Instagram and other accounts from Banner Connect. It shows a connect screen until your school's social accounts are connected; someone at the school connects them, because it signs in to the school's own accounts. See [Connect your school's Facebook and Instagram](/help/articles/connect-social-accounts/) and [Schedule a post to Facebook and Instagram](/help/articles/social-posts/).
 
 ## Video Testimonials
 
