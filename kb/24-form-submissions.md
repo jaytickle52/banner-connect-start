@@ -4,9 +4,9 @@ title: "What happens when a family fills out a form"
 menu: "Forms & Docs > Forms > Submissions"
 use_when: "What Banner Connect does when a family submits a form (their record, their enrollment card, follow-up emails, engagement score), whether a form makes a duplicate family, where to see who filled out a form this week, and why a family didn't get a follow-up."
 also_called: ["fills out", "filled out a form", "parent filled out the contact form", "contact form submitted", "submission", "submissions", "form entries", "responses", "who filled out", "who requested a visit", "new inquiries this week", "web inquiry", "form came in", "inquiry", "lead", "duplicate", "follow-up email", "auto reply", "didn't get the email", "where did the form go"]
-related: [website-forms, forms-and-docs, automations, engagement-score, enrollment-stages, contacts]
+related: [website-forms, forms-and-docs, automations, engagement-score, enrollment-stages, contacts, form-notifications]
 plan: ""  # SchoolBox, Full or All once known
-reviewed: 2026-11-13
+reviewed: 2026-11-17
 ---
 # What happens when a family fills out a form
 
@@ -82,4 +82,4 @@ Other common reasons:
 - The email went to their spam folder.
 - They filled out a form that doesn't send an email, such as Request a Visit or the Sibling Intent Form.
 
-For the full list and how to check, see ["Why didn't this send?"](/help/articles/automations/#why-didnt-this-send). Before you turn a workflow on, check with the Banner 61 team.
+For the full list and how to check, see ["Why didn't this send?"](/help/articles/automations/#why-didnt-this-send). If it's your staff who didn't hear about a submission, see [A family says they filled out a form but we never heard about it](/help/articles/form-notifications/#a-family-says-they-filled-out-a-form-but-we-never-heard-about-it). Before you turn a workflow on, check with the Banner 61 team.

@@ -3,8 +3,8 @@
 Menu: Forms & Docs > Forms > Submissions
 Use when: What Banner Connect does when a family submits a form (their record, their enrollment card, follow-up emails, engagement score), whether a form makes a duplicate family, where to see who filled out a form this week, and why a family didn't get a follow-up.
 Page for people: https://demo.banner61.com/help/articles/form-submissions/
-Last reviewed: 2026-11-13
-Related: https://demo.banner61.com/help/articles/website-forms.md, https://demo.banner61.com/help/articles/forms-and-docs.md, https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/engagement-score.md, https://demo.banner61.com/help/articles/enrollment-stages.md, https://demo.banner61.com/help/articles/contacts.md
+Last reviewed: 2026-11-17
+Related: https://demo.banner61.com/help/articles/website-forms.md, https://demo.banner61.com/help/articles/forms-and-docs.md, https://demo.banner61.com/help/articles/automations.md, https://demo.banner61.com/help/articles/engagement-score.md, https://demo.banner61.com/help/articles/enrollment-stages.md, https://demo.banner61.com/help/articles/contacts.md, https://demo.banner61.com/help/articles/form-notifications.md
 
 When a family submits one of your forms, Banner Connect saves their answers, files them on the family's record and starts that form's follow-up, without anyone on your staff lifting a finger. Every submission is listed in **Forms & Docs**, then **Forms**, on the **Submissions** tab.
 
@@ -78,4 +78,4 @@ Other common reasons:
 - The email went to their spam folder.
 - They filled out a form that doesn't send an email, such as Request a Visit or the Sibling Intent Form.
 
-For the full list and how to check, see ["Why didn't this send?"](https://demo.banner61.com/help/articles/automations/#why-didnt-this-send). Before you turn a workflow on, check with the Banner 61 team.
+For the full list and how to check, see ["Why didn't this send?"](https://demo.banner61.com/help/articles/automations/#why-didnt-this-send). If it's your staff who didn't hear about a submission, see [A family says they filled out a form but we never heard about it](https://demo.banner61.com/help/articles/form-notifications/#a-family-says-they-filled-out-a-form-but-we-never-heard-about-it). Before you turn a workflow on, check with the Banner 61 team.

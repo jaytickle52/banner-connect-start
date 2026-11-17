@@ -3,10 +3,10 @@ id: forms-and-docs
 title: "Forms, surveys and documents"
 menu: "Forms & Docs"
 use_when: "The prebuilt forms (Request Info Packet, General Inquiry, tuition and financial aid), editing a form and its fields, surveys, and documents and contracts families sign (enrollment agreements)."
-also_called: ["inquiry form", "contact form", "info packet", "survey", "feedback", "contract", "enrollment agreement", "e-signature", "sign", "PDF"]
-related: [calendars, automations, advanced-and-settings, website-forms, form-submissions]
+also_called: ["add a question", "new field", "Quick Add", "Add Object Fields", "reuse a field", "field won't save", "error saving form", "inquiry form", "contact form", "info packet", "survey", "feedback", "contract", "enrollment agreement", "e-signature", "sign", "PDF"]
+related: [calendars, automations, advanced-and-settings, website-forms, form-submissions, form-notifications, getting-started, events, visit-feedback-survey, new-family-survey, tuition-page]
 plan: ""  # SchoolBox, Full or All, once the feature map is filled in
-reviewed: 2026-11-13
+reviewed: 2026-11-17
 ---
 # Forms, surveys and documents
 
@@ -35,13 +35,23 @@ Open the form in **Forms & Docs**, then **Forms**.
 - **Reorder**: drag fields into place.
 - **Style**: click the sliders icon at the top right to open Styles, Themes and Advanced (custom CSS). You can use one or two columns, set field widths, and adjust colors and fonts for your brand.
 - **Show or hide questions based on answers**: click the branching icon in the top toolbar (Conditional Logic). You can show or hide fields, show a custom message, send families to a page after they submit, or disqualify a submission.
-- **Email alerts and auto-reply**: click the bell icon to send your team an email on each submission, or an automatic reply to the family.
-- Click **Save Form** when you're done.
+- **Email your staff on each submission**: use the form's **Notifications** tab. See [Choose who gets an email when a family fills out a form](/help/articles/form-notifications/#choose-who-gets-an-email-when-a-family-fills-out-a-form).
+- Click **Save** at the top right when you're done.
 
 Good to know:
-- Reuse existing fields. If several forms ask "How did you hear about us?", use the same field on each so answers land in one place. If you see "A custom field already uses this name", remove the new field and add the existing one from Add Object Fields instead.
+- Reuse existing fields. If several forms ask "How did you hear about us?", use the same field on each so answers land in one place. If saving gives you an error about the name, see [Why won't my new form field save?](#why-wont-my-new-form-field-save).
 - Your prebuilt forms already send automatic emails through workflows. Turning on the form's own auto-responder too may send families two replies.
 - Changing a form that's live on your website changes it for families right away.
+
+## Quick Add or Add Object Fields: which should I use?
+
+Use **Add Object Fields** when the question already exists on another form, and **Quick Add** only for a question your account has never asked. Both are tabs in the left panel when you open a form in **Forms & Docs**, then **Forms**, on the **Edit** tab.
+
+Reusing a field with **Add Object Fields** means a family's answer always lands in the same place on their contact record, whichever form they filled out, and you manage the answer choices in one place. Questions like "How did you hear about us?" and grade of entry should always be reused. **Quick Add** makes a brand-new field; for a dropdown, checkbox or multiple-choice question it also adds a new field to every contact record. The answer choices of an existing field are kept in **Advanced**, then **Custom Fields**, where a change shows on every form that uses it. Because workflows and smart lists can look for those answers, check with the Banner 61 team before renaming or removing a choice. For the rest of the form builder, see [Edit a form](/help/articles/forms-and-docs/#edit-a-form).
+
+## Why won't my new form field save?
+
+Usually a field with that name already exists in your account. Banner Connect won't make a second field with the same name. Remove the new field from the form, then in **Forms & Docs**, then **Forms**, open the form, click **Add Object Fields** in the left panel, search for the name and drag the existing field onto the form. Click **Save** at the top right. For when to reuse a field, see [Quick Add or Add Object Fields: which should I use?](/help/articles/forms-and-docs/#quick-add-or-add-object-fields-which-should-i-use).
 
 ## Surveys
 
@@ -65,5 +75,5 @@ Signers don't need an account. They enter their name and email, fill in the fiel
 
 - **See who's signed**: open Documents & Contracts and check the responses or Completed list. Use the three-dot menu to download a signed PDF.
 - **Stop accepting signatures**: unpublish the document. To edit it, unpublish, make changes and publish again.
-- **Reuse it next year**: duplicate the template and rename it (for example, "2026-27 Field Trip Waiver – Grade 5").
+- **Reuse it next year**: duplicate the template and rename it (for example, "2026-27 Field Trip Waiver, Grade 5").
 - **Get notified when someone signs**: this needs a small workflow (Documents & Contracts trigger, status Signed, then an internal notification). Ask Banner 61 if you'd like one set up.

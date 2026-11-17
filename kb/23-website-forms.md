@@ -4,9 +4,9 @@ title: "Put your inquiry form on your website"
 menu: "Forms & Docs > Forms"
 use_when: "Adding the inquiry, info packet or visit request form to the school website, choosing which form to use, linking to a form when you can't edit the website, testing it, and fixing a form that doesn't show up."
 also_called: ["embed", "embed code", "website form", "contact form", "inquiry form", "info packet form", "request info", "put the form on our site", "add form to website", "iframe", "WordPress", "Squarespace", "Wix", "Webflow", "Elementor", "Divi", "web designer", "form link", "form not showing"]
-related: [forms-and-docs, form-submissions, campus-visits, getting-started]
+related: [forms-and-docs, form-submissions, campus-visits, getting-started, form-notifications, tuition-page, parent-videos-on-website, open-house-qr-code]
 plan: ""  # SchoolBox, Full or All once known
-reviewed: 2026-11-13
+reviewed: 2026-11-17
 ---
 # Put your inquiry form on your website
 
@@ -19,7 +19,7 @@ Most schools put **Request Info Packet** on their admissions page and **General 
 Two more forms are worth a spot on the site:
 
 - **Request a Visit** on a "Visit us" page, for families who want you to call them to set up a time. To let families pick a time themselves, see [Let families book a campus visit](/help/articles/campus-visits/).
-- **Request Tuition Info** and **Request Financial Aid Info** on your tuition page.
+- **Request Tuition Info** and **Request Financial Aid Info** on your tuition page. For what the tuition page itself should say, see [What should our tuition page say?](/help/articles/tuition-page/#what-should-our-tuition-page-say).
 
 Keep the forms short. Each one asks only for the parent's name, email, phone and how many children they're thinking about enrolling, plus one or two questions. Every extra field you add means fewer families finish it. To put a form on a page, see [Put your inquiry form on your website](#put-your-inquiry-form-on-your-website).
 

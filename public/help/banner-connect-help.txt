@@ -160,6 +160,18 @@ Then make the record useful: add a tag (for example, Open House Attendee), add a
 
 Notes are internal. Families never see them. Every entry on the timeline is time-stamped, so anyone on your team can pick up where someone else left off. Read it before you call a family so you don't repeat a question.
 
+## Save a document a family sent you on their record
+
+Open the family in **CRM**, then **Contacts**, and add the file under **Documents**. Use it for things that arrive outside a form, such as a pastoral reference, a transcript or a screenshot.
+
+1. Go to **CRM**, then **Contacts**, search for the family and click their name.
+2. In the row of tabs on the right (Conversations, Activity, Associations, Opportunities, Tasks, Notes), click the three-dot menu at the end of the row and choose **Documents**.
+3. Click **Add documents** (or **+ Add** if the family already has some) and choose the file from your computer.
+
+How to check it worked: the file shows in the family's **Documents** list, and anyone on your staff can open it there.
+
+Adding a document doesn't start any automation or move the family on your enrollment board. If it completes their application, move their card yourself: see [Move a family to the next stage](https://demo.banner61.com/help/articles/enrollment-stages/#move-a-family-to-the-next-stage).
+
 ## Tags
 
 Tags are labels on a contact. Use them to group families, filter lists and start automations.
@@ -503,13 +515,23 @@ Open the form in **Forms & Docs**, then **Forms**.
 - **Reorder**: drag fields into place.
 - **Style**: click the sliders icon at the top right to open Styles, Themes and Advanced (custom CSS). You can use one or two columns, set field widths, and adjust colors and fonts for your brand.
 - **Show or hide questions based on answers**: click the branching icon in the top toolbar (Conditional Logic). You can show or hide fields, show a custom message, send families to a page after they submit, or disqualify a submission.
-- **Email alerts and auto-reply**: click the bell icon to send your team an email on each submission, or an automatic reply to the family.
-- Click **Save Form** when you're done.
+- **Email your staff on each submission**: use the form's **Notifications** tab. See [Choose who gets an email when a family fills out a form](https://demo.banner61.com/help/articles/form-notifications/#choose-who-gets-an-email-when-a-family-fills-out-a-form).
+- Click **Save** at the top right when you're done.
 
 Good to know:
-- Reuse existing fields. If several forms ask "How did you hear about us?", use the same field on each so answers land in one place. If you see "A custom field already uses this name", remove the new field and add the existing one from Add Object Fields instead.
+- Reuse existing fields. If several forms ask "How did you hear about us?", use the same field on each so answers land in one place. If saving gives you an error about the name, see [Why won't my new form field save?](#why-wont-my-new-form-field-save).
 - Your prebuilt forms already send automatic emails through workflows. Turning on the form's own auto-responder too may send families two replies.
 - Changing a form that's live on your website changes it for families right away.
+
+## Quick Add or Add Object Fields: which should I use?
+
+Use **Add Object Fields** when the question already exists on another form, and **Quick Add** only for a question your account has never asked. Both are tabs in the left panel when you open a form in **Forms & Docs**, then **Forms**, on the **Edit** tab.
+
+Reusing a field with **Add Object Fields** means a family's answer always lands in the same place on their contact record, whichever form they filled out, and you manage the answer choices in one place. Questions like "How did you hear about us?" and grade of entry should always be reused. **Quick Add** makes a brand-new field; for a dropdown, checkbox or multiple-choice question it also adds a new field to every contact record. The answer choices of an existing field are kept in **Advanced**, then **Custom Fields**, where a change shows on every form that uses it. Because workflows and smart lists can look for those answers, check with the Banner 61 team before renaming or removing a choice. For the rest of the form builder, see [Edit a form](https://demo.banner61.com/help/articles/forms-and-docs/#edit-a-form).
+
+## Why won't my new form field save?
+
+Usually a field with that name already exists in your account. Banner Connect won't make a second field with the same name. Remove the new field from the form, then in **Forms & Docs**, then **Forms**, open the form, click **Add Object Fields** in the left panel, search for the name and drag the existing field onto the form. Click **Save** at the top right. For when to reuse a field, see [Quick Add or Add Object Fields: which should I use?](https://demo.banner61.com/help/articles/forms-and-docs/#quick-add-or-add-object-fields-which-should-i-use).
 
 ## Surveys
 
@@ -533,7 +555,7 @@ Signers don't need an account. They enter their name and email, fill in the fiel
 
 - **See who's signed**: open Documents & Contracts and check the responses or Completed list. Use the three-dot menu to download a signed PDF.
 - **Stop accepting signatures**: unpublish the document. To edit it, unpublish, make changes and publish again.
-- **Reuse it next year**: duplicate the template and rename it (for example, "2026-27 Field Trip Waiver – Grade 5").
+- **Reuse it next year**: duplicate the template and rename it (for example, "2026-27 Field Trip Waiver, Grade 5").
 - **Get notified when someone signs**: this needs a small workflow (Documents & Contracts trigger, status Signed, then an internal notification). Ask Banner 61 if you'd like one set up.
 
 ============================================================
@@ -772,14 +794,32 @@ Empty fields come through blank. In emails, add fallback text to a merge field (
 
 ## Other Advanced pages
 
-- **Media Storage**: logos and photos used in emails and forms.
+- **Media Storage**: logos, photos and PDFs used in emails and forms. To swap a PDF that an automatic email links to, see [Swap the PDF linked in an automatic email](#swap-the-pdf-linked-in-an-automatic-email).
 - **Domains** and **Brand Boards**: your web addresses and brand colors. Banner 61 manages these.
 - **Object Settings**: how records like Students are set up. Banner 61 manages this.
+
+## Swap the PDF linked in an automatic email
+
+Upload the new PDF in **Advanced**, then **Media Storage**, copy its link, and paste that link into the email in **Marketing**, then **Emails**, then **Templates**. Most schools do this once a year, when tuition or the info packet changes.
+
+1. Go to **Advanced**, then **Media Storage**, click **Upload** at the top right and choose your new PDF.
+2. Hover over the new file, click its three-dot menu and choose **Get Link**. The link is copied.
+3. Go to **Marketing**, then **Emails**, then the **Templates** tab, and open the folder for that email, for example **Request Tuition Info (sends on its own)** or **Request Info Packet / Lead Nurture (sends on its own)**. Click the email to open it.
+4. Click the words that link to the old file, click the link icon in the toolbar, and paste the new link in place of the old one. Repeat for every link to the old file in that email.
+5. Click **Save** at the top right.
+
+How to check it worked: fill out the matching form on your website with your own email address. The email that arrives should open the new PDF.
+
+Good to know:
+- Families who asked before your change already have the old link. Only new requests get the new file.
+- Keep the old file in **Media Storage** until you've checked the new link. Moving it to the trash breaks the link in emails families already have.
+- Change only the link and wording. These emails send on their own from workflows, so check with the Banner 61 team before changing anything else. Banner 61 can also swap the file for you.
+- Sending a link to a web page instead of a PDF saves this step every year. See [Should we send families a tuition page or a PDF?](https://demo.banner61.com/help/articles/tuition-page/#should-we-send-families-a-tuition-page-or-a-pdf).
 
 ## Settings
 
 - **My Profile**: your name, email, phone and password, your email connection (two-way sync), your calendar connections, and your notifications (including task notifications).
-- **Users**: the people on your team. See [Users and access](#users-and-access) below.
+- **Users**: the people on your team. See [Users and access](#users-and-access).
 - **Business Profile**: your school's name, logo, address, phone and time zone.
 - **Communications**: phone numbers (Phone System), email sending and WhatsApp. Banner 61 sets these up.
 - **Integrations**: connect Facebook, Instagram and Google Business Profile.
@@ -1756,7 +1796,7 @@ Most schools put **Request Info Packet** on their admissions page and **General 
 Two more forms are worth a spot on the site:
 
 - **Request a Visit** on a "Visit us" page, for families who want you to call them to set up a time. To let families pick a time themselves, see [Let families book a campus visit](https://demo.banner61.com/help/articles/campus-visits/).
-- **Request Tuition Info** and **Request Financial Aid Info** on your tuition page.
+- **Request Tuition Info** and **Request Financial Aid Info** on your tuition page. For what the tuition page itself should say, see [What should our tuition page say?](https://demo.banner61.com/help/articles/tuition-page/#what-should-our-tuition-page-say).
 
 Keep the forms short. Each one asks only for the parent's name, email, phone and how many children they're thinking about enrolling, plus one or two questions. Every extra field you add means fewer families finish it. To put a form on a page, see [Put your inquiry form on your website](#put-your-inquiry-form-on-your-website).
 
@@ -1892,7 +1932,7 @@ Other common reasons:
 - The email went to their spam folder.
 - They filled out a form that doesn't send an email, such as Request a Visit or the Sibling Intent Form.
 
-For the full list and how to check, see ["Why didn't this send?"](https://demo.banner61.com/help/articles/automations/#why-didnt-this-send). Before you turn a workflow on, check with the Banner 61 team.
+For the full list and how to check, see ["Why didn't this send?"](https://demo.banner61.com/help/articles/automations/#why-didnt-this-send). If it's your staff who didn't hear about a submission, see [A family says they filled out a form but we never heard about it](https://demo.banner61.com/help/articles/form-notifications/#a-family-says-they-filled-out-a-form-but-we-never-heard-about-it). Before you turn a workflow on, check with the Banner 61 team.
 
 ============================================================
 ARTICLE: Collect a parent video story in five minutes (id: parent-video-stories)
@@ -2330,3 +2370,101 @@ Lead with a real photo of students learning when you can. Keep the words short: 
 - **Check photo permissions** before posting a student's face or name.
 
 To turn an event post into a flyer too, see [Make a QR code for your open house flyer](https://demo.banner61.com/help/articles/open-house-qr-code/).
+
+============================================================
+ARTICLE: Get an email when a family fills out a form (id: form-notifications)
+============================================================
+# Get an email when a family fills out a form
+
+Each form in **Forms & Docs**, then **Forms**, can email your staff the moment a family fills it out. Every form has its own setting on its **Notifications** tab, so check each form your school uses.
+
+## Choose who gets an email when a family fills out a form
+
+Open the form in **Forms & Docs**, then **Forms**, click the **Notifications** tab and put your staff's email address in **Email (To)**.
+
+1. Go to **Forms & Docs**, then **Forms**. The prebuilt forms are in the **Prebuilt Forms** folder.
+2. Click the form, for example **General Inquiry Form (contact form)**.
+3. Click the **Notifications** tab at the top of the form builder.
+4. Make sure **Email notification** is switched on.
+5. In **Email (To)**, enter the address that should hear about every submission, such as your admissions director or admissions@yourschool.org. You can add more than one address. The first one gets the email and the rest are copied.
+6. Optional: fill in **Reply-to-email** and **Sender name**, and check **Send form submission as a PDF** if your team likes a copy of each one.
+7. Click **Save** at the bottom of the Notifications tab.
+8. Do the same for each form on your website: General Inquiry Form, Request Info Packet, Request Tuition Info, Request Financial Aid Info, Request a Visit and the Event Registration Form.
+
+How to check it worked: fill out the form on your live website with your own email address. The notification should reach the **Email (To)** address within a few minutes, and your entry shows on the **Submissions** tab in **Forms & Docs**, then **Forms**.
+
+If **Email notification** is on but **Email (To)** is blank, nobody gets an email. Check this on every form, because a blank address is the most common reason a school doesn't hear about new families.
+
+## A family says they filled out a form but we never heard about it
+
+Look for the submission first: it's almost always in Banner Connect, and only the email to your staff went missing.
+
+1. Go to **Forms & Docs**, then **Forms**, and click the **Submissions** tab.
+2. Set the form picker at the top left to **All forms**.
+3. Widen the dates at the top right to cover a few weeks.
+4. Type the family's email or last name in **Search**.
+5. If the submission isn't there, go to **CRM**, then **Contacts**, and search by the family's email and last name. A family who used two devices may have two records. To combine them, see [Duplicates](https://demo.banner61.com/help/articles/contacts/#duplicates).
+6. Open the form's **Notifications** tab in **Forms & Docs**, then **Forms**, and check that **Email (To)** has the right address. To fix it, see [Choose who gets an email when a family fills out a form](https://demo.banner61.com/help/articles/form-notifications/#choose-who-gets-an-email-when-a-family-fills-out-a-form).
+7. Search your inbox, Spam and Promotions for the form's name. If the emails landed there, mark them Not spam so the next ones reach your inbox.
+8. If you recently changed or rebuilt a form, your website may still show an older one. Fill out the form on your live website and confirm it appears on the **Submissions** tab.
+
+How to check it worked: your test entry shows on the **Submissions** tab and the notification reaches your inbox. Then reach out to the family the same day.
+
+Still can't find it? Send the Banner 61 team the family's name, email address and roughly when they filled it out.
+
+## Should form emails go to a person or a shared inbox?
+
+Either works, and many schools use both. A shared inbox like admissions@yourschool.org keeps working when staff change. A person's own inbox usually gets read faster. Since **Email (To)** takes more than one address, you can send each submission to both. After an event or a mailing, it also helps to look at the **Submissions** tab in **Forms & Docs**, then **Forms**, once a day for the first week. To set the addresses, see [Choose who gets an email when a family fills out a form](https://demo.banner61.com/help/articles/form-notifications/#choose-who-gets-an-email-when-a-family-fills-out-a-form).
+
+============================================================
+ARTICLE: Build a tuition and financial aid page for your email (id: tuition-page)
+============================================================
+# Build a tuition and financial aid page for your email
+
+When a family fills out Request Tuition Info, Banner Connect sends them an email with a link to your tuition information. That link can point to a PDF or to a page on your website. Banner 61 recommends a page.
+
+## Should we send families a tuition page or a PDF?
+
+A page on your website is the better choice for most schools. You change the numbers on one page each year instead of designing, uploading and relinking a new PDF. It fits a phone screen, where most families read your email, while a PDF makes them pinch and zoom. It also works better with screen readers. A PDF is still fine if you prefer it. To swap in next year's PDF, see [Swap the PDF linked in an automatic email](https://demo.banner61.com/help/articles/advanced-and-settings/#swap-the-pdf-linked-in-an-automatic-email).
+
+## What should our tuition page say?
+
+Put tuition and financial aid on one page, with financial aid first. A tuition number on its own can stop a family before they learn they can afford your school, and two separate pages send families looking for the second one.
+
+Start with how your school makes Christian education affordable, then show the numbers:
+
+- How financial aid works at your school and how to apply, with dates
+- Scholarships and discounts, such as multi-child, church member, staff and referral
+- Payment plan options
+- Tuition by grade level
+- Fees (application, registration, books, technology) and when each is due
+- Who to contact with questions: a name, email and phone number
+- One clear next step, such as scheduling a visit or starting an application
+
+To get the page into your email, see [Link your tuition page in the Request Tuition Info email](https://demo.banner61.com/help/articles/tuition-page/#link-your-tuition-page-in-the-request-tuition-info-email).
+
+## Keep your tuition page out of search results and off your menu
+
+Ask whoever manages your website to hide the page from search engines and leave it off the menu, so families reach it only through your email.
+
+1. Ask your website administrator to set the page to "noindex", so search engines don't show it.
+2. Ask them to leave it out of the website menu and out of links on other pages.
+3. Send the page's address to the Banner 61 team, or add it to the email yourself with [Link your tuition page in the Request Tuition Info email](https://demo.banner61.com/help/articles/tuition-page/#link-your-tuition-page-in-the-request-tuition-info-email).
+
+How to check it worked: search for your school name and "tuition" in a search engine a couple of weeks later. The page shouldn't come up, and it shouldn't appear in your website menu.
+
+Families who asked still see your tuition, with the story behind it, while people comparing schools by price alone don't.
+
+## Link your tuition page in the Request Tuition Info email
+
+Open the Request Tuition Info email in **Marketing**, then **Emails**, then **Templates**, and point its link at your page.
+
+1. Copy your tuition page's address from your browser.
+2. Go to **Marketing**, then **Emails**, then the **Templates** tab.
+3. Open the **Request Tuition Info (sends on its own)** folder and click the email to open it.
+4. Click the words that link to your tuition information, click the link icon in the toolbar, and paste your page's address in place of the old one.
+5. Click **Save** at the top right.
+
+How to check it worked: fill out Request Tuition Info on your website with your own email address. The email that arrives should open your tuition page.
+
+Change only the link and wording. The email sends on its own from a workflow, so check with the Banner 61 team before changing anything else about it. Banner 61 can also add the link for you.
