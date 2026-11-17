@@ -3,8 +3,8 @@
 Menu: Forms & Docs > Forms
 Use when: Adding the inquiry, info packet or visit request form to the school website, choosing which form to use, linking to a form when you can't edit the website, testing it, and fixing a form that doesn't show up.
 Page for people: https://demo.banner61.com/help/articles/website-forms/
-Last reviewed: 2026-11-13
-Related: https://demo.banner61.com/help/articles/forms-and-docs.md, https://demo.banner61.com/help/articles/form-submissions.md, https://demo.banner61.com/help/articles/campus-visits.md, https://demo.banner61.com/help/articles/getting-started.md
+Last reviewed: 2026-11-17
+Related: https://demo.banner61.com/help/articles/forms-and-docs.md, https://demo.banner61.com/help/articles/form-submissions.md, https://demo.banner61.com/help/articles/campus-visits.md, https://demo.banner61.com/help/articles/getting-started.md, https://demo.banner61.com/help/articles/form-notifications.md, https://demo.banner61.com/help/articles/tuition-page.md, https://demo.banner61.com/help/articles/parent-videos-on-website.md, https://demo.banner61.com/help/articles/open-house-qr-code.md
 
 Your website form is how most families first reach you. Banner Connect gives you a short piece of code for each form in **Forms & Docs**, then **Forms**, and every family who fills it out lands in your account with their follow-up already started.
 
@@ -15,7 +15,7 @@ Most schools put **Request Info Packet** on their admissions page and **General 
 Two more forms are worth a spot on the site:
 
 - **Request a Visit** on a "Visit us" page, for families who want you to call them to set up a time. To let families pick a time themselves, see [Let families book a campus visit](https://demo.banner61.com/help/articles/campus-visits/).
-- **Request Tuition Info** and **Request Financial Aid Info** on your tuition page.
+- **Request Tuition Info** and **Request Financial Aid Info** on your tuition page. For what the tuition page itself should say, see [What should our tuition page say?](https://demo.banner61.com/help/articles/tuition-page/#what-should-our-tuition-page-say).
 
 Keep the forms short. Each one asks only for the parent's name, email, phone and how many children they're thinking about enrolling, plus one or two questions. Every extra field you add means fewer families finish it. To put a form on a page, see [Put your inquiry form on your website](#put-your-inquiry-form-on-your-website).
 

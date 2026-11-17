@@ -2,11 +2,11 @@
 id: contacts
 title: "Contacts"
 menu: "CRM > Contacts"
-use_when: "Finding, adding, importing, exporting or merging families; what's on a family's record; tags; filtering the contact list. Saved lists such as Stalled Leads are in Smart Lists."
-also_called: ["family", "families", "parent", "parents", "student", "lead", "inquiry", "record", "spreadsheet", "CSV", "upload", "duplicate", "tag", "label", "filter", "bulk", "select all"]
-related: [smart-lists, pipeline, marketing, automations, bulk-actions, engagement-score, form-submissions]
+use_when: "Finding, adding, importing, exporting or merging families; what's on a family's record; saving a document a family sent you (a reference or transcript) on their record; tags; filtering the contact list. Saved lists such as Stalled Leads are in Smart Lists."
+also_called: ["family", "families", "parent", "parents", "student", "lead", "inquiry", "record", "spreadsheet", "CSV", "upload", "duplicate", "tag", "label", "filter", "bulk", "select all", "document", "upload a document", "attach a file", "reference", "pastoral reference", "transcript", "save a PDF to a family"]
+related: [smart-lists, pipeline, marketing, automations, bulk-actions, engagement-score, form-submissions, enrollment-stages, form-notifications]
 plan: ""  # SchoolBox, Full or All, once the feature map is filled in
-reviewed: 2026-11-13
+reviewed: 2026-11-17
 ---
 # Contacts
 
@@ -34,6 +34,18 @@ Then make the record useful: add a tag (for example, Open House Attendee), add a
 - **Right panel (actions)**: Activity (pages visited, forms submitted), Associations (link a parent to a spouse or student), Opportunities, Tasks, Notes, Appointments (book a visit directly), and Documents & Payments.
 
 Notes are internal. Families never see them. Every entry on the timeline is time-stamped, so anyone on your team can pick up where someone else left off. Read it before you call a family so you don't repeat a question.
+
+## Save a document a family sent you on their record
+
+Open the family in **CRM**, then **Contacts**, and add the file under **Documents**. Use it for things that arrive outside a form, such as a pastoral reference, a transcript or a screenshot.
+
+1. Go to **CRM**, then **Contacts**, search for the family and click their name.
+2. In the row of tabs on the right (Conversations, Activity, Associations, Opportunities, Tasks, Notes), click the three-dot menu at the end of the row and choose **Documents**.
+3. Click **Add documents** (or **+ Add** if the family already has some) and choose the file from your computer.
+
+How to check it worked: the file shows in the family's **Documents** list, and anyone on your staff can open it there.
+
+Adding a document doesn't start any automation or move the family on your enrollment board. If it completes their application, move their card yourself: see [Move a family to the next stage](/help/articles/enrollment-stages/#move-a-family-to-the-next-stage).
 
 ## Tags
 

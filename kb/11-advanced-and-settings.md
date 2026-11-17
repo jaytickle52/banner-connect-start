@@ -2,11 +2,11 @@
 id: advanced-and-settings
 title: "Advanced and settings"
 menu: "Advanced; Settings"
-use_when: "Custom values (school name, address, phone used in every email), custom fields (grade of interest and other details), merge fields for personalizing messages, Business Profile, Users and access for staff, Integrations and Audit Logs."
-also_called: ["field", "grade", "grade of interest", "custom field", "school address", "school phone", "merge field", "personalize", "first name", "staff", "staff member", "employee", "assistant", "teacher", "user", "access", "permissions", "remove a user", "audit log", "who deleted"]
-related: [forms-and-docs, tasks, conversations]
+use_when: "Swapping the PDF linked in an automatic email (new tuition sheet or info packet), custom values (school name, address, phone used in every email), custom fields (grade of interest and other details), merge fields for personalizing messages, Business Profile, Users and access for staff, Integrations and Audit Logs."
+also_called: ["new tuition PDF", "update the info packet", "replace PDF", "change the link in the email", "media storage", "upload a file", "field", "grade", "grade of interest", "custom field", "school address", "school phone", "merge field", "personalize", "first name", "staff", "staff member", "employee", "assistant", "teacher", "user", "access", "permissions", "remove a user", "audit log", "who deleted"]
+related: [forms-and-docs, tasks, conversations, tuition-page, marketing]
 plan: ""  # SchoolBox, Full or All, once the feature map is filled in
-reviewed: 2026-11-03
+reviewed: 2026-11-17
 ---
 # Advanced and settings
 
@@ -46,14 +46,32 @@ Empty fields come through blank. In emails, add fallback text to a merge field (
 
 ## Other Advanced pages
 
-- **Media Storage**: logos and photos used in emails and forms.
+- **Media Storage**: logos, photos and PDFs used in emails and forms. To swap a PDF that an automatic email links to, see [Swap the PDF linked in an automatic email](#swap-the-pdf-linked-in-an-automatic-email).
 - **Domains** and **Brand Boards**: your web addresses and brand colors. Banner 61 manages these.
 - **Object Settings**: how records like Students are set up. Banner 61 manages this.
+
+## Swap the PDF linked in an automatic email
+
+Upload the new PDF in **Advanced**, then **Media Storage**, copy its link, and paste that link into the email in **Marketing**, then **Emails**, then **Templates**. Most schools do this once a year, when tuition or the info packet changes.
+
+1. Go to **Advanced**, then **Media Storage**, click **Upload** at the top right and choose your new PDF.
+2. Hover over the new file, click its three-dot menu and choose **Get Link**. The link is copied.
+3. Go to **Marketing**, then **Emails**, then the **Templates** tab, and open the folder for that email, for example **Request Tuition Info (sends on its own)** or **Request Info Packet / Lead Nurture (sends on its own)**. Click the email to open it.
+4. Click the words that link to the old file, click the link icon in the toolbar, and paste the new link in place of the old one. Repeat for every link to the old file in that email.
+5. Click **Save** at the top right.
+
+How to check it worked: fill out the matching form on your website with your own email address. The email that arrives should open the new PDF.
+
+Good to know:
+- Families who asked before your change already have the old link. Only new requests get the new file.
+- Keep the old file in **Media Storage** until you've checked the new link. Moving it to the trash breaks the link in emails families already have.
+- Change only the link and wording. These emails send on their own from workflows, so check with the Banner 61 team before changing anything else. Banner 61 can also swap the file for you.
+- Sending a link to a web page instead of a PDF saves this step every year. See [Should we send families a tuition page or a PDF?](/help/articles/tuition-page/#should-we-send-families-a-tuition-page-or-a-pdf).
 
 ## Settings
 
 - **My Profile**: your name, email, phone and password, your email connection (two-way sync), your calendar connections, and your notifications (including task notifications).
-- **Users**: the people on your team. See [Users and access](#users-and-access) below.
+- **Users**: the people on your team. See [Users and access](#users-and-access).
 - **Business Profile**: your school's name, logo, address, phone and time zone.
 - **Communications**: phone numbers (Phone System), email sending and WhatsApp. Banner 61 sets these up.
 - **Integrations**: connect Facebook, Instagram and Google Business Profile.

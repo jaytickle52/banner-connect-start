@@ -76,6 +76,15 @@
     {"q": "How do I schedule a Facebook post about our open house for next week?", "article": "social-posts", "must": ["Social Planner", "Schedule"]},
     {"q": "Can our head of school look over a post before it goes on Facebook?", "article": "social-posts", "must": ["Approval|draft|Save for later"]},
     {"q": "I scheduled a post with a typo. How do I fix it?", "article": "social-posts", "must": ["Edit"]},
-    {"q": "Our Facebook posts stopped going out and it says expired. What happened?", "article": "connect-social-accounts", "must": ["Connect Social|connect"]}
+    {"q": "Our Facebook posts stopped going out and it says expired. What happened?", "article": "connect-social-accounts", "must": ["Connect Social|connect"]},
+    {"q": "Nobody at our school is getting an email when a family fills out the contact form. How do we fix that?", "article": "form-notifications", "must": ["Notifications", "Email (To)"]},
+    {"q": "A mom says she filled out our inquiry form last week but we never got it. Where would it be?", "article": "form-notifications", "must": ["Submissions", "All forms"]},
+    {"q": "Should form notifications go to our admissions director or our office inbox?", "article": "form-notifications", "must": ["shared inbox|admissions@", "more than one"]},
+    {"q": "We have a new tuition PDF for next year. How do I change the one the automatic email sends?", "article": "advanced-and-settings", "must": ["Media Storage", "Get Link", "Templates"]},
+    {"q": "What should we put on our tuition page?", "article": "tuition-page", "must": ["financial aid"]},
+    {"q": "Is it better to send families a tuition PDF or a link to a page?", "article": "tuition-page", "must": ["page", "phone"]},
+    {"q": "A pastor emailed us a reference for one of our applicants. Where do I save it?", "article": "contacts", "must": ["Documents"]},
+    {"q": "What's the difference between Quick Add and Add Object Fields on a form?", "article": "forms-and-docs", "must": ["Add Object Fields", "reuse|already exists"]},
+    {"q": "I added a question to our form and it won't save. It says the name is already used.", "article": "forms-and-docs", "must": ["Add Object Fields"]}
   ]
 }

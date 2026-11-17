@@ -24,9 +24,9 @@ How to use this index: find the one to three articles whose "Use when" or "Schoo
 ## Contacts
 - Read: https://demo.banner61.com/help/articles/contacts.md
 - Menu: CRM > Contacts
-- Use when: Finding, adding, importing, exporting or merging families; what's on a family's record; tags; filtering the contact list. Saved lists such as Stalled Leads are in Smart Lists.
-- Schools may call this: family, families, parent, parents, student, lead, inquiry, record, spreadsheet, CSV, upload, duplicate, tag, label, filter, bulk, select all
-- Sections: Find a contact; Add a contact by hand; What's on a contact record; Tags; Filter the contact list; Import contacts from a spreadsheet; Export contacts; Duplicates
+- Use when: Finding, adding, importing, exporting or merging families; what's on a family's record; saving a document a family sent you (a reference or transcript) on their record; tags; filtering the contact list. Saved lists such as Stalled Leads are in Smart Lists.
+- Schools may call this: family, families, parent, parents, student, lead, inquiry, record, spreadsheet, CSV, upload, duplicate, tag, label, filter, bulk, select all, document, upload a document, attach a file, reference, pastoral reference, transcript, save a PDF to a family
+- Sections: Find a contact; Add a contact by hand; What's on a contact record; Save a document a family sent you on their record; Tags; Filter the contact list; Import contacts from a spreadsheet; Export contacts; Duplicates
 - Page for people: https://demo.banner61.com/help/articles/contacts/
 
 ## The enrollment pipeline (Opportunities)
@@ -65,8 +65,8 @@ How to use this index: find the one to three articles whose "Use when" or "Schoo
 - Read: https://demo.banner61.com/help/articles/forms-and-docs.md
 - Menu: Forms & Docs
 - Use when: The prebuilt forms (Request Info Packet, General Inquiry, tuition and financial aid), editing a form and its fields, surveys, and documents and contracts families sign (enrollment agreements).
-- Schools may call this: inquiry form, contact form, info packet, survey, feedback, contract, enrollment agreement, e-signature, sign, PDF
-- Sections: Your prebuilt forms; Put your inquiry form on your website; Edit a form; Surveys; Documents & Contracts
+- Schools may call this: add a question, new field, Quick Add, Add Object Fields, reuse a field, field won't save, error saving form, inquiry form, contact form, info packet, survey, feedback, contract, enrollment agreement, e-signature, sign, PDF
+- Sections: Your prebuilt forms; Put your inquiry form on your website; Edit a form; Quick Add or Add Object Fields: which should I use?; Why won't my new form field save?; Surveys; Documents & Contracts
 - Page for people: https://demo.banner61.com/help/articles/forms-and-docs/
 
 ## Marketing
@@ -96,9 +96,9 @@ How to use this index: find the one to three articles whose "Use when" or "Schoo
 ## Advanced and settings
 - Read: https://demo.banner61.com/help/articles/advanced-and-settings.md
 - Menu: Advanced; Settings
-- Use when: Custom values (school name, address, phone used in every email), custom fields (grade of interest and other details), merge fields for personalizing messages, Business Profile, Users and access for staff, Integrations and Audit Logs.
-- Schools may call this: field, grade, grade of interest, custom field, school address, school phone, merge field, personalize, first name, staff, staff member, employee, assistant, teacher, user, access, permissions, remove a user, audit log, who deleted
-- Sections: Custom values (your school's details); Custom fields (extra details you track); Merge fields (personalizing messages); Other Advanced pages; Settings; Users and access
+- Use when: Swapping the PDF linked in an automatic email (new tuition sheet or info packet), custom values (school name, address, phone used in every email), custom fields (grade of interest and other details), merge fields for personalizing messages, Business Profile, Users and access for staff, Integrations and Audit Logs.
+- Schools may call this: new tuition PDF, update the info packet, replace PDF, change the link in the email, media storage, upload a file, field, grade, grade of interest, custom field, school address, school phone, merge field, personalize, first name, staff, staff member, employee, assistant, teacher, user, access, permissions, remove a user, audit log, who deleted
+- Sections: Custom values (your school's details); Custom fields (extra details you track); Merge fields (personalizing messages); Other Advanced pages; Swap the PDF linked in an automatic email; Settings; Users and access
 - Page for people: https://demo.banner61.com/help/articles/advanced-and-settings/
 
 ## Smart Lists
@@ -252,3 +252,19 @@ How to use this index: find the one to three articles whose "Use when" or "Schoo
 - Schools may call this: social post, Facebook post, Instagram post, schedule a post, post later, draft post, social media calendar, post an event, open house post, share on Facebook, post a photo, approve a post, recurring post, edit a scheduled post, delete a post, Social Planner, content calendar
 - Sections: Write and schedule a post; Save a post as a draft; Have someone approve a post before it goes out; Change or delete a post that's already scheduled; Post the same thing every week; What makes a good school post?
 - Page for people: https://demo.banner61.com/help/articles/social-posts/
+
+## Get an email when a family fills out a form
+- Read: https://demo.banner61.com/help/articles/form-notifications.md
+- Menu: Forms & Docs > Forms > Notifications
+- Use when: Choosing who on your staff gets an email each time a family fills out a website form, and what to check when a family says they filled out a form but nobody at school heard about it.
+- Schools may call this: notification, form notification, email alert, alert me, email me when, who gets the form, nobody got the form, we never got it, never heard, missed inquiry, lost inquiry, family says they submitted, submitted but nothing came, form not coming through, admissions inbox, shared inbox, office email, spam, promotions
+- Sections: Choose who gets an email when a family fills out a form; A family says they filled out a form but we never heard about it; Should form emails go to a person or a shared inbox?
+- Page for people: https://demo.banner61.com/help/articles/form-notifications/
+
+## Build a tuition and financial aid page for your email
+- Read: https://demo.banner61.com/help/articles/tuition-page.md
+- Menu: Marketing > Emails > Templates
+- Use when: What to send families who ask about cost: a tuition page or a PDF, what the page should say, keeping it out of search results and off the website menu, and getting it linked in the Request Tuition Info email.
+- Schools may call this: tuition, tuition page, tuition sheet, cost, price, how much, financial aid, scholarships, affordability, payment plan, multi-child discount, fees, tuition PDF, noindex, hidden page, Request Tuition Info email
+- Sections: Should we send families a tuition page or a PDF?; What should our tuition page say?; Keep your tuition page out of search results and off your menu; Link your tuition page in the Request Tuition Info email
+- Page for people: https://demo.banner61.com/help/articles/tuition-page/
